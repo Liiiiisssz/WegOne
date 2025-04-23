@@ -108,27 +108,40 @@ public class TelaInicial {
    
 
         case 2:
-            System.out.println("Pesquisar Orientação");
-            System.out.println("1. Título");
-            System.out.println("2. Código");
-            System.out.print("Insira o tipo de pesquisa: ");
-            tipoPesquisa = leia.nextInt();
 
+        System.out.println("_________________________________");
+        System.out.println("|--  PESQUISAR ORIENTAÇÃO 🔎   --|");
+        System.out.println("|-------------------------------|");
+        System.out.println("|-- 1. Título 📖               --|");
+        System.out.println("|-------------------------------|");
+        System.out.println("|-- 2. Código 🔢               --|");
+        System.out.println("|_______________________________|");
+    
+        System.out.println(" ");
+        System.out.println(" -- INSIRA O TIPO DE PESQUISA --");
+        break;
 
-
-            break;
            
         case 3:
-            System.out.println("Editar Orientação");
+            System.out.println("-- Excluir Orientação ✖️ --");
 
 
             break;
            
         case 4:
-            System.out.println("Excluir Orientação");
+            System.out.println( "-- Excluir Orientação ✖️ --");
 
 
             break;
+
+        case 5: 
+            System.out.println("-- Encerrando Sistema ... 👾 --");
+
+            break;
+
+        default:
+             System.out.println("-- ❌ Opção Inválida ❌ --");
+
         }
     }
 }
