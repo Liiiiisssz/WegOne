@@ -10,6 +10,8 @@ public class ManualOperacao {
         String[] manuaisCadastro = new String[2];
         String[] titulosManuaisCadastro = new String[2];
 
+		int codigo;
+
         public ManualOperacao() {
 
         	titulosManuaisPadrao[0] =
