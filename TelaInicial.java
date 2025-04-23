@@ -11,9 +11,10 @@ public class TelaInicial {
     public static void main(String[] args) {
 
         Scanner leia = new Scanner(System.in);
-       
+
         int decisaoInicial;
         int tipoOrientacao;
+        int tipoPesquisa;
 
         System.out.println(" ");
 
@@ -84,15 +85,36 @@ public class TelaInicial {
         switch(tipoOrientacao){
 
             case 1:
-   
-        }
+					break;
+            
+            case 2:
+                    break;
 
+            case 3:
+                    break;
+
+            case 4:
+                    break;
+
+            case 5:
+                    break;
+
+            default:
+                    break;
+
+		}
 
         break;
    
 
         case 2:
             System.out.println("Pesquisar Orientação");
+            System.out.println("1. Título");
+            System.out.println("2. Código");
+            System.out.print("Insira o tipo de pesquisa: ");
+            tipoPesquisa = leia.nextInt();
+
+
 
             break;
            
