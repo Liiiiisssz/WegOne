@@ -57,15 +57,28 @@ public class TelaInicial {
         switch(decisaoInicial) {
        
         case 1:
-        System.out.println("CADASTRAR ORIENTAÇÃO");
-        System.out.println("1. Manual de Operação");
-        System.out.println("2. Procedimento de Segurança");
-        System.out.println("3. Manutenção e Reparos");
-        System.out.println("4. Testes e Diagnóstico");
-        System.out.println("5. Manual de Conduta e Operações Setoriais");
-        System.out.println(" ");
+        System.out.println("___________________________________________________");
+           System.out.println("|--           CADASTRAR ORIENTAÇÃO              --|");
+           System.out.println("|-------------------------------------------------|");
+           System.out.println("|--  1. Manual de Operação👾                     --|");
+           System.out.println("|-------------------------------------------------|");
+           System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+           System.out.println("|-------------------------------------------------|");
+           System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+           System.out.println("|-------------------------------------------------|");
+           System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+           System.out.println("|-------------------------------------------------|");
+           System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+           System.out.println("|_________________________________________________|");
 
-        System.out.println("Escolha o tipo de orientação a ser cadastrado");
+           System.out.println(" ");
+
+           System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
+           System.out.print(" --Resposta:");
+           
+           tipoOrientacao = leia.nextInt();
+          
+
         tipoOrientacao = leia.nextInt();
 
         switch(tipoOrientacao){
