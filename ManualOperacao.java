@@ -106,4 +106,46 @@ public class ManualOperacao {
 
         }
 
+        public void cadastrarManual {
+
+            int contador = 0;
+        	
+        	if (contador < 2) {
+        		
+                 System.out.print("Titulo do Manual de Operação: ");
+                 titulosManuaisCadastro[contador] = leia.nextLine();
+                 
+                 System.out.println(" ");
+
+                 System.out.println("Conteúdo do Manual de Operação: ");
+                 manuaisCadastro[contador] = leia.nextLine();
+                 System.out.println(" ");
+
+                 contador++;
+
+        }
+
+        public void pesquisarManual {
+
+            System.out.println("--Pesquisar Manual--");
+            System.out.println("Você deseja pesquisar por código ou por nome?")
+
+        }
+
+        public void editarManual {
+
+            System.out.println("--Editar Manual--");
+            System.out.println("Informe o manual que deseja editar");
+
+        }
+
+        public void excluirManual {
+
+            System.out.println("--Excluir Manual--");
+            System.out.println("Informe o manual que deseja excluir");
+
+        }
+
+    }
+
 }
