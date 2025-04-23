@@ -95,13 +95,14 @@ public class ManualOperacao {
             
             titulosManuaisPadrao[1] = 		
 			"_______________________________________________________________________\n" +
-			"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
+			"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
 			"|_____________________________________________________________________|\n";
             
             manuaisPadrao[1] =  
 		           	
 			"_______________________________________________________________________\n" +
-			"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
+			"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +     
+			"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
 			"|_____________________________________________________________________|\n" +
 			"|                                                                     |\n" +
 			"| 1. INSTRUÇÕES GERAIS:                                               |\n" +
@@ -162,7 +163,7 @@ public class ManualOperacao {
 			"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
 			"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
 			"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
-			"|---------------------------------------------------------------------|\n";
+			"|---------------------------------------------------------------------|\n" ;
 
         }
 
