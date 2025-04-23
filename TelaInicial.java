@@ -78,29 +78,30 @@ public class TelaInicial {
            System.out.print(" --Resposta:");
            
            tipoOrientacao = leia.nextInt();
-          
-
-        tipoOrientacao = leia.nextInt();
+           tipoOrientacao = leia.nextInt();
 
         switch(tipoOrientacao){
 
             case 1:
-					break;
+                
+				break;
             
             case 2:
-                    break;
+
+                break;
 
             case 3:
-                    break;
+            
+                break;
 
             case 4:
-                    break;
+                break;
 
             case 5:
-                    break;
+                break;
 
             default:
-                    break;
+                break;
 
 		}
 
@@ -118,25 +119,29 @@ public class TelaInicial {
         System.out.println("|_______________________________|");
     
         System.out.println(" ");
-        System.out.println(" -- INSIRA O TIPO DE PESQUISA --");
+        System.out.println(" -- Insira o tipo de pesquisa --");
+        System.out.print(" --Resposta: ");
+        tipoPesquisa = leia.nextInt();
+
+
         break;
 
            
         case 3:
-            System.out.println("-- Excluir Orientação ✖️ --");
+            System.out.println("-- Editar Orientação 💻 --");
+            System.out.print("Insira o código da orientação: ");
 
 
             break;
            
         case 4:
             System.out.println( "-- Excluir Orientação ✖️ --");
-
+            System.out.print("Insira o código da orientação: ");
 
             break;
 
         case 5: 
             System.out.println("-- Encerrando Sistema ... 👾 --");
-
             break;
 
         default:
