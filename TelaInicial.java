@@ -13,21 +13,42 @@ public class TelaInicial {
         Scanner leia = new Scanner(System.in);
        
         int decisaoInicial;
-       
-        System.out.println("Bem vindo ao Sistema de Cadastro de Orientações WEG!");
 
         System.out.println(" ");
-       
-        System.out.println("  1.  Cadastrar Orientação ");
-        System.out.println("  2.  Pesquisar Orientação ");
-        System.out.println("  3.  Editar Orientação    ");
-        System.out.println("  4.  Excluir Orientação   ");
-        System.out.println("  5.  ENCERRAR PROGRAMA    ");
-       
+
+        System.out.println("                ▄█▄▄▄█▄       ");
+        System.out.println("         ▄▀    ▄|─▄─▄─|▄    ▀▄");
+        System.out.println("         █▄▄█  ▀|─▀─▀─|▀  █▄▄█");
+        System.out.println("          ||    ▀▀███▀▀    || ");
+        System.out.println("         ████ ▄█████████▄ ████");
+
         System.out.println(" ");
 
 
-        System.out.println("O que deseja realizar");
+        System.out.println("    -- Bem vindo(a) ao Sistema de --");
+        System.out.println("    --Cadastro de Orientações WEG!--");
+
+        System.out.println(" ");
+       
+        System.out.println("  ____________________________________");
+        System.out.println("  |-- 1.  Cadastrar Orientação ✒️  --|");
+        System.out.println("  |----------------------------------|");
+        System.out.println("  |-- 2.  Pesquisar Orientação 🔎   --|");
+        System.out.println("  |----------------------------------|");
+        System.out.println("  |-- 3.  Editar Orientação 💻      --|");
+        System.out.println("  |----------------------------------|");
+        System.out.println("  |-- 4.  Excluir Orientação ❌       |");
+        System.out.println("  |----------------------------------|");
+        System.out.println("  |-- 5. ❌ ENCERRAR PROGRAMA ❌     --|");
+        System.out.println("  |__________________________________|");
+      
+
+       
+        System.out.println(" ");
+
+
+        System.out.println("  --O que deseja realizar?-- ");
+        System.out.print("  --Resposta: ");
         decisaoInicial = leia.nextInt();
        
         System.out.println(" ");
