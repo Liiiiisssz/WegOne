@@ -169,7 +169,7 @@ public class ManualOperacao {
 
         }
 
-        public void cadastrarManual {
+        public void cadastrarManual() {
 
             int contador = 0;
         	
@@ -186,29 +186,28 @@ public class ManualOperacao {
 
                  contador++;
 
-        }
+        	}
 
-        public void pesquisarManual {
+		}
+
+		public void pesquisarManual() {
 
             System.out.println("--Pesquisar Manual--");
-            System.out.println("Você deseja pesquisar por código ou por nome?")
+            System.out.println("Você deseja pesquisar por código ou por nome?");
 
         }
 
-        public void editarManual {
+        public void editarManual() {
 
             System.out.println("--Editar Manual--");
             System.out.println("Informe o manual que deseja editar");
 
         }
 
-        public void excluirManual {
+        public void excluirManual() {
 
             System.out.println("--Excluir Manual--");
             System.out.println("Informe o manual que deseja excluir");
 
         }
-
-    }
-
-}
+	}

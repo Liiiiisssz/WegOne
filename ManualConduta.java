@@ -10,19 +10,21 @@ public class ManualConduta {
     String[] manuaisCadastroConduta = new String[2];
     String[] titulosManuaisCadastroConduta = new String[2];
 
-    public manualConduta() {
+    public ManualConduta() {
 
         titulosManuaisConduta[0] = "bla bla";
 
         manuaisConduta[0] = "bla bla";
 
-        titulosManuaisCondutas[0] = "bla bla";
+        titulosManuaisConduta[0] = "bla bla";
 
         manuaisConduta[0] = "bla bla";
 
     }
 
-    public void cadastrarManual {
+    public void cadastrarManual() {
+
+        int contador = 0;
 
         	if (contador < 2) {
         		
@@ -36,21 +38,23 @@ public class ManualConduta {
                  System.out.println(" ");
 
                  contador++;
+                 
+            }
 
     }
 
-    public void pesquisarManual {
+    public void pesquisarManual() {
 
         System.out.println("--Pesquisar um manual--");
-        System.out.println("")
+        System.out.println("");
 
     }
 
-    public void editarManual {
+    public void editarManual() {
 
     }
 
-    public void excluirManual {
+    public void excluirManual() {
 
     }
 
