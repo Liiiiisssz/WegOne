@@ -12,6 +12,11 @@ public class TelaInicial {
 
         Scanner leia = new Scanner(System.in);
 
+        ManualOperacao manualOpCadastro1 = new ManualOperacao();
+        ManualOperacao manualOpCadastro2 = new ManualOperacao();
+
+        int contador= 0;
+
         int decisaoInicial;
         int tipoOrientacao;
         int tipoPesquisa;
@@ -75,15 +80,28 @@ public class TelaInicial {
            System.out.println(" ");
 
            System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
-           System.out.print(" --Resposta:");
-           
+           System.out.print(" --Resposta: ");
            tipoOrientacao = leia.nextInt();
            tipoOrientacao = leia.nextInt();
+
+           manualOpCadastro1.cadastrarManual();
 
         switch(tipoOrientacao){
 
             case 1:
-                
+
+                if(contador == 0){
+
+                    manualOpCadastro1.cadastrarManual();
+
+                    contador++;
+
+                } else if(contador == 1){
+
+                    manualOpCadastro2.cadastrarManual();
+
+                }
+
 				break;
             
             case 2:
