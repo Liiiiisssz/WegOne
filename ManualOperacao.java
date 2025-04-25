@@ -192,12 +192,17 @@ public class ManualOperacao {
 
 		}
 
-		public void pesquisarManual() {
+		public void pesquisarManualCodigo() {
 
-            System.out.println("--Pesquisar Manual--");
-            System.out.println("Você deseja pesquisar por código ou por nome?");
+            
 
         }
+
+		public void pesquisarManualNome(){
+
+			
+
+		}
 
         public void editarManual() {
 

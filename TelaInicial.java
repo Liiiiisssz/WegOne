@@ -129,6 +129,7 @@ public class TelaInicial {
                     break;
 
                 case 2:
+
                     break;
 
             }
@@ -137,14 +138,96 @@ public class TelaInicial {
 
             
             case 3:
-                System.out.println("-- Editar Orientação 💻 --");
-                System.out.print("Insira o código da orientação: ");
+                System.out.println("___________________________________________________");
+                System.out.println("|--              EDITAR ORIENTAÇÃO              --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  1. Manual de Operação�                     --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|_________________________________________________|");
+                System.out.println(" ");
+
+                System.out.println(" -- Escolha o tipo de orientação a ser editado -- ");
+                System.out.print(" --Resposta: ");
+                tipoOrientacao = leia.nextInt();
+
+                switch(tipoOrientacao){
+
+                case 1:
+
+                    break;
+                
+                case 2:
+
+                    break;
+
+                case 3:
+                
+                    break;
+
+                case 4:
+                    break;
+
+                case 5:
+                    break;
+
+                default:
+                    break;
+
+            }
 
                 break;
             
             case 4:
-                System.out.println( "-- Excluir Orientação ✖️ --");
-                System.out.print("Insira o código da orientação: ");
+                System.out.println("___________________________________________________");
+                System.out.println("|--             EXCLUIR ORIENTAÇÃO              --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  1. Manual de Operação👾                     --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|-------------------------------------------------|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|_________________________________________________|");
+                System.out.println(" ");
+
+                System.out.println(" -- Escolha o tipo de orientação a ser excluido -- ");
+                System.out.print(" --Resposta: ");
+                tipoOrientacao = leia.nextInt();
+
+                switch(tipoOrientacao){
+
+                case 1:
+
+                    break;
+                
+                case 2:
+
+                    break;
+
+                case 3:
+                
+                    break;
+
+                case 4:
+                    break;
+
+                case 5:
+                    break;
+
+                default:
+                    break;
+
+                }
 
                 break;
 
