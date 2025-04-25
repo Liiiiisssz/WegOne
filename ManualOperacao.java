@@ -11,6 +11,7 @@ public class ManualOperacao {
         String[] titulosManuaisCadastro = new String[2];
 
 		int codigo;
+		int contadorCadastro = 0;
 
         public ManualOperacao() {
 
@@ -101,7 +102,6 @@ public class ManualOperacao {
 			"|_____________________________________________________________________|\n";
             
             manuaisPadrao[1] =  
-		           	
 			"_______________________________________________________________________\n" +
 			"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +     
 			"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
@@ -170,23 +170,25 @@ public class ManualOperacao {
         }
 
         public void cadastrarManual() {
-
-            int contador = 0;
         	
-        	if (contador < 2) {
+        	if (contadorCadastro < 2) {
         		
-                 System.out.print("Titulo do Manual de Operação: ");
-                 titulosManuaisCadastro[contador] = leia.nextLine();
+                 System.out.println("Titulo do Manual de Operação: ");
+                 titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
                  
                  System.out.println(" ");
 
                  System.out.println("Conteúdo do Manual de Operação: ");
-                 manuaisCadastro[contador] = leia.nextLine();
+                 manuaisCadastro[contadorCadastro] = leia.nextLine();
                  System.out.println(" ");
 
-                 contador++;
+                 contadorCadastro++;
 
-        	}
+        	} else {
+
+				System.out.println("Número máximo de manuais atingido!");
+
+			}
 
 		}
 
