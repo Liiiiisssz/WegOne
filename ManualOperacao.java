@@ -1,27 +1,25 @@
 import java.util.Scanner;
 
 public class ManualOperacao {
-    
-        Scanner leia = new Scanner(System.in);
-        
-        String[] manuaisPadrao = new String[2];
-        String[] titulosManuaisPadrao = new String[2];
-        
-        String[] manuaisCadastro = new String[2];
-        String[] titulosManuaisCadastro = new String[2];
 
-		int codigo;
-		int contadorCadastro = 0;
+	Scanner leia = new Scanner(System.in);
 
-        public ManualOperacao() {
+	String[] manuaisPadrao = new String[2];
+	String[] titulosManuaisPadrao = new String[2];
 
-        	titulosManuaisPadrao[0] =
-			"_______________________________________________________________________\n" +
-			"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
-			"|_____________________________________________________________________|\n" ;
-        	
-            	manuaisPadrao[0] =
-				"_______________________________________________________________________\n" +
+	String[] manuaisCadastro = new String[2];
+	String[] titulosManuaisCadastro = new String[2];
+
+	int codigo;
+	int contadorCadastro = 0;
+
+	public ManualOperacao() {
+
+		titulosManuaisPadrao[0] = "_______________________________________________________________________\n" +
+				"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
+				"|_____________________________________________________________________|\n";
+
+		manuaisPadrao[0] = "_______________________________________________________________________\n" +
 				"|-- OBJETIVO: Fornecer orientações sobre a instalação, operação e   --|\n" +
 				"|   manutenção de motores elétricos, seguindo práticas recomendadas   |\n" +
 				"|_____________________________________________________________________|\n" +
@@ -92,124 +90,144 @@ public class ManualOperacao {
 				"| - Normas técnicas nacionais e internacionais relevantes.            |\n" +
 				"| - Recomendações do fabricante para motores industriais.             |\n" +
 				"|                                                                     |\n" +
-				"|---------------------------------------------------------------------|\n" ;
+				"|---------------------------------------------------------------------|\n";
 
-            
-            
-            titulosManuaisPadrao[1] = 		
-			"_______________________________________________________________________\n" +
-			"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
-			"|_____________________________________________________________________|\n";
-            
-            manuaisPadrao[1] =  
-			"_______________________________________________________________________\n" +
-			"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +     
-			"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
-			"|_____________________________________________________________________|\n" +
-			"|                                                                     |\n" +
-			"| 1. INSTRUÇÕES GERAIS:                                               |\n" +
-			"|                                                                     |\n" +
-			"| - Certifique-se de que o gerador é compatível com a aplicação.      |\n" +
-			"| - Leia o manual completo antes da instalação.                       |\n" +
-			"| - Apenas pessoal treinado deve realizar operações ou manutenção.    |\n" +
-			"|                                                                     |\n" +
-			"|---------------------------------------------------------------------|\n" +		
-			"|                                                                     |\n" +
-			"| 2. INSTALAÇÃO:                                                      |\n" +
-			"|                                                                     |\n" +
-			"| - Instalar o gerador em local coberto, seco e ventilado.            |\n" +
-			"| - Fixar sobre base nivelada e rígida para evitar vibração.          |\n" +
-			"| - Verificar alinhamento entre motor primário e o gerador.           |\n" +
-			"| - Conectar aterramento de forma adequada.                           |\n" +
-			"| - Realizar as conexões elétricas conforme o esquema de ligação.     |\n" +
-			"|                                                                     |\n" +
-			"|---------------------------------------------------------------------|\n" +		
-			"|                                                                     |\n" +
-			"| 3. PARTIDA E PARADA:                                                |\n" +
-			"|                                                                     |\n" +
-			"| - Antes da partida, verificar nível de óleo e combustível           |\n" +
-			"|   * (se for acionado por motor a combustão)                         |\n" +
-			"| - Verificar se não há vazamentos ou obstruções.                     |\n" +
-			"| - Conectar aterramento de forma adequada.                           |\n" +
-			"| - Durante a parada, desligar as cargas antes de                     |\n" +
-			"|   desligar o grupo gerador.                                         |\n" +
-			"|                                                                     |\n" +
-			"|---------------------------------------------------------------------|\n" +		
-			"|                                                                     |\n" +
-			"| 4. OPERAÇÃO:                                                        |\n" +
-			"|                                                                     |\n" +
-			"| - Monitorar tensão, corrente, frequência e temperatura.             |\n" +
-			"| - Operar o gerador dentro dos limites especificados.                |\n" +
-			"| - Evitar sobrecargas ou subfrequências.                             |\n" +
-			"|---------------------------------------------------------------------|\n" +	
-			"|                                                                     |\n" +
-			"| 5. MANUTENÇÃO:                                                      |\n" +
-			"|                                                                     |\n" +
-			"| - Realizar inspeções periódicas conforme o manual técnico.          |\n" +
-			"| - Lubrificar os rolamentos conforme a recomendação do fabricante.   |\n" +
-			"| - Evitar sobrecargas ou subfrequências.                             |\n" +
-			"| - Verificar o estado das escovas e anéis coletores (se aplicável).  |\n" +
-			"| - Limpar regularmente o estator e rotor,                            |\n" +
-			"|   mantendo-os livres de poeira e óleo.                              |\n" +
-			"|---------------------------------------------------------------------|\n" +	
-			"|                                                                     |\n" +
-			"| 6. SEGURANÇA:                                                       |\n" +
-			"|                                                                     |\n" +
-			"| - Sempre desligar o gerador antes de qualquer intervenção.          |\n" +
-			"| - Usar EPI apropriado para eletricidade.                            |\n" +
-			"| - Evitar contato com partes móveis e quentes durante a operação.    |\n" +
-			"|---------------------------------------------------------------------|\n" +	
-			"|                                                                     |\n" +
-			"| 7. NORMAS APLICADAS:                                                |\n" +
-			"|                                                                     |\n" +
-			"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
-			"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
-			"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
-			"|---------------------------------------------------------------------|\n" ;
+		titulosManuaisPadrao[1] = "_______________________________________________________________________\n" +
+				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
+				"|_____________________________________________________________________|\n";
 
-        }
+		manuaisPadrao[1] = "_______________________________________________________________________\n" +
+				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
+				"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
+				"|_____________________________________________________________________|\n" +
+				"|                                                                     |\n" +
+				"| 1. INSTRUÇÕES GERAIS:                                               |\n" +
+				"|                                                                     |\n" +
+				"| - Certifique-se de que o gerador é compatível com a aplicação.      |\n" +
+				"| - Leia o manual completo antes da instalação.                       |\n" +
+				"| - Apenas pessoal treinado deve realizar operações ou manutenção.    |\n" +
+				"|                                                                     |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 2. INSTALAÇÃO:                                                      |\n" +
+				"|                                                                     |\n" +
+				"| - Instalar o gerador em local coberto, seco e ventilado.            |\n" +
+				"| - Fixar sobre base nivelada e rígida para evitar vibração.          |\n" +
+				"| - Verificar alinhamento entre motor primário e o gerador.           |\n" +
+				"| - Conectar aterramento de forma adequada.                           |\n" +
+				"| - Realizar as conexões elétricas conforme o esquema de ligação.     |\n" +
+				"|                                                                     |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 3. PARTIDA E PARADA:                                                |\n" +
+				"|                                                                     |\n" +
+				"| - Antes da partida, verificar nível de óleo e combustível           |\n" +
+				"|   * (se for acionado por motor a combustão)                         |\n" +
+				"| - Verificar se não há vazamentos ou obstruções.                     |\n" +
+				"| - Conectar aterramento de forma adequada.                           |\n" +
+				"| - Durante a parada, desligar as cargas antes de                     |\n" +
+				"|   desligar o grupo gerador.                                         |\n" +
+				"|                                                                     |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 4. OPERAÇÃO:                                                        |\n" +
+				"|                                                                     |\n" +
+				"| - Monitorar tensão, corrente, frequência e temperatura.             |\n" +
+				"| - Operar o gerador dentro dos limites especificados.                |\n" +
+				"| - Evitar sobrecargas ou subfrequências.                             |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 5. MANUTENÇÃO:                                                      |\n" +
+				"|                                                                     |\n" +
+				"| - Realizar inspeções periódicas conforme o manual técnico.          |\n" +
+				"| - Lubrificar os rolamentos conforme a recomendação do fabricante.   |\n" +
+				"| - Evitar sobrecargas ou subfrequências.                             |\n" +
+				"| - Verificar o estado das escovas e anéis coletores (se aplicável).  |\n" +
+				"| - Limpar regularmente o estator e rotor,                            |\n" +
+				"|   mantendo-os livres de poeira e óleo.                              |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 6. SEGURANÇA:                                                       |\n" +
+				"|                                                                     |\n" +
+				"| - Sempre desligar o gerador antes de qualquer intervenção.          |\n" +
+				"| - Usar EPI apropriado para eletricidade.                            |\n" +
+				"| - Evitar contato com partes móveis e quentes durante a operação.    |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 7. NORMAS APLICADAS:                                                |\n" +
+				"|                                                                     |\n" +
+				"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
+				"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
+				"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
+				"|---------------------------------------------------------------------|\n";
 
-        public void cadastrarManual() {
-        	
-        	if (contadorCadastro < 2) {
-        		
-                 System.out.println("Titulo do Manual de Operação: ");
-                 titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
-                 
-                 System.out.println(" ");
+	}
 
-                 System.out.println("Conteúdo do Manual de Operação: ");
-                 manuaisCadastro[contadorCadastro] = leia.nextLine();
-                 System.out.println(" ");
+	public void cadastrarManual() {
 
-                 contadorCadastro++;
+		if (contadorCadastro < 2) {
 
-        	} else {
+			System.out.println("Titulo do Manual de Operação: ");
+			leia.nextLine();
+			titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
 
-				System.out.println("Número máximo de manuais atingido!");
+			System.out.println(" ");
 
-			}
+			System.out.println("Conteúdo do Manual de Operação: ");
+			manuaisCadastro[contadorCadastro] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastro++;
+
+		} else {
+
+			System.out.println("Número máximo de manuais atingido!");
 
 		}
 
-		public void pesquisarManual() {
-
-            System.out.println("--Pesquisar Manual--");
-            System.out.println("Você deseja pesquisar por código ou por nome?");
-
-        }
-
-        public void editarManual() {
-
-            System.out.println("--Editar Manual--");
-            System.out.println("Informe o manual que deseja editar");
-
-        }
-
-        public void excluirManual() {
-
-            System.out.println("--Excluir Manual--");
-            System.out.println("Informe o manual que deseja excluir");
-
-        }
 	}
+
+	public void pesquisaManualTitulo() {
+		System.out.println("Digite o título para pesquisa: ");
+		String pesquisa = leia.nextLine();
+		boolean encontrado = false;
+
+		for (int i = 0; i < titulosManuaisPadrao.length; i++) {
+			if (titulosManuaisPadrao[i] != null) {
+				if (titulosManuaisPadrao[i].contains(pesquisa)) {
+					System.out.println("Manual encontrado: ");
+					System.out.println(titulosManuaisPadrao[i]);
+					System.out.println(manuaisPadrao[i]);
+					encontrado = true;
+				}
+			}
+		}
+
+		for (int i = 0; i < titulosManuaisCadastro.length; i++) {
+			if (titulosManuaisCadastro[i] != null) {
+				if (titulosManuaisCadastro[i].contains(pesquisa)) {
+					System.out.println("Manual encontrado: ");
+					System.out.println(titulosManuaisCadastro[i]);
+					System.out.println(manuaisCadastro[i]);
+					encontrado = true;
+				}
+			}
+		}
+
+		if (!encontrado) {
+			System.out.println("Nenhum manual encontrado.");
+		}
+	}
+
+	public void pesquisaManualCodigo() {
+
+	}
+
+	public void editarManual() {
+
+	}
+
+	public void excluirManual() {
+
+	}
+}
