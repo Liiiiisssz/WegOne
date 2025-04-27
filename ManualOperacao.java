@@ -220,7 +220,33 @@ public class ManualOperacao {
 	}
 
 	public void pesquisaManualCodigo() {
+		System.out.println("Digite o código a ser pesquisado: ");
+		// 0 e 1 para padrão
+		// 2 e 3 para cadastro
+		int pesquisaCodigo = leia.nextInt();
+		leia.nextLine();
+		boolean encontrado = false;
 
+		if (pesquisaCodigo >= 0 && pesquisaCodigo <= 1) {
+			if (titulosManuaisPadrao[pesquisaCodigo] != null) {
+				System.out.println("Manual encontrado: ");
+				System.out.println(titulosManuaisPadrao[pesquisaCodigo]);
+				System.out.println(manuaisPadrao[pesquisaCodigo]);
+				encontrado = true;
+			}
+		} else if (pesquisaCodigo >= 2 && pesquisaCodigo <= 3) {
+			int indiceCadastro = pesquisaCodigo - 2;
+			if (titulosManuaisCadastro[indiceCadastro] != null) {
+				System.out.println("Manual encontrado: ");
+				System.out.println(titulosManuaisCadastro[indiceCadastro]);
+				System.out.println(manuaisCadastro[indiceCadastro]);
+				encontrado = true;
+			}
+		}
+
+		if (!encontrado) {
+			System.out.println("Nenhum manual encontrado.");
+		}
 	}
 
 	public void editarManual() {
