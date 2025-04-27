@@ -250,7 +250,26 @@ public class ManualOperacao {
 	}
 
 	public void editarManual() {
+		System.out.println("Digite o código do manual para edição: ");
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+		leia.nextLine();
 
+		if (codigo >= 2 && codigo <= 3) {
+			int indiceCadastro = codigo - 2;
+			if (titulosManuaisCadastro[indiceCadastro] != null) {
+				System.out.println("Novo título: ");
+				titulosManuaisCadastro[indiceCadastro] = leia.nextLine();
+				System.out.println("Novo conteúdo: ");
+				manuaisCadastro[indiceCadastro] = leia.nextLine();
+				System.out.println("Manual atualizado com suceso!");
+			} else {
+				System.out.println("Manual não encontrado.");
+			}
+		} else {
+			System.out.println("Manuais fixos no sistemas não podem ser editados, ");
+			System.out.println("só é possível editar manuais que foram cadastrados pelo usuário.");
+		}
 	}
 
 	public void excluirManual() {
