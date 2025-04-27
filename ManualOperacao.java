@@ -273,6 +273,23 @@ public class ManualOperacao {
 	}
 
 	public void excluirManual() {
+		System.out.println("Digite o código do manual para exclusão: ");
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+		leia.nextLine();
 
+		if (codigo >= 2 && codigo <= 3) {
+			int indiceCadastro = codigo - 2;
+			if (titulosManuaisCadastro[indiceCadastro] != null) {
+				titulosManuaisCadastro[indiceCadastro] = null;
+				manuaisCadastro[indiceCadastro] = null;
+				System.out.println("Manual exclcuído com sucesso!");
+			} else {
+				System.out.println("Manual já foi excluido ou não foi encontrado.");
+			}
+		} else {
+			System.out.println("Manuais fixos no sistemas não podem ser excluídos, ");
+			System.out.println("só é possível excluir manuais que foram cadastrados pelo usuário.");
+		}
 	}
 }
