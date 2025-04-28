@@ -428,5 +428,6 @@ public class TelaInicial {
 
         leia.close();
 
+        }
     }
 }
