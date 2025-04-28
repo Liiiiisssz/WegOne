@@ -82,19 +82,9 @@ public class TelaInicial {
                 System.out.print(" --Resposta: ");
                 tipoOrientacao = leia.nextInt();
 
-                switch(tipoOrientacao){
-
-                    case 1: //manualOperacao
-
-                System.out.println(" ");
-
-                System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
-                System.out.print(" --Resposta: ");
-                tipoOrientacao = leia.nextInt();
-
                 switch (tipoOrientacao) {
 
-                    case 1:
+                    case 1: //manualOperação
                         System.out.println(" ");
 
                         manualOpCadastro.cadastrarManual();
@@ -123,7 +113,7 @@ public class TelaInicial {
 
                     default:
                         System.out.println(" ");
-                        System.out.println("Opção inválida!");
+                        System.out.println("--  ❌ Opção inválida! ❌  --");
                         break;
 
                 }
@@ -148,20 +138,20 @@ public class TelaInicial {
 
                 System.out.println(" ");
 
-                System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
+                System.out.println(" -- Escolha o tipo de orientação a ser pesquisado -- ");
                 System.out.print(" --Resposta: ");
                 tipoOrientacao = leia.nextInt();
 
                 switch(tipoOrientacao){
                     
                     case 1: //manualOperacao
-                        System.out.println("_________________________________");
+                        System.out.println("_________________________________________");
                         System.out.println("|--  PESQUISAR MANUAL DE OPERAÇÃO 🔎   --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 1. Título 📖               --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 2. Código 🔢               --|");
-                        System.out.println("|_______________________________|");
+                        System.out.println("|---------------------------------------|");
+                        System.out.println("|-- 1. Título 📖                       --|");
+                        System.out.println("|---------------------------------------|");
+                        System.out.println("|-- 2. Código 🔢                       --|");
+                        System.out.println("|_______________________________________|");
                     
                         System.out.println(" ");
                         System.out.println(" -- Insira o tipo de pesquisa --");
@@ -418,18 +408,16 @@ public class TelaInicial {
                 break;
 
             case 5: //encerrar
+                System.out.println("-- ❎ Encerrando Sistema ❎ --");
+                break;
 
-
-            default:
+            default: //Nenhuma das Opções
                 System.out.println("-- ❌ Opção Inválida ❌ --");
                 break;
 
         }
-    }
             }while(decisaoInicial != 5);
             
-        leia.close();
-
-        
+        leia.close();    
     }
-}
+} 
