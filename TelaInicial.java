@@ -15,9 +15,6 @@ public class TelaInicial {
         int decisaoInicial;
         int tipoOrientacao;
         int tipoPesquisa;
-        int orientacaoCodigo;
-
-        String orientacaoTitulo;
 
         do{
 
@@ -168,14 +165,10 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                manualOperacao.pesquisaManualTitulo();
-                                orientacaoTitulo = leia.nextLine();
             
                                 break;
             
                             case 2:
-                                manualOperacao.pesquisaManualCodigo();
-                                orientacaoCodigo = leia.nextInt();
             
                                 break;
             
@@ -200,14 +193,10 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                System.out.print("Insira o título da orientação: ");
-                                orientacaoTitulo = leia.nextLine();
             
                                 break;
             
                             case 2:
-                                System.out.print("Insira o código da orientação: ");
-                                orientacaoCodigo = leia.nextInt();
             
                                 break;
             
@@ -232,14 +221,10 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                System.out.print("Insira o título da orientação: ");
-                                orientacaoTitulo = leia.nextLine();
             
                                 break;
             
                             case 2:
-                                System.out.print("Insira o código da orientação: ");
-                                orientacaoCodigo = leia.nextInt();
             
                                 break;
             
@@ -264,14 +249,10 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                System.out.print("Insira o título da orientação: ");
-                                orientacaoTitulo = leia.nextLine();
             
                                 break;
             
                             case 2:
-                                System.out.print("Insira o código da orientação: ");
-                                orientacaoCodigo = leia.nextInt();
             
                                 break;
             
@@ -297,14 +278,10 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                System.out.print("Insira o título da orientação: ");
-                                orientacaoTitulo = leia.nextLine();
             
                                 break;
             
                             case 2:
-                                System.out.print("Insira o código da orientação: ");
-                                orientacaoCodigo = leia.nextInt();
             
                                 break;
             
