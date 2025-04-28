@@ -21,9 +21,6 @@ public class TelaInicial {
 
         do{
 
-   
-
-
         System.out.println(" ");
 
         System.out.println("                ▄█▄▄▄█▄       ");
@@ -40,15 +37,15 @@ public class TelaInicial {
         System.out.println(" ");
 
         System.out.println("  ____________________________________");
-        System.out.println("  |-- 1.  Cadastrar Orientação ✒️  --|");
+        System.out.println("  |-- 1.  Cadastrar Orientação     --|");
         System.out.println("  |----------------------------------|");
-        System.out.println("  |-- 2.  Pesquisar Orientação 🔎   --|");
+        System.out.println("  |-- 2.  Pesquisar Orientação     --|");
         System.out.println("  |----------------------------------|");
-        System.out.println("  |-- 3.  Editar Orientação 💻      --|");
+        System.out.println("  |-- 3.  Editar Orientação        --|");
         System.out.println("  |----------------------------------|");
-        System.out.println("  |-- 4.  Excluir Orientação ❌       |");
+        System.out.println("  |-- 4.  Excluir Orientação         |");
         System.out.println("  |----------------------------------|");
-        System.out.println("  |-- 5. ❌ ENCERRAR PROGRAMA ❌     --|");
+        System.out.println("  |-- 5. ✕ ENCERRAR PROGRAMA ✕    --|");
         System.out.println("  |__________________________________|");
 
         System.out.println(" ");
@@ -62,20 +59,20 @@ public class TelaInicial {
         switch (decisaoInicial) {
 
             case 1:
+
                 System.out.println("___________________________________________________");
                 System.out.println("|--           CADASTRAR ORIENTAÇÃO              --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  1. Manual de Operação👾                     --|");
+                System.out.println("|--  1. Manual de Operação                      --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|--  2. Procedimento de Segurança               --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|--  3. Manutenção e Reparos                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                 System.out.println("|_________________________________________________|");
-
                 System.out.println(" ");
 
                 System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
@@ -113,10 +110,10 @@ public class TelaInicial {
 
                     default:
                         System.out.println(" ");
-                        System.out.println("--  ❌ Opção inválida! ❌  --");
+                        System.out.println("--  ✕ Opção inválida! ✕  --");
                         break;
-
-                }
+                    }
+                
 
             break;
     
@@ -125,17 +122,16 @@ public class TelaInicial {
                 System.out.println("___________________________________________________");
                 System.out.println("|--           PESQUISAR ORIENTAÇÃO              --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  1. Manual de Operação👾                     --|");
+                System.out.println("|--  1. Manual de Operação                      --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|--  2. Procedimento de Segurança               --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|--  3. Manutenção e Reparos                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                 System.out.println("|_________________________________________________|");
-
                 System.out.println(" ");
 
                 System.out.println(" -- Escolha o tipo de orientação a ser pesquisado -- ");
@@ -146,11 +142,11 @@ public class TelaInicial {
                     
                     case 1: //manualOperacao
                         System.out.println("_________________________________________");
-                        System.out.println("|--  PESQUISAR MANUAL DE OPERAÇÃO 🔎   --|");
+                        System.out.println("|--  PESQUISAR MANUAL DE OPERAÇÃO     --|");
                         System.out.println("|---------------------------------------|");
-                        System.out.println("|-- 1. Título 📖                       --|");
+                        System.out.println("|-- 1. Título                         --|");
                         System.out.println("|---------------------------------------|");
-                        System.out.println("|-- 2. Código 🔢                       --|");
+                        System.out.println("|-- 2. Código                         --|");
                         System.out.println("|_______________________________________|");
                     
                         System.out.println(" ");
@@ -177,13 +173,13 @@ public class TelaInicial {
                         break;
 
                     case 2: //procedimentoSeguranca
-                        System.out.println("_________________________________");
-                        System.out.println("|--  PESQUISAR PROCEDIMENTO DE SEGURANÇA 🔎   --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 1. Título 📖               --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 2. Código 🔢               --|");
-                        System.out.println("|_______________________________|");
+                        System.out.println("____________________________________________");
+                        System.out.println("|--  PESQUISAR PROCEDIMENTO DE SEGURANÇA --|");
+                        System.out.println("|------------------------------------------|");
+                        System.out.println("|-- 1. Título                            --|");
+                        System.out.println("|------------------------------------------|");
+                        System.out.println("|-- 2. Código                            --|");
+                        System.out.println("|__________________________________________|");
                     
                         System.out.println(" ");
                         System.out.println(" -- Insira o tipo de pesquisa --");
@@ -209,13 +205,13 @@ public class TelaInicial {
                         break;
 
                     case 3: //manutencaoReparos
-                        System.out.println("_________________________________");
-                        System.out.println("|--  PESQUISAR MANUTENÇÃO E REPAROS 🔎   --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 1. Título 📖               --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 2. Código 🔢               --|");
-                        System.out.println("|_______________________________|");
+                        System.out.println("_______________________________________");
+                        System.out.println("|--  PESQUISAR MANUTENÇÃO E REPAROS --|");
+                        System.out.println("|-------------------------------------|");
+                        System.out.println("|-- 1. Título                       --|");
+                        System.out.println("|-------------------------------------|");
+                        System.out.println("|-- 2. Código                       --|");
+                        System.out.println("|_____________________________________|");
                     
                         System.out.println(" ");
                         System.out.println(" -- Insira o tipo de pesquisa --");
@@ -241,13 +237,13 @@ public class TelaInicial {
                         break;
 
                     case 4: //testesDiagnostico
-                        System.out.println("_________________________________");
-                        System.out.println("|--  PESQUISAR TESTES E DIAGÓSTICOS 🔎   --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 1. Título 📖               --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 2. Código 🔢               --|");
-                        System.out.println("|_______________________________|");
+                        System.out.println("_______________________________________");
+                        System.out.println("|--  PESQUISAR TESTES E DIAGÓSTICOS --|");
+                        System.out.println("|-------------------------------------|");
+                        System.out.println("|-- 1. Título                       --|");
+                        System.out.println("|-------------------------------------|");
+                        System.out.println("|-- 2. Código                       --|");
+                        System.out.println("|_____________________________________|");
                     
                         System.out.println(" ");
                         System.out.println(" -- Insira o tipo de pesquisa --");
@@ -273,13 +269,14 @@ public class TelaInicial {
                         break;
 
                     case 5: //manualCondutaOperacoesSetoriais
-                        System.out.println("_________________________________");
-                        System.out.println("|--  PESQUISAR MANUAL DE CONDUTA E OPERAÇÕES SETORIAIS 🔎   --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 1. Título 📖               --|");
-                        System.out.println("|-------------------------------|");
-                        System.out.println("|-- 2. Código 🔢               --|");
-                        System.out.println("|_______________________________|");
+                        System.out.println("____________________________________");
+                        System.out.println("|--  PESQUISAR MANUAL DE CONDUTA --|");
+                        System.out.println("|--  E OPERAÇÕES SETORIAIS       --|");
+                        System.out.println("|----------------------------------|");
+                        System.out.println("|-- 1. Título                    --|");
+                        System.out.println("|----------------------------------|");
+                        System.out.println("|-- 2. Código                    --|");
+                        System.out.println("|__________________________________|");
                     
                         System.out.println(" ");
                         System.out.println(" -- Insira o tipo de pesquisa --");
@@ -304,8 +301,8 @@ public class TelaInicial {
 
                         break;
 
-                    default:
-                        System.out.println("Opção inválida!");
+                    default://NenhumaOpçãoAcima
+                        System.out.println("-- ✕ Opção inválida! ✕ --");
                         break;
 
                 }
@@ -316,15 +313,15 @@ public class TelaInicial {
                 System.out.println("___________________________________________________");
                 System.out.println("|--              EDITAR ORIENTAÇÃO              --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  1. Manual de Operação�                     --|");
+                System.out.println("|--  1. Manual de Operação                      --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|--  2. Procedimento de Segurança               --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|--  3. Manutenção e Reparos                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                 System.out.println("|_________________________________________________|");
                 System.out.println(" ");
 
@@ -352,7 +349,8 @@ public class TelaInicial {
                     case 5: //manualCondutaOperacoesSetoriais
                         break;
 
-                    default:
+                    default://NenhumaOpçãoAcima
+                        System.out.println("-- ✕ Opção inválida! ✕ --");
                         break;
 
                 }
@@ -362,15 +360,15 @@ public class TelaInicial {
                 System.out.println("___________________________________________________");
                 System.out.println("|--             EXCLUIR ORIENTAÇÃO              --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  1. Manual de Operação👾                     --|");
+                System.out.println("|--  1. Manual de Operação                      --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  2. Procedimento de Segurança🪪              --|");
+                System.out.println("|--  2. Procedimento de Segurança               --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  3. Manutenção e Reparos🔧                   --|");
+                System.out.println("|--  3. Manutenção e Reparos                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|--  4. Testes e Diagnóstico🗣️                  --|");
+                System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
-                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais📒 --|");
+                System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                 System.out.println("|_________________________________________________|");
                 System.out.println(" ");
 
@@ -397,22 +395,22 @@ public class TelaInicial {
                         break;
 
                     case 5: //manualCondutaOperacoesSetoriais
-                    
+
                         break;
 
-                    default:
-                        System.out.println("");
+                    default://NenhumaOpçãoAcima
+                        System.out.println("-- ✕ Opção inválida! ✕ --");
                         break;
 
                 }
                 break;
 
             case 5: //encerrar
-                System.out.println("-- ❎ Encerrando Sistema ❎ --");
+                System.out.println("--  Encerrando Sistema  --");
                 break;
 
             default: //Nenhuma das Opções
-                System.out.println("-- ❌ Opção Inválida ❌ --");
+                System.out.println("--  ✕ Opção Inválida ✕  --");
                 break;
 
         }
