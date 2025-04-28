@@ -19,7 +19,9 @@ public class TelaInicial {
 
         String orientacaoTitulo;
 
+        do{
 
+   
 
 
         System.out.println(" ");
@@ -423,7 +425,8 @@ public class TelaInicial {
                 break;
 
         }
-
+            }while(decisaoInicial != 5);
+            
         leia.close();
 
         }
