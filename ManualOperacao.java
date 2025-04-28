@@ -15,11 +15,11 @@ public class ManualOperacao {
 
 	public ManualOperacao() {
 
-		titulosManuaisPadrao[0] = "_______________________________________________________________________\n" +
-				"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
-				"|_____________________________________________________________________|\n";
+		titulosManuaisPadrao[0] = "Manual de operação de motores elétricos";
 
 		manuaisPadrao[0] = "_______________________________________________________________________\n" +
+				"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
+				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Fornecer orientações sobre a instalação, operação e   --|\n" +
 				"|   manutenção de motores elétricos, seguindo práticas recomendadas   |\n" +
 				"|_____________________________________________________________________|\n" +
@@ -92,11 +92,11 @@ public class ManualOperacao {
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n";
 
-		titulosManuaisPadrao[1] = "_______________________________________________________________________\n" +
-				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
-				"|_____________________________________________________________________|\n";
+		titulosManuaisPadrao[1] = "Manual de operação de geradores elétricos";
 
 		manuaisPadrao[1] = "_______________________________________________________________________\n" +
+				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
+				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
 				"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
 				"|_____________________________________________________________________|\n" +
@@ -168,7 +168,6 @@ public class ManualOperacao {
 		if (contadorCadastro < 2) {
 
 			System.out.println("Titulo do Manual de Operação: ");
-			leia.nextLine();
 			titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
@@ -297,7 +296,7 @@ public class ManualOperacao {
 	}
 
 	public void excluirManual() {
-		
+
 		System.out.println("Digite o código do manual para exclusão: ");
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
