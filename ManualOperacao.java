@@ -203,6 +203,7 @@ public class ManualOperacao {
 			}
 		}
 
+
 		for (int i = 0; i < titulosManuaisCadastro.length; i++) {
 			if (titulosManuaisCadastro[i] != null) {
 				if (titulosManuaisCadastro[i].contains(pesquisa)) {
@@ -226,6 +227,8 @@ public class ManualOperacao {
 		int pesquisaCodigo = leia.nextInt();
 		leia.nextLine();
 		boolean encontrado = false;
+
+        public void editarManual() {
 
 		if (pesquisaCodigo >= 0 && pesquisaCodigo <= 1) {
 			if (titulosManuaisPadrao[pesquisaCodigo] != null) {
