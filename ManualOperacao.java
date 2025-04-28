@@ -168,7 +168,6 @@ public class ManualOperacao {
 		if (contadorCadastro < 2) {
 
 			System.out.println("Titulo do Manual de Operação: ");
-			leia.nextLine();
 			titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
