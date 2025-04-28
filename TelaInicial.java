@@ -73,6 +73,9 @@ public class TelaInicial {
                 System.out.println("|-------------------------------------------------|");
                 System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                 System.out.println("|_________________________________________________|");
+                System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
+                System.out.println("|_________________________________________________|");
+
                 System.out.println(" ");
 
                 System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
@@ -108,6 +111,12 @@ public class TelaInicial {
 
                         break;
 
+                    case 6: //VoltarInicio
+                        System.out.println(" ");
+
+                        break;
+
+
                     default:
                         System.out.println(" ");
                         System.out.println("--  ✕ Opção inválida! ✕  --");
@@ -131,6 +140,8 @@ public class TelaInicial {
                 System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
                 System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                System.out.println("|_________________________________________________|");
+                System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
                 System.out.println("|_________________________________________________|");
                 System.out.println(" ");
 
@@ -301,6 +312,10 @@ public class TelaInicial {
 
                         break;
 
+                    case 6: //VoltarInicio
+                        System.out.println(" ");
+                        break;
+
                     default://NenhumaOpçãoAcima
                         System.out.println("-- ✕ Opção inválida! ✕ --");
                         break;
@@ -322,6 +337,8 @@ public class TelaInicial {
                 System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
                 System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                System.out.println("|_________________________________________________|");
+                System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
                 System.out.println("|_________________________________________________|");
                 System.out.println(" ");
 
@@ -348,6 +365,10 @@ public class TelaInicial {
 
                     case 5: //manualCondutaOperacoesSetoriais
                         break;
+                    
+                    case 6: //VoltarInicio
+                        System.out.println(" ");
+                        break;
 
                     default://NenhumaOpçãoAcima
                         System.out.println("-- ✕ Opção inválida! ✕ --");
@@ -369,6 +390,8 @@ public class TelaInicial {
                 System.out.println("|--  4. Testes e Diagnóstico                    --|");
                 System.out.println("|-------------------------------------------------|");
                 System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                System.out.println("|_________________________________________________|");
+                System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
                 System.out.println("|_________________________________________________|");
                 System.out.println(" ");
 
@@ -398,6 +421,10 @@ public class TelaInicial {
 
                         break;
 
+                    case 6: //VoltarInicio
+                        System.out.println(" ");
+                        break;
+
                     default://NenhumaOpçãoAcima
                         System.out.println("-- ✕ Opção inválida! ✕ --");
                         break;
@@ -410,7 +437,7 @@ public class TelaInicial {
                 break;
 
             default: //Nenhuma das Opções
-                System.out.println("--  ✕ Opção Inválida ✕  --");
+                System.out.println("-- ✕  Opção Inválida ✕  --");
                 break;
 
         }
