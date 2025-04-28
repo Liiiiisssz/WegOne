@@ -165,11 +165,11 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-            
+                                manualOpCadastro.pesquisaManualTitulo();
                                 break;
             
                             case 2:
-            
+                                manualOpCadastro.pesquisaManualCodigo();
                                 break;
             
                         }
