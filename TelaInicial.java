@@ -425,10 +425,11 @@ public class TelaInicial {
                 break;
 
         }
+    }
             }while(decisaoInicial != 5);
             
         leia.close();
 
-        }
+        
     }
 }
