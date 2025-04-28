@@ -191,13 +191,10 @@ public class ManualOperacao {
 
 		System.out.println("Digite o título para pesquisa: ");
 		String pesquisa = leia.nextLine();
-
 		boolean encontrado = false;
 
 		for (int i = 0; i < titulosManuaisPadrao.length; i++) {
-
 			if (titulosManuaisPadrao[i] != null) {
-
 				if (titulosManuaisPadrao[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
@@ -211,9 +208,7 @@ public class ManualOperacao {
 
 
 		for (int i = 0; i < titulosManuaisCadastro.length; i++) {
-
 			if (titulosManuaisCadastro[i] != null) {
-
 				if (titulosManuaisCadastro[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
@@ -241,12 +236,7 @@ public class ManualOperacao {
 		leia.nextLine();
 		boolean encontrado = false;
 
-	}
-	
-    public void editarManual() {
-
 		if (pesquisaCodigo >= 0 && pesquisaCodigo <= 1) {
-
 			if (titulosManuaisPadrao[pesquisaCodigo] != null) {
 
 				System.out.println("Manual encontrado: ");
@@ -257,11 +247,10 @@ public class ManualOperacao {
 			}
 
 		} else if (pesquisaCodigo >= 2 && pesquisaCodigo <= 3) {
-
 			int indiceCadastro = pesquisaCodigo - 2;
 
 			if (titulosManuaisCadastro[indiceCadastro] != null) {
-
+				
 				System.out.println("Manual encontrado: ");
 				System.out.println(titulosManuaisCadastro[indiceCadastro]);
 				System.out.println(manuaisCadastro[indiceCadastro]);
@@ -285,9 +274,7 @@ public class ManualOperacao {
 		leia.nextLine();
 
 		if (codigo >= 2 && codigo <= 3) {
-
 			int indiceCadastro = codigo - 2;
-
 			if (titulosManuaisCadastro[indiceCadastro] != null) {
 
 				System.out.println("Novo título: ");
@@ -301,8 +288,8 @@ public class ManualOperacao {
 				System.out.println("Manual não encontrado.");
 
 			}
-		} else {
 
+		} else {
 			System.out.println("Manuais fixos no sistemas não podem ser editados, ");
 			System.out.println("só é possível editar manuais que foram cadastrados pelo usuário.");
 
@@ -310,16 +297,14 @@ public class ManualOperacao {
 	}
 
 	public void excluirManual() {
-
+		
 		System.out.println("Digite o código do manual para exclusão: ");
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 		leia.nextLine();
 
 		if (codigo >= 2 && codigo <= 3) {
-
 			int indiceCadastro = codigo - 2;
-
 			if (titulosManuaisCadastro[indiceCadastro] != null) {
 
 				titulosManuaisCadastro[indiceCadastro] = null;
@@ -327,12 +312,11 @@ public class ManualOperacao {
 				System.out.println("Manual exclcuído com sucesso!");
 
 			} else {
-
 				System.out.println("Manual já foi excluido ou não foi encontrado.");
 
 			}
-		} else {
 
+		} else {
 			System.out.println("Manuais fixos no sistemas não podem ser excluídos, ");
 			System.out.println("só é possível excluir manuais que foram cadastrados pelo usuário.");
 			
