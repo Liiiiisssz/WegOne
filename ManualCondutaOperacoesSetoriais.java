@@ -203,5 +203,28 @@ public class ManualCondutaOperacoesSetoriais {
 		}
 
 	}
-    }
 
+    public void pesquisaManualTitulo() {
+
+		System.out.println("Digite o título para pesquisa: ");
+		String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (titulosManuaisCOS[i] != null) {
+
+				if (titulosManuaisCOS[i].contains(pesquisa)) {
+
+					System.out.println("Manual encontrado: ");
+					System.out.println(titulosManuaisCOS[i]);
+					System.out.println(manualCOSConteudo[i]);
+					encontrado = true;
+
+ }
+     }   
+        }
+            }
+        
+        }
