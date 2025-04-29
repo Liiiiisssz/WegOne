@@ -185,12 +185,12 @@ public class ManualCondutaOperacoesSetoriais {
 
 		if (contadorCadastro < 4) {
 
-			System.out.println("Titulo do Manual de Operação: ");
+			System.out.println("Título do Manual de Conduta e Operações setoriais: ");
 			titulosManuaisCOS[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
 
-			System.out.println("Conteúdo do Manual de Operação: ");
+			System.out.println("Conteúdo do Manual de Conduta e Operações setoriais: ");
 			manualCOSConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
@@ -276,7 +276,7 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println("Novo conteúdo: ");
 			manualCOSConteudo[indiceCadastro] = leia.nextLine();
 
-			System.out.println("Manual atualizado com suceso!");
+			System.out.println("Manual atualizado com sucesso!");
 
 		} else {
 
@@ -299,11 +299,11 @@ public class ManualCondutaOperacoesSetoriais {
 			titulosManuaisCOS[indiceCadastro] = null;
 			manualCOSConteudo[indiceCadastro] = null;
 
-			System.out.println("Manual exclcuído com sucesso!");
+			System.out.println("Manual excluído com sucesso!");
 
 		} else {
 
-			System.out.println("Manual já foi excluido ou não foi encontrado.");
+			System.out.println("Manual já foi excluído ou não foi encontrado.");
 
         }   
     }

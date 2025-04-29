@@ -183,12 +183,12 @@ public class ManutencaoReparos {
 
 		if (contadorCadastro < 4) {
 
-			System.out.println("Titulo do Manual de Operação: ");
+			System.out.println("Título do Manual de Manutenção e Reparos: ");
 			titulosManutencaoReparos[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
 
-			System.out.println("Conteúdo do Manual de Operação: ");
+			System.out.println("Conteúdo do Manual de Manutenção e Reparos: ");
 			manutencaoReparos[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
@@ -273,7 +273,7 @@ public class ManutencaoReparos {
 			System.out.println("Novo conteúdo: ");
 			manutencaoReparos[indiceCadastro] = leia.nextLine();
 
-			System.out.println("Manual atualizado com suceso!");
+			System.out.println("Manual atualizado com sucesso!");
 
 		} else {
 
@@ -296,11 +296,11 @@ public class ManutencaoReparos {
 				titulosManutencaoReparos[indiceCadastro] = null;
 				manutencaoReparos[indiceCadastro] = null;
 
-				System.out.println("Manual exclcuído com sucesso!");
+				System.out.println("Manual excluído com sucesso!");
 
 			} else {
 
-				System.out.println("Manual já foi excluido ou não foi encontrado.");
+				System.out.println("Manual já foi excluído ou não foi encontrado.");
 
 			}
 
