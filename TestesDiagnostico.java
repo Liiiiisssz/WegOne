@@ -73,4 +73,28 @@ public class TestesDiagnostico {
         }
     }
 
+    public void pesquisaManualCodigo() {
+
+        System.out.println("Digite o código a ser pesquisado: ");
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        if (titulosTestesDiagnostico[pesquisaCodigo] != null) {
+
+            System.out.println("Manual encontrado: ");
+            System.out.println(titulosTestesDiagnostico[pesquisaCodigo]);
+
+            System.out.println(testeDiagnostico[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+            System.out.println("Nenhum manual encontrado.");
+
+        }
+    }
+
 }
