@@ -266,7 +266,32 @@ public class ManutencaoReparos {
 
 		}
 	}
+        public void editarManual() {
 
+		System.out.println("Digite o código do manual para edição: ");
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManutencaoReparos[indiceCadastro] != null) {
+
+			System.out.println("Novo título: ");
+			titulosManutencaoReparos[indiceCadastro] = leia.nextLine();
+			titulosManutencaoReparos[indiceCadastro] = leia.nextLine();
+
+			System.out.println("Novo conteúdo: ");
+			manutencaoReparos[indiceCadastro] = leia.nextLine();
+
+			System.out.println("Manual atualizado com suceso!");
+
+		} else {
+
+			System.out.println("Manual não encontrado.");
+
+		}
+
+	}
 
     
 }
