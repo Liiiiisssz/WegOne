@@ -42,5 +42,35 @@ public class TestesDiagnostico {
 
         }
 
+    }
+
+     public void pesquisarManualTitulo() {
+
+        System.out.println("Digite o título para pesquisa: ");
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
+
+            if (titulosTestesDiagnostico[i] != null) {
+
+                if (titulosTestesDiagnostico[i].contains(pesquisa)) {
+
+                    System.out.println("Manual encontrado: ");
+                    System.out.println(titulosTestesDiagnostico[i]);
+                    System.out.println(testeDiagnostico[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) {
+
+            System.out.println("Nenhum manual econtrado.");
+
+        }
+    }
 
 }
