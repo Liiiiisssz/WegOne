@@ -1,24 +1,17 @@
 import java.util.Scanner;
 
-
 public class ManutencaoReparos {
 
-
     Scanner leia = new Scanner(System.in);
-
 
     String[] manutencaoReparos = new String[4];
     String[] titulosManutencaoReparos = new String[4];
 
-
     int contadorCadastro = 2;
-
 
     public ManutencaoReparos(){
 
-
         titulosManutencaoReparos[0] = "Manutenção de motores elétricos";
-
 
         manutencaoReparos[0] = "_______________________________________________________________________\n" +
                 "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
@@ -98,10 +91,7 @@ public class ManutencaoReparos {
                 "| - Cumprir com as recomendações do fabricante para instalação, operação e manutenção dos motores. |\n" +
                 "|---------------------------------------------------------------------|\n";
 
-
-                
         titulosManutencaoReparos[1] = "Reparo de transformadores";
-
 
         manutencaoReparos[1] = 
                 "_______________________________________________________________________\n" +

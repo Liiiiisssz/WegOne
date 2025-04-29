@@ -93,7 +93,7 @@ public class TelaInicial {
 
                         case 3: //manutencaoReparos
                             System.out.println(" ");
-
+                            manutencaoReparos.cadastrarManual();
                             break;
 
                         case 4: //testesDiagnostico
@@ -218,11 +218,11 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
-                
+                                    manutencaoReparos.pesquisaManualTitulo();
                                     break;
                 
                                 case 2:
-                
+                                    manutencaoReparos.pesquisaManualCodigo();
                                     break;
                 
                             }
@@ -331,7 +331,7 @@ public class TelaInicial {
                             break;
 
                         case 3: //manutencaoReparos
-                        
+                            manutencaoReparos.editarManual();
                             break;
 
                         case 4: //testesDiagnostico
@@ -385,7 +385,7 @@ public class TelaInicial {
                             break;
 
                         case 3: //manutencaoReparos
-                        
+                            manutencaoReparos.excluirManual();
                             break;
 
                         case 4: //testesDiagnostico
