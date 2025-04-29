@@ -98,17 +98,16 @@ public class TelaInicial {
 
                         case 4: //testesDiagnostico
                             System.out.println(" ");
-
+                            
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
                             System.out.println(" ");
-
+                            manualCondutaOpSet.cadastrarManual();
                             break;
 
                         case 6: //VoltarInicio
                             System.out.println(" ");
-
                             break;
 
 
@@ -275,11 +274,11 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
-                
+                                    manualCondutaOpSet.pesquisaManualTitulo();
                                     break;
                 
                                 case 2:
-                
+                                    manualCondutaOpSet.pesquisaManualCodigo();
                                     break;
                 
                             }
@@ -338,6 +337,7 @@ public class TelaInicial {
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
+                            manualCondutaOpSet.editarManual();
                             break;
                         
                         case 6: //VoltarInicio
@@ -393,7 +393,7 @@ public class TelaInicial {
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
-
+                            manualCondutaOpSet.excluirManual();
                             break;
 
                         case 6: //VoltarInicio

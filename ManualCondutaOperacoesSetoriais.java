@@ -179,7 +179,6 @@ public class ManualCondutaOperacoesSetoriais {
 
         }
 
-
    public void cadastrarManual() {
 
 		if (contadorCadastro < 4) {
@@ -221,8 +220,8 @@ public class ManualCondutaOperacoesSetoriais {
 					System.out.println(manualCOSConteudo[i]);
 					encontrado = true;
 
- }
-     }   
+                }
+            }   
         }
 
         if (!encontrado) {
@@ -231,7 +230,8 @@ public class ManualCondutaOperacoesSetoriais {
 
 		}
 	}
-        public void pesquisaManualCodigo() {
+
+    public void pesquisaManualCodigo() {
 
 		System.out.println("Digite o código a ser pesquisado: ");
 		// 0 e 1 para padrão
@@ -290,20 +290,19 @@ public class ManualCondutaOperacoesSetoriais {
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
-			int indiceCadastro = codigo;
+		int indiceCadastro = codigo;
 
-			if (titulosManuaisCOS[indiceCadastro] != null) {
+		if (titulosManuaisCOS[indiceCadastro] != null) {
 
-				titulosManuaisCOS[indiceCadastro] = null;
-				manualCOSConteudo[indiceCadastro] = null;
+			titulosManuaisCOS[indiceCadastro] = null;
+			manualCOSConteudo[indiceCadastro] = null;
 
-				System.out.println("Manual exclcuído com sucesso!");
+			System.out.println("Manual exclcuído com sucesso!");
 
-			} else {
+		} else {
 
-				System.out.println("Manual já foi excluido ou não foi encontrado.");
+			System.out.println("Manual já foi excluido ou não foi encontrado.");
 
-
-}   
-}
+        }   
+    }
 }
