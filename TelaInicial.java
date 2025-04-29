@@ -7,10 +7,7 @@ public class TelaInicial {
         Scanner leia = new Scanner(System.in);
 
         ManualOperacao manualOperacao = new ManualOperacao();
-        ManualOperacao manualOpCadastro = new ManualOperacao();
-
         ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais();
-        ManualCondutaOperacoesSetoriais manualCondutaOpSetCadastro = new ManualCondutaOperacoesSetoriais();
 
         int decisaoInicial;
         int tipoOrientacao;
@@ -84,7 +81,7 @@ public class TelaInicial {
                     case 1: //manualOperação
                         System.out.println(" ");
 
-                        manualOpCadastro.cadastrarManual();
+                        manualOperacao.cadastrarManual();
 
                         break;
 
@@ -165,11 +162,11 @@ public class TelaInicial {
                         switch(tipoPesquisa){
             
                             case 1:
-                                manualOpCadastro.pesquisaManualTitulo();
+                                manualOperacao.pesquisaManualTitulo();
                                 break;
             
                             case 2:
-                                manualOpCadastro.pesquisaManualCodigo();
+                                manualOperacao.pesquisaManualCodigo();
                                 break;
             
                         }
@@ -326,7 +323,7 @@ public class TelaInicial {
                 switch(tipoOrientacao){
 
                     case 1: //manualOperacao
-                        manualOpCadastro.editarManual();
+                        manualOperacao.editarManual();
                         break;
                     
                     case 2: //procedimentoSeguranca
@@ -379,7 +376,7 @@ public class TelaInicial {
                 switch(tipoOrientacao){
 
                     case 1: //manualOperacao
-                        manualOpCadastro.excluirManual();
+                        manualOperacao.excluirManual();
                         break;
                     
                     case 2: //procedimentoSeguranca
@@ -417,8 +414,9 @@ public class TelaInicial {
                 System.out.println("-- ✕  Opção Inválida ✕  --");
                 break;
 
-        }
-            }while(decisaoInicial != 5);
+            }
+
+        }while(decisaoInicial != 5);
             
         leia.close();    
     }
