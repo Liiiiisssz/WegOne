@@ -13,7 +13,7 @@ public class ManualCondutaOperacoesSetoriais {
 
         public ManualCondutaOperacoesSetoriais() {
                        
-                        titulosManuaisPadrao[0] = "Manual de conduta para o setor de montagem";
+                        titulosManuaisCOS[0] = "Manual de conduta para o setor de montagem";
 
 
 
@@ -184,5 +184,8 @@ public class ManualCondutaOperacoesSetoriais {
                 "|---------------------------------------------------------------------|\n";
 
         }
+
+
+    
     }
 
