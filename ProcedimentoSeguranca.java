@@ -120,7 +120,7 @@ public class ProcedimentoSeguranca {
 
         if (contadorCadastro < 4) {
 
-            System.out.println("Titulo do Procedimento de Segurança: ");
+            System.out.println("Título do Procedimento de Segurança: ");
             titulosProcedimentoSeguranca[contadorCadastro] = leia.nextLine();
 
             System.out.println(" ");
