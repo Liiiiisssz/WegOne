@@ -5,25 +5,16 @@ public class ManualCondutaOperacoesSetoriais {
        
         Scanner leia = new Scanner(System.in);
        
-        String[] manuaisPadrao = new String[2];
-        String[] titulosManuaisPadrao = new String[2];
-       
-        String[] manuaisCadastro = new String[2];
-        String[] titulosManuaisCadastro = new String[2];
+        String[] manualCOSConteudo = new String[4];
+	  String[] titulosManuaisCOS = new String[4];
 
-
-        int codigo;
-        int contadorCadastro = 0;
+    int contadorCadastro = 2;
 
 
         public ManualCondutaOperacoesSetoriais() {
-
-
-            titulosManuaisPadrao[0] = "Manual de conduta para o setor de montagem";
-             
-                manuaisPadrao[0] =
                        
                         titulosManuaisPadrao[0] = "Manual de conduta para o setor de montagem";
+
 
 
                 manuaisPadrao[0] =
@@ -191,7 +182,6 @@ public class ManualCondutaOperacoesSetoriais {
                 "| - Cumprir as orientações do fabricante quanto ao uso e manutenção  |\n" +
                 "|   dos equipamentos.                                                 |\n" +
                 "|---------------------------------------------------------------------|\n";
-
 
         }
     }

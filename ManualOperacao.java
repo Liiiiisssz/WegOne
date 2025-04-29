@@ -7,7 +7,6 @@ public class ManualOperacao {
 	String[] manualOperacaoConteudo = new String[4];
 	String[] titulosManuaisOperacao = new String[4];
 
-	int codigo;
 	int contadorCadastro = 2;
 
 	public ManualOperacao() {
