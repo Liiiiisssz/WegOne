@@ -118,27 +118,27 @@ public class ManualCondutaOperacoesSetoriais {
                 "|                                                                     |\n" +
                 "| 4. MANUTENÇÃO PREDITIVA:                                            |\n" +
                 "|                                                                     |\n" +
-                "| - Utilizar técnicas de monitoramento de condição (como termografia,  |\n" +
+                "| - Utilizar técnicas de monitoramento de condição (como termografia, |\n" +
                 "|   vibração e ultrassom) para identificar potenciais falhas antes    |\n" +
                 "|   que ocorram.                                                      |\n" +
-                "| - Implementar tecnologias de análise preditiva para otimizar as      |\n" +
-                "|   intervenções de manutenção e reduzir os tempos de inatividade.     |\n" +
+                "| - Implementar tecnologias de análise preditiva para otimizar as     |\n" +
+                "|   intervenções de manutenção e reduzir os tempos de inatividade.    |\n" +
                 "| - Manter registros detalhados dos dados coletados para análise e    |\n" +
-                "|   previsão de falhas futuras.                                        |\n" +
+                "|   previsão de falhas futuras.                                       |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                        |\n" +
                 "|                                                                     |\n" +
-                "| - Desligar e isolar as fontes de energia antes de realizar qualquer  |\n" +
+                "| - Desligar e isolar as fontes de energia antes de realizar qualquer |\n" +
                 "|   intervenção em equipamentos.                                      |\n" +
-                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados para |\n" +
+                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados para|\n" +
                 "|   cada tipo de tarefa, como luvas, óculos, capacetes, protetores    |\n" +
                 "|   auditivos e calçados de segurança.                                |\n" +
                 "| - Assegurar que todas as ferramentas e dispositivos utilizados estejam|\n" +
                 "|   em boas condições de uso e seguiam as normas de segurança.        |\n" +
-                "| - Em caso de necessidade de intervenções em áreas de risco, seguir   |\n" +
-                "|   as normas específicas de segurança para o trabalho em altura, em   |\n" +
-                "|   espaços confinados ou com risco elétrico.                          |\n" +
+                "| - Em caso de necessidade de intervenções em áreas de risco, seguir  |\n" +
+                "|   as normas específicas de segurança para o trabalho em altura, em  |\n" +
+                "|   espaços confinados ou com risco elétrico.                         |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                          |\n" +
@@ -146,26 +146,26 @@ public class ManualCondutaOperacoesSetoriais {
                 "| - Manter um registro atualizado de todas as atividades de manutenção,|\n" +
                 "|   incluindo a data, descrição do serviço realizado e peças trocadas.|\n" +
                 "| - Os registros devem ser armazenados de forma organizada e de fácil |\n" +
-                "|   acesso, para futuras auditorias ou referência.                     |\n" +
-                "| - Elaborar relatórios de falhas, identificando a causa raiz e as     |\n" +
-                "|   ações corretivas aplicadas.                                        |\n" +
+                "|   acesso, para futuras auditorias ou referência.                    |\n" +
+                "| - Elaborar relatórios de falhas, identificando a causa raiz e as    |\n" +
+                "|   ações corretivas aplicadas.                                       |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 7. TREINAMENTO E CAPACITAÇÃO:                                        |\n" +
+                "| 7. TREINAMENTO E CAPACITAÇÃO:                                       |\n" +
                 "|                                                                     |\n" +
-                "| - Todos os colaboradores do setor de manutenção devem participar de  |\n" +
-                "|   treinamentos periódicos sobre novas tecnologias, procedimentos e   |\n" +
+                "| - Todos os colaboradores do setor de manutenção devem participar de |\n" +
+                "|   treinamentos periódicos sobre novas tecnologias, procedimentos e  |\n" +
                 "|   normas de segurança.                                              |\n" +
-                "| - A WEG oferece programas de treinamento contínuo para garantir que  |\n" +
+                "| - A WEG oferece programas de treinamento contínuo para garantir que |\n" +
                 "|   os colaboradores estejam sempre atualizados com as melhores       |\n" +
                 "|   práticas de manutenção e segurança.                               |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                 |\n" +
+                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
                 "|                                                                     |\n" +
                 "| - Caso ocorra qualquer tipo de acidente durante a manutenção, o     |\n" +
                 "|   colaborador deverá imediatamente acionar o supervisor e a equipe  |\n" +
-                "|   de segurança, além de registrar o incidente conforme os          |\n" +
+                "|   de segurança, além de registrar o incidente conforme os           |\n" +
                 "|   procedimentos internos.                                           |\n" +
                 "| - Realizar uma análise do incidente para identificar suas causas e  |\n" +
                 "|   implementar ações corretivas para prevenir ocorrências semelhantes.|\n" +
@@ -175,10 +175,33 @@ public class ManualCondutaOperacoesSetoriais {
                 "|                                                                     |\n" +
                 "| - Seguir todas as normas técnicas nacionais e internacionais relacionadas |\n" +
                 "|   à segurança e manutenção de equipamentos industriais.             |\n" +
-                "| - Cumprir as orientações do fabricante quanto ao uso e manutenção  |\n" +
+                "| - Cumprir as orientações do fabricante quanto ao uso e manutenção   |\n" +
                 "|   dos equipamentos.                                                 |\n" +
                 "|---------------------------------------------------------------------|\n";
 
         }
+
+        public void cadastrarManual() {
+
+		if (contadorCadastro < 4) {
+
+			System.out.println("Titulo do Manual de Operação: ");
+			titulosManuaisCOS[contadorCadastro] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println("Conteúdo do Manual de Operação: ");
+			manualCOSConteudo[contadorCadastro] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastro++;
+
+		} else {
+
+			System.out.println("Número máximo de manuais atingido!");
+
+		}
+
+	}
     }
 
