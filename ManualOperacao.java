@@ -4,20 +4,17 @@ public class ManualOperacao {
 
 	Scanner leia = new Scanner(System.in);
 
-	String[] manuaisPadrao = new String[2];
-	String[] titulosManuaisPadrao = new String[2];
-
-	String[] manuaisCadastro = new String[2];
-	String[] titulosManuaisCadastro = new String[2];
+	String[] manualOperacaoConteudo = new String[4];
+	String[] titulosManuaisOperacao = new String[4];
 
 	int codigo;
-	int contadorCadastro = 0;
+	int contadorCadastro = 2;
 
 	public ManualOperacao() {
 
-		titulosManuaisPadrao[0] = "Manual de operação de motores elétricos";
+		titulosManuaisOperacao[0] = "Manual de operacao de motores eletricos";
 
-		manuaisPadrao[0] = "_______________________________________________________________________\n" +
+		manualOperacaoConteudo[0] = "_______________________________________________________________________\n" +
 				"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Fornecer orientações sobre a instalação, operação e   --|\n" +
@@ -92,9 +89,9 @@ public class ManualOperacao {
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n";
 
-		titulosManuaisPadrao[1] = "Manual de operação de geradores elétricos";
+		titulosManuaisOperacao[1] = "Manual de operacao de geradores eletricos";
 
-		manuaisPadrao[1] = "_______________________________________________________________________\n" +
+		manualOperacaoConteudo[1] = "_______________________________________________________________________\n" +
 				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
@@ -165,15 +162,15 @@ public class ManualOperacao {
 
 	public void cadastrarManual() {
 
-		if (contadorCadastro < 2) {
+		if (contadorCadastro < 4) {
 
 			System.out.println("Titulo do Manual de Operação: ");
-			titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
+			titulosManuaisOperacao[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
 
 			System.out.println("Conteúdo do Manual de Operação: ");
-			manuaisCadastro[contadorCadastro] = leia.nextLine();
+			manualOperacaoConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
 			contadorCadastro++;
@@ -190,29 +187,18 @@ public class ManualOperacao {
 
 		System.out.println("Digite o título para pesquisa: ");
 		String pesquisa = leia.nextLine();
+
 		boolean encontrado = false;
 
-		for (int i = 0; i < titulosManuaisPadrao.length; i++) {
-			if (titulosManuaisPadrao[i] != null) {
-				if (titulosManuaisPadrao[i].contains(pesquisa)) {
+		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+
+			if (titulosManuaisOperacao[i] != null) {
+
+				if (titulosManuaisOperacao[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
-					System.out.println(titulosManuaisPadrao[i]);
-					System.out.println(manuaisPadrao[i]);
-					encontrado = true;
-
-				}
-			}
-		}
-
-
-		for (int i = 0; i < titulosManuaisCadastro.length; i++) {
-			if (titulosManuaisCadastro[i] != null) {
-				if (titulosManuaisCadastro[i].contains(pesquisa)) {
-
-					System.out.println("Manual encontrado: ");
-					System.out.println(titulosManuaisCadastro[i]);
-					System.out.println(manuaisCadastro[i]);
+					System.out.println(titulosManuaisOperacao[i]);
+					System.out.println(manualOperacaoConteudo[i]);
 					encontrado = true;
 
 				}
@@ -232,30 +218,17 @@ public class ManualOperacao {
 		// 0 e 1 para padrão
 		// 2 e 3 para cadastro
 		int pesquisaCodigo = leia.nextInt();
-		leia.nextLine();
+		
 		boolean encontrado = false;
 
-		if (pesquisaCodigo >= 0 && pesquisaCodigo <= 1) {
-			if (titulosManuaisPadrao[pesquisaCodigo] != null) {
+		if (titulosManuaisOperacao[pesquisaCodigo] != null) {
 
-				System.out.println("Manual encontrado: ");
-				System.out.println(titulosManuaisPadrao[pesquisaCodigo]);
-				System.out.println(manuaisPadrao[pesquisaCodigo]);
-				encontrado = true;
+			System.out.println("Manual encontrado: ");
+			System.out.println(titulosManuaisOperacao[pesquisaCodigo]);
 
-			}
+			System.out.println(manualOperacaoConteudo[pesquisaCodigo]);
+			encontrado = true;
 
-		} else if (pesquisaCodigo >= 2 && pesquisaCodigo <= 3) {
-			int indiceCadastro = pesquisaCodigo - 2;
-
-			if (titulosManuaisCadastro[indiceCadastro] != null) {
-				
-				System.out.println("Manual encontrado: ");
-				System.out.println(titulosManuaisCadastro[indiceCadastro]);
-				System.out.println(manuaisCadastro[indiceCadastro]);
-				encontrado = true;
-
-			}
 		}
 
 		if (!encontrado) {
@@ -270,29 +243,26 @@ public class ManualOperacao {
 		System.out.println("Digite o código do manual para edição: ");
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
-		leia.nextLine();
 
-		if (codigo >= 2 && codigo <= 3) {
-			int indiceCadastro = codigo - 2;
-			if (titulosManuaisCadastro[indiceCadastro] != null) {
+		int indiceCadastro = codigo;
 
-				System.out.println("Novo título: ");
-				titulosManuaisCadastro[indiceCadastro] = leia.nextLine();
-				System.out.println("Novo conteúdo: ");
-				manuaisCadastro[indiceCadastro] = leia.nextLine();
-				System.out.println("Manual atualizado com suceso!");
+		if (titulosManuaisOperacao[indiceCadastro] != null) {
 
-			} else {
+			System.out.println("Novo título: ");
+			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
+			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
 
-				System.out.println("Manual não encontrado.");
+			System.out.println("Novo conteúdo: ");
+			manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
 
-			}
+			System.out.println("Manual atualizado com suceso!");
 
 		} else {
-			System.out.println("Manuais fixos no sistemas não podem ser editados, ");
-			System.out.println("só é possível editar manuais que foram cadastrados pelo usuário.");
+
+			System.out.println("Manual não encontrado.");
 
 		}
+
 	}
 
 	public void excluirManual() {
@@ -300,25 +270,21 @@ public class ManualOperacao {
 		System.out.println("Digite o código do manual para exclusão: ");
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
-		leia.nextLine();
 
-		if (codigo >= 2 && codigo <= 3) {
-			int indiceCadastro = codigo - 2;
-			if (titulosManuaisCadastro[indiceCadastro] != null) {
+			int indiceCadastro = codigo;
 
-				titulosManuaisCadastro[indiceCadastro] = null;
-				manuaisCadastro[indiceCadastro] = null;
+			if (titulosManuaisOperacao[indiceCadastro] != null) {
+
+				titulosManuaisOperacao[indiceCadastro] = null;
+				manualOperacaoConteudo[indiceCadastro] = null;
+
 				System.out.println("Manual exclcuído com sucesso!");
 
 			} else {
+
 				System.out.println("Manual já foi excluido ou não foi encontrado.");
 
 			}
 
-		} else {
-			System.out.println("Manuais fixos no sistemas não podem ser excluídos, ");
-			System.out.println("só é possível excluir manuais que foram cadastrados pelo usuário.");
-			
-		}
 	}
 }
