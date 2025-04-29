@@ -4,23 +4,20 @@ public class ManualCondutaOperacoesSetoriais {
 
     Scanner leia = new Scanner(System.in);
 
-    String[] manuaisPadrao = new String[2];
-	String[] titulosManuaisPadrao = new String[2];
+    String[] manualCOSConteudo = new String[4];
+	String[] titulosManuaisCOS = new String[4];
 
-	String[] manuaisCadastro = new String[2];
-	String[] titulosManuaisCadastro = new String[2];
-
-    int contadorCadastro = 0;
+    int contadorCadastro = 2;
 
     public ManualCondutaOperacoesSetoriais(){
 
-        titulosManuaisPadrao[0] = " ";
+        titulosManuaisCOS[0] = " ";
 
-        manuaisPadrao[0] = " ";
+        manualCOSConteudo[0] = " ";
 
-        titulosManuaisPadrao[1] = " ";
+        titulosManuaisCOS[1] = " ";
 
-        manuaisPadrao[1] = " ";
+        manualCOSConteudo[1] = " ";
 
     }
     

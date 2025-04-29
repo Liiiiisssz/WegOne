@@ -119,7 +119,6 @@ public class TelaInicial {
                         System.out.println("--  ✕ Opção inválida! ✕  --");
                         break;
                     }
-                
 
             break;
     
