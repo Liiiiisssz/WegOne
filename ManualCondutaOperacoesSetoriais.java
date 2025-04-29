@@ -225,6 +225,14 @@ public class ManualCondutaOperacoesSetoriais {
  }
      }   
         }
+
+        if (!encontrado) {
+
+			System.out.println("Nenhum manual encontrado.");
+
+		}
+	}
+        
             }
         
-        }
+        
