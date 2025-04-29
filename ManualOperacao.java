@@ -163,7 +163,7 @@ public class ManualOperacao {
 
 		if (contadorCadastro < 4) {
 
-			System.out.println("Titulo do Manual de Operação: ");
+			System.out.println("Título do Manual de Operação: ");
 			titulosManuaisOperacao[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
@@ -254,7 +254,7 @@ public class ManualOperacao {
 			System.out.println("Novo conteúdo: ");
 			manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
 
-			System.out.println("Manual atualizado com suceso!");
+			System.out.println("Manual atualizado com sucesso!");
 
 		} else {
 
@@ -277,13 +277,14 @@ public class ManualOperacao {
 				titulosManuaisOperacao[indiceCadastro] = null;
 				manualOperacaoConteudo[indiceCadastro] = null;
 
-				System.out.println("Manual exclcuído com sucesso!");
+				System.out.println("Manual excluído com sucesso!");
 
 			} else {
 
-				System.out.println("Manual já foi excluido ou não foi encontrado.");
+				System.out.println("Manual já foi excluído ou não foi encontrado.");
 
-			}
+		}
 
 	}
+
 }
