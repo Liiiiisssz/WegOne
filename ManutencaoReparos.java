@@ -11,7 +11,7 @@ public class ManutencaoReparos {
 
     public ManutencaoReparos(){
 
-        titulosManutencaoReparos[0] = "Manutenção de motores elétricos";
+        titulosManutencaoReparos[0] = "Manutencao de motores eletricos";
 
         manutencaoReparos[0] = "_______________________________________________________________________\n" +
                 "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +

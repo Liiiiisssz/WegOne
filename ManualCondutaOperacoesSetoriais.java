@@ -11,6 +11,8 @@ public class ManualCondutaOperacoesSetoriais {
 
     public ManualCondutaOperacoesSetoriais() {
 
+        titulosManuaisCOS[0] = "Conduta no setor de montagem";
+        
         manualCOSConteudo[0] =
                     "_______________________________________________________________________\n" +
                     "|-- OBJETIVO: Estabelecer as diretrizes e normas de conduta para    --|\n" +
@@ -75,8 +77,8 @@ public class ManualCondutaOperacoesSetoriais {
                     "| - Recomendações do fabricante para equipamentos industriais.        |\n" +
                     "|---------------------------------------------------------------------|\n";
        
-        titulosManuaisCOS[1] = "Procedimentos Operacionais no Setor de Manutenção";
 
+        titulosManuaisCOS[1] = "Procedimentos Operacionais no Setor de Manutencao";
 
         manualCOSConteudo[1] =
                 "_______________________________________________________________________\n" +
