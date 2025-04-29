@@ -1,23 +1,17 @@
 import java.util.Scanner;
 
-
 public class ManualCondutaOperacoesSetoriais {
        
-        Scanner leia = new Scanner(System.in);
+    Scanner leia = new Scanner(System.in);
        
-        String[] manualCOSConteudo = new String[4];
-	  String[] titulosManuaisCOS = new String[4];
+    String[] manualCOSConteudo = new String[4];
+	String[] titulosManuaisCOS = new String[4];
 
     int contadorCadastro = 2;
 
+    public ManualCondutaOperacoesSetoriais() {
 
-        public ManualCondutaOperacoesSetoriais() {
-                       
-                        titulosManuaisCOS[0] = "Manual de conduta para o setor de montagem";
-
-
-
-                manuaisPadrao[0] =
+        manualCOSConteudo[0] =
                     "_______________________________________________________________________\n" +
                     "|-- OBJETIVO: Estabelecer as diretrizes e normas de conduta para    --|\n" +
                     "|    todos os colaboradores envolvidos no setor de montagem da WEG    |\n" +
@@ -81,10 +75,10 @@ public class ManualCondutaOperacoesSetoriais {
                     "| - Recomendações do fabricante para equipamentos industriais.        |\n" +
                     "|---------------------------------------------------------------------|\n";
        
-            titulosManuaisPadrao[1] = "Procedimentos Operacionais no Setor de Manutenção";
+        titulosManuaisCOS[1] = "Procedimentos Operacionais no Setor de Manutenção";
 
 
-            manuaisPadrao[1] =
+        manualCOSConteudo[1] =
                 "_______________________________________________________________________\n" +
                 "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
                 "|    o setor de manutenção da WEG, garantindo a eficiência e a segurança --|\n" +
