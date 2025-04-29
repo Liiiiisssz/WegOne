@@ -9,15 +9,63 @@ public class ProcedimentoSeguranca {
 
     int contadorCadastro = 2;
 
-    public ProcedimentoSeguranca(){
+    public ProcedimentoSeguranca() {
 
-        titulosProcedimentoSeguranca[0] = " ";
+        titulosProcedimentoSeguranca[0] = "Manual de seguranca motor weg W22";
 
-        procedimentoSeguranca[0] = " ";
+        procedimentoSeguranca[0] = "_______________________________________________________________________\n" +
+                                "|--               MANUAL DE SEGURANÇA - MOTOR WEG W22                --|\n" +
+                                "|_____________________________________________________________________|\n" +
+                                "|-- OBJETIVO: Procedimento seguro para inspeção e manutenção do motor --|\n" +
+                                "|   WEG W22, garantindo a integridade do operador e do equipamento.    |\n" +
+                                "|_____________________________________________________________________|\n" +
+                                "|                                                                     |\n" +
+                                "| 1. INSTRUÇÕES GERAIS:                                               |\n" +
+                                "|                                                                     |\n" +
+                                "| - Somente técnicos qualificados podem intervir no equipamento.      |\n" +
+                                "| - Leia atentamente o manual do fabricante antes de qualquer ação.   |\n" +
+                                "| - Nunca opere o motor sem as proteções instaladas.                  |\n" +
+                                "|                                                                     |\n" +
+                                "|---------------------------------------------------------------------|\n" +
+                                "|                                                                     |\n" +
+                                "| 2. DESLIGAMENTO SEGURO:                                             |\n" +
+                                "|                                                                     |\n" +
+                                "| - Desligue a alimentação principal do quadro de energia.            |\n" +
+                                "| - Aplique bloqueio e etiquetagem (LOTO).                            |\n" +
+                                "| - Aguarde 10 minutos para descarregar capacitores.                  |\n" +
+                                "| - Verifique ausência de tensão com detector CAT III/IV.             |\n" +
+                                "|                                                                     |\n" +
+                                "|---------------------------------------------------------------------|\n" +
+                                "|                                                                     |\n" +
+                                "| 3. EPI OBRIGATÓRIO:                                                 |\n" +
+                                "|                                                                     |\n" +
+                                "| - Luvas isolantes                                                   |\n" +
+                                "| - Óculos de proteção                                                |\n" +
+                                "| - Calçado de segurança dielétrico                                   |\n" +
+                                "| - Detector de tensão                                                |\n" +
+                                "| - Capacete com viseira                                              |\n" +
+                                "|                                                                     |\n" +
+                                "|---------------------------------------------------------------------|\n" +
+                                "|                                                                     |\n" +
+                                "| 4. INSPEÇÃO:                                                        |\n" +
+                                "|                                                                     |\n" +
+                                "| - Verificar temperatura, vibração e ruídos.                         |\n" +
+                                "| - Inspecionar bornes, carcaça e ventilação.                         |\n" +
+                                "| - Limpar com materiais não inflamáveis.                             |\n" +
+                                "|                                                                     |\n" +
+                                "|---------------------------------------------------------------------|\n" +
+                                "|                                                                     |\n" +
+                                "| 5. NORMAS APLICADAS:                                                |\n" +
+                                "|                                                                     |\n" +
+                                "| - NR-10, NR-12                                                      |\n" +
+                                "| - NBR IEC 60034-1                                                   |\n" +
+                                "| - Manual Técnico WEG W22                                            |\n" +
+                                "|                                                                     |\n" +
+                                "|_____________________________________________________________________|\n";
 
         titulosProcedimentoSeguranca[1] = " ";
 
-        procedimentoSeguranca[1] = " ";
+        procedimentoSeguranca[1] = " "
 
     }
     
