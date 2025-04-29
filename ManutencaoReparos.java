@@ -240,6 +240,35 @@ public class ManutencaoReparos {
 
 		}
 	}
+
+        public void pesquisaManualCodigo() {
+
+		System.out.println("Digite o código a ser pesquisado: ");
+		// 0 e 1 para padrão
+		// 2 e 3 para cadastro
+		int pesquisaCodigo = leia.nextInt();
+		
+		boolean encontrado = false;
+
+		if (titulosManutencaoReparos[pesquisaCodigo] != null) {
+
+			System.out.println("Manual encontrado: ");
+			System.out.println(titulosManutencaoReparos[pesquisaCodigo]);
+
+			System.out.println(manutencaoReparos[pesquisaCodigo]);
+			encontrado = true;
+
+		}
+
+		if (!encontrado) {
+
+			System.out.println("Nenhum manual encontrado.");
+
+		}
+	}
+
+
+    
 }
 
 
