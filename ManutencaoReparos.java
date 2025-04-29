@@ -211,7 +211,35 @@ public class ManutencaoReparos {
 		}
 
 	}
-   
+
+   	public void pesquisaManualTitulo() {
+
+		System.out.println("Digite o título para pesquisa: ");
+		String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (titulosManutencaoReparos[i] != null) {
+
+				if (titulosManutencaoReparos[i].contains(pesquisa)) {
+
+					System.out.println("Manual encontrado: ");
+					System.out.println(titulosManutencaoReparos[i]);
+					System.out.println(manutencaoReparos[i]);
+					encontrado = true;
+
+				}
+			}
+		}
+
+		if (!encontrado) {
+
+			System.out.println("Nenhum manual encontrado.");
+
+		}
+	}
 }
 
 
