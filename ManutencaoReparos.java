@@ -183,12 +183,12 @@ public class ManutencaoReparos {
 
 		if (contadorCadastro < 4) {
 
-			System.out.println("Título do Manual de Operação: ");
+			System.out.println("Título do Manual de Manutenção e Reparos: ");
 			titulosManutencaoReparos[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
 
-			System.out.println("Conteúdo do Manual de Operação: ");
+			System.out.println("Conteúdo do Manual de Manutenção e Reparos: ");
 			manutencaoReparos[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
