@@ -97,4 +97,29 @@ public class TestesDiagnostico {
         }
     }
 
+    public void editarManual() {
+
+        System.out.println("Digite o código do manual para edição: ");
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosTestesDiagnostico[indiceCadastro] != null) {
+
+            System.out.println("Novo título: ");
+            titulosTestesDiagnostico[indiceCadastro] = leia.nextLine();
+            titulosTestesDiagnostico[indiceCadastro] = leia.nextLine();
+
+            System.out.println("Novo conteúdo: ");
+            testeDiagnostico[indiceCadastro] = leia.nextLine();
+
+            System.out.println("Manual atualizado com sucesso!"); 
+
+        } else {
+
+            System.out.println("Manual não encontrado.");
+
+        }
+
+    }
 }
