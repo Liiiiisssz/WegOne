@@ -6,7 +6,6 @@ public class TelaInicial {
 
         Scanner leia = new Scanner(System.in);
 
-        ManualConduta manualConduta = new ManualConduta();
         ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais();
         ManualOperacao manualOperacao = new ManualOperacao();
         ManutencaoReparos manutencaoReparos = new ManutencaoReparos();
