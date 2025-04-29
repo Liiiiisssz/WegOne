@@ -72,4 +72,28 @@ public class ProcedimentoSeguranca {
         }
     }
 
+    public void pesquisaManualCodigo() {
+
+        System.out.println("Digite o código a ser pesquisado: ");
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        if (titulosProcedimentoSeguranca[pesquisaCodigo] != null) {
+
+            System.out.println("Manual encontrado: ");
+            System.out.println(titulosProcedimentoSeguranca[pesquisaCodigo]);
+
+            System.out.println(procedimentoSeguranca[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+            System.out.println("Nenhum manual encontrado.");
+            
+        }
+    }
+
 }
