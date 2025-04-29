@@ -162,7 +162,7 @@ public class ProcedimentoSeguranca {
 
         if (!encontrado) {
 
-            System.out.println("Nenhu manual econtrado.");
+            System.out.println("Nenhum manual encontrado.");
 
         }
     }
@@ -229,11 +229,11 @@ public class ProcedimentoSeguranca {
             titulosProcedimentoSeguranca[indiceCadastro] = null;
             procedimentoSeguranca[indiceCadastro] = null;
 
-            System.out.println("Manual excluído com suceso!");
+            System.out.println("Manual excluído com sucesso!");
 
         } else {
 
-            System.out.println("Manual já foi excluido ou não foi encontrado.");
+            System.out.println("Manual já foi excluído ou não foi encontrado.");
 
         }
 
