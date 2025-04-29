@@ -92,8 +92,34 @@ public class ProcedimentoSeguranca {
         if (!encontrado) {
 
             System.out.println("Nenhum manual encontrado.");
-            
+
         }
+    }
+
+    public void editarManual() {
+
+        System.out.println("Digite o código do manual para edição: ");
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosProcedimentoSeguranca[indiceCadastro] != null) {
+
+            System.out.println("Novo título: ");
+            titulosProcedimentoSeguranca[indiceCadastro] = leia.nextLine();
+            titulosProcedimentoSeguranca[indiceCadastro] = leia.nextLine();
+
+            System.out.println("Novo conteúdo: ");
+            procedimentoSeguranca[indiceCadastro] = leia.nextLine;
+
+            System.out.println("Manual atualizado com sucesso!"); 
+
+        } else {
+
+            System.out.println("Manual não encontrado.");
+
+        }
+        
     }
 
 }
