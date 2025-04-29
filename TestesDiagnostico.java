@@ -11,13 +11,69 @@ public class TestesDiagnostico {
 
     public TestesDiagnostico(){
 
-        titulosTestesDiagnostico[0] = " ";
+        titulosTestesDiagnostico[0] = "Teste de diagnostico para inversores de frequencia ";
 
-        testeDiagnostico[0] = " ";
+        testeDiagnostico[0] = 
 
-        titulosTestesDiagnostico[1] = " ";
+                "_______________________________________________________________________\n" +
+				"|--        TESTE DE DIAGNÓSTICO PARA INVERSORES DE FREQUÊNCIA       --|\n" +
+				"|_____________________________________________________________________|\n" +
+			    "|-- OBJETIVO DO TESTE:                                              --|\n" +
+				"| - Verificar o funcionamento correto do inversor de frequência WEG.  |\n" +
+				"| - Diagnosticar falhas no sistema, como problemas de controle e      |\n" +
+				"|   falhas nos componentes de potência ou no motor.                   |\n" +
+				"|_____________________________________________________________________|\n" +
+				"|                                                                     |\n" +
+				"| 1. PREPARAÇÃO PARA O TESTE:                                         |\n" +
+				"|                                                                     |\n" +
+				"| - Desligue a alimentação do inversor e aguarde a dissipação da      |\n" +
+				"|   carga residual.                                                   |\n" +
+				"| - Verifique o inversor visualmente para danos físicos.              |\n" +
+				"| - Certifique-se de que o motor está conectado corretamente.         |\n" + 
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n"+
+				"|                                                                     |\n" +                                                             
+				"| 2. TESTE DE ISOLAMENTO:                                             |\n" +
+				"|                                                                     |\n" +
+				"| - Utilize um megômetro para testar o isolamento do motor.           |\n" +
+				"| - Certifique-se de que a resistência de isolamento esteja dentro    |\n" +
+				"|   das especificações.                                               |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n"+
+                "|                                                                     |\n" +
+                "| 3. TESTE DE CONTROLE:                                               |\n" +
+				"|                                                                     |\n" +
+				"| - Conecte-se ao inversor usando o software de diagnóstico WEG.      |\n" +
+				"| - Verifique as entradas e saídas de controle.                       |\n" +
+				"| - Teste as frequências de saída.                                    |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n"+
+                "|                                                                     |\n" +
+				"| 4. DIAGNÓSTICO DE FALHAS DE HARDWARE:                               |\n" +
+				"|                                                                     |\n" +
+				"| - Verifique os módulos de potência e procure por falhas.            |\n" +
+				"| - Verifique os códigos de erro no display do inversor.              |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n"+
+                "|                                                                     |\n" +
+				"| 5. TESTE DE MOTOR:                                                  |\n" +
+				"|                                                                     |\n" +
+				"| - Desconecte o motor e meça a resistência do enrolamento.           |\n" +
+				"| - Compare os valores com as especificações do motor.                |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n"+
+                "|                                                                     |\n" +
+				"| 6. RESULTADO E AÇÃO CORRETIVA:                                      |\n" +
+				"|                                                                     |\n" +
+				"| - Caso falhas sejam identificadas, consulte as instruções de        |\n" +
+				"|   manutenção para ação corretiva.                                   |\n" +
+				"|_____________________________________________________________________|\n" ;
 
-        testeDiagnostico[1] = " ";
+
+      titulosTestesDiagnostico[1] =  " "
+      testeDiagnostico[1] = " "
+
+            
 
     }
     
