@@ -285,6 +285,26 @@ public class ManualCondutaOperacoesSetoriais {
 
 	}
 
+    public void excluirManual() {
+
+		System.out.println("Digite o código do manual para exclusão: ");
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+			int indiceCadastro = codigo;
+
+			if (titulosManuaisCOS[indiceCadastro] != null) {
+
+				titulosManuaisCOS[indiceCadastro] = null;
+				manualCOSConteudo[indiceCadastro] = null;
+
+				System.out.println("Manual exclcuído com sucesso!");
+
+			} else {
+
+				System.out.println("Manual já foi excluido ou não foi encontrado.");
+
+
+}   
 }
-        
-        
+}
