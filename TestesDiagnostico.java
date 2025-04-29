@@ -21,4 +21,26 @@ public class TestesDiagnostico {
 
     }
     
+    public void cadastrarManual() {
+
+        if (contadorCadastro < 4) {
+
+            System.out.println("Titulo do Teste Diagnóstico: ");
+            titulosTestesDiagnostico[contadorCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+
+            System.out.println("Conteúdo do Teste Diagnóstico: ");
+            testeDiagnostico[contadorCadastro] = leia.nextLine();
+            System.out.println(" ");
+
+            contadorCadastro++;
+
+        } else {
+
+            System.out.println("Número máximo de procedimentos atingidos!");
+
+        }
+
+
 }
