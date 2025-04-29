@@ -119,7 +119,29 @@ public class ProcedimentoSeguranca {
             System.out.println("Manual não encontrado.");
 
         }
-        
+
+    }
+
+    public void excluirManual() {
+
+        System.out.println("Digite o código do manual para exclusão: ");
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosProcedimentoSeguranca[indiceCadastro] != null) {
+
+            titulosProcedimentoSeguranca[indiceCadastro] = null;
+            procedimentoSeguranca[indiceCadastro] = null;
+
+            System.out.println("Manual excluído com suceso!");
+
+        } else {
+
+            System.out.println("Manual já foi excluido ou não foi encontrado.");
+
+        }
+
     }
 
 }
