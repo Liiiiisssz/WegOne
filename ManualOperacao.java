@@ -244,32 +244,25 @@ public class ManualOperacao {
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
-		if (codigo >= 2 && codigo <= 3) {
+		int indiceCadastro = codigo;
 
-			int indiceCadastro = codigo - 2;
+		if (titulosManuaisOperacao[indiceCadastro] != null) {
 
-			if (titulosManuaisOperacao[indiceCadastro] != null) {
+			System.out.println("Novo título: ");
+			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
+			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
 
-				System.out.println("Novo título: ");
-				titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
+			System.out.println("Novo conteúdo: ");
+			manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
 
-				System.out.println("Novo conteúdo: ");
-				manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
-
-				System.out.println("Manual atualizado com suceso!");
-
-			} else {
-
-				System.out.println("Manual não encontrado.");
-
-			}
+			System.out.println("Manual atualizado com suceso!");
 
 		} else {
 
-			System.out.println("Manuais fixos no sistemas não podem ser editados, ");
-			System.out.println("só é possível editar manuais que foram cadastrados pelo usuário.");
+			System.out.println("Manual não encontrado.");
 
 		}
+
 	}
 
 	public void excluirManual() {
@@ -278,9 +271,7 @@ public class ManualOperacao {
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
-		if (codigo >= 2 && codigo <= 3) {
-
-			int indiceCadastro = codigo - 2;
+			int indiceCadastro = codigo;
 
 			if (titulosManuaisOperacao[indiceCadastro] != null) {
 
@@ -295,11 +286,5 @@ public class ManualOperacao {
 
 			}
 
-		} else {
-
-			System.out.println("Manuais fixos no sistemas não podem ser excluídos, ");
-			System.out.println("só é possível excluir manuais que foram cadastrados pelo usuário.");
-			
-		}
 	}
 }
