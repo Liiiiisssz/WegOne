@@ -326,7 +326,7 @@ public class TelaInicial {
                 switch(tipoOrientacao){
 
                     case 1: //manualOperacao
-
+                        manualOpCadastro.editarManual();
                         break;
                     
                     case 2: //procedimentoSeguranca
@@ -379,7 +379,7 @@ public class TelaInicial {
                 switch(tipoOrientacao){
 
                     case 1: //manualOperacao
-
+                        manualOpCadastro.excluirManual();
                         break;
                     
                     case 2: //procedimentoSeguranca

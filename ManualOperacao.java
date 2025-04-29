@@ -221,31 +221,14 @@ public class ManualOperacao {
 		
 		boolean encontrado = false;
 
-		if (pesquisaCodigo >= 0 && pesquisaCodigo <= 1) {
+		if (titulosManuaisOperacao[pesquisaCodigo] != null) {
 
-			if (titulosManuaisOperacao[pesquisaCodigo] != null) {
+			System.out.println("Manual encontrado: ");
+			System.out.println(titulosManuaisOperacao[pesquisaCodigo]);
 
-				System.out.println("Manual encontrado: ");
-				System.out.println(titulosManuaisOperacao[pesquisaCodigo]);
+			System.out.println(manualOperacaoConteudo[pesquisaCodigo]);
+			encontrado = true;
 
-				System.out.println(manualOperacaoConteudo[pesquisaCodigo]);
-				encontrado = true;
-
-			}
-
-		} else if (pesquisaCodigo >= 2 && pesquisaCodigo <= 3) {
-
-			int indiceCadastro = pesquisaCodigo - 2;
-
-			if (titulosManuaisOperacao[indiceCadastro] != null) {
-				
-				System.out.println("Manual encontrado: ");
-				System.out.println(titulosManuaisOperacao[indiceCadastro]);
-
-				System.out.println(manualOperacaoConteudo[indiceCadastro]);
-				encontrado = true;
-
-			}
 		}
 
 		if (!encontrado) {
