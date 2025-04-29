@@ -43,4 +43,33 @@ public class ProcedimentoSeguranca {
         }
     }
 
+    public void pesquisarManualTitulo() {
+
+        System.out.println("Digite o título para pesquisa: ");
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+            if (titulosProcedimentoSeguranca[i] != null) {
+
+                if (titulosProcedimentoSeguranca[i].contains(pesquisa)) {
+
+                    System.out.println("Manual encontrado: ");
+                    System.out.println(titulosProcedimentoSeguranca[i]);
+                    System.ut.println(procedimentoSeguranca[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) {
+
+            System.out.println("Nenhu manual econtrado.");
+
+        }
+    }
+
 }
