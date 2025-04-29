@@ -70,10 +70,49 @@ public class TestesDiagnostico {
 				"|_____________________________________________________________________|\n" ;
 
 
-      titulosTestesDiagnostico[1] =  " "
-      testeDiagnostico[1] = " "
+      titulosTestesDiagnostico[1] =  "Manual de teste de diagnostico para motores eletricos "
+      testeDiagnostico[1] = 
 
-            
+                "_______________________________________________________________________\n" +
+				"|--      MANUAL DE TESTE DE DIAGNÓSTICO PARA MOTORES ELÉTRICOS      --|\n" +
+				"|_____________________________________________________________________|\n" +
+				"|-- OBJETIVO DO TESTE:                                              --|\n" +
+				"| - Diagnosticar falhas elétricas e mecânicas em motores WEG.         |\n" +
+				"| - Verificar o desempenho do motor, incluindo a isolação e as        |\n" +
+				"|   condições de operação.                                            |\n" +
+				"|_____________________________________________________________________|\n" +
+				"|                                                                     |\n" +
+				"| 1. PREPARAÇÃO PARA O TESTE:                                         |\n" +
+				"|                                                                     |\n" +
+				"| - Desligue a alimentação do motor e aguarde a dissipação da carga.  |\n" +
+				"| - Verifique as conexões elétricas e mecânicas do motor.             |\n" +
+				"| - Meça a tensão de alimentação do motor.                            |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+				"| 2. TESTE DE ISOLAMENTO:                                             |\n" +
+				"|                                                                     |\n" +
+				"| - Utilize um megômetro para testar o isolamento do motor.           |\n" +
+				"| - Certifique-se de que a resistência de isolamento esteja dentro    |\n" +
+				"|   das especificações.                                               |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+				"| 3. TESTE DE CORRENTE:                                               |\n" +
+				"|                                                                     |\n" +
+				"| - Meça a corrente de operação do motor.                             |\n" +
+                "|   Compare com as especificações.                                    |\n" +
+                "|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 4. TESTE DE RESISTÊNCIA DO ENROLAMENTO:                             |\n" +
+				"|                                                                     |\n" +
+				"| - Meça a resistência dos enrolamentos do motor.                     |\n" +
+				"| - Compare os valores com as especificações do fabricante.           |\n" +
+				"|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+				"| 5. RESULTADO E AÇÃO CORRETIVA:                                      |\n" +
+				"|                                                                     |\n" +
+				"| - Caso falhas sejam identificadas, consulte as recomendações do     |\n" +
+				"|   fabricante para reparos e manutenção.                             |\n" +
+				"|_____________________________________________________________________|\n";
 
     }
     
