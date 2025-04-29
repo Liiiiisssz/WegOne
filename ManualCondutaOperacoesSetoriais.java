@@ -10,8 +10,6 @@ public class ManualCondutaOperacoesSetoriais {
     int contadorCadastro = 2;
 
     public ManualCondutaOperacoesSetoriais() {
-                       
-        titulosManuaisCOS[0] = "Manual de conduta para o setor de montagem";
 
         manualCOSConteudo[0] =
                     "_______________________________________________________________________\n" +
@@ -180,5 +178,8 @@ public class ManualCondutaOperacoesSetoriais {
                 "|---------------------------------------------------------------------|\n";
 
         }
+
+
+    
     }
 
