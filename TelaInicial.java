@@ -9,7 +9,6 @@ public class TelaInicial {
         ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais();
         ManualOperacao manualOperacao = new ManualOperacao();
         ManutencaoReparos manutencaoReparos = new ManutencaoReparos();
-        OperacoesSetoriais operacoesSetoriais = new OperacoesSetoriais();
         ProcedimentoSeguranca procedimentoSeguranca = new ProcedimentoSeguranca();
         TestesDiagnostico testesDiagnostico = new TestesDiagnostico();
 
