@@ -122,4 +122,26 @@ public class TestesDiagnostico {
         }
 
     }
+
+     public void excluirManual() {
+
+        System.out.println("Digite o código do manual para exclusão: ");
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosTestesDiagnostico[indiceCadastro] != null) {
+
+            titulosTestesDiagnostico[indiceCadastro] = null;
+            testeDiagnostico[indiceCadastro] = null;
+
+            System.out.println("Manual excluído com suceso!");
+
+        } else {
+
+            System.out.println("Manual já foi excluido ou não foi encontrado.");
+
+        }
+
+    }
 }
