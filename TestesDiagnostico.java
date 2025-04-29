@@ -120,7 +120,7 @@ public class TestesDiagnostico {
 
         if (contadorCadastro < 4) {
 
-            System.out.println("Titulo do Teste Diagnóstico: ");
+            System.out.println("Título do Teste Diagnóstico: ");
             titulosTestesDiagnostico[contadorCadastro] = leia.nextLine();
 
             System.out.println(" ");
@@ -163,7 +163,7 @@ public class TestesDiagnostico {
 
         if (!encontrado) {
 
-            System.out.println("Nenhum manual econtrado.");
+            System.out.println("Nenhum manual encontrado.");
 
         }
     }
@@ -230,11 +230,11 @@ public class TestesDiagnostico {
             titulosTestesDiagnostico[indiceCadastro] = null;
             testeDiagnostico[indiceCadastro] = null;
 
-            System.out.println("Manual excluído com suceso!");
+            System.out.println("Manual excluído com sucesso!");
 
         } else {
 
-            System.out.println("Manual já foi excluido ou não foi encontrado.");
+            System.out.println("Manual já foi excluído ou não foi encontrado.");
 
         }
 
