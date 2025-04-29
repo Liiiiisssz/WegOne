@@ -98,7 +98,7 @@ public class TelaInicial {
 
                         case 4: //testesDiagnostico
                             System.out.println(" ");
-                            
+                            testesDiagnostico.cadastrarManual();
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
@@ -245,11 +245,11 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
-                
+                                    testesDiagnostico.pesquisarManualTitulo();
                                     break;
                 
                                 case 2:
-                
+                                    testesDiagnostico.pesquisaManualCodigo();
                                     break;
                 
                             }
@@ -334,6 +334,7 @@ public class TelaInicial {
                             break;
 
                         case 4: //testesDiagnostico
+                            testesDiagnostico.editarManual();
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
@@ -389,7 +390,7 @@ public class TelaInicial {
                             break;
 
                         case 4: //testesDiagnostico
-                        
+                            testesDiagnostico.excluirManual();
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais

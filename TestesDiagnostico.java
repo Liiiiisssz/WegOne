@@ -70,9 +70,9 @@ public class TestesDiagnostico {
 				"|_____________________________________________________________________|\n" ;
 
 
-      titulosTestesDiagnostico[1] =  "Manual de teste de diagnostico para motores eletricos "
-      testeDiagnostico[1] = 
+      titulosTestesDiagnostico[1] =  "Manual de teste de diagnostico para motores eletricos ";
 
+      testeDiagnostico[1] = 
                 "_______________________________________________________________________\n" +
 				"|--      MANUAL DE TESTE DE DIAGNÓSTICO PARA MOTORES ELÉTRICOS      --|\n" +
 				"|_____________________________________________________________________|\n" +
