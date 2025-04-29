@@ -21,4 +21,26 @@ public class ProcedimentoSeguranca {
 
     }
     
+    public void cadastrarManual() {
+
+        if (contadorCadastro < 4) {
+
+            System.out.println("Titulo do Procedimento de Segurança: ");
+            titulosProcedimentoSeguranca[contadorCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+
+            System.out.println("Conteúdo do Procedimento de Segurança: ");
+            procedimentoSeguranca[contadorCadastro] = leia.nextLine();
+            System.out.println(" ");
+
+            contadorCadastro++;
+
+        } else {
+
+            System.out.println("Número máximo de procedimentos atingidos!");
+
+        }
+    }
+
 }
