@@ -186,10 +186,31 @@ public class ManutencaoReparos {
                 "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos e transformadores. |\n" +
                 "| - Cumprir com as orientações do fabricante para instalação, operação e manutenção dos transformadores. |\n" +
                 "|---------------------------------------------------------------------|\n";
-;
-
 
     }
+
+    public void cadastrarManual() {
+
+		if (contadorCadastro < 4) {
+
+			System.out.println("Titulo do Manual de Operação: ");
+			titulosManutencaoReparos[contadorCadastro] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println("Conteúdo do Manual de Operação: ");
+			manutencaoReparos[contadorCadastro] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastro++;
+
+		} else {
+
+			System.out.println("Número máximo de manuais atingido!");
+
+		}
+
+	}
    
 }
 
