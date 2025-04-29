@@ -257,6 +257,34 @@ public class ManualCondutaOperacoesSetoriais {
 
 		}
 	}
-            }
+        
+    public void editarManual() {
+
+		System.out.println("Digite o código do manual para edição: ");
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManuaisCOS[indiceCadastro] != null) {
+
+			System.out.println("Novo título: ");
+			titulosManuaisCOS[indiceCadastro] = leia.nextLine();
+			titulosManuaisCOS[indiceCadastro] = leia.nextLine();
+
+			System.out.println("Novo conteúdo: ");
+			manualCOSConteudo[indiceCadastro] = leia.nextLine();
+
+			System.out.println("Manual atualizado com suceso!");
+
+		} else {
+
+			System.out.println("Manual não encontrado.");
+
+		}
+
+	}
+
+}
         
         
