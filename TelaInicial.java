@@ -6,8 +6,13 @@ public class TelaInicial {
 
         Scanner leia = new Scanner(System.in);
 
-        ManualOperacao manualOperacao = new ManualOperacao();
+        ManualConduta manualConduta = new ManualConduta();
         ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais();
+        ManualOperacao manualOperacao = new ManualOperacao();
+        ManutencaoReparos manutencaoReparos = new ManutencaoReparos();
+        OperacoesSetoriais operacoesSetoriais = new OperacoesSetoriais();
+        ProcedimentoSeguranca procedimentoSeguranca = new ProcedimentoSeguranca();
+        TestesDiagnostico testesDiagnostico = new TestesDiagnostico();
 
         int decisaoInicial;
         int tipoOrientacao;
@@ -80,9 +85,7 @@ public class TelaInicial {
 
                     case 1: //manualOperação
                         System.out.println(" ");
-
                         manualOperacao.cadastrarManual();
-
                         break;
 
                     case 2: //procedimentoSeguranca
@@ -349,6 +352,7 @@ public class TelaInicial {
                         break;
 
                 }
+
                 break;
             
             case 4: //excluir
@@ -404,6 +408,7 @@ public class TelaInicial {
                         break;
 
                 }
+
                 break;
 
             case 5: //encerrar
