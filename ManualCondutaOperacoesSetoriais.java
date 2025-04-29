@@ -23,30 +23,5 @@ public class ManualCondutaOperacoesSetoriais {
         manuaisPadrao[1] = " ";
 
     }
-
-    public void cadastrarManual(){
-
-        if (contadorCadastro < 2) {
-
-			System.out.println("Titulo do Manual de Operação: ");
-			titulosManuaisCadastro[contadorCadastro] = leia.nextLine();
-
-			System.out.println(" ");
-
-			System.out.println("Conteúdo do Manual de Operação: ");
-			manuaisCadastro[contadorCadastro] = leia.nextLine();
-			System.out.println(" ");
-
-			contadorCadastro++;
-
-		} else {
-
-			System.out.println("Número máximo de manuais atingido!");
-
-		}
-
-    }
-
-
     
 }
