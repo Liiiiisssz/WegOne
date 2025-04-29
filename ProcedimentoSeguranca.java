@@ -58,7 +58,7 @@ public class ProcedimentoSeguranca {
 
                     System.out.println("Manual encontrado: ");
                     System.out.println(titulosProcedimentoSeguranca[i]);
-                    System.ut.println(procedimentoSeguranca[i]);
+                    System.out.println(procedimentoSeguranca[i]);
                     encontrado = true;
 
                 }
@@ -110,7 +110,7 @@ public class ProcedimentoSeguranca {
             titulosProcedimentoSeguranca[indiceCadastro] = leia.nextLine();
 
             System.out.println("Novo conteúdo: ");
-            procedimentoSeguranca[indiceCadastro] = leia.nextLine;
+            procedimentoSeguranca[indiceCadastro] = leia.nextLine();
 
             System.out.println("Manual atualizado com sucesso!"); 
 
