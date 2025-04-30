@@ -13,9 +13,11 @@ public class ManutencaoReparos {
 
         titulosManutencaoReparos[0] = "Manutencao de motores eletricos";
 
-        manutencaoReparos[0] = "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de manutenção de motores elétricos, garantindo a eficiência e a segurança --|\n" +
+        manutencaoReparos[0] = 
+                "_______________________________________________________________________\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para --|\n" +
+                "|-- o setor de manutenção de motores elétricos, garantindo a        --|\n" +
+                "|-- eficiência e a segurança                                        --|\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. OBJETIVO DO SETOR DE MANUTENÇÃO:                                 |\n" +
@@ -31,7 +33,8 @@ public class ManutencaoReparos {
                 "|   desgaste, vibração excessiva ou aquecimento.                      |\n" +
                 "| - Verificar o alinhamento e balanceamento do motor.                 |\n" +
                 "| - Realizar lubrificação nos pontos recomendados pelo fabricante.    |\n" +
-                "| - Limpar os motores de poeira e resíduos para evitar o superaquecimento. |\n" +
+                "| - Limpar os motores de poeira e resíduos para evitar o              |\n" +
+                "|   superaquecimento.                                                 |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 3. MANUTENÇÃO CORRETIVA:                                            |\n" +
@@ -48,25 +51,28 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Utilizar tecnologias de monitoramento como termografia e análise  |\n" +
                 "|   de vibração para prever falhas no motor antes que ocorram.        |\n" +
-                "| - Implementar sensores de temperatura e vibração para um acompanhamento contínuo. |\n" +
-                "| - Manter registros detalhados dos dados de monitoramento para otimizar a manutenção. |\n" +
+                "| - Implementar sensores de temperatura e vibração para um            |\n" +
+                "|   acompanhamento contínuo.                                          |\n" +
+                "| - Manter registros detalhados dos dados de monitoramento para       |\n" +
+                "|   otimizar a manutenção.                                            |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                        |\n" +
                 "|                                                                     |\n" +
                 "| - Desligar a alimentação elétrica do motor antes de iniciar qualquer|\n" +
                 "|   procedimento de manutenção.                                       |\n" +
-                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes e óculos de segurança.                 |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
+                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados,    |\n" +
+                "|   como luvas isolantes, capacetes e óculos de segurança.            |\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam     |\n" +
+                "|   seguidos para segurança.                                          |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                          |\n" +
                 "|                                                                     |\n" +
                 "| - Registrar todas as atividades de manutenção, incluindo data, tipo |\n" +
                 "|   de serviço e peças substituídas.                                  |\n" +
-                "| - Manter um histórico dos testes realizados, como medições de corrente|\n" +
-                "|   e resistência do motor.                                           |\n" +
+                "| - Manter um histórico dos testes realizados, como medições de       |\n" +
+                "|   corrente e resistência do motor.                                  |\n" +
                 "| - Elaborar relatórios sobre falhas recorrentes e ações corretivas.  |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
@@ -74,7 +80,8 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Promover treinamentos periódicos sobre diagnóstico de falhas e    |\n" +
                 "|   técnicas de reparo em motores elétricos.                          |\n" +
-                "| - Instruir os colaboradores sobre os riscos elétricos e a segurança no trabalho. |\n" +
+                "| - Instruir os colaboradores sobre os riscos elétricos e a           |\n" +
+                "|   segurança no trabalho.                                            |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
@@ -87,16 +94,19 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
                 "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos. |\n" +
-                "| - Cumprir com as recomendações do fabricante para instalação, operação e manutenção dos motores. |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em       |\n" +
+                "|   sistemas elétricos.                                               |\n" +
+                "| - Cumprir com as recomendações do fabricante para instalação,       |\n" +
+                "|   operação e manutenção dos motores.                                |\n" +
                 "|---------------------------------------------------------------------|\n";
 
         titulosManutencaoReparos[1] = "Reparo de transformadores";
 
         manutencaoReparos[1] = 
                 "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de reparo de transformadores, garantindo a eficiência e a segurança --|\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para --|\n" +
+                "|-- o setor de reparo de transformadores, garantindo a eficiência   --|\n" +
+                "|-- e a segurança                                                   --|\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. OBJETIVO DO SETOR DE REPARO:                                     |\n" +
@@ -120,9 +130,10 @@ public class ManutencaoReparos {
                 "| 3. REPARO CORRETIVO:                                                |\n" +
                 "|                                                                     |\n" +
                 "| - Quando ocorrer falha em algum transformador, a equipe de reparo   |\n" +
-                "|   deve diagnosticar a causa da falha e realizar a correção necessária. |\n" +
+                "|   deve diagnosticar a causa da falha e realizar a correção          |\n" +
+                "|   necessária.                                                       |\n" +
                 "| - Substituir componentes danificados, como buchas, transformadores  |\n" +
-                "|   de corrente ou de tensão, e sistemas de resfriamento, se aplicável.|\n" +
+                "|  de corrente ou de tensão, e sistemas de resfriamento, se aplicável.|\n" +
                 "| - Realizar testes após o reparo para assegurar o bom funcionamento  |\n" +
                 "|   do transformador.                                                 |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -142,9 +153,11 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Desligar a alimentação elétrica do transformador antes de iniciar |\n" +
                 "|   qualquer intervenção.                                             |\n" +
-                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes, óculos de segurança e botas de segurança. |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
+                "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados,    |\n" +
+                "|   como luvas isolantes, capacetes, óculos de segurança e botas      |\n" +
+                "|   de segurança.                                                     |\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam     |\n" +
+                "|   seguidos para segurança.                                          |\n" +      
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 6. DOCUMENTAÇÃO E REGISTROS DE REPARO:                              |\n" +
@@ -160,7 +173,8 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Promover treinamentos sobre as técnicas de diagnóstico e reparo   |\n" +
                 "|   em transformadores, incluindo os riscos elétricos envolvidos.     |\n" +
-                "| - Instruir os colaboradores sobre as normas de segurança e o uso adequado de ferramentas. |\n" +
+                "| - Instruir os colaboradores sobre as normas de segurança e o        |\n" +
+                "|   uso adequado de ferramentas.                                      |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
@@ -173,8 +187,10 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
                 "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos e transformadores. |\n" +
-                "| - Cumprir com as orientações do fabricante para instalação, operação e manutenção dos transformadores. |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em       |\n" +
+                "|   sistemas elétricos e transformadores.                             |\n" +
+                "| - Cumprir com as orientações do fabricante para instalação,         |\n" +
+                "|   operação e manutenção dos transformadores.                        |\n" +
                 "|---------------------------------------------------------------------|\n";
 
     }
