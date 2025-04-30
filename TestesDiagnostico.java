@@ -206,6 +206,8 @@ public class TestesDiagnostico {
 
         indiceCadastro = codigo;
 
+        System.out.println(" ");
+
         if (titulosTestesDiagnostico[indiceCadastro] != null) {
 
             System.out.println("Novo título: ");
@@ -215,6 +217,7 @@ public class TestesDiagnostico {
             System.out.println("Novo conteúdo: ");
             testeDiagnostico[indiceCadastro] = leia.nextLine();
 
+            System.out.println(" ");
             System.out.println("Manual atualizado com sucesso!"); 
 
         } else {

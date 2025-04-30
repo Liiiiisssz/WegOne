@@ -270,6 +270,8 @@ public class ManutencaoReparos {
 
 		int indiceCadastro = codigo;
 
+                System.out.println(" ");
+
 		if (titulosManutencaoReparos[indiceCadastro] != null) {
 
 			System.out.println("Novo título: ");
@@ -279,6 +281,7 @@ public class ManutencaoReparos {
 			System.out.println("Novo conteúdo: ");
 			manutencaoReparos[indiceCadastro] = leia.nextLine();
 
+                        System.out.println(" ");
 			System.out.println("Manual atualizado com sucesso!");
 
 		} else {

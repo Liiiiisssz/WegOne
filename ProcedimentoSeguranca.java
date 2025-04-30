@@ -204,6 +204,8 @@ public class ProcedimentoSeguranca {
 
         int indiceCadastro = codigo;
 
+        System.out.println(" ");
+
         if (titulosProcedimentoSeguranca[indiceCadastro] != null) {
 
             System.out.println("Novo título: ");
@@ -213,6 +215,7 @@ public class ProcedimentoSeguranca {
             System.out.println("Novo conteúdo: ");
             procedimentoSeguranca[indiceCadastro] = leia.nextLine();
 
+            System.out.println(" ");
             System.out.println("Manual atualizado com sucesso!"); 
 
         } else {

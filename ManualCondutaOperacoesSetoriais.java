@@ -273,6 +273,8 @@ public class ManualCondutaOperacoesSetoriais {
 
 		int indiceCadastro = codigo;
 
+        System.out.println(" ");
+
 		if (titulosManuaisCOS[indiceCadastro] != null) {
 
 			System.out.println("Novo título: ");
@@ -282,6 +284,7 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println("Novo conteúdo: ");
 			manualCOSConteudo[indiceCadastro] = leia.nextLine();
 
+            System.out.println(" ");
 			System.out.println("Manual atualizado com sucesso!");
 
 		} else {

@@ -251,6 +251,8 @@ public class ManualOperacao {
 
 		int indiceCadastro = codigo;
 
+		System.out.println(" ");
+
 		if (titulosManuaisOperacao[indiceCadastro] != null) {
 
 			System.out.println("Novo título: ");
@@ -260,6 +262,7 @@ public class ManualOperacao {
 			System.out.println("Novo conteúdo: ");
 			manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
 
+			System.out.println(" ");
 			System.out.println("Manual atualizado com sucesso!");
 
 		} else {
