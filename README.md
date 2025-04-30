@@ -13,3 +13,58 @@
 5) Permitir atualizações em tempo real, mantendo as informações sempre atualizadas e acessíveis.
 6) Melhorar a comunicação interna, promovendo disseminação eficaz de informações entre colaboradores e gestores.
 7) Apoiar treinamentos e capacitação, proporcionando fácil acesso ao conteúdo necessário para o aprimoramento.
+
+
+# 🔨 Funcionalidades 
+O sistema WegOne possui diversas funcionalidades integradas, tais como:
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Funcionalidade</th>
+            <th>Ícone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cadastro de Orientações</td>
+            <td>📥</td>
+        </tr>
+        <tr>
+            <td>Pesquisa de Orientações</td>
+            <td>🔎</td>
+        </tr>
+        <tr>
+            <td>Edição de Orientações</td>
+            <td>⚙️</td>
+        </tr>
+        <tr>
+            <td>Exclusão de Orientações</td>
+            <td>📤</td>
+        </tr>
+        <tr>
+            <td>Exibição de Orientações</td>
+            <td>📖</td>
+        </tr>
+        <tr>
+            <td>Menu de Opções</td>
+            <td>📌</td>
+        </tr>
+        <tr>
+            <td>Escolha de Idioma</td>
+            <td>🗂️</td>
+        </tr>
+        <tr>
+            <td>Limitação de Orientações</td>
+            <td>❎</td>
+        </tr>
+        <tr>
+            <td>Validação de Entradas</td>
+            <td>✅</td>
+        </tr>
+        <tr>
+            <td>Interface de Usuário</td>
+            <td>👤</td>
+        </tr>
+    </tbody>
+</table>
