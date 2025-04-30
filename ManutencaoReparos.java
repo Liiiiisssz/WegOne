@@ -289,20 +289,34 @@ public class ManutencaoReparos {
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
-			int indiceCadastro = codigo;
+		int indiceCadastro = codigo;
 
-			if (titulosManutencaoReparos[indiceCadastro] != null) {
+		if (titulosManutencaoReparos[indiceCadastro] != null) {
 
-				titulosManutencaoReparos[indiceCadastro] = null;
-				manutencaoReparos[indiceCadastro] = null;
+                        for (int i = codigo; i < 3; i++) {
 
-				System.out.println("Manual excluído com sucesso!");
+                        titulosManutencaoReparos[i] = titulosManutencaoReparos[i + 1];
+                        manutencaoReparos[i] = manutencaoReparos[i + 1];
 
-			} else {
+                        }
 
-				System.out.println("Manual já foi excluído ou não foi encontrado.");
+                titulosManutencaoReparos[3] = null;
+                manutencaoReparos[3] = null;
 
-			}
+                System.out.println("Manual excluído com sucesso!");
+
+                contadorCadastro--;
+
+                System.out.println(" ");
+                System.out.println("Enter para voltar ao menu:");
+                leia.nextLine();
+                leia.nextLine();
+
+		} else {
+
+			System.out.println("Manual já foi excluído ou não foi encontrado.");
+
+		}
 
 	}
 }
