@@ -85,3 +85,10 @@ Você pode acessar o código fonte do projeto através do link a seguir:<a href=
   <sub>Acessar o código fonte do projeto</sub>
 </a> 
 <p>    </p>
+
+
+
+# 👥 Autores
+
+| [<img loading="lazy" src="https://github.com/user-attachments/assets/b7db5354-4160-40de-8174-59a35df43d8e" width="115"><br><sub>Melissa R. Pereira</sub>](https://github.com/melll1601) | [<img loading="lazy" src="https://github.com/user-attachments/assets/c9277e3f-f8d7-4bdc-b351-fd665145d635" width="115"><br><sub>Elis Jasper</sub>](https://github.com/Liiiiisssz) | [<img loading="lazy" src="https://github.com/user-attachments/assets/f1da660f-f2a2-40bd-a466-bad4d5351e6d" width="115"><br><sub>Gabrielli Vitória Glowatski</sub>](https://github.com/Viihh-77) | [<img loading="lazy" src="https://github.com/user-attachments/assets/9a812c36-e6c9-4009-a76b-20749d0a0a47" width="115"><br><sub>Ana Beatriz O. Ribeiro</sub>](https://github.com/Ana18022008) |
+| :---: | :---: | :---: | :---: |
