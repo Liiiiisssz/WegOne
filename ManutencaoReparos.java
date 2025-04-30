@@ -209,6 +209,8 @@ public class ManutencaoReparos {
 
 		boolean encontrado = false;
 
+                System.out.println(" ");
+
 		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
 
 			if (titulosManutencaoReparos[i] != null) {
@@ -216,6 +218,7 @@ public class ManutencaoReparos {
 				if (titulosManutencaoReparos[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
+                                        System.out.println(" ");
 					System.out.println(titulosManutencaoReparos[i]);
 					System.out.println(manutencaoReparos[i]);
 					encontrado = true;
@@ -240,9 +243,12 @@ public class ManutencaoReparos {
 		
 		boolean encontrado = false;
 
+                System.out.println(" ");
+
 		if (titulosManutencaoReparos[pesquisaCodigo] != null) {
 
 			System.out.println("Manual encontrado: ");
+                        System.out.println(" ");
 			System.out.println(titulosManutencaoReparos[pesquisaCodigo]);
 
 			System.out.println(manutencaoReparos[pesquisaCodigo]);

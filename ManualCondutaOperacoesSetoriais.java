@@ -211,6 +211,8 @@ public class ManualCondutaOperacoesSetoriais {
 
 		boolean encontrado = false;
 
+        System.out.println(" ");
+
 		for (int i = 0; i < titulosManuaisCOS.length; i++) {
 
 			if (titulosManuaisCOS[i] != null) {
@@ -218,6 +220,7 @@ public class ManualCondutaOperacoesSetoriais {
 				if (titulosManuaisCOS[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
+                    System.out.println(" ");
 					System.out.println(titulosManuaisCOS[i]);
 					System.out.println(manualCOSConteudo[i]);
 					encontrado = true;
@@ -242,9 +245,12 @@ public class ManualCondutaOperacoesSetoriais {
 		
 		boolean encontrado = false;
 
+        System.out.println(" ");
+
 		if (titulosManuaisCOS[pesquisaCodigo] != null) {
 
 			System.out.println("Manual encontrado: ");
+            System.out.println(" ");
 			System.out.println(titulosManuaisCOS[pesquisaCodigo]);
 
 			System.out.println(manualCOSConteudo[pesquisaCodigo]);

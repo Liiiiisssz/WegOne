@@ -145,6 +145,8 @@ public class ProcedimentoSeguranca {
 
         boolean encontrado = false;
 
+        System.out.println(" ");
+
         for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
 
             if (titulosProcedimentoSeguranca[i] != null) {
@@ -152,6 +154,7 @@ public class ProcedimentoSeguranca {
                 if (titulosProcedimentoSeguranca[i].contains(pesquisa)) {
 
                     System.out.println("Manual encontrado: ");
+                    System.out.println(" ");
                     System.out.println(titulosProcedimentoSeguranca[i]);
                     System.out.println(procedimentoSeguranca[i]);
                     encontrado = true;
@@ -174,9 +177,12 @@ public class ProcedimentoSeguranca {
 
         boolean encontrado = false;
 
+        System.out.println(" ");
+
         if (titulosProcedimentoSeguranca[pesquisaCodigo] != null) {
 
             System.out.println("Manual encontrado: ");
+            System.out.println(" ");
             System.out.println(titulosProcedimentoSeguranca[pesquisaCodigo]);
 
             System.out.println(procedimentoSeguranca[pesquisaCodigo]);

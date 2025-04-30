@@ -161,10 +161,12 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
+                                    System.out.println(" ");
                                     manualOperacao.pesquisaManualTitulo();
                                     break;
                 
                                 case 2:
+                                    System.out.println(" ");
                                     manualOperacao.pesquisaManualCodigo();
                                     break;
                 
@@ -189,10 +191,12 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
+                                    System.out.println(" ");
                                     procedimentoSeguranca.pesquisarManualTitulo();
                                     break;
                 
                                 case 2:
+                                    System.out.println(" ");
                                     procedimentoSeguranca.pesquisaManualCodigo();
                                     break;
                 
@@ -217,10 +221,12 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
+                                    System.out.println(" ");
                                     manutencaoReparos.pesquisaManualTitulo();
                                     break;
                 
                                 case 2:
+                                    System.out.println(" ");
                                     manutencaoReparos.pesquisaManualCodigo();
                                     break;
                 
@@ -245,10 +251,12 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
+                                    System.out.println(" ");
                                     testesDiagnostico.pesquisarManualTitulo();
                                     break;
                 
                                 case 2:
+                                    System.out.println(" ");
                                     testesDiagnostico.pesquisaManualCodigo();
                                     break;
                 
@@ -274,10 +282,12 @@ public class TelaInicial {
                             switch(tipoPesquisa){
                 
                                 case 1:
+                                    System.out.println(" ");
                                     manualCondutaOpSet.pesquisaManualTitulo();
                                     break;
                 
                                 case 2:
+                                    System.out.println(" ");
                                     manualCondutaOpSet.pesquisaManualCodigo();
                                     break;
                 
@@ -322,22 +332,27 @@ public class TelaInicial {
                     switch(tipoOrientacao){
 
                         case 1: //manualOperacao
+                            System.out.println(" ");
                             manualOperacao.editarManual();
                             break;
                         
                         case 2: //procedimentoSeguranca
+                            System.out.println(" ");
                             procedimentoSeguranca.editarManual();
                             break;
 
                         case 3: //manutencaoReparos
+                            System.out.println(" ");
                             manutencaoReparos.editarManual();
                             break;
 
                         case 4: //testesDiagnostico
+                            System.out.println(" ");
                             testesDiagnostico.editarManual();
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
+                            System.out.println(" ");
                             manualCondutaOpSet.editarManual();
                             break;
                         
@@ -378,22 +393,27 @@ public class TelaInicial {
                     switch(tipoOrientacao){
 
                         case 1: //manualOperacao
+                            System.out.println(" ");
                             manualOperacao.excluirManual();
                             break;
                         
                         case 2: //procedimentoSeguranca
+                            System.out.println(" ");
                             procedimentoSeguranca.excluirManual();
                             break;
 
                         case 3: //manutencaoReparos
+                            System.out.println(" ");
                             manutencaoReparos.excluirManual();
                             break;
 
                         case 4: //testesDiagnostico
+                            System.out.println(" ");
                             testesDiagnostico.excluirManual();
                             break;
 
                         case 5: //manualCondutaOperacoesSetoriais
+                            System.out.println(" ");
                             manualCondutaOpSet.excluirManual();
                             break;
 

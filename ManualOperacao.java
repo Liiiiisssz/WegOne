@@ -189,6 +189,8 @@ public class ManualOperacao {
 
 		boolean encontrado = false;
 
+		System.out.println(" ");
+
 		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
 
 			if (titulosManuaisOperacao[i] != null) {
@@ -196,6 +198,7 @@ public class ManualOperacao {
 				if (titulosManuaisOperacao[i].contains(pesquisa)) {
 
 					System.out.println("Manual encontrado: ");
+					System.out.println(" ");
 					System.out.println(titulosManuaisOperacao[i]);
 					System.out.println(manualOperacaoConteudo[i]);
 					encontrado = true;
@@ -220,9 +223,12 @@ public class ManualOperacao {
 		
 		boolean encontrado = false;
 
+		System.out.println(" ");
+
 		if (titulosManuaisOperacao[pesquisaCodigo] != null) {
 
 			System.out.println("Manual encontrado: ");
+			System.out.println(" ");
 			System.out.println(titulosManuaisOperacao[pesquisaCodigo]);
 
 			System.out.println(manualOperacaoConteudo[pesquisaCodigo]);

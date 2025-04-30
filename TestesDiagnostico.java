@@ -147,6 +147,8 @@ public class TestesDiagnostico {
 
         boolean encontrado = false;
 
+        System.out.println(" ");
+
         for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
 
             if (titulosTestesDiagnostico[i] != null) {
@@ -154,6 +156,7 @@ public class TestesDiagnostico {
                 if (titulosTestesDiagnostico[i].contains(pesquisa)) {
 
                     System.out.println("Manual encontrado: ");
+                    System.out.println(" ");
                     System.out.println(titulosTestesDiagnostico[i]);
                     System.out.println(testeDiagnostico[i]);
                     encontrado = true;
@@ -176,9 +179,12 @@ public class TestesDiagnostico {
 
         boolean encontrado = false;
 
+        System.out.println(" ");
+
         if (titulosTestesDiagnostico[pesquisaCodigo] != null) {
 
             System.out.println("Manual encontrado: ");
+            System.out.println(" ");
             System.out.println(titulosTestesDiagnostico[pesquisaCodigo]);
 
             System.out.println(testeDiagnostico[pesquisaCodigo]);
