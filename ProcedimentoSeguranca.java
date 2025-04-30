@@ -226,10 +226,22 @@ public class ProcedimentoSeguranca {
 
         if (titulosProcedimentoSeguranca[indiceCadastro] != null) {
 
-            titulosProcedimentoSeguranca[indiceCadastro] = null;
-            procedimentoSeguranca[indiceCadastro] = null;
+            for (int i = codigo; i < 3; i++) {
+                titulosProcedimentoSeguranca[i] = titulosProcedimentoSeguranca[i + 1];
+                procedimentoSeguranca[i] = procedimentoSeguranca[i + 1];
+            }
+
+            titulosProcedimentoSeguranca[3] = null;
+            procedimentoSeguranca[3] = null;
 
             System.out.println("Manual excluído com sucesso!");
+
+            contadorCadastro--;
+
+            System.out.println(" ");
+            System.out.println("Enter para voltar ao menu:");
+            leia.nextLine();
+            leia.nextLine();
 
         } else {
 

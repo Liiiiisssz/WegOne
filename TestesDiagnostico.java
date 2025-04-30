@@ -8,6 +8,7 @@ public class TestesDiagnostico {
 	String[] titulosTestesDiagnostico = new String[4];
 
     int contadorCadastro = 2;
+    int indiceCadastro;
 
     public TestesDiagnostico(){
 
@@ -122,7 +123,7 @@ public class TestesDiagnostico {
 
             System.out.println("Título do Teste Diagnóstico: ");
             titulosTestesDiagnostico[contadorCadastro] = leia.nextLine();
-
+           
             System.out.println(" ");
 
             System.out.println("Conteúdo do Teste Diagnóstico: ");
@@ -197,7 +198,7 @@ public class TestesDiagnostico {
         System.out.println("Digite o código do manual para edição: ");
         int codigo = leia.nextInt();
 
-        int indiceCadastro = codigo;
+        indiceCadastro = codigo;
 
         if (titulosTestesDiagnostico[indiceCadastro] != null) {
 
@@ -223,14 +224,26 @@ public class TestesDiagnostico {
         System.out.println("Digite o código do manual para exclusão: ");
         int codigo = leia.nextInt();
 
-        int indiceCadastro = codigo;
+        indiceCadastro = codigo;
 
         if (titulosTestesDiagnostico[indiceCadastro] != null) {
 
-            titulosTestesDiagnostico[indiceCadastro] = null;
-            testeDiagnostico[indiceCadastro] = null;
+            for (int i = codigo; i < 3; i++) {
+                titulosTestesDiagnostico[i] = titulosTestesDiagnostico[i + 1];
+                testeDiagnostico[i] = testeDiagnostico[i + 1];
+            }
+
+            titulosTestesDiagnostico[3] = null;
+            testeDiagnostico[3] = null;
 
             System.out.println("Manual excluído com sucesso!");
+
+            contadorCadastro--;
+
+            System.out.println(" ");
+            System.out.println("Enter para voltar ao menu:");
+            leia.nextLine();
+            leia.nextLine();
 
         } else {
 

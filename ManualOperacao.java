@@ -274,10 +274,22 @@ public class ManualOperacao {
 
 			if (titulosManuaisOperacao[indiceCadastro] != null) {
 
-				titulosManuaisOperacao[indiceCadastro] = null;
-				manualOperacaoConteudo[indiceCadastro] = null;
+				for (int i = codigo; i < 3; i++) {
+                titulosManuaisOperacao[i] = titulosManuaisOperacao[i + 1];
+                manualOperacaoConteudo[i] = manualOperacaoConteudo[i + 1];
+            }
 
-				System.out.println("Manual excluído com sucesso!");
+            titulosManuaisOperacao[3] = null;
+            manualOperacaoConteudo[3] = null;
+
+            System.out.println("Manual excluído com sucesso!");
+
+            contadorCadastro--;
+
+            System.out.println(" ");
+            System.out.println("Enter para voltar ao menu:");
+            leia.nextLine();
+            leia.nextLine();
 
 			} else {
 
