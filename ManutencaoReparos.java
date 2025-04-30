@@ -102,7 +102,7 @@ public class ManutencaoReparos {
 
         titulosManutencaoReparos[1] = "Reparo de transformadores";
 
-        manutencaoReparos[1] = 
+        manutencaoReparos[1] =   
                 "_______________________________________________________________________\n" +
                 "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para --|\n" +
                 "|-- o setor de reparo de transformadores, garantindo a eficiência   --|\n" +
