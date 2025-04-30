@@ -78,3 +78,10 @@ O sistema WegOne possui diversas funcionalidades integradas, tais como:
   <img loading="lazy" src="https://img.shields.io/badge/%20HTML-FFA500?style=for-the-badge&logo=" style="width: 105px;"/>
   <img loading="lazy" src="https://img.shields.io/badge/%20CSS-1E90FF?style=for-the-badge&logo=" style="width: 85px;"/>
 </div>
+
+# 📁 Acesso ao projeto  
+   
+Você pode acessar o código fonte do projeto através do link a seguir:<a href="https://github.com/Liiiiisssz/WegOne.git" style="font-size: 23px; margin-top: 10px; padding: 10px; text-decoration: none; color: rgb(3, 0, 46); display: block;">
+  <sub>Acessar o código fonte do projeto</sub>
+</a> 
+<p>    </p>
