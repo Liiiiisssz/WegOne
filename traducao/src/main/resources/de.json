@@ -1,0 +1,48 @@
+{
+    "welcome": "    -- Willkommen im System --\n    --WEG Anleitungserfassung!--",
+
+    "menu1": "  |-- 1.  Anleitung registrieren         --|",
+    "menu2": "  |-- 2.  Anleitung suchen               --|",
+    "menu3": "  |-- 3.  Anleitung bearbeiten           --|",
+    "menu4": "  |-- 4.  Anleitung löschen               |",
+    "menu5": "  |-- 5. X PROGRAMM BEENDEN X           --|",
+
+
+    "realizar": "  --Was möchten Sie tun?--",
+    "resposta": "  --Antwort:  ",
+    "return": "|-- 6.          ZURÜCK ZUM START                --|",
+    "invalid": "--  X Ungültige Option! X  --",
+    "encerrar": "--  System wird beendet  --",
+
+
+    "pesqTitulo": "|-- 1. Titel                          --|",
+    "pesqCodigo": "|-- 2. Code                           --|",
+
+
+    "manualOp": "|--  1. Bedienungsanleitung                      --|",
+    "procedSeg": "|--  2. Sicherheitsverfahren                     --|",
+    "manutenRep": "|--  3. Wartung und Reparaturen                  --|",
+    "testDiag": "|--  4. Tests und Diagnosen                      --|",
+    "manualCOS": "|-- 5. Verhaltens- und Bereichsrichtlinien       --|",
+
+
+    "cadastro": "|--           ANLEITUNG REGISTRIEREN            --|",
+    "pesquisa": "|--           ANLEITUNG SUCHEN                  --|",
+    "edicao": "|--              ANLEITUNG BEARBEITEN           --|",
+    "exclusao": "|--             ANLEITUNG LÖSCHEN               --|",
+
+
+    "chooseCad": " -- Wählen Sie die Art der Anleitung zum Registrieren --",
+    "choosePesq": " -- Wählen Sie die Art der Anleitung zum Suchen --",
+    "chooseTipoPesq": " -- Geben Sie die Art der Suche ein --",
+    "chooseEdit": " -- Wählen Sie die Art der Anleitung zum Bearbeiten --",
+    "chooseExcluir": " -- Wählen Sie die Art der Anleitung zum Löschen --",
+
+
+    "pesqManualOp": "|--  BEDIENUNGSANLEITUNG SUCHEN          --|",
+    "pesqProcedSeg": "|--  SICHERHEITSVERFAHREN SUCHEN         --|",
+    "pesqManutenRep": "|--  WARTUNG UND REPARATUREN SUCHEN      --|",
+    "pesqTestDiag": "|--  TESTS UND DIAGNOSEN SUCHEN          --|",
+    "pesqManualCOS1": "|--  VERHALTENSRICHTLINIEN SUCHEN        --|",
+    "pesqManualCOS2": "|--  UND BEREICHSRICHTLINIEN             --|"
+}
