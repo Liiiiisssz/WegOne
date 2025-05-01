@@ -1,0 +1,48 @@
+{
+    "welcome": "    -- Welcome to the system of --\n    --WEG Guidance Registration!--",
+
+    "menu1": "  |-- 1.  Register Guidance         --|",
+    "menu2": "  |-- 2.  Search Guidance           --|",
+    "menu3": "  |-- 3.  Edit Guidance             --|",
+    "menu4": "  |-- 4.  Delete Guidance             |",
+    "menu5": "  |-- 5. X EXIT PROGRAM X           --|",
+
+
+    "realizar": "  --What would you like to do?--",
+    "resposta": "  --Answer:  ",
+    "return": "|-- 6.          RETURN TO START              --|",
+    "invalid": "--  X Invalid option! X  --",
+    "encerrar": "--  Shutting Down System  --",
+
+
+    "pesqTitulo": "|-- 1. Title                          --|",
+    "pesqCodigo": "|-- 2. Code                           --|",
+
+
+    "manualOp": "|--  1. Operation Manual                          --|",
+    "procedSeg": "|--  2. Safety Procedure                          --|",
+    "manutenRep": "|--  3. Maintenance and Repairs                   --|",
+    "testDiag": "|--  4. Testing and Diagnostics                   --|",
+    "manualCOS": "|-- 5. Code of Conduct and Sectoral Operations    --|",
+
+
+    "cadastro": "|--           REGISTER GUIDANCE                  --|",
+    "pesquisa": "|--           SEARCH GUIDANCE                    --|",
+    "edicao": "|--              EDIT GUIDANCE                   --|",
+    "exclusao": "|--             DELETE GUIDANCE                  --|",
+
+
+    "chooseCad": " -- Choose the type of guidance to register --",
+    "choosePesq": " -- Choose the type of guidance to search --",
+    "chooseTipoPesq": " -- Enter the type of search --",
+    "chooseEdit": " -- Choose the type of guidance to edit --",
+    "chooseExcluir": " -- Choose the type of guidance to delete --",
+
+
+    "pesqManualOp": "|--  SEARCH OPERATION MANUAL              --|",
+    "pesqProcedSeg": "|--  SEARCH SAFETY PROCEDURE              --|",
+    "pesqManutenRep": "|--  SEARCH MAINTENANCE AND REPAIRS       --|",
+    "pesqTestDiag": "|--  SEARCH TESTING AND DIAGNOSTICS       --|",
+    "pesqManualCOS1": "|--  SEARCH CODE OF CONDUCT               --|",
+    "pesqManualCOS2": "|--  AND SECTORAL OPERATIONS              --|"
+}
