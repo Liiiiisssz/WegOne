@@ -12,9 +12,30 @@ public class TelaInicial {
         ProcedimentoSeguranca procedimentoSeguranca = new ProcedimentoSeguranca();
         TestesDiagnostico testesDiagnostico = new TestesDiagnostico();
 
+        int idioma;
         int decisaoInicial;
         int tipoOrientacao;
         int tipoPesquisa;
+
+        System.out.println("Selecione o idioma:");
+        System.out.println("1. pt - BR");
+        System.out.println("2. en - US");
+        System.out.println("3. de - DE");
+        idioma = leia.nextInt();
+
+        switch (idioma) {
+            
+            case 1:
+                
+                break;
+
+            case 2:
+                break;
+
+            case 3:
+                break;
+
+        }
 
         do {
 
