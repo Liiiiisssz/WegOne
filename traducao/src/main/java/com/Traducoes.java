@@ -1,3 +1,5 @@
+package com;
+
 public class Traducoes {
     
     String welcome;
