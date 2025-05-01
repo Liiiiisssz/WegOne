@@ -64,7 +64,7 @@ public class TelaInicial {
             System.out.println("  |----------------------------------|");
             System.out.println("  |-- 4.  Excluir Orientação         |");
             System.out.println("  |----------------------------------|");
-            System.out.println("  |-- 5. ✕ ENCERRAR PROGRAMA ✕    --|");
+            System.out.println("  |-- 5. X ENCERRAR PROGRAMA X     --|");
             System.out.println("  |__________________________________|");
 
             System.out.println(" ");
@@ -92,7 +92,7 @@ public class TelaInicial {
                     System.out.println("|-------------------------------------------------|");
                     System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
+                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
                     System.out.println("|_________________________________________________|");
 
                     System.out.println(" ");
@@ -135,7 +135,7 @@ public class TelaInicial {
 
                         default:
                             System.out.println(" ");
-                            System.out.println("--  ✕ Opção inválida! ✕  --");
+                            System.out.println("--  X Opção inválida! X  --");
                             break;
                         }
 
@@ -322,7 +322,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
+                            System.out.println("-- X Opção inválida! X --");
                             break;
 
                     }
@@ -343,7 +343,7 @@ public class TelaInicial {
                     System.out.println("|-------------------------------------------------|");
                     System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
+                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
@@ -383,7 +383,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
+                            System.out.println("-- X Opção inválida! X --");
                             break;
 
                     }
@@ -404,7 +404,7 @@ public class TelaInicial {
                     System.out.println("|-------------------------------------------------|");
                     System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
+                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
@@ -444,7 +444,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
+                            System.out.println("-- X Opção inválida! X --");
                             break;
 
                     }
@@ -456,7 +456,7 @@ public class TelaInicial {
                     break;
 
                 default: //Nenhuma das Opções
-                    System.out.println("-- ✕  Opção Inválida ✕  --");
+                    System.out.println("-- X  Opção Inválida X  --");
                     break;
 
                 }
