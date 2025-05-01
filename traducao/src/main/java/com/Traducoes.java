@@ -24,7 +24,6 @@ public class Traducoes {
         String content = new String(is.readAllBytes(), StandardCharsets.UTF_8);
         traducao = new JSONObject(content);
 
-
     }
 
     public String get(String texto){

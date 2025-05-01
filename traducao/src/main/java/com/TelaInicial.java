@@ -7,7 +7,7 @@ public class TelaInicial {
     public static void main(String[] args) {
 
         Scanner leia = new Scanner(System.in);
-        Traducoes tradutor = null;
+        Traducoes tradutor;
 
         String arquivo;
 
@@ -52,78 +52,66 @@ public class TelaInicial {
 
             tradutor = new Traducoes(arquivo);
 
-            System.out.println(tradutor.get("welcome"));
+            do{
+                System.out.println(" ");
 
-        } catch (IOException e) {
+                System.out.println("                ▄█▄▄▄█▄       ");
+                System.out.println("         ▄▀    ▄|─▄─▄─|▄    ▀▄");
+                System.out.println("         █▄▄█  ▀|─▀─▀─|▀  █▄▄█");
+                System.out.println("          ||    ▀▀███▀▀    || ");
+                System.out.println("         ████ ▄█████████▄ ████");
 
-            System.out.println("Erro ao carregar tradução!");
+                System.out.println(" ");
 
-        }
+                System.out.println(tradutor.get("welcome"));
 
-        do {
+                System.out.println(" ");
+                System.out.println("  ____________________________________");
+                System.out.println(tradutor.get("menu1"));
+                System.out.println("  |----------------------------------|");
+                System.out.println(tradutor.get("menu2"));
+                System.out.println("  |----------------------------------|");
+                System.out.println(tradutor.get("menu3"));
+                System.out.println("  |----------------------------------|");
+                System.out.println(tradutor.get("menu4"));
+                System.out.println("  |----------------------------------|");
+                System.out.println(tradutor.get("menu5"));
+                System.out.println("  |__________________________________|");
 
-            System.out.println(" ");
+                System.out.println(" ");
 
-            System.out.println("                ▄█▄▄▄█▄       ");
-            System.out.println("         ▄▀    ▄|─▄─▄─|▄    ▀▄");
-            System.out.println("         █▄▄█  ▀|─▀─▀─|▀  █▄▄█");
-            System.out.println("          ||    ▀▀███▀▀    || ");
-            System.out.println("         ████ ▄█████████▄ ████");
+                System.out.println(tradutor.get("realizar"));
+                System.out.println(tradutor.get("resposta"));
+                decisaoInicial = leia.nextInt();
 
-            System.out.println(" ");
+                System.out.println(" ");
 
-            System.out.println("    -- Bem vindo(a) ao Sistema de --");
-            System.out.println("    --Cadastro de Orientações WEG!--");
+                switch (decisaoInicial) {
 
-            System.out.println(" ");
+                    case 1:
 
-            System.out.println("  ____________________________________");
-            System.out.println("  |-- 1.  Cadastrar Orientação     --|");
-            System.out.println("  |----------------------------------|");
-            System.out.println("  |-- 2.  Pesquisar Orientação     --|");
-            System.out.println("  |----------------------------------|");
-            System.out.println("  |-- 3.  Editar Orientação        --|");
-            System.out.println("  |----------------------------------|");
-            System.out.println("  |-- 4.  Excluir Orientação         |");
-            System.out.println("  |----------------------------------|");
-            System.out.println("  |-- 5. X ENCERRAR PROGRAMA X     --|");
-            System.out.println("  |__________________________________|");
+                        System.out.println("___________________________________________________");
+                        System.out.println(tradutor.get("cadastro"));
+                        System.out.println("|-------------------------------------------------|");
+                        System.out.println(tradutor.get("manualOp"));
+                        System.out.println("|-------------------------------------------------|");
+                        System.out.println(tradutor.get("procedSeg"));
+                        System.out.println("|-------------------------------------------------|");
+                        System.out.println(tradutor.get("manutenRep"));
+                        System.out.println("|-------------------------------------------------|");
+                        System.out.println(tradutor.get("testDiag"));
+                        System.out.println("|-------------------------------------------------|");
+                        System.out.println(tradutor.get("manualCOS"));
+                        System.out.println("|_________________________________________________|");
+                        System.out.println(tradutor.get("return"));
+                        System.out.println("|_________________________________________________|");
+                        System.out.println(" ");
 
-            System.out.println(" ");
+                        System.out.println(tradutor.get("chooseCad"));
+                        System.out.println(tradutor.get("resposta"));
+                        tipoOrientacao = leia.nextInt();
 
-            System.out.println("  --O que deseja realizar?-- ");
-            System.out.print("  --Resposta: ");
-            decisaoInicial = leia.nextInt();
-
-            System.out.println(" ");
-
-            switch (decisaoInicial) {
-
-                case 1:
-
-                    System.out.println("___________________________________________________");
-                    System.out.println("|--           CADASTRAR ORIENTAÇÃO              --|");
-                    System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  1. Manual de Operação                      --|");
-                    System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  2. Procedimento de Segurança               --|");
-                    System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  3. Manutenção e Reparos                    --|");
-                    System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  4. Testes e Diagnóstico                    --|");
-                    System.out.println("|-------------------------------------------------|");
-                    System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
-                    System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
-                    System.out.println("|_________________________________________________|");
-
-                    System.out.println(" ");
-
-                    System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
-                    System.out.print(" --Resposta: ");
-                    tipoOrientacao = leia.nextInt();
-
-                    switch (tipoOrientacao) {
+                        switch (tipoOrientacao) {
 
                         case 1: //manualOperação
                             System.out.println(" ");
@@ -157,49 +145,48 @@ public class TelaInicial {
 
                         default:
                             System.out.println(" ");
-                            System.out.println("--  X Opção inválida! X  --");
+                            System.out.println(tradutor.get("invalid"));
                             break;
                         }
 
                 break;
-        
 
                 case 2: //pesquisa
                     System.out.println("___________________________________________________");
-                    System.out.println("|--           PESQUISAR ORIENTAÇÃO              --|");
+                    System.out.println(tradutor.get("pesquisa"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  1. Manual de Operação                      --|");
+                    System.out.println(tradutor.get("manualOp"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  2. Procedimento de Segurança               --|");
+                    System.out.println(tradutor.get("procedSeg"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  3. Manutenção e Reparos                    --|");
+                    System.out.println(tradutor.get("manutenRep"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  4. Testes e Diagnóstico                    --|");
+                    System.out.println(tradutor.get("testDiag"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                    System.out.println(tradutor.get("manualCOS"));
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO ⌂              --|");
+                    System.out.println(tradutor.get("return"));
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser pesquisado -- ");
-                    System.out.print(" --Resposta: ");
+                    System.out.println(tradutor.get("choosePesq"));
+                    System.out.println(tradutor.get("resposta"));
                     tipoOrientacao = leia.nextInt();
 
                     switch(tipoOrientacao){
                         
                         case 1: //manualOperacao
                             System.out.println("_________________________________________");
-                            System.out.println("|--  PESQUISAR MANUAL DE OPERAÇÃO     --|");
+                            System.out.println(tradutor.get("pesqManualOp"));
                             System.out.println("|---------------------------------------|");
-                            System.out.println("|-- 1. Título                         --|");
+                            System.out.println(tradutor.get("pesqTitulo"));
                             System.out.println("|---------------------------------------|");
-                            System.out.println("|-- 2. Código                         --|");
+                            System.out.println(tradutor.get("pesqCodigo"));
                             System.out.println("|_______________________________________|");
                         
                             System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
+                            System.out.println(tradutor.get("chooseTipoPesq"));
+                            System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
                             switch(tipoPesquisa){
@@ -220,16 +207,16 @@ public class TelaInicial {
 
                         case 2: //procedimentoSeguranca
                             System.out.println("____________________________________________");
-                            System.out.println("|--  PESQUISAR PROCEDIMENTO DE SEGURANÇA --|");
+                            System.out.println(tradutor.get("pesqProcedSeg"));
                             System.out.println("|------------------------------------------|");
-                            System.out.println("|-- 1. Título                            --|");
-                            System.out.println("|------------------------------------------|");
-                            System.out.println("|-- 2. Código                            --|");
+                            System.out.println(tradutor.get("pesqTitulo"));
+                            System.out.println("|---------------------------------------|");
+                            System.out.println(tradutor.get("pesqCodigo"));
                             System.out.println("|__________________________________________|");
                         
                             System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
+                            System.out.println(tradutor.get("chooseTipoPesq"));
+                            System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
                             switch(tipoPesquisa){
@@ -250,16 +237,16 @@ public class TelaInicial {
 
                         case 3: //manutencaoReparos
                             System.out.println("_______________________________________");
-                            System.out.println("|--  PESQUISAR MANUTENÇÃO E REPAROS --|");
+                            System.out.println(tradutor.get("pesqManutenRep"));
                             System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 1. Título                       --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 2. Código                       --|");
+                            System.out.println(tradutor.get("pesqTitulo"));
+                            System.out.println("|---------------------------------------|");
+                            System.out.println(tradutor.get("pesqCodigo"));
                             System.out.println("|_____________________________________|");
                         
                             System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
+                            System.out.println(tradutor.get("chooseTipoPesq"));
+                            System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
                             switch(tipoPesquisa){
@@ -280,16 +267,16 @@ public class TelaInicial {
 
                         case 4: //testesDiagnostico
                             System.out.println("_______________________________________");
-                            System.out.println("|--  PESQUISAR TESTES E DIAGÓSTICOS --|");
+                            System.out.println(tradutor.get("pesqTestDiag"));
                             System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 1. Título                       --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 2. Código                       --|");
+                            System.out.println(tradutor.get("pesqTitulo"));
+                            System.out.println("|---------------------------------------|");
+                            System.out.println(tradutor.get("pesqCodigo"));
                             System.out.println("|_____________________________________|");
                         
                             System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
+                            System.out.println(tradutor.get("chooseTipoPesq"));
+                            System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
                             switch(tipoPesquisa){
@@ -310,17 +297,17 @@ public class TelaInicial {
 
                         case 5: //manualCondutaOperacoesSetoriais
                             System.out.println("____________________________________");
-                            System.out.println("|--  PESQUISAR MANUAL DE CONDUTA --|");
-                            System.out.println("|--  E OPERAÇÕES SETORIAIS       --|");
+                            System.out.println(tradutor.get("pesqManualCOS1"));
+                            System.out.println(tradutor.get("pesqManualCOS2"));
                             System.out.println("|----------------------------------|");
-                            System.out.println("|-- 1. Título                    --|");
-                            System.out.println("|----------------------------------|");
-                            System.out.println("|-- 2. Código                    --|");
+                            System.out.println(tradutor.get("pesqTitulo"));
+                            System.out.println("|---------------------------------------|");
+                            System.out.println(tradutor.get("pesqCodigo"));
                             System.out.println("|__________________________________|");
                         
                             System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
+                            System.out.println(tradutor.get("chooseTipoPesq"));
+                            System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
                             switch(tipoPesquisa){
@@ -344,7 +331,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- X Opção inválida! X --");
+                            System.out.println(tradutor.get("invalid"));
                             break;
 
                     }
@@ -353,23 +340,23 @@ public class TelaInicial {
                         
                 case 3: //editar
                     System.out.println("___________________________________________________");
-                    System.out.println("|--              EDITAR ORIENTAÇÃO              --|");
+                    System.out.println(tradutor.get("edicao"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  1. Manual de Operação                      --|");
+                    System.out.println(tradutor.get("manualOp"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  2. Procedimento de Segurança               --|");
+                    System.out.println(tradutor.get("procedSeg"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  3. Manutenção e Reparos                    --|");
+                    System.out.println(tradutor.get("manutenRep"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  4. Testes e Diagnóstico                    --|");
+                    System.out.println(tradutor.get("testDiag"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                    System.out.println(tradutor.get("manualCOS"));
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
+                    System.out.println(tradutor.get("return"));
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser editado -- ");
+                    System.out.println(tradutor.get("chooseEdit"));
                     System.out.print(" --Resposta: ");
                     tipoOrientacao = leia.nextInt();
 
@@ -405,7 +392,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- X Opção inválida! X --");
+                            System.out.println(tradutor.get("invalid"));
                             break;
 
                     }
@@ -414,24 +401,24 @@ public class TelaInicial {
                 
                 case 4: //excluir
                     System.out.println("___________________________________________________");
-                    System.out.println("|--             EXCLUIR ORIENTAÇÃO              --|");
+                    System.out.println(tradutor.get("exclusao"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  1. Manual de Operação                      --|");
+                    System.out.println(tradutor.get("manualOp"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  2. Procedimento de Segurança               --|");
+                    System.out.println(tradutor.get("procedSeg"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  3. Manutenção e Reparos                    --|");
+                    System.out.println(tradutor.get("manutenRep"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|--  4. Testes e Diagnóstico                    --|");
+                    System.out.println(tradutor.get("testDiag"));
                     System.out.println("|-------------------------------------------------|");
-                    System.out.println("|-- 5. Manual de Conduta e Operações Setoriais  --|");
+                    System.out.println(tradutor.get("manualCOS"));
                     System.out.println("|_________________________________________________|");
-                    System.out.println("|-- 6.          VOLTAR AO INÍCIO                --|");
+                    System.out.println(tradutor.get("return"));
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser excluido -- ");
-                    System.out.print(" --Resposta: ");
+                    System.out.println(tradutor.get("chooseExcluir"));
+                    System.out.print(tradutor.get("resposta"));
                     tipoOrientacao = leia.nextInt();
 
                     switch(tipoOrientacao){
@@ -466,7 +453,7 @@ public class TelaInicial {
                             break;
 
                         default://NenhumaOpçãoAcima
-                            System.out.println("-- X Opção inválida! X --");
+                            System.out.println(tradutor.get("invalid"));
                             break;
 
                     }
@@ -474,16 +461,23 @@ public class TelaInicial {
                     break;
 
                 case 5: //encerrar
-                    System.out.println("--  Encerrando Sistema  --");
+                    System.out.println(tradutor.get("encerrar"));
                     break;
 
-                default: //Nenhuma das Opções
-                    System.out.println("-- X  Opção Inválida X  --");
+                default: //nenhuma das opções
+                    System.out.println(tradutor.get("invalid"));
                     break;
 
                 }
 
-            } while (decisaoInicial != 5);
+            } while(decisaoInicial != 5);
+            
+
+        } catch (IOException e) {
+
+            System.out.println("Erro ao carregar tradução!");
+
+        }
             
         leia.close();    
     }
