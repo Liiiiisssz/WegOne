@@ -1,4 +1,5 @@
 package com;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TelaInicial {
@@ -6,6 +7,9 @@ public class TelaInicial {
     public static void main(String[] args) {
 
         Scanner leia = new Scanner(System.in);
+        Traducoes tradutor = null;
+
+        String arquivo;
 
         ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais();
         ManualOperacao manualOperacao = new ManualOperacao();
@@ -27,14 +31,32 @@ public class TelaInicial {
         switch (idioma) {
             
             case 1:
-                
+                arquivo = "pt.json";
                 break;
 
             case 2:
+                arquivo = "en.json";
                 break;
 
             case 3:
+                arquivo = "de.json";
                 break;
+
+            default:
+                System.out.println("Idioma inválido! Usando português por padrão.");
+                arquivo = "pt.json";
+
+        }
+
+        try {
+
+            tradutor = new Traducoes(arquivo);
+
+            System.out.println(tradutor.get("welcome"));
+
+        } catch (IOException e) {
+
+            System.out.println("Erro ao carregar tradução!");
 
         }
 

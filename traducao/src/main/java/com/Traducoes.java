@@ -1,8 +1,8 @@
 package com;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -13,14 +13,23 @@ public class Traducoes {
 
     public Traducoes(String filePath) throws IOException{
 
-        String content = new String(Files.readAllBytes(Paths.get(filePath)));
+        InputStream is = getClass().getClassLoader().getResourceAsStream(filePath);
+
+        if (is == null) {
+
+            throw new IOException("Arquivo de tradução não encontrado no classpath: " + filePath);
+            
+        }
+
+        String content = new String(is.readAllBytes(), StandardCharsets.UTF_8);
         traducao = new JSONObject(content);
+
 
     }
 
     public String get(String texto){
 
-        return (traducao.getString(texto));
+        return traducao.getString(texto);
 
     }
 
