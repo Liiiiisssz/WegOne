@@ -48,8 +48,7 @@ public class TelaInicial {
             System.out.println(" ");
 
             System.out.println("  --O que deseja realizar?-- ");
-            System.out.print("  --Resposta: ");
-            decisaoInicial = leia.nextInt();
+            decisaoInicial = lerNumero(leia, "  --Resposta: ");
 
             System.out.println(" ");
 
@@ -75,52 +74,48 @@ public class TelaInicial {
 
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser cadastrado -- ");
-                    System.out.print(" --Resposta: ");
-                    tipoOrientacao = leia.nextInt();
+                    tipoOrientacao = lerNumero(leia, " -- Escolha o tipo de orientação a ser cadastrado -- ");
 
                     switch (tipoOrientacao) {
 
-                        case 1: //manualOperação
+                        case 1: // manualOperação
                             System.out.println(" ");
                             manualOperacao.cadastrarManual();
                             break;
 
-                        case 2: //procedimentoSeguranca
+                        case 2: // procedimentoSeguranca
                             System.out.println(" ");
                             procedimentoSeguranca.cadastrarManual();
                             break;
 
-                        case 3: //manutencaoReparos
+                        case 3: // manutencaoReparos
                             System.out.println(" ");
                             manutencaoReparos.cadastrarManual();
                             break;
 
-                        case 4: //testesDiagnostico
+                        case 4: // testesDiagnostico
                             System.out.println(" ");
                             testesDiagnostico.cadastrarManual();
                             break;
 
-                        case 5: //manualCondutaOperacoesSetoriais
+                        case 5: // manualCondutaOperacoesSetoriais
                             System.out.println(" ");
                             manualCondutaOpSet.cadastrarManual();
                             break;
 
-                        case 6: //VoltarInicio
+                        case 6: // VoltarInicio
                             System.out.println(" ");
                             break;
-
 
                         default:
                             System.out.println(" ");
                             System.out.println("--  ✕ Opção inválida! ✕  --");
                             break;
-                        }
+                    }
 
-                break;
-        
+                    break;
 
-                case 2: //pesquisa
+                case 2: // pesquisa
                     System.out.println("___________________________________________________");
                     System.out.println("|--           PESQUISAR ORIENTAÇÃO              --|");
                     System.out.println("|-------------------------------------------------|");
@@ -138,176 +133,11 @@ public class TelaInicial {
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser pesquisado -- ");
-                    System.out.print(" --Resposta: ");
-                    tipoOrientacao = leia.nextInt();
-
-                    switch(tipoOrientacao){
-                        
-                        case 1: //manualOperacao
-                            System.out.println("_________________________________________");
-                            System.out.println("|--  PESQUISAR MANUAL DE OPERAÇÃO     --|");
-                            System.out.println("|---------------------------------------|");
-                            System.out.println("|-- 1. Título                         --|");
-                            System.out.println("|---------------------------------------|");
-                            System.out.println("|-- 2. Código                         --|");
-                            System.out.println("|_______________________________________|");
-                        
-                            System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
-                            tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
-                
-                                case 1:
-                                    System.out.println(" ");
-                                    manualOperacao.pesquisaManualTitulo();
-                                    break;
-                
-                                case 2:
-                                    System.out.println(" ");
-                                    manualOperacao.pesquisaManualCodigo();
-                                    break;
-                
-                            }
-
-                            break;
-
-                        case 2: //procedimentoSeguranca
-                            System.out.println("____________________________________________");
-                            System.out.println("|--  PESQUISAR PROCEDIMENTO DE SEGURANÇA --|");
-                            System.out.println("|------------------------------------------|");
-                            System.out.println("|-- 1. Título                            --|");
-                            System.out.println("|------------------------------------------|");
-                            System.out.println("|-- 2. Código                            --|");
-                            System.out.println("|__________________________________________|");
-                        
-                            System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
-                            tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
-                
-                                case 1:
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.pesquisarManualTitulo();
-                                    break;
-                
-                                case 2:
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.pesquisaManualCodigo();
-                                    break;
-                
-                            }
-
-                            break;
-
-                        case 3: //manutencaoReparos
-                            System.out.println("_______________________________________");
-                            System.out.println("|--  PESQUISAR MANUTENÇÃO E REPAROS --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 1. Título                       --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 2. Código                       --|");
-                            System.out.println("|_____________________________________|");
-                        
-                            System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
-                            tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
-                
-                                case 1:
-                                    System.out.println(" ");
-                                    manutencaoReparos.pesquisaManualTitulo();
-                                    break;
-                
-                                case 2:
-                                    System.out.println(" ");
-                                    manutencaoReparos.pesquisaManualCodigo();
-                                    break;
-                
-                            }
-
-                            break;
-
-                        case 4: //testesDiagnostico
-                            System.out.println("_______________________________________");
-                            System.out.println("|--  PESQUISAR TESTES E DIAGÓSTICOS --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 1. Título                       --|");
-                            System.out.println("|-------------------------------------|");
-                            System.out.println("|-- 2. Código                       --|");
-                            System.out.println("|_____________________________________|");
-                        
-                            System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
-                            tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
-                
-                                case 1:
-                                    System.out.println(" ");
-                                    testesDiagnostico.pesquisarManualTitulo();
-                                    break;
-                
-                                case 2:
-                                    System.out.println(" ");
-                                    testesDiagnostico.pesquisaManualCodigo();
-                                    break;
-                
-                            }
-
-                            break;
-
-                        case 5: //manualCondutaOperacoesSetoriais
-                            System.out.println("____________________________________");
-                            System.out.println("|--  PESQUISAR MANUAL DE CONDUTA --|");
-                            System.out.println("|--  E OPERAÇÕES SETORIAIS       --|");
-                            System.out.println("|----------------------------------|");
-                            System.out.println("|-- 1. Título                    --|");
-                            System.out.println("|----------------------------------|");
-                            System.out.println("|-- 2. Código                    --|");
-                            System.out.println("|__________________________________|");
-                        
-                            System.out.println(" ");
-                            System.out.println(" -- Insira o tipo de pesquisa --");
-                            System.out.print(" --Resposta: ");
-                            tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
-                
-                                case 1:
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.pesquisaManualTitulo();
-                                    break;
-                
-                                case 2:
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.pesquisaManualCodigo();
-                                    break;
-                
-                            }
-
-                            break;
-
-                        case 6: //VoltarInicio
-                            System.out.println(" ");
-                            break;
-
-                        default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
-                            break;
-
-                    }
+                    tipoOrientacao = lerNumero(leia, " -- Escolha o tipo de orientação a ser pesquisado -- ");
 
                     break;
-                        
-                case 3: //editar
+
+                case 3: // editar
                     System.out.println("___________________________________________________");
                     System.out.println("|--              EDITAR ORIENTAÇÃO              --|");
                     System.out.println("|-------------------------------------------------|");
@@ -325,50 +155,11 @@ public class TelaInicial {
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser editado -- ");
-                    System.out.print(" --Resposta: ");
-                    tipoOrientacao = leia.nextInt();
-
-                    switch(tipoOrientacao){
-
-                        case 1: //manualOperacao
-                            System.out.println(" ");
-                            manualOperacao.editarManual();
-                            break;
-                        
-                        case 2: //procedimentoSeguranca
-                            System.out.println(" ");
-                            procedimentoSeguranca.editarManual();
-                            break;
-
-                        case 3: //manutencaoReparos
-                            System.out.println(" ");
-                            manutencaoReparos.editarManual();
-                            break;
-
-                        case 4: //testesDiagnostico
-                            System.out.println(" ");
-                            testesDiagnostico.editarManual();
-                            break;
-
-                        case 5: //manualCondutaOperacoesSetoriais
-                            System.out.println(" ");
-                            manualCondutaOpSet.editarManual();
-                            break;
-                        
-                        case 6: //VoltarInicio
-                            System.out.println(" ");
-                            break;
-
-                        default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
-                            break;
-
-                    }
+                    tipoOrientacao = lerNumero(leia, " -- Escolha o tipo de orientação a ser editado -- ");
 
                     break;
-                
-                case 4: //excluir
+
+                case 4: // excluir
                     System.out.println("___________________________________________________");
                     System.out.println("|--             EXCLUIR ORIENTAÇÃO              --|");
                     System.out.println("|-------------------------------------------------|");
@@ -386,61 +177,47 @@ public class TelaInicial {
                     System.out.println("|_________________________________________________|");
                     System.out.println(" ");
 
-                    System.out.println(" -- Escolha o tipo de orientação a ser excluido -- ");
-                    System.out.print(" --Resposta: ");
-                    tipoOrientacao = leia.nextInt();
-
-                    switch(tipoOrientacao){
-
-                        case 1: //manualOperacao
-                            System.out.println(" ");
-                            manualOperacao.excluirManual();
-                            break;
-                        
-                        case 2: //procedimentoSeguranca
-                            System.out.println(" ");
-                            procedimentoSeguranca.excluirManual();
-                            break;
-
-                        case 3: //manutencaoReparos
-                            System.out.println(" ");
-                            manutencaoReparos.excluirManual();
-                            break;
-
-                        case 4: //testesDiagnostico
-                            System.out.println(" ");
-                            testesDiagnostico.excluirManual();
-                            break;
-
-                        case 5: //manualCondutaOperacoesSetoriais
-                            System.out.println(" ");
-                            manualCondutaOpSet.excluirManual();
-                            break;
-
-                        case 6: //VoltarInicio
-                            System.out.println(" ");
-                            break;
-
-                        default://NenhumaOpçãoAcima
-                            System.out.println("-- ✕ Opção inválida! ✕ --");
-                            break;
-
-                    }
+                    tipoOrientacao = lerNumero(leia, " -- Escolha o tipo de orientação a ser excluído -- ");
 
                     break;
 
-                case 5: //encerrar
+                case 5:
                     System.out.println("--  Encerrando Sistema  --");
                     break;
 
-                default: //Nenhuma das Opções
+                default:
                     System.out.println("-- ✕  Opção Inválida ✕  --");
                     break;
+            }
+        } while (decisaoInicial != 5);
 
-                }
-
-            } while (decisaoInicial != 5);
-            
-        leia.close();    
+        leia.close();
     }
-} 
+
+    public static int lerNumero(Scanner leia, String mensagem) {
+
+        int numero = -1;
+        boolean entradaValida = false;
+
+        while (!entradaValida) {
+
+            System.out.print(mensagem);
+
+            try {
+
+                numero = leia.nextInt();
+                leia.nextLine();
+
+                entradaValida = true;
+
+            } catch (Exception e) {
+
+                System.out.println(" -- Entrada inválida! Por favor, insira um número válido. --");
+                leia.nextLine();
+
+            }
+        }
+
+        return numero;
+    }
+}
