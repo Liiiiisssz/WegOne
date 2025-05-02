@@ -4,13 +4,17 @@ import java.util.Scanner;
 public class ManualCondutaOperacoesSetoriais {
        
     Scanner leia = new Scanner(System.in);
-       
+    
+    Traducoes tradutor;
+
     String[] manualCOSConteudo = new String[4];
 	String[] titulosManuaisCOS = new String[4];
 
     int contadorCadastro = 2;
 
-    public ManualCondutaOperacoesSetoriais() {
+    public ManualCondutaOperacoesSetoriais(Traducoes tradutor) {
+
+        this.tradutor = tradutor;
 
         titulosManuaisCOS[0] = "Conduta no setor de montagem";
         
@@ -186,12 +190,12 @@ public class ManualCondutaOperacoesSetoriais {
 
 		if (contadorCadastro < 4) {
 
-			System.out.println("Título do Manual de Conduta e Operações setoriais: ");
+			System.out.println(tradutor.get("tituloManualCOS"));
 			titulosManuaisCOS[contadorCadastro] = leia.nextLine();
 
 			System.out.println(" ");
 
-			System.out.println("Conteúdo do Manual de Conduta e Operações setoriais: ");
+			System.out.println(tradutor.get("conteudoManualCOS"));
 			manualCOSConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
@@ -199,7 +203,7 @@ public class ManualCondutaOperacoesSetoriais {
 
 		} else {
 
-			System.out.println("Número máximo de manuais atingido!");
+			System.out.println(tradutor.get("numeroMax"));
 
 		}
 
@@ -207,7 +211,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTitulo() {
 
-		System.out.println("Digite o título para pesquisa: ");
+		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
 		boolean encontrado = false;
@@ -220,7 +224,7 @@ public class ManualCondutaOperacoesSetoriais {
 
 				if (titulosManuaisCOS[i].contains(pesquisa)) {
 
-					System.out.println("Manual encontrado: ");
+					System.out.println(tradutor.get("encontrado"));
                     System.out.println(" ");
 					System.out.println(titulosManuaisCOS[i]);
 					System.out.println(manualCOSConteudo[i]);
@@ -232,14 +236,14 @@ public class ManualCondutaOperacoesSetoriais {
 
         if (!encontrado) {
 
-			System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
 		}
 	}
 
     public void pesquisaManualCodigo() {
 
-		System.out.println("Digite o código a ser pesquisado: ");
+		System.out.println(tradutor.get("codigoPesq"));
 		// 0 e 1 para padrão
 		// 2 e 3 para cadastro
 		int pesquisaCodigo = leia.nextInt();
@@ -250,7 +254,7 @@ public class ManualCondutaOperacoesSetoriais {
 
 		if (titulosManuaisCOS[pesquisaCodigo] != null) {
 
-			System.out.println("Manual encontrado: ");
+			System.out.println(tradutor.get("encontrado"));
             System.out.println(" ");
 			System.out.println(titulosManuaisCOS[pesquisaCodigo]);
 
@@ -261,14 +265,14 @@ public class ManualCondutaOperacoesSetoriais {
 
 		if (!encontrado) {
 
-			System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
 		}
 	}
         
     public void editarManual() {
 
-		System.out.println("Digite o código do manual para edição: ");
+		System.out.println(tradutor.get("edit"));
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
@@ -278,19 +282,19 @@ public class ManualCondutaOperacoesSetoriais {
 
 		if (titulosManuaisCOS[indiceCadastro] != null) {
 
-			System.out.println("Novo título: ");
+			System.out.println(tradutor.get("newTitulo"));
 			titulosManuaisCOS[indiceCadastro] = leia.nextLine();
 			titulosManuaisCOS[indiceCadastro] = leia.nextLine();
 
-			System.out.println("Novo conteúdo: ");
+			System.out.println(tradutor.get("newConteudo"));
 			manualCOSConteudo[indiceCadastro] = leia.nextLine();
 
             System.out.println(" ");
-			System.out.println("Manual atualizado com sucesso!");
+			System.out.println(tradutor.get("editSucesso"));
 
 		} else {
 
-			System.out.println("Manual não encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
 		}
 
@@ -298,7 +302,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManual() {
 
-		System.out.println("Digite o código do manual para exclusão: ");
+		System.out.println(tradutor.get("excluir"));
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
@@ -314,18 +318,18 @@ public class ManualCondutaOperacoesSetoriais {
             titulosManuaisCOS[3] = null;
             manualCOSConteudo[3] = null;
 
-            System.out.println("Manual excluído com sucesso!");
+            System.out.println(tradutor.get("delSucesso"));
 
             contadorCadastro--;
 
             System.out.println(" ");
-            System.out.println("Enter para voltar ao menu:");
+            System.out.println(tradutor.get("enter"));
             leia.nextLine();
             leia.nextLine();
 
 		} else {
 
-			System.out.println("Manual já foi excluído ou não foi encontrado.");
+            System.out.println(tradutor.get("delNEncontrado"));
 
         }   
     }

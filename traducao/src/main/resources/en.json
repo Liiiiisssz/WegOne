@@ -51,8 +51,10 @@
 
     "tituloManualOp": "Operation Manual Title:",
     "conteudoManualOp": "Operation Manual Content:",
-    
-    
+    "tituloManualCOS": "Title of the Conduct and Sectoral Operations Manual: ",
+    "conteudoManualCOS": "Content of the Conduct and Sectoral Operations Manual: ",
+
+
     "numeroMax": "Maximum number of manuals reached!",
     "tituloPesq": "Enter the title to search:",
     "encontrado": "Manual found:",

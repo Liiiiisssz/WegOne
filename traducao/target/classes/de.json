@@ -51,8 +51,11 @@
 
     "tituloManualOp": "Titel des Bedienungshandbuchs:",
     "conteudoManualOp": "Inhalt des Bedienungshandbuchs:",
+    "tituloManualCOS": "Titel des Verhaltens- und Bereichsbetriebshandbuchs: ",
+    "conteudoManualCOS": "Inhalt des Verhaltens- und Bereichsbetriebshandbuchs: ",
+
     
-    
+
     "numeroMax": "Maximale Anzahl von Handbüchern erreicht!",
     "tituloPesq": "Titel zur Suche eingeben:",
     "encontrado": "Handbuch gefunden:",

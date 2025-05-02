@@ -51,6 +51,8 @@
     
     "tituloManualOp": "Título do Manual de Operação: ",
     "conteudoManualOp": "Conteúdo do Manual de Operação: ",
+    "tituloManualCOS": "Título do Manual de Conduta e Operações setoriais: ",
+    "conteudoManualCOS": "Conteúdo do Manual de Conduta e Operações setoriais: ",
 
 
     "numeroMax": "Número máximo de manuais atingido!",
