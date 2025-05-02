@@ -44,6 +44,26 @@
     "pesqManutenRep": "|--  PESQUISAR MANUTENÇÃO E REPAROS --|",
     "pesqTestDiag": "|--  PESQUISAR TESTES E DIAGÓSTICOS --|",
     "pesqManualCOS1": "|--  PESQUISAR MANUAL DE CONDUTA --|",
-    "pesqManualCOS2": "|--  E OPERAÇÕES SETORIAIS       --|"
+    "pesqManualCOS2": "|--  E OPERAÇÕES SETORIAIS       --|",
 
+
+
+    
+    "tituloManualOp": "Título do Manual de Operação: ",
+    "conteudoManualOp": "Conteúdo do Manual de Operação: ",
+
+
+    "numeroMax": "Número máximo de manuais atingido!",
+    "tituloPesq": "Digite o título para pesquisa: ",
+    "encontrado": "Manual encontrado: ",
+    "nEncontrado": "Nenhum manual encontrado.",
+    "codigoPesq": "Digite o código a ser pesquisado: ",
+    "edit": "Digite o código do manual para edição: ",
+    "newTitulo": "Novo título: ",
+    "newConteudo": "Novo conteúdo: ",
+    "editSucesso": "Manual atualizado com sucesso!",
+    "excluir": "Digite o código do manual para exclusão: ",
+    "delSucesso": "Manual excluído com sucesso!",
+    "delNEncontrado": "Manual já foi excluído ou não foi encontrado.",
+    "enter": "Enter para voltar ao menu:"
 }

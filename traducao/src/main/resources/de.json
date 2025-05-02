@@ -44,5 +44,26 @@
     "pesqManutenRep": "|--  WARTUNG UND REPARATUREN SUCHEN      --|",
     "pesqTestDiag": "|--  TESTS UND DIAGNOSEN SUCHEN          --|",
     "pesqManualCOS1": "|--  VERHALTENSRICHTLINIEN SUCHEN        --|",
-    "pesqManualCOS2": "|--  UND BEREICHSRICHTLINIEN             --|"
+    "pesqManualCOS2": "|--  UND BEREICHSRICHTLINIEN             --|",
+
+
+
+
+    "tituloManualOp": "Titel des Bedienungshandbuchs:",
+    "conteudoManualOp": "Inhalt des Bedienungshandbuchs:",
+    
+    
+    "numeroMax": "Maximale Anzahl von Handbüchern erreicht!",
+    "tituloPesq": "Titel zur Suche eingeben:",
+    "encontrado": "Handbuch gefunden:",
+    "nEncontrado": "Kein Handbuch gefunden.",
+    "codigoPesq": "Code zur Suche eingeben:",
+    "edit": "Code des Handbuchs zur Bearbeitung eingeben:",
+    "newTitulo": "Neuer Titel:",
+    "newConteudo": "Neuer Inhalt:",
+    "editSucesso": "Handbuch erfolgreich aktualisiert!",
+    "excluir": "Code des Handbuchs zur Löschung eingeben:",
+    "delSucesso": "Handbuch erfolgreich gelöscht!",
+    "delNEncontrado": "Handbuch wurde bereits gelöscht oder nicht gefunden.",
+    "enter": "Drücken Sie die Eingabetaste, um zum Menü zurückzukehren:"
 }

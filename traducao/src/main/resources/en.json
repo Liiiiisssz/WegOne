@@ -44,5 +44,26 @@
     "pesqManutenRep": "|--  SEARCH MAINTENANCE AND REPAIRS       --|",
     "pesqTestDiag": "|--  SEARCH TESTING AND DIAGNOSTICS       --|",
     "pesqManualCOS1": "|--  SEARCH CODE OF CONDUCT               --|",
-    "pesqManualCOS2": "|--  AND SECTORAL OPERATIONS              --|"
+    "pesqManualCOS2": "|--  AND SECTORAL OPERATIONS              --|",
+
+
+
+
+    "tituloManualOp": "Operation Manual Title:",
+    "conteudoManualOp": "Operation Manual Content:",
+    
+    
+    "numeroMax": "Maximum number of manuals reached!",
+    "tituloPesq": "Enter the title to search:",
+    "encontrado": "Manual found:",
+    "nEncontrado": "No manual found.",
+    "codigoPesq": "Enter the code to search:",
+    "edit": "Enter the manual code for editing:",
+    "newTitulo": "New title:",
+    "newConteudo": "New content:",
+    "editSucesso": "Manual successfully updated!",
+    "excluir": "Enter the manual code for deletion:",
+    "delSucesso": "Manual successfully deleted!",
+    "delNEncontrado": "Manual has already been deleted or was not found.",
+    "enter": "Press Enter to return to the menu:"
 }
