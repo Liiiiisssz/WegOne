@@ -11,7 +11,6 @@ public class TelaInicial {
 
         String arquivo;
 
-        ManutencaoReparos manutencaoReparos = new ManutencaoReparos();
         ProcedimentoSeguranca procedimentoSeguranca = new ProcedimentoSeguranca();
         TestesDiagnostico testesDiagnostico = new TestesDiagnostico();
 
@@ -52,6 +51,7 @@ public class TelaInicial {
 
             ManualCondutaOperacoesSetoriais manualCondutaOpSet = new ManualCondutaOperacoesSetoriais(tradutor);
             ManualOperacao manualOperacao = new ManualOperacao(tradutor);
+            ManutencaoReparos manutencaoReparos = new ManutencaoReparos(tradutor);
 
             do{
                 System.out.println(" ");

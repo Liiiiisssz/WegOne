@@ -53,7 +53,8 @@
     "conteudoManualOp": "Inhalt des Bedienungshandbuchs:",
     "tituloManualCOS": "Titel des Verhaltens- und Bereichsbetriebshandbuchs: ",
     "conteudoManualCOS": "Inhalt des Verhaltens- und Bereichsbetriebshandbuchs: ",
-
+    "tituloManutenRep": "Titel des Wartungs- und Reparaturhandbuchs: ",
+    "conteudoManutenRep": "Inhalt des Wartungs- und Reparaturhandbuchs: ",
     
 
     "numeroMax": "Maximale Anzahl von Handbüchern erreicht!",

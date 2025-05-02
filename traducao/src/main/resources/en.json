@@ -53,6 +53,8 @@
     "conteudoManualOp": "Operation Manual Content:",
     "tituloManualCOS": "Title of the Conduct and Sectoral Operations Manual: ",
     "conteudoManualCOS": "Content of the Conduct and Sectoral Operations Manual: ",
+    "tituloManutenRep": "Title of the Maintenance and Repairs Manual: ",
+    "conteudoManutenRep": "Content of the Maintenance and Repairs Manual: ",
 
 
     "numeroMax": "Maximum number of manuals reached!",
