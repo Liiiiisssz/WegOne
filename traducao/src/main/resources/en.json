@@ -57,7 +57,9 @@
     "conteudoManutenRep": "Content of the Maintenance and Repairs Manual: ",
     "tituloProcedSeg": "Title of the Safety Procedure: ",
     "conteudoProcedSeg": "Content of the Safety Procedure: ",
-    
+    "tituloTestDiag": "Title of the Diagnostic Test: ",
+    "conteudoTestDiag": "Content of the Diagnostic Test: ",
+
 
     "numeroMax": "Maximum number of manuals reached!",
     "tituloPesq": "Enter the title to search:",

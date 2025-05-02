@@ -11,8 +11,6 @@ public class TelaInicial {
 
         String arquivo;
 
-        TestesDiagnostico testesDiagnostico = new TestesDiagnostico();
-
         int idioma;
         int decisaoInicial;
         int tipoOrientacao;
@@ -52,6 +50,7 @@ public class TelaInicial {
             ManualOperacao manualOperacao = new ManualOperacao(tradutor);
             ManutencaoReparos manutencaoReparos = new ManutencaoReparos(tradutor);
             ProcedimentoSeguranca procedimentoSeguranca = new ProcedimentoSeguranca(tradutor);
+            TestesDiagnostico testesDiagnostico = new TestesDiagnostico(tradutor);
 
             do{
                 System.out.println(" ");

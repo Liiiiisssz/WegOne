@@ -57,6 +57,9 @@
     "conteudoManutenRep": "Inhalt des Wartungs- und Reparaturhandbuchs: ",
     "tituloProcedSeg": "Titel des Sicherheitsverfahrens: ",
     "conteudoProcedSeg": "Inhalt des Sicherheitsverfahrens: ",
+    "tituloTestDiag": "Titel des Diagnosetests: ",
+    "conteudoTestDiag": "Inhalt des Diagnosetests: ",
+
     
 
     "numeroMax": "Maximale Anzahl von Handbüchern erreicht!",

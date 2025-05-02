@@ -5,13 +5,17 @@ public class TestesDiagnostico {
 
     Scanner leia = new Scanner(System.in);
 
+    Traducoes tradutor;
+
     String[] testeDiagnostico = new String[4];
 	String[] titulosTestesDiagnostico = new String[4];
 
     int contadorCadastro = 2;
     int indiceCadastro;
 
-    public TestesDiagnostico(){
+    public TestesDiagnostico(Traducoes tradutos){
+
+        this.tradutor = tradutor;
 
         titulosTestesDiagnostico[0] = "Teste de diagnostico para inversores de frequencia ";
 
@@ -122,12 +126,12 @@ public class TestesDiagnostico {
 
         if (contadorCadastro < 4) {
 
-            System.out.println("Título do Teste Diagnóstico: ");
+            System.out.println(tradutor.get("tituloTestDiag"));
             titulosTestesDiagnostico[contadorCadastro] = leia.nextLine();
            
             System.out.println(" ");
 
-            System.out.println("Conteúdo do Teste Diagnóstico: ");
+            System.out.println(tradutor.get("conteudoTestDiag"));
             testeDiagnostico[contadorCadastro] = leia.nextLine();
             System.out.println(" ");
 
@@ -135,7 +139,7 @@ public class TestesDiagnostico {
 
         } else {
 
-            System.out.println("Número máximo de procedimentos atingidos!");
+			System.out.println(tradutor.get("numeroMax"));
 
         }
 
@@ -143,7 +147,7 @@ public class TestesDiagnostico {
 
      public void pesquisarManualTitulo() {
 
-        System.out.println("Digite o título para pesquisa: ");
+		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
         boolean encontrado = false;
@@ -156,7 +160,7 @@ public class TestesDiagnostico {
 
                 if (titulosTestesDiagnostico[i].contains(pesquisa)) {
 
-                    System.out.println("Manual encontrado: ");
+					System.out.println(tradutor.get("encontrado"));
                     System.out.println(" ");
                     System.out.println(titulosTestesDiagnostico[i]);
                     System.out.println(testeDiagnostico[i]);
@@ -168,14 +172,14 @@ public class TestesDiagnostico {
 
         if (!encontrado) {
 
-            System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
     }
 
     public void pesquisaManualCodigo() {
 
-        System.out.println("Digite o código a ser pesquisado: ");
+		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
         boolean encontrado = false;
@@ -184,7 +188,7 @@ public class TestesDiagnostico {
 
         if (titulosTestesDiagnostico[pesquisaCodigo] != null) {
 
-            System.out.println("Manual encontrado: ");
+			System.out.println(tradutor.get("encontrado"));
             System.out.println(" ");
             System.out.println(titulosTestesDiagnostico[pesquisaCodigo]);
 
@@ -195,14 +199,14 @@ public class TestesDiagnostico {
 
         if (!encontrado) {
 
-            System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
     }
 
     public void editarManual() {
 
-        System.out.println("Digite o código do manual para edição: ");
+		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
         indiceCadastro = codigo;
@@ -211,19 +215,19 @@ public class TestesDiagnostico {
 
         if (titulosTestesDiagnostico[indiceCadastro] != null) {
 
-            System.out.println("Novo título: ");
+			System.out.println(tradutor.get("newTitulo"));
             titulosTestesDiagnostico[indiceCadastro] = leia.nextLine();
             titulosTestesDiagnostico[indiceCadastro] = leia.nextLine();
 
-            System.out.println("Novo conteúdo: ");
+			System.out.println(tradutor.get("newConteudo"));
             testeDiagnostico[indiceCadastro] = leia.nextLine();
 
             System.out.println(" ");
-            System.out.println("Manual atualizado com sucesso!"); 
+			System.out.println(tradutor.get("editSucesso")); 
 
         } else {
 
-            System.out.println("Manual não encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
 
@@ -231,7 +235,7 @@ public class TestesDiagnostico {
 
      public void excluirManual() {
 
-        System.out.println("Digite o código do manual para exclusão: ");
+		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
         indiceCadastro = codigo;
@@ -246,18 +250,18 @@ public class TestesDiagnostico {
             titulosTestesDiagnostico[3] = null;
             testeDiagnostico[3] = null;
 
-            System.out.println("Manual excluído com sucesso!");
+            System.out.println(tradutor.get("delSucesso"));
 
             contadorCadastro--;
 
             System.out.println(" ");
-            System.out.println("Enter para voltar ao menu:");
+            System.out.println(tradutor.get("enter"));
             leia.nextLine();
             leia.nextLine();
 
         } else {
 
-            System.out.println("Manual já foi excluído ou não foi encontrado.");
+            System.out.println(tradutor.get("delNEncontrado"));
 
         }
 

@@ -57,6 +57,8 @@
     "conteudoManutenRep": "Conteúdo do Manual de Manutenção e Reparos: ",
     "tituloProcedSeg": "Título do Procedimento de Segurança: ",
     "conteudoProcedSeg": "Conteúdo do Procedimento de Segurança: ",
+    "tituloTestDiag": "Título do Teste Diagnóstico: ",
+    "conteudoTestDiag": "Conteúdo do Teste Diagnóstico: ",
 
 
     "numeroMax": "Número máximo de manuais atingido!",
