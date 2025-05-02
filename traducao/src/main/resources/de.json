@@ -55,6 +55,8 @@
     "conteudoManualCOS": "Inhalt des Verhaltens- und Bereichsbetriebshandbuchs: ",
     "tituloManutenRep": "Titel des Wartungs- und Reparaturhandbuchs: ",
     "conteudoManutenRep": "Inhalt des Wartungs- und Reparaturhandbuchs: ",
+    "tituloProcedSeg": "Titel des Sicherheitsverfahrens: ",
+    "conteudoProcedSeg": "Inhalt des Sicherheitsverfahrens: ",
     
 
     "numeroMax": "Maximale Anzahl von Handbüchern erreicht!",

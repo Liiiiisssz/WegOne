@@ -55,7 +55,9 @@
     "conteudoManualCOS": "Content of the Conduct and Sectoral Operations Manual: ",
     "tituloManutenRep": "Title of the Maintenance and Repairs Manual: ",
     "conteudoManutenRep": "Content of the Maintenance and Repairs Manual: ",
-
+    "tituloProcedSeg": "Title of the Safety Procedure: ",
+    "conteudoProcedSeg": "Content of the Safety Procedure: ",
+    
 
     "numeroMax": "Maximum number of manuals reached!",
     "tituloPesq": "Enter the title to search:",

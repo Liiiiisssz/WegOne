@@ -5,12 +5,16 @@ public class ProcedimentoSeguranca {
 
     Scanner leia = new Scanner(System.in);
 
+    Traducoes tradutor;
+
     String[] procedimentoSeguranca = new String[4];
 	String[] titulosProcedimentoSeguranca = new String[4];
 
     int contadorCadastro = 2;
 
-    public ProcedimentoSeguranca() {
+    public ProcedimentoSeguranca(Traducoes tradutor) {
+
+        this.tradutor = tradutor;
 
         titulosProcedimentoSeguranca[0] = "Manual de seguranca motor weg W22";
 
@@ -121,12 +125,12 @@ public class ProcedimentoSeguranca {
 
         if (contadorCadastro < 4) {
 
-            System.out.println("Título do Procedimento de Segurança: ");
+            System.out.println(tradutor.get("tituloProcedSeg"));
             titulosProcedimentoSeguranca[contadorCadastro] = leia.nextLine();
 
             System.out.println(" ");
 
-            System.out.println("Conteúdo do Procedimento de Segurança: ");
+            System.out.println(tradutor.get("conteudoProcedSeg"));
             procedimentoSeguranca[contadorCadastro] = leia.nextLine();
             System.out.println(" ");
 
@@ -134,14 +138,14 @@ public class ProcedimentoSeguranca {
 
         } else {
 
-            System.out.println("Número máximo de procedimentos atingidos!");
+			System.out.println(tradutor.get("numeroMax"));
 
         }
     }
 
     public void pesquisarManualTitulo() {
 
-        System.out.println("Digite o título para pesquisa: ");
+		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
         boolean encontrado = false;
@@ -154,7 +158,7 @@ public class ProcedimentoSeguranca {
 
                 if (titulosProcedimentoSeguranca[i].contains(pesquisa)) {
 
-                    System.out.println("Manual encontrado: ");
+					System.out.println(tradutor.get("encontrado"));
                     System.out.println(" ");
                     System.out.println(titulosProcedimentoSeguranca[i]);
                     System.out.println(procedimentoSeguranca[i]);
@@ -166,14 +170,14 @@ public class ProcedimentoSeguranca {
 
         if (!encontrado) {
 
-            System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
     }
 
     public void pesquisaManualCodigo() {
 
-        System.out.println("Digite o código a ser pesquisado: ");
+		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
         boolean encontrado = false;
@@ -182,7 +186,7 @@ public class ProcedimentoSeguranca {
 
         if (titulosProcedimentoSeguranca[pesquisaCodigo] != null) {
 
-            System.out.println("Manual encontrado: ");
+			System.out.println(tradutor.get("encontrado"));
             System.out.println(" ");
             System.out.println(titulosProcedimentoSeguranca[pesquisaCodigo]);
 
@@ -193,14 +197,14 @@ public class ProcedimentoSeguranca {
 
         if (!encontrado) {
 
-            System.out.println("Nenhum manual encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
     }
 
     public void editarManual() {
 
-        System.out.println("Digite o código do manual para edição: ");
+		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
         int indiceCadastro = codigo;
@@ -209,19 +213,19 @@ public class ProcedimentoSeguranca {
 
         if (titulosProcedimentoSeguranca[indiceCadastro] != null) {
 
-            System.out.println("Novo título: ");
+			System.out.println(tradutor.get("newTitulo"));
             titulosProcedimentoSeguranca[indiceCadastro] = leia.nextLine();
             titulosProcedimentoSeguranca[indiceCadastro] = leia.nextLine();
 
-            System.out.println("Novo conteúdo: ");
+			System.out.println(tradutor.get("newConteudo"));
             procedimentoSeguranca[indiceCadastro] = leia.nextLine();
 
             System.out.println(" ");
-            System.out.println("Manual atualizado com sucesso!"); 
+			System.out.println(tradutor.get("editSucesso")); 
 
         } else {
 
-            System.out.println("Manual não encontrado.");
+			System.out.println(tradutor.get("nEncontrado"));
 
         }
 
@@ -229,7 +233,7 @@ public class ProcedimentoSeguranca {
 
     public void excluirManual() {
 
-        System.out.println("Digite o código do manual para exclusão: ");
+		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
         int indiceCadastro = codigo;
@@ -244,18 +248,18 @@ public class ProcedimentoSeguranca {
             titulosProcedimentoSeguranca[3] = null;
             procedimentoSeguranca[3] = null;
 
-            System.out.println("Manual excluído com sucesso!");
+            System.out.println(tradutor.get("delSucesso"));
 
             contadorCadastro--;
 
             System.out.println(" ");
-            System.out.println("Enter para voltar ao menu:");
+            System.out.println(tradutor.get("enter"));
             leia.nextLine();
             leia.nextLine();
 
         } else {
 
-            System.out.println("Manual já foi excluído ou não foi encontrado.");
+            System.out.println(tradutor.get("delNEncontrado"));
 
         }
 
