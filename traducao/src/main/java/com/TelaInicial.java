@@ -176,7 +176,7 @@ public class TelaInicial {
 
                                 case 5: //manualCondutaOperacoesSetoriais
                                     System.out.println(" ");
-                                    manualCondutaOpSet.cadastrarManual();
+                                    manualCondutaOpSet.cadastrarManualEN();
                                     break;
 
                                 case 6: //VoltarInicio
@@ -215,7 +215,7 @@ public class TelaInicial {
 
                                 case 5: //manualCondutaOperacoesSetoriais
                                     System.out.println(" ");
-                                    manualCondutaOpSet.cadastrarManual();
+                                    manualCondutaOpSet.cadastrarManualDE();
                                     break;
 
                                 case 6: //VoltarInicio

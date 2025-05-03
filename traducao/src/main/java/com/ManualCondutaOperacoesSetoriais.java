@@ -10,12 +10,21 @@ public class ManualCondutaOperacoesSetoriais {
     String[] manualCOSConteudo = new String[4];
 	String[] titulosManuaisCOS = new String[4];
 
+    String[] manualCOSConteudoEN = new String[4];
+	String[] titulosManuaisCOSEN = new String[4];
+
+    String[] manualCOSConteudoDE = new String[4];
+	String[] titulosManuaisCOSDE = new String[4];
+
     int contadorCadastro = 2;
+    int contadorCadastroEN = 2;
+	int contadorCadastroDE = 2;
 
     public ManualCondutaOperacoesSetoriais(Traducoes tradutor) {
 
         this.tradutor = tradutor;
 
+        //manuais em PT
         titulosManuaisCOS[0] = "Conduta no setor de montagem";
         
         manualCOSConteudo[0] =
@@ -184,11 +193,316 @@ public class ManualCondutaOperacoesSetoriais {
                 "|   dos equipamentos.                                                 |\n" +
                 "|---------------------------------------------------------------------|\n";
 
+
+        //manuais em INGLES
+        titulosManuaisCOSEN[0] = "Conduct in the Assembly Department";
+
+        manualCOSConteudoEN[0] =
+                    "_______________________________________________________________________\n" +
+                    "|-- OBJECTIVE: Establish the guidelines and conduct standards for     --|\n" +
+                    "|    all employees involved in the assembly department at WEG.         |\n" +
+                    "|_____________________________________________________________________|\n" +
+                    "|                                                                     |\n" +
+                    "| 1. CODE OF ETHICS AND CONDUCT:                                       |\n" +
+                    "|                                                                     |\n" +
+                    "| - Each employee is responsible for their area of work and must      |\n" +
+                    "|   ensure that the assembly is performed according to quality and    |\n" +
+                    "|   safety standards.                                                 |\n" +
+                    "| - Honesty, respect, and integrity are essential values.             |\n" +
+                    "| - All documents and information related to the project are         |\n" +
+                    "|   confidential and should not be shared with people outside the     |\n" +
+                    "|   company.                                                          |\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 2. WORKPLACE SAFETY:                                                |\n" +
+                    "|                                                                     |\n" +
+                    "| - The use of appropriate PPE is mandatory for all assembly activities.|\n" +
+                    "| - Any safety risk situation must be immediately reported to the     |\n" +
+                    "|   supervisor.                                                       |\n" +
+                    "| - Never perform any task without a prior risk assessment.           |\n" +
+                    "| - Report to the maintenance department if any equipment is faulty  |\n" +
+                    "|   or inappropriately used.                                          |\n" +
+                    "| - Equipment should be kept in good working condition with regular  |\n" +
+                    "|   inspections.                                                      |\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 3. QUALITY:                                                         |\n" +
+                    "|                                                                     |\n" +
+                    "| - All assembled products must meet WEG’s quality standards.         |\n" +
+                    "| - It is mandatory to follow assembly instructions, technical manuals, and standard operating procedures (SOPs) in all activities. |\n" +
+                    "| - The assembly department must actively participate in continuous  |\n" +
+                    "|   improvement initiatives.                                           |\n" +
+                    "| - Quality must be checked at each stage of the assembly process.    |\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 4. BEHAVIOR IN THE WORKPLACE:                                        |\n" +
+                    "|                                                                     |\n" +
+                    "| - All employees should maintain respect and collaboration with one another.|\n" +
+                    "| - Communication should be clear, accurate, and efficient.            |\n" +
+                    "| - Employees must adhere to the established schedules.               |\n" +
+                    "| - In case of absence, the employee must notify their supervisor in advance.|\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 5. ENVIRONMENTAL RESPONSIBILITY:                                     |\n" +
+                    "|                                                                     |\n" +
+                    "| - All generated waste must be disposed of properly.                 |\n" +
+                    "| - The conscious use of resources such as energy and water is       |\n" +
+                    "|   crucial for sustainability.                                       |\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 6. TRAINING AND DEVELOPMENT:                                         |\n" +
+                    "|                                                                     |\n" +
+                    "| - All employees must participate in ongoing training to improve    |\n" +
+                    "|   their skills.                                                     |\n" +
+                    "| - Training is an ongoing process focused on improving processes and operations.|\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 7. PROCEDURES IN CASE OF INCIDENTS OR NON-CONFORMITIES:             |\n" +
+                    "|                                                                     |\n" +
+                    "| - Report any incidents immediately to the supervisor.               |\n" +
+                    "| - Implement corrective and preventive actions to ensure that the    |\n" +
+                    "|   failure does not recur.                                           |\n" +
+                    "|---------------------------------------------------------------------|\n" +
+                    "|                                                                     |\n" +
+                    "| 8. APPLICABLE STANDARDS:                                            |\n" +
+                    "|                                                                     |\n" +
+                    "| - Relevant national and international technical standards.         |\n" +
+                    "| - Manufacturer recommendations for industrial equipment.            |\n" +
+                    "|---------------------------------------------------------------------|\n";
+
+
+        titulosManuaisCOSEN[1] = "Operational Procedures in the Maintenance Department";
+
+        manualCOSConteudoEN[1] =
+                "_______________________________________________________________________\n" +
+                "|-- OBJECTIVE: Establish the standard operating procedures for the    --|\n" +
+                "|    maintenance department at WEG, ensuring efficiency and safety.    |\n" +
+                "|_____________________________________________________________________|\n" +
+                "|                                                                     |\n" +
+                "| 1. MAINTENANCE DEPARTMENT OBJECTIVE:                                 |\n" +
+                "|                                                                     |\n" +
+                "| - Ensure the continuous and safe operation of WEG’s equipment and systems.|\n" +
+                "| - Perform preventive, corrective, and predictive maintenance according to |\n" +
+                "|   the established plans and schedules.                               |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 2. PREVENTIVE MAINTENANCE:                                           |\n" +
+                "|                                                                     |\n" +
+                "| - Perform regular inspections of all equipment and systems.         |\n" +
+                "| - Follow preventive maintenance schedules as per the manufacturer's  |\n" +
+                "|   manual.                                                           |\n" +
+                "| - Lubricate components as specified in the operation and maintenance manual. |\n" +
+                "| - Inspect and replace filters, belts, bearings, etc., as needed to  |\n" +
+                "|   prevent future failures.                                          |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 3. CORRECTIVE MAINTENANCE:                                          |\n" +
+                "|                                                                     |\n" +
+                "| - When a failure or defect occurs in any equipment, the maintenance  |\n" +
+                "|   department must analyze the problem, develop a repair plan, and   |\n" +
+                "|   correct the failure as quickly as possible.                        |\n" +
+                "| - After correction, conduct tests to ensure proper equipment        |\n" +
+                "|   operation.                                                        |\n" +
+                "| - Document the defect and the repair procedure for future reference |\n" +
+                "|   and control.                                                       |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. PREDICTIVE MAINTENANCE:                                          |\n" +
+                "|                                                                     |\n" +
+                "| - Use condition monitoring techniques (such as thermography,         |\n" +
+                "|   vibration, and ultrasound) to identify potential failures before  |\n" +
+                "|   they occur.                                                       |\n" +
+                "| - Implement predictive analysis technologies to optimize maintenance |\n" +
+                "|   interventions and reduce downtime.                                 |\n" +
+                "| - Maintain detailed records of collected data for analysis and      |\n" +
+                "|   failure forecasting.                                              |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. SAFETY PROCEDURES IN MAINTENANCE:                                 |\n" +
+                "|                                                                     |\n" +
+                "| - Disconnect and isolate energy sources before performing any       |\n" +
+                "|   intervention on equipment.                                        |\n" +
+                "| - Use appropriate Personal Protective Equipment (PPE) for each type |\n" +
+                "|   of task, such as gloves, goggles, helmets, hearing protection, and |\n" +
+                "|   safety footwear.                                                  |\n" +
+                "| - Ensure all tools and devices used are in good working condition   |\n" +
+                "|   and comply with safety standards.                                  |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 6. MAINTENANCE DOCUMENTATION AND RECORDS:                           |\n" +
+                "|                                                                     |\n" +
+                "| - Keep an updated record of all maintenance activities, including   |\n" +
+                "|   date, description of service performed, and parts replaced.        |\n" +
+                "| - Records should be stored in an organized and easily accessible way |\n" +
+                "|   for future audits or references.                                  |\n" +
+                "| - Prepare failure reports, identifying the root cause and corrective|\n" +
+                "|   actions taken.                                                    |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 7. TRAINING AND CAPACITY BUILDING:                                  |\n" +
+                "|                                                                     |\n" +
+                "| - All maintenance employees should participate in periodic training |\n" +
+                "|   on new technologies, procedures, and safety standards.            |\n" +
+                "| - WEG provides continuous training programs to ensure employees are |\n" +
+                "|   always up to date with best maintenance and safety practices.     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 8. PROCEDURES IN CASE OF INCIDENTS OR ACCIDENTS:                    |\n" +
+                "|                                                                     |\n" +
+                "| - If an accident occurs during maintenance, the employee must      |\n" +
+                "|   immediately notify the supervisor and safety team, and document    |\n" +
+                "|   the incident according to internal procedures.                    |\n" +
+                "| - Analyze the incident to identify causes and implement corrective  |\n" +
+                "|   actions to prevent similar occurrences.                           |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 9. APPLICABLE STANDARDS AND REGULATIONS:                            |\n" +
+                "|                                                                     |\n" +
+                "| - Follow all relevant national and international technical standards regarding safety and maintenance of industrial equipment.|\n" +
+                "| - Adhere to the manufacturer's guidelines for equipment use and maintenance.|\n" +
+                "|---------------------------------------------------------------------|\n";
+
+            
+            //manuais em ALEMÃO
+            titulosManuaisCOSDE[0] = "Verhalten im Montagebereich";
+            manualCOSConteudoDE[0] = 
+                "_______________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung der Richtlinien und Verhaltensstandards für alle --|\n" +
+                "|    Mitarbeiter im Montagebereich von WEG                           |\n" +
+                "|_____________________________________________________________________|\n" +
+                "|                                                                     |\n" +
+                "| 1. ETHIK- UND VERHALTENSKODEX:                                      |\n" +
+                "|                                                                     |\n" +
+                "| - Jeder Mitarbeiter ist für seinen Arbeitsbereich verantwortlich und |\n" +
+                "|   muss sicherstellen, dass die Montage gemäß den Qualitäts- und Sicherheitsstandards durchgeführt wird.|\n" +
+                "| - Ehrlichkeit, Respekt und Integrität sind wesentliche Werte.        |\n" +
+                "| - Alle projektbezogenen Dokumente und Informationen sind vertraulich und|\n" +
+                "|   dürfen nicht mit externen Parteien geteilt werden.                 |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 2. SICHERHEIT AM ARBEITSPLATZ:                                      |\n" +
+                "|                                                                     |\n" +
+                "| - Das Tragen der entsprechenden PSA (Persönliche Schutzausrüstung)  |\n" +
+                "|   ist bei allen Montageaktivitäten obligatorisch.                    |\n" +
+                "| - Jede Risikosituation muss sofort dem Vorgesetzten gemeldet werden. |\n" +
+                "| - Keine Aufgabe ohne vorherige Risikobewertung durchführen.         |\n" +
+                "| - Defekte oder unsachgemäße Nutzung von Geräten müssen sofort dem Wartungsteam gemeldet werden.|\n" +
+                "| - Geräte müssen in gutem Zustand gehalten und regelmäßig inspiziert werden.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 3. QUALITÄT:                                                        |\n" +
+                "|                                                                     |\n" +
+                "| - Alle montierten Produkte müssen den Qualitätsstandards von WEG entsprechen.|\n" +
+                "| - Es ist obligatorisch, Montageanleitungen, technische Handbücher und Standardarbeitsanweisungen (SOPs) in allen Aktivitäten zu befolgen.|\n" +
+                "| - Der Montagebereich muss aktiv an kontinuierlichen Verbesserungsinitiativen teilnehmen.|\n" +
+                "| - Qualität muss in jeder Phase der Montage überprüft werden.         |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. VERHALTEN AM ARBEITSPLATZ:                                        |\n" +
+                "|                                                                     |\n" +
+                "| - Alle Mitarbeiter müssen Respekt und Zusammenarbeit untereinander wahren.|\n" +
+                "| - Kommunikation sollte klar, präzise und effizient sein.            |\n" +
+                "| - Mitarbeiter müssen die festgelegten Arbeitszeiten einhalten.       |\n" +
+                "| - Im Falle einer Abwesenheit muss der Mitarbeiter seinen Vorgesetzten rechtzeitig benachrichtigen.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. UMWELTVERANTWORTUNG:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - Alle Abfälle müssen ordnungsgemäß entsorgt werden.                |\n" +
+                "| - Der bewusste Umgang mit Ressourcen wie Energie und Wasser ist entscheidend für die Nachhaltigkeit.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 6. SCHULUNG UND ENTWICKLUNG:                                        |\n" +
+                "|                                                                     |\n" +
+                "| - Alle Mitarbeiter müssen an kontinuierlichen Schulungen teilnehmen, um ihre Fähigkeiten zu verbessern.|\n" +
+                "| - Weiterbildung ist ein kontinuierlicher Prozess, der auf die Verbesserung von Prozessen und Abläufen abzielt.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 7. VERFAHREN BEI ZWISCHENFÄLLEN ODER NICHT-ÜBEREINSTIMMUNGEN:       |\n" +
+                "|                                                                     |\n" +
+                "| - Alle Vorfälle müssen sofort dem Vorgesetzten gemeldet werden.     |\n" +
+                "| - Korrektur- und Präventivmaßnahmen müssen ergriffen werden, um sicherzustellen, dass der Fehler nicht wiederholt wird.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 8. ANWENDBARE VORSCHRIFTEN UND NORMEN:                               |\n" +
+                "|                                                                     |\n" +
+                "| - Relevante nationale und internationale technische Normen.        |\n" +
+                "| - Empfehlungen des Herstellers für industrielle Geräte.            |\n" +
+                "|---------------------------------------------------------------------|\n";
+
+            titulosManuaisCOSDE[1] = "Betriebsverfahren im Wartungsbereich";
+            manualCOSConteudoDE[1] = 
+                "_______________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung der Standardbetriebsverfahren für den Wartungsbereich|\n" +
+                "|    von WEG, um Effizienz und Sicherheit zu gewährleisten.            --|\n" +
+                "|_____________________________________________________________________|\n" +
+                "|                                                                     |\n" +
+                "| 1. ZIEL DES WARTUNGSBEREICHS:                                       |\n" +
+                "|                                                                     |\n" +
+                "| - Sicherstellen des kontinuierlichen und sicheren Betriebs der Geräte und Systeme von WEG.|\n" +
+                "| - Durchführung von präventiver, korrektiver und prädiktiver Wartung nach den festgelegten Plänen und Zeitplänen.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 2. PRÄVENTIVE WARTUNG:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - Regelmäßige Inspektionen aller Geräte und Systeme durchführen.     |\n" +
+                "| - Einhaltung der Wartungspläne gemäß den Anweisungen des Herstellers.|\n" +
+                "| - Schmierung der Komponenten gemäß den Spezifikationen des Betriebs- und Wartungshandbuchs.|\n" +
+                "| - Überprüfung und Austausch von Filtern, Riemen, Lagern usw., nach Bedarf, um zukünftige Fehler zu vermeiden.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 3. KORREKTIVE WARTUNG:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - Bei einem Fehler oder Defekt eines Geräts muss die Wartungsabteilung das Problem analysieren, einen Reparaturplan erstellen und den Fehler schnellstmöglich beheben.|\n" +
+                "| - Nach der Behebung muss ein Test durchgeführt werden, um sicherzustellen, dass das Gerät ordnungsgemäß funktioniert.|\n" +
+                "| - Der Defekt und das Reparaturverfahren müssen für zukünftige Referenzen und die Kontrolle dokumentiert werden.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. PRÄDIKTIVE WARTUNG:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - Nutzung von Zustandsüberwachungstechniken (wie Thermografie, Vibration und Ultraschall), um potenzielle Fehler zu identifizieren, bevor sie auftreten.|\n" +
+                "| - Implementierung prädiktiver Analysetechnologien zur Optimierung von Wartungsinterventionen und Reduzierung von Ausfallzeiten.|\n" +
+                "| - Detaillierte Aufzeichnung der gesammelten Daten zur Analyse und Vorhersage von zukünftigen Fehlern.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                            |\n" +
+                "|                                                                     |\n" +
+                "| - Trennen und Isolieren der Energiequellen vor der Durchführung von Arbeiten an Geräten.|\n" +
+                "| - Verwendung von geeigneter Persönlicher Schutzausrüstung (PSA) für jede Aufgabe, wie Handschuhe, Schutzbrillen, Helme, Gehörschutz und Sicherheitsschuhe.|\n" +
+                "| - Sicherstellen, dass alle verwendeten Werkzeuge und Geräte in einwandfreiem Zustand und gemäß den Sicherheitsstandards sind.|\n" +
+                "| - Wenn Eingriffe in Risikobereichen erforderlich sind, müssen spezifische Sicherheitsvorschriften für Arbeiten in der Höhe, in engen Räumen oder mit elektrischen Gefahren beachtet werden.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 6. DOKUMENTATION UND WARTUNGSUNTERLAGEN:                            |\n" +
+                "|                                                                     |\n" +
+                "| - Einhaltung eines aktuellen Protokolls für alle Wartungsaktivitäten, einschließlich Datum, Beschreibung des ausgeführten Dienstes und ausgetauschter Teile.|\n" +
+                "| - Die Aufzeichnungen müssen organisiert und leicht zugänglich aufbewahrt werden, für zukünftige Audits oder Referenzen.|\n" +
+                "| - Fehlerberichte erstellen, die die Ursachenanalyse und die angewandten Korrekturmaßnahmen identifizieren.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 7. SCHULUNG UND QUALIFIKATION:                                      |\n" +
+                "|                                                                     |\n" +
+                "| - Alle Wartungsmitarbeiter sollten an regelmäßigen Schulungen zu neuen Technologien, Verfahren und Sicherheitsstandards teilnehmen.|\n" +
+                "| - WEG bietet kontinuierliche Schulungsprogramme, um sicherzustellen, dass die Mitarbeiter stets mit den besten Wartungs- und Sicherheitspraktiken vertraut sind.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 8. VERFAHREN BEI UNFÄLLEN ODER ZWISCHENFÄLLEN:                     |\n" +
+                "|                                                                     |\n" +
+                "| - Sollte ein Unfall während der Wartung auftreten, muss der Mitarbeiter sofort den Vorgesetzten und das Sicherheitsteam benachrichtigen und den Vorfall gemäß den internen Verfahren dokumentieren.|\n" +
+                "| - Eine Analyse des Vorfalls muss durchgeführt werden, um dessen Ursachen zu identifizieren und Korrekturmaßnahmen zu ergreifen, um ähnliche Vorfälle zu verhindern.|\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 9. ANWENDBARE VORSCHRIFTEN UND NORMEN:                               |\n" +
+                "|                                                                     |\n" +
+                "| - Einhaltung aller relevanten nationalen und internationalen technischen Normen bezüglich der Sicherheit und Wartung von Industrieanlagen.|\n" +
+                "| - Befolgung der Empfehlungen des Herstellers für den Einsatz und die Wartung von Geräten.|\n" +
+                "|---------------------------------------------------------------------|\n";
+
         }
 
-   public void cadastrarManual() {
+   public void cadastrarManual() { //cadastro em PT
 
-		if (contadorCadastro < 4) {
+		if (contadorCadastro < titulosManuaisCOS.length) {
 
 			System.out.println(tradutor.get("tituloManualCOS"));
 			titulosManuaisCOS[contadorCadastro] = leia.nextLine();
@@ -209,7 +523,57 @@ public class ManualCondutaOperacoesSetoriais {
 
 	}
 
-    public void pesquisaManualTitulo() {
+    public void cadastrarManualEN() { //cadastro em INGLES
+
+		if (contadorCadastroEN < titulosManuaisCOSEN.length) {
+
+			System.out.println(tradutor.get("tituloManualCOS"));
+			titulosManuaisCOSEN[contadorCadastroEN] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println(tradutor.get("conteudoManualCOS"));
+			manualCOSConteudoEN[contadorCadastroEN] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastroEN++;
+
+		} else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+		}
+
+	}
+
+    public void cadastrarManualDE() { //cadastro em ALEMÃO
+
+		if (contadorCadastroDE < titulosManuaisCOSDE.length) {
+
+			System.out.println(tradutor.get("tituloManualCOS"));
+			titulosManuaisCOSDE[contadorCadastroDE] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println(tradutor.get("conteudoManualCOS"));
+			manualCOSConteudoDE[contadorCadastroDE] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastroDE++;
+
+		} else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+		}
+
+	}
+
+
+
+
+
+    public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
@@ -241,7 +605,7 @@ public class ManualCondutaOperacoesSetoriais {
 		}
 	}
 
-    public void pesquisaManualCodigo() {
+    public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
 		// 0 e 1 para padrão
@@ -269,8 +633,12 @@ public class ManualCondutaOperacoesSetoriais {
 
 		}
 	}
-        
-    public void editarManual() {
+     
+    
+
+
+
+    public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
 		// 2 e 3 para cadastrados
@@ -300,7 +668,11 @@ public class ManualCondutaOperacoesSetoriais {
 
 	}
 
-    public void excluirManual() {
+
+
+
+
+    public void excluirManual() { //excluir em PT
 
 		System.out.println(tradutor.get("excluir"));
 		// 2 e 3 para cadastrados
