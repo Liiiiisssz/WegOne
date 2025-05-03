@@ -928,6 +928,80 @@ public class ManutencaoReparos {
 		}
 
 	}
+
+        public void excluirManualEN() { //excluir em INGLES
+
+		System.out.println(tradutor.get("excluir"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManutencaoReparosEN[indiceCadastro] != null) {
+
+                        for (int i = codigo; i < 3; i++) {
+
+                        titulosManutencaoReparosEN[i] = titulosManutencaoReparosEN[i + 1];
+                        manutencaoReparosEN[i] = manutencaoReparosEN[i + 1];
+
+                        }
+
+                titulosManutencaoReparosEN[3] = null;
+                manutencaoReparosEN[3] = null;
+
+                System.out.println(tradutor.get("delSucesso"));
+
+                contadorCadastroEN--;
+
+                System.out.println(" ");
+                System.out.println(tradutor.get("enter"));
+                leia.nextLine();
+                leia.nextLine();
+
+		} else {
+
+                        System.out.println(tradutor.get("delNEncontrado"));
+
+		}
+
+	}
+
+        public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("excluir"));
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManutencaoReparosDE[indiceCadastro] != null) {
+
+                        for (int i = codigo; i < 3; i++) {
+
+                        titulosManutencaoReparosDE[i] = titulosManutencaoReparosDE[i + 1];
+                        manutencaoReparosDE[i] = manutencaoReparosDE[i + 1];
+
+                        }
+
+                titulosManutencaoReparosDE[3] = null;
+                manutencaoReparosDE[3] = null;
+
+                System.out.println(tradutor.get("delSucesso"));
+
+                contadorCadastroDE--;
+
+                System.out.println(" ");
+                System.out.println(tradutor.get("enter"));
+                leia.nextLine();
+                leia.nextLine();
+
+		} else {
+
+                        System.out.println(tradutor.get("delNEncontrado"));
+
+		}
+
+	}
+
 }
 
     

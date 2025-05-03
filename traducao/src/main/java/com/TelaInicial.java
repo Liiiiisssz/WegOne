@@ -750,7 +750,7 @@ public class TelaInicial {
     
                             case 3: //manutencaoReparos
                                 System.out.println(" ");
-                                manutencaoReparos.excluirManual();
+                                manutencaoReparos.excluirManualEN();
                                 break;
     
                             case 4: //testesDiagnostico
@@ -789,7 +789,7 @@ public class TelaInicial {
     
                             case 3: //manutencaoReparos
                                 System.out.println(" ");
-                                manutencaoReparos.excluirManual();
+                                manutencaoReparos.excluirManualDE();
                                 break;
     
                             case 4: //testesDiagnostico
