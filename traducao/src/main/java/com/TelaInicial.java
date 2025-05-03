@@ -189,7 +189,9 @@ public class TelaInicial {
                             System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
-                            switch(tipoPesquisa){
+                            if(idioma == 1){ //PT
+
+                                switch(tipoPesquisa){
                 
                                 case 1:
                                     System.out.println(" ");
@@ -201,7 +203,42 @@ public class TelaInicial {
                                     manualOperacao.pesquisaManualCodigo();
                                     break;
                 
+                                }
+
+                            } else if (idioma == 2){ //INGLES
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        manualOperacao.pesquisaManualTituloEN();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        manualOperacao.pesquisaManualCodigoEN();
+                                        break;
+                    
+                                }
+
+                            } else if (idioma == 3){ //ALEMÃO
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        manualOperacao.pesquisaManualTituloDE();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        manualOperacao.pesquisaManualCodigoDE();
+                                        break;
+                    
+                                }
+
                             }
+                            
 
                             break;
 
