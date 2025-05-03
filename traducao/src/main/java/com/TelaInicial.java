@@ -622,7 +622,9 @@ public class TelaInicial {
                     System.out.print(tradutor.get("resposta"));
                     tipoOrientacao = leia.nextInt();
 
-                    switch(tipoOrientacao){
+                    if(arquivo.equals("pt.json")){
+
+                        switch(tipoOrientacao){
 
                         case 1: //manualOperacao
                             System.out.println(" ");
@@ -657,7 +659,88 @@ public class TelaInicial {
                             System.out.println(tradutor.get("invalid"));
                             break;
 
+                        }
+
+                    } else if(arquivo.equals("en.json")){
+
+                        switch(tipoOrientacao){
+
+                            case 1: //manualOperacao
+                                System.out.println(" ");
+                                manualOperacao.excluirManualEN();
+                                break;
+                            
+                            case 2: //procedimentoSeguranca
+                                System.out.println(" ");
+                                procedimentoSeguranca.excluirManual();
+                                break;
+    
+                            case 3: //manutencaoReparos
+                                System.out.println(" ");
+                                manutencaoReparos.excluirManual();
+                                break;
+    
+                            case 4: //testesDiagnostico
+                                System.out.println(" ");
+                                testesDiagnostico.excluirManual();
+                                break;
+    
+                            case 5: //manualCondutaOperacoesSetoriais
+                                System.out.println(" ");
+                                manualCondutaOpSet.excluirManual();
+                                break;
+    
+                            case 6: //VoltarInicio
+                                System.out.println(" ");
+                                break;
+    
+                            default://NenhumaOpçãoAcima
+                                System.out.println(tradutor.get("invalid"));
+                                break;
+    
+                        }
+
+                    } else if(arquivo.equals("de.json")){
+
+                        switch(tipoOrientacao){
+
+                            case 1: //manualOperacao
+                                System.out.println(" ");
+                                manualOperacao.excluirManualDE();
+                                break;
+                            
+                            case 2: //procedimentoSeguranca
+                                System.out.println(" ");
+                                procedimentoSeguranca.excluirManual();
+                                break;
+    
+                            case 3: //manutencaoReparos
+                                System.out.println(" ");
+                                manutencaoReparos.excluirManual();
+                                break;
+    
+                            case 4: //testesDiagnostico
+                                System.out.println(" ");
+                                testesDiagnostico.excluirManual();
+                                break;
+    
+                            case 5: //manualCondutaOperacoesSetoriais
+                                System.out.println(" ");
+                                manualCondutaOpSet.excluirManual();
+                                break;
+    
+                            case 6: //VoltarInicio
+                                System.out.println(" ");
+                                break;
+    
+                            default://NenhumaOpçãoAcima
+                                System.out.println(tradutor.get("invalid"));
+                                break;
+    
+                            }
+
                     }
+                    
 
                     break;
 
