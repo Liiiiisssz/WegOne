@@ -581,7 +581,7 @@ public class TelaInicial {
     
                             case 5: //manualCondutaOperacoesSetoriais
                                 System.out.println(" ");
-                                manualCondutaOpSet.editarManual();
+                                manualCondutaOpSet.editarManualEN();
                                 break;
                             
                             case 6: //VoltarInicio
@@ -620,7 +620,7 @@ public class TelaInicial {
     
                             case 5: //manualCondutaOperacoesSetoriais
                                 System.out.println(" ");
-                                manualCondutaOpSet.editarManual();
+                                manualCondutaOpSet.editarManualDE();
                                 break;
                             
                             case 6: //VoltarInicio
@@ -659,7 +659,7 @@ public class TelaInicial {
                     System.out.print(tradutor.get("resposta"));
                     tipoOrientacao = leia.nextInt();
 
-                    if(arquivo.equals("pt.json")){
+                    if(arquivo.equals("pt.json")){ //PT
 
                         switch(tipoOrientacao){
 
@@ -698,7 +698,7 @@ public class TelaInicial {
 
                         }
 
-                    } else if(arquivo.equals("en.json")){
+                    } else if(arquivo.equals("en.json")){ //INGLES
 
                         switch(tipoOrientacao){
 
@@ -737,7 +737,7 @@ public class TelaInicial {
     
                         }
 
-                    } else if(arquivo.equals("de.json")){
+                    } else if(arquivo.equals("de.json")){ //ALEMAO
 
                         switch(tipoOrientacao){
 

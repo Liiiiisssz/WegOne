@@ -759,7 +759,6 @@ public class ManualCondutaOperacoesSetoriais {
     public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 		int indiceCadastro = codigo;
@@ -774,6 +773,65 @@ public class ManualCondutaOperacoesSetoriais {
 
 			System.out.println(tradutor.get("newConteudo"));
 			manualCOSConteudo[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+    public void editarManualEN() { //editar em INGLES
+
+		System.out.println(tradutor.get("edit"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+		if (titulosManuaisCOSEN[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManuaisCOSEN[indiceCadastro] = leia.nextLine();
+			titulosManuaisCOSEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manualCOSConteudoEN[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+    public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("edit"));
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+		if (titulosManuaisCOSDE[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManuaisCOSDE[indiceCadastro] = leia.nextLine();
+			titulosManuaisCOSDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manualCOSConteudoDE[indiceCadastro] = leia.nextLine();
 
             System.out.println(" ");
 			System.out.println(tradutor.get("editSucesso"));
