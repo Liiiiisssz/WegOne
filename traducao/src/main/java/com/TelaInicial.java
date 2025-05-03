@@ -111,43 +111,52 @@ public class TelaInicial {
                         System.out.println(tradutor.get("resposta"));
                         tipoOrientacao = leia.nextInt();
 
-                        switch (tipoOrientacao) {
+                        if(arquivo.equals("pt.json")){ //PT
 
-                        case 1: //manualOperação
-                            System.out.println(" ");
-                            manualOperacao.cadastrarManual();
-                            break;
+                            switch (tipoOrientacao) {
 
-                        case 2: //procedimentoSeguranca
-                            System.out.println(" ");
-                            procedimentoSeguranca.cadastrarManual();
-                            break;
+                                case 1: //manualOperação
+                                    System.out.println(" ");
+                                    manualOperacao.cadastrarManual();
+                                    break;
 
-                        case 3: //manutencaoReparos
-                            System.out.println(" ");
-                            manutencaoReparos.cadastrarManual();
-                            break;
+                                case 2: //procedimentoSeguranca
+                                    System.out.println(" ");
+                                    procedimentoSeguranca.cadastrarManual();
+                                    break;
 
-                        case 4: //testesDiagnostico
-                            System.out.println(" ");
-                            testesDiagnostico.cadastrarManual();
-                            break;
+                                case 3: //manutencaoReparos
+                                    System.out.println(" ");
+                                    manutencaoReparos.cadastrarManual();
+                                    break;
 
-                        case 5: //manualCondutaOperacoesSetoriais
-                            System.out.println(" ");
-                            manualCondutaOpSet.cadastrarManual();
-                            break;
+                                case 4: //testesDiagnostico
+                                    System.out.println(" ");
+                                    testesDiagnostico.cadastrarManual();
+                                    break;
 
-                        case 6: //VoltarInicio
-                            System.out.println(" ");
-                            break;
+                                case 5: //manualCondutaOperacoesSetoriais
+                                    System.out.println(" ");
+                                    manualCondutaOpSet.cadastrarManual();
+                                    break;
+
+                                case 6: //VoltarInicio
+                                    System.out.println(" ");
+                                    break;
 
 
-                        default:
-                            System.out.println(" ");
-                            System.out.println(tradutor.get("invalid"));
-                            break;
+                                default:
+                                    System.out.println(" ");
+                                    System.out.println(tradutor.get("invalid"));
+                                    break;
+                            }
+
+                        } else if (idioma == 2){
+
+
+
                         }
+                        
 
                 break;
 
@@ -189,7 +198,7 @@ public class TelaInicial {
                             System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
-                            if(idioma == 1){ //PT
+                            if(arquivo.equals("pt.json")){ //PT
 
                                 switch(tipoPesquisa){
                 
@@ -205,7 +214,7 @@ public class TelaInicial {
                 
                                 }
 
-                            } else if (idioma == 2){ //INGLES
+                            } else if (arquivo.equals("en.json")){ //INGLES
 
                                 switch(tipoPesquisa){
                 
@@ -221,7 +230,7 @@ public class TelaInicial {
                     
                                 }
 
-                            } else if (idioma == 3){ //ALEMÃO
+                            } else if (arquivo.equals("de.json")){ //ALEMÃO
 
                                 switch(tipoPesquisa){
                 
