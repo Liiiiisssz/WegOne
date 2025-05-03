@@ -677,7 +677,7 @@ public class TestesDiagnostico {
 
 
 
-     public void excluirManual() { //excluir PT
+    public void excluirManual() { //excluir PT
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
@@ -697,6 +697,74 @@ public class TestesDiagnostico {
             System.out.println(tradutor.get("delSucesso"));
 
             contadorCadastro--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+        } else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }
+
+    }
+
+    public void excluirManualEN() { //excluir INGLES
+
+		System.out.println(tradutor.get("excluir"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosTestesDiagnosticoEN[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosTestesDiagnosticoEN[i] = titulosTestesDiagnosticoEN[i + 1];
+                testeDiagnosticoEN[i] = testeDiagnosticoEN[i + 1];
+            }
+
+            titulosTestesDiagnosticoEN[3] = null;
+            testeDiagnosticoEN[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroEN--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+        } else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }
+
+    }
+
+    public void excluirManualDE() { //excluir ALEMAO
+
+		System.out.println(tradutor.get("excluir"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosTestesDiagnosticoDE[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosTestesDiagnosticoDE[i] = titulosTestesDiagnosticoDE[i + 1];
+                testeDiagnosticoDE[i] = testeDiagnosticoDE[i + 1];
+            }
+
+            titulosTestesDiagnosticoDE[3] = null;
+            testeDiagnosticoDE[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroDE--;
 
             System.out.println(" ");
             System.out.println(tradutor.get("enter"));

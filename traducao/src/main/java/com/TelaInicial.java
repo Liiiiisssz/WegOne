@@ -827,7 +827,7 @@ public class TelaInicial {
     
                             case 4: //testesDiagnostico
                                 System.out.println(" ");
-                                testesDiagnostico.excluirManual();
+                                testesDiagnostico.excluirManualEN();
                                 break;
     
                             case 5: //manualCondutaOperacoesSetoriais
@@ -866,7 +866,7 @@ public class TelaInicial {
     
                             case 4: //testesDiagnostico
                                 System.out.println(" ");
-                                testesDiagnostico.excluirManual();
+                                testesDiagnostico.excluirManualDE();
                                 break;
     
                             case 5: //manualCondutaOperacoesSetoriais
