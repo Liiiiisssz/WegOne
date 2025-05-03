@@ -723,4 +723,72 @@ public class ProcedimentoSeguranca {
 
     }
 
+    public void excluirManualEN() { //excluir em INGLES
+
+		System.out.println(tradutor.get("excluir"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosProcedimentoSegurancaEN[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosProcedimentoSegurancaEN[i] = titulosProcedimentoSegurancaEN[i + 1];
+                procedimentoSegurancaEN[i] = procedimentoSegurancaEN[i + 1];
+            }
+
+            titulosProcedimentoSegurancaEN[3] = null;
+            procedimentoSegurancaEN[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroEN--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+        } else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }
+
+    }
+
+    public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("excluir"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        if (titulosProcedimentoSegurancaDE[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosProcedimentoSegurancaDE[i] = titulosProcedimentoSegurancaDE[i + 1];
+                procedimentoSegurancaDE[i] = procedimentoSegurancaDE[i + 1];
+            }
+
+            titulosProcedimentoSegurancaDE[3] = null;
+            procedimentoSegurancaDE[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroDE--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+        } else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }
+
+    }
+
 }
