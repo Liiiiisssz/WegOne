@@ -17,6 +17,8 @@ public class ManualOperacao {
 	String[] titulosManuaisOperacaoDE = new String[4];
 
 	int contadorCadastro = 2;
+	int contadorCadastroEN = 2;
+	int contadorCadastroDE = 2;
 
 	public ManualOperacao(Traducoes tradutor) {
 
@@ -459,9 +461,9 @@ public class ManualOperacao {
 
 	}
 
-	public void cadastrarManual() { //cadastro em pt
+	public void cadastrarManual() { //cadastro em PT
 
-		if (contadorCadastro < 4) {
+		if (contadorCadastro < titulosManuaisOperacao.length) {
 
 			System.out.println(tradutor.get("tituloManualOp"));
 			titulosManuaisOperacao[contadorCadastro] = leia.nextLine();
@@ -473,6 +475,52 @@ public class ManualOperacao {
 			System.out.println(" ");
 
 			contadorCadastro++;
+
+		} else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+		}
+
+	}
+
+	public void cadastrarManualEN() { //cadastro em INGLES
+
+		if (contadorCadastroEN < titulosManuaisOperacaoEN.length) {
+
+			System.out.println(tradutor.get("tituloManualOp"));
+			titulosManuaisOperacaoEN[contadorCadastroEN] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println(tradutor.get("conteudoManualOp"));
+			manualOperacaoConteudoEN[contadorCadastroEN] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastroEN++;
+
+		} else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+		}
+
+	}
+
+	public void cadastrarManualDE() { //cadastro em ALEMÃO
+
+		if (contadorCadastroDE < titulosManuaisOperacaoDE.length) {
+
+			System.out.println(tradutor.get("tituloManualOp"));
+			titulosManuaisOperacaoDE[contadorCadastroDE] = leia.nextLine();
+
+			System.out.println(" ");
+
+			System.out.println(tradutor.get("conteudoManualOp"));
+			manualOperacaoConteudoDE[contadorCadastroDE] = leia.nextLine();
+			System.out.println(" ");
+
+			contadorCadastroDE++;
 
 		} else {
 

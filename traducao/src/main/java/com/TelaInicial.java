@@ -111,7 +111,7 @@ public class TelaInicial {
                         System.out.println(tradutor.get("resposta"));
                         tipoOrientacao = leia.nextInt();
 
-                        if(arquivo.equals("pt.json")){ //PT
+                        if(arquivo.equals("pt.json")){ //cadastro PT
 
                             switch (tipoOrientacao) {
 
@@ -144,6 +144,44 @@ public class TelaInicial {
                                     System.out.println(" ");
                                     break;
 
+                                default:
+                                    System.out.println(" ");
+                                    System.out.println(tradutor.get("invalid"));
+                                    break;
+                            }
+
+                        } else if (arquivo.equals("en.json")){ //cadastro INGLES
+
+                            switch (tipoOrientacao) {
+
+                                case 1: //manualOperação
+                                    System.out.println(" ");
+                                    manualOperacao.cadastrarManualEN();
+                                    break;
+
+                                case 2: //procedimentoSeguranca
+                                    System.out.println(" ");
+                                    procedimentoSeguranca.cadastrarManual();
+                                    break;
+
+                                case 3: //manutencaoReparos
+                                    System.out.println(" ");
+                                    manutencaoReparos.cadastrarManual();
+                                    break;
+
+                                case 4: //testesDiagnostico
+                                    System.out.println(" ");
+                                    testesDiagnostico.cadastrarManual();
+                                    break;
+
+                                case 5: //manualCondutaOperacoesSetoriais
+                                    System.out.println(" ");
+                                    manualCondutaOpSet.cadastrarManual();
+                                    break;
+
+                                case 6: //VoltarInicio
+                                    System.out.println(" ");
+                                    break;
 
                                 default:
                                     System.out.println(" ");
@@ -151,9 +189,44 @@ public class TelaInicial {
                                     break;
                             }
 
-                        } else if (idioma == 2){
+                        } else if (arquivo.equals("de.json")){ //cadastro ALEMÃO
 
+                            switch (tipoOrientacao) {
 
+                                case 1: //manualOperação
+                                    System.out.println(" ");
+                                    manualOperacao.cadastrarManualDE();
+                                    break;
+
+                                case 2: //procedimentoSeguranca
+                                    System.out.println(" ");
+                                    procedimentoSeguranca.cadastrarManual();
+                                    break;
+
+                                case 3: //manutencaoReparos
+                                    System.out.println(" ");
+                                    manutencaoReparos.cadastrarManual();
+                                    break;
+
+                                case 4: //testesDiagnostico
+                                    System.out.println(" ");
+                                    testesDiagnostico.cadastrarManual();
+                                    break;
+
+                                case 5: //manualCondutaOperacoesSetoriais
+                                    System.out.println(" ");
+                                    manualCondutaOpSet.cadastrarManual();
+                                    break;
+
+                                case 6: //VoltarInicio
+                                    System.out.println(" ");
+                                    break;
+
+                                default:
+                                    System.out.println(" ");
+                                    System.out.println(tradutor.get("invalid"));
+                                    break;
+                            }
 
                         }
                         
