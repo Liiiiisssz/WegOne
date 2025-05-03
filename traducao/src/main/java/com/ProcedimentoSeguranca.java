@@ -449,6 +449,70 @@ public class ProcedimentoSeguranca {
         }
     }
 
+    public void pesquisarManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("tituloPesq"));
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+            if (titulosProcedimentoSegurancaEN[i] != null) {
+
+                if (titulosProcedimentoSegurancaEN[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+                    System.out.println(titulosProcedimentoSegurancaEN[i]);
+                    System.out.println(procedimentoSegurancaEN[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisarManualTituloDE() { //pesquisa TITULO em ALEMAO
+
+		System.out.println(tradutor.get("tituloPesq"));
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+            if (titulosProcedimentoSegurancaDE[i] != null) {
+
+                if (titulosProcedimentoSegurancaDE[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+                    System.out.println(titulosProcedimentoSegurancaDE[i]);
+                    System.out.println(procedimentoSegurancaDE[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
@@ -465,6 +529,60 @@ public class ProcedimentoSeguranca {
             System.out.println(titulosProcedimentoSeguranca[pesquisaCodigo]);
 
             System.out.println(procedimentoSeguranca[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
+
+		System.out.println(tradutor.get("codigoPesq"));
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        if (titulosProcedimentoSegurancaEN[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+            System.out.println(titulosProcedimentoSegurancaEN[pesquisaCodigo]);
+
+            System.out.println(procedimentoSegurancaEN[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
+
+		System.out.println(tradutor.get("codigoPesq"));
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        if (titulosProcedimentoSegurancaDE[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+            System.out.println(titulosProcedimentoSegurancaDE[pesquisaCodigo]);
+
+            System.out.println(procedimentoSegurancaDE[pesquisaCodigo]);
             encontrado = true;
 
         }

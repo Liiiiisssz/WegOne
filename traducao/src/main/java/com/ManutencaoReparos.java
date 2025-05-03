@@ -661,7 +661,7 @@ public class ManutencaoReparos {
 
                 System.out.println(" ");
 
-		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
 
 			if (titulosManutencaoReparosEN[i] != null) {
 
@@ -693,7 +693,7 @@ public class ManutencaoReparos {
 
                 System.out.println(" ");
 
-		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
 
 			if (titulosManutencaoReparosDE[i] != null) {
 

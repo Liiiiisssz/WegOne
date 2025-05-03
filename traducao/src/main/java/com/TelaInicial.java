@@ -161,7 +161,7 @@ public class TelaInicial {
 
                                 case 2: //procedimentoSeguranca
                                     System.out.println(" ");
-                                    procedimentoSeguranca.cadastrarManual();
+                                    procedimentoSeguranca.cadastrarManualEN();
                                     break;
 
                                 case 3: //manutencaoReparos
@@ -200,7 +200,7 @@ public class TelaInicial {
 
                                 case 2: //procedimentoSeguranca
                                     System.out.println(" ");
-                                    procedimentoSeguranca.cadastrarManual();
+                                    procedimentoSeguranca.cadastrarManualDE();
                                     break;
 
                                 case 3: //manutencaoReparos
@@ -338,7 +338,9 @@ public class TelaInicial {
                             System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
-                            switch(tipoPesquisa){
+                            if(arquivo.equals("pt.json")){ //pesquisa PT
+
+                                switch(tipoPesquisa){
                 
                                 case 1:
                                     System.out.println(" ");
@@ -350,7 +352,41 @@ public class TelaInicial {
                                     procedimentoSeguranca.pesquisaManualCodigo();
                                     break;
                 
+                                }
+
+                            } else if(arquivo.equals("en.json")){ //pesquisa INGLES
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        procedimentoSeguranca.pesquisarManualTituloEN();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        procedimentoSeguranca.pesquisaManualCodigoEN();
+                                        break;
+                    
+                                }
+
+                            } else if(arquivo.equals("de.json")){ //pesquisa ALEMAO
+                            
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        procedimentoSeguranca.pesquisarManualTituloDE();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        procedimentoSeguranca.pesquisaManualCodigoDE();
+                                        break;
+                    
+                                }
                             }
+                            
 
                             break;
 
