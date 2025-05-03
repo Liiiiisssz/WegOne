@@ -171,7 +171,7 @@ public class TelaInicial {
 
                                 case 4: //testesDiagnostico
                                     System.out.println(" ");
-                                    testesDiagnostico.cadastrarManual();
+                                    testesDiagnostico.cadastrarManualEN();
                                     break;
 
                                 case 5: //manualCondutaOperacoesSetoriais
@@ -210,7 +210,7 @@ public class TelaInicial {
 
                                 case 4: //testesDiagnostico
                                     System.out.println(" ");
-                                    testesDiagnostico.cadastrarManual();
+                                    testesDiagnostico.cadastrarManualDE();
                                     break;
 
                                 case 5: //manualCondutaOperacoesSetoriais
