@@ -166,7 +166,7 @@ public class TelaInicial {
 
                                 case 3: //manutencaoReparos
                                     System.out.println(" ");
-                                    manutencaoReparos.cadastrarManual();
+                                    manutencaoReparos.cadastrarManualEN();
                                     break;
 
                                 case 4: //testesDiagnostico
@@ -205,7 +205,7 @@ public class TelaInicial {
 
                                 case 3: //manutencaoReparos
                                     System.out.println(" ");
-                                    manutencaoReparos.cadastrarManual();
+                                    manutencaoReparos.cadastrarManualDE();
                                     break;
 
                                 case 4: //testesDiagnostico
