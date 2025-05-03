@@ -428,8 +428,10 @@ public class TelaInicial {
                             System.out.println(tradutor.get("chooseTipoPesq"));
                             System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
-                
-                            switch(tipoPesquisa){
+                            
+                            if(arquivo.equals("pt.json")){ //PT
+
+                                switch(tipoPesquisa){
                 
                                 case 1:
                                     System.out.println(" ");
@@ -441,7 +443,42 @@ public class TelaInicial {
                                     manualCondutaOpSet.pesquisaManualCodigo();
                                     break;
                 
+                                }
+
+                            } else if (arquivo.equals("en.json")){ //INGLES
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        manualCondutaOpSet.pesquisaManualTituloEN();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        manualCondutaOpSet.pesquisaManualCodigoEN();
+                                        break;
+                    
+                                }
+
+                            } else if (arquivo.equals("de.json")){ //ALEMÃO
+                            
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        manualCondutaOpSet.pesquisaManualTituloDE();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        manualCondutaOpSet.pesquisaManualCodigoDE();
+                                        break;
+                    
+                                }
+
                             }
+                            
 
                             break;
 

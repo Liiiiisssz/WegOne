@@ -605,11 +605,73 @@ public class ManualCondutaOperacoesSetoriais {
 		}
 	}
 
+    public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("tituloPesq"));
+		String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+        System.out.println(" ");
+
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (titulosManuaisCOSEN[i] != null) {
+
+				if (titulosManuaisCOSEN[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+					System.out.println(titulosManuaisCOSEN[i]);
+					System.out.println(manualCOSConteudoEN[i]);
+					encontrado = true;
+
+                }
+            }   
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
+    public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
+
+		System.out.println(tradutor.get("tituloPesq"));
+		String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+        System.out.println(" ");
+
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (titulosManuaisCOSDE[i] != null) {
+
+				if (titulosManuaisCOSDE[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+					System.out.println(titulosManuaisCOSDE[i]);
+					System.out.println(manualCOSConteudoDE[i]);
+					encontrado = true;
+
+                }
+            }   
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
-		// 0 e 1 para padrão
-		// 2 e 3 para cadastro
 		int pesquisaCodigo = leia.nextInt();
 		
 		boolean encontrado = false;
@@ -633,7 +695,63 @@ public class ManualCondutaOperacoesSetoriais {
 
 		}
 	}
-     
+
+    public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
+
+		System.out.println(tradutor.get("codigoPesq"));
+		int pesquisaCodigo = leia.nextInt();
+		
+		boolean encontrado = false;
+
+        System.out.println(" ");
+
+		if (titulosManuaisCOSEN[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+			System.out.println(titulosManuaisCOSEN[pesquisaCodigo]);
+
+			System.out.println(manualCOSConteudoEN[pesquisaCodigo]);
+			encontrado = true;
+
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+    
+    public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
+
+		System.out.println(tradutor.get("codigoPesq"));
+		// 0 e 1 para padrão
+		// 2 e 3 para cadastro
+		int pesquisaCodigo = leia.nextInt();
+		
+		boolean encontrado = false;
+
+        System.out.println(" ");
+
+		if (titulosManuaisCOSDE[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+			System.out.println(titulosManuaisCOSDE[pesquisaCodigo]);
+
+			System.out.println(manualCOSConteudoDE[pesquisaCodigo]);
+			encontrado = true;
+
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
     
 
 

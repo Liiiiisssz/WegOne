@@ -575,7 +575,7 @@ public class ManualOperacao {
 
 		System.out.println(" ");
 
-		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
 
 			if (titulosManuaisOperacaoEN[i] != null) {
 
@@ -607,7 +607,7 @@ public class ManualOperacao {
 
 		System.out.println(" ");
 
-		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
 
 			if (titulosManuaisOperacaoDE[i] != null) {
 
