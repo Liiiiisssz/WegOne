@@ -615,6 +615,64 @@ public class TestesDiagnostico {
 
     }
 
+    public void editarManualEN() { //editar INGLES
+
+		System.out.println(tradutor.get("edit"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+        if (titulosTestesDiagnosticoEN[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+            titulosTestesDiagnosticoEN[indiceCadastro] = leia.nextLine();
+            titulosTestesDiagnosticoEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+            testeDiagnosticoEN[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso")); 
+
+        } else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+
+    }
+
+    public void editarManualDE() { //editar ALEMAO
+
+		System.out.println(tradutor.get("edit"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+        if (titulosTestesDiagnosticoDE[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+            titulosTestesDiagnosticoDE[indiceCadastro] = leia.nextLine();
+            titulosTestesDiagnosticoDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+            testeDiagnosticoDE[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso")); 
+
+        } else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+
+    }
+
 
 
 
