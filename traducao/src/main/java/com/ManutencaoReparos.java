@@ -804,7 +804,6 @@ public class ManutencaoReparos {
         public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 		int indiceCadastro = codigo;
@@ -819,6 +818,64 @@ public class ManutencaoReparos {
 
 			System.out.println(tradutor.get("newConteudo"));
 			manutencaoReparos[indiceCadastro] = leia.nextLine();
+
+                        System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+        public void editarManualEN() { //editar em INGLES
+
+		System.out.println(tradutor.get("edit"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+                System.out.println(" ");
+
+		if (titulosManutencaoReparosEN[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManutencaoReparosEN[indiceCadastro] = leia.nextLine();
+			titulosManutencaoReparosEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manutencaoReparosEN[indiceCadastro] = leia.nextLine();
+
+                        System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+        public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("edit"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+                System.out.println(" ");
+
+		if (titulosManutencaoReparosDE[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManutencaoReparosDE[indiceCadastro] = leia.nextLine();
+			titulosManutencaoReparosDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manutencaoReparosDE[indiceCadastro] = leia.nextLine();
 
                         System.out.println(" ");
 			System.out.println(tradutor.get("editSucesso"));
