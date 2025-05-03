@@ -479,7 +479,9 @@ public class TelaInicial {
                     System.out.print(" --Resposta: ");
                     tipoOrientacao = leia.nextInt();
 
-                    switch(tipoOrientacao){
+                    if(arquivo.equals("pt.json")){ //editar em PT
+
+                        switch(tipoOrientacao){
 
                         case 1: //manualOperacao
                             System.out.println(" ");
@@ -513,6 +515,86 @@ public class TelaInicial {
                         default://NenhumaOpçãoAcima
                             System.out.println(tradutor.get("invalid"));
                             break;
+
+                        }
+
+                    } else if (arquivo.equals("en.json")){ //editar em INGLES
+
+                        switch(tipoOrientacao){
+
+                            case 1: //manualOperacao
+                                System.out.println(" ");
+                                manualOperacao.editarManualEN();
+                                break;
+                            
+                            case 2: //procedimentoSeguranca
+                                System.out.println(" ");
+                                procedimentoSeguranca.editarManual();
+                                break;
+    
+                            case 3: //manutencaoReparos
+                                System.out.println(" ");
+                                manutencaoReparos.editarManual();
+                                break;
+    
+                            case 4: //testesDiagnostico
+                                System.out.println(" ");
+                                testesDiagnostico.editarManual();
+                                break;
+    
+                            case 5: //manualCondutaOperacoesSetoriais
+                                System.out.println(" ");
+                                manualCondutaOpSet.editarManual();
+                                break;
+                            
+                            case 6: //VoltarInicio
+                                System.out.println(" ");
+                                break;
+    
+                            default://NenhumaOpçãoAcima
+                                System.out.println(tradutor.get("invalid"));
+                                break;
+    
+                        }
+
+                    } else if (arquivo.equals("de.json")){ //editar em ALEMÃO
+
+                        switch(tipoOrientacao){
+
+                            case 1: //manualOperacao
+                                System.out.println(" ");
+                                manualOperacao.editarManualDE();
+                                break;
+                            
+                            case 2: //procedimentoSeguranca
+                                System.out.println(" ");
+                                procedimentoSeguranca.editarManual();
+                                break;
+    
+                            case 3: //manutencaoReparos
+                                System.out.println(" ");
+                                manutencaoReparos.editarManual();
+                                break;
+    
+                            case 4: //testesDiagnostico
+                                System.out.println(" ");
+                                testesDiagnostico.editarManual();
+                                break;
+    
+                            case 5: //manualCondutaOperacoesSetoriais
+                                System.out.println(" ");
+                                manualCondutaOpSet.editarManual();
+                                break;
+                            
+                            case 6: //VoltarInicio
+                                System.out.println(" ");
+                                break;
+    
+                            default://NenhumaOpçãoAcima
+                                System.out.println(tradutor.get("invalid"));
+                                break;
+    
+                            }
 
                     }
 

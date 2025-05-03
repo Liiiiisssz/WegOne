@@ -530,6 +530,10 @@ public class ManualOperacao {
 
 	}
 
+
+
+
+
 	public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
 		System.out.println(tradutor.get("tituloPesq"));
@@ -707,6 +711,10 @@ public class ManualOperacao {
 		}
 	}
 
+
+
+
+
 	public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
@@ -736,10 +744,71 @@ public class ManualOperacao {
 
 	}
 
+	public void editarManualEN() { //editar em INGLES
+
+		System.out.println(tradutor.get("edit"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		System.out.println(" ");
+
+		if (titulosManuaisOperacaoEN[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManuaisOperacaoEN[indiceCadastro] = leia.nextLine();
+			titulosManuaisOperacaoEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manualOperacaoConteudoEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+	public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("edit"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		System.out.println(" ");
+
+		if (titulosManuaisOperacaoDE[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+			titulosManuaisOperacaoDE[indiceCadastro] = leia.nextLine();
+			titulosManuaisOperacaoDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+			manualOperacaoConteudoDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso"));
+
+		} else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+
+	}
+
+
+
+
+
 	public void excluirManual() { //excluir em PT
 
 		System.out.println(tradutor.get("excluir"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 			int indiceCadastro = codigo;
