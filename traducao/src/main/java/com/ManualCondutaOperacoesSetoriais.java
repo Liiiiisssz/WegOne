@@ -851,7 +851,6 @@ public class ManualCondutaOperacoesSetoriais {
     public void excluirManual() { //excluir em PT
 
 		System.out.println(tradutor.get("excluir"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 		int indiceCadastro = codigo;
@@ -869,6 +868,73 @@ public class ManualCondutaOperacoesSetoriais {
             System.out.println(tradutor.get("delSucesso"));
 
             contadorCadastro--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+		} else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }   
+    }
+
+    public void excluirManualEN() { //excluir em INGLES
+
+		System.out.println(tradutor.get("excluir"));
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManuaisCOSEN[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosManuaisCOSEN[i] = titulosManuaisCOSEN[i + 1];
+                manualCOSConteudoEN[i] = manualCOSConteudoEN[i + 1];
+            }
+
+            titulosManuaisCOSEN[3] = null;
+            manualCOSConteudoEN[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroEN--;
+
+            System.out.println(" ");
+            System.out.println(tradutor.get("enter"));
+            leia.nextLine();
+            leia.nextLine();
+
+		} else {
+
+            System.out.println(tradutor.get("delNEncontrado"));
+
+        }   
+    }
+
+    public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("excluir"));
+		// 2 e 3 para cadastrados
+		int codigo = leia.nextInt();
+
+		int indiceCadastro = codigo;
+
+		if (titulosManuaisCOSDE[indiceCadastro] != null) {
+
+            for (int i = codigo; i < 3; i++) {
+                titulosManuaisCOSDE[i] = titulosManuaisCOSDE[i + 1];
+                manualCOSConteudoDE[i] = manualCOSConteudoDE[i + 1];
+            }
+
+            titulosManuaisCOSDE[3] = null;
+            manualCOSConteudoDE[3] = null;
+
+            System.out.println(tradutor.get("delSucesso"));
+
+            contadorCadastroDE--;
 
             System.out.println(" ");
             System.out.println(tradutor.get("enter"));

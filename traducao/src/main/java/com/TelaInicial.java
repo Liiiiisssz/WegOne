@@ -724,7 +724,7 @@ public class TelaInicial {
     
                             case 5: //manualCondutaOperacoesSetoriais
                                 System.out.println(" ");
-                                manualCondutaOpSet.excluirManual();
+                                manualCondutaOpSet.excluirManualDE();
                                 break;
     
                             case 6: //VoltarInicio
@@ -763,7 +763,7 @@ public class TelaInicial {
     
                             case 5: //manualCondutaOperacoesSetoriais
                                 System.out.println(" ");
-                                manualCondutaOpSet.excluirManual();
+                                manualCondutaOpSet.excluirManualDE();
                                 break;
     
                             case 6: //VoltarInicio
