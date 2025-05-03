@@ -652,11 +652,73 @@ public class ManutencaoReparos {
 		}
 	}
 
+        public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("tituloPesq"));
+                String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+                System.out.println(" ");
+
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (titulosManutencaoReparosEN[i] != null) {
+
+				if (titulosManutencaoReparosEN[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                                        System.out.println(" ");
+					System.out.println(titulosManutencaoReparosEN[i]);
+					System.out.println(manutencaoReparosEN[i]);
+					encontrado = true;
+
+				}
+			}
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
+        public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMAO
+
+		System.out.println(tradutor.get("tituloPesq"));
+                String pesquisa = leia.nextLine();
+
+		boolean encontrado = false;
+
+                System.out.println(" ");
+
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (titulosManutencaoReparosDE[i] != null) {
+
+				if (titulosManutencaoReparosDE[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                                        System.out.println(" ");
+					System.out.println(titulosManutencaoReparosDE[i]);
+					System.out.println(manutencaoReparosDE[i]);
+					encontrado = true;
+
+				}
+			}
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
         public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
-		// 0 e 1 para padrão
-		// 2 e 3 para cadastro
 		int pesquisaCodigo = leia.nextInt();
 		
 		boolean encontrado = false;
@@ -670,6 +732,60 @@ public class ManutencaoReparos {
 			System.out.println(titulosManutencaoReparos[pesquisaCodigo]);
 
 			System.out.println(manutencaoReparos[pesquisaCodigo]);
+			encontrado = true;
+
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
+        public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
+
+		System.out.println(tradutor.get("codigoPesq"));
+		int pesquisaCodigo = leia.nextInt();
+		
+		boolean encontrado = false;
+
+                System.out.println(" ");
+
+		if (titulosManutencaoReparosEN[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+                        System.out.println(" ");
+			System.out.println(titulosManutencaoReparosEN[pesquisaCodigo]);
+
+			System.out.println(manutencaoReparosEN[pesquisaCodigo]);
+			encontrado = true;
+
+		}
+
+		if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+		}
+	}
+
+        public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
+
+		System.out.println(tradutor.get("codigoPesq"));
+		int pesquisaCodigo = leia.nextInt();
+		
+		boolean encontrado = false;
+
+                System.out.println(" ");
+
+		if (titulosManutencaoReparosDE[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+                        System.out.println(" ");
+			System.out.println(titulosManutencaoReparosDE[pesquisaCodigo]);
+
+			System.out.println(manutencaoReparosDE[pesquisaCodigo]);
 			encontrado = true;
 
 		}
