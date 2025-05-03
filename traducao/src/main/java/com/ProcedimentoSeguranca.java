@@ -10,12 +10,21 @@ public class ProcedimentoSeguranca {
     String[] procedimentoSeguranca = new String[4];
 	String[] titulosProcedimentoSeguranca = new String[4];
 
+    String[] procedimentoSegurancaEN = new String[4];
+	String[] titulosProcedimentoSegurancaEN = new String[4];
+
+    String[] procedimentoSegurancaDE = new String[4];
+	String[] titulosProcedimentoSegurancaDE = new String[4];
+
     int contadorCadastro = 2;
+    int contadorCadastroEN = 2;
+    int contadorCadastroDE = 2;
 
     public ProcedimentoSeguranca(Traducoes tradutor) {
 
         this.tradutor = tradutor;
 
+        //manuais em PT
         titulosProcedimentoSeguranca[0] = "Manual de seguranca motor weg W22";
 
         procedimentoSeguranca[0] = "_______________________________________________________________________\n" +
@@ -119,11 +128,228 @@ public class ProcedimentoSeguranca {
                                 "|                                                                     |\n" +
                                 "|_____________________________________________________________________|\n";
 
+
+        //manuais em INGLES
+        titulosProcedimentoSegurancaEN[0] = "Safety Manual WEG W22 Motor";
+
+        procedimentoSegurancaEN[0] = 
+                "_______________________________________________________________________\n" +
+                "|--               SAFETY MANUAL - WEG W22 MOTOR                     --|\n" +
+                "|_____________________________________________________________________|\n" +
+                "|-- PURPOSE: Safe procedure for inspection and maintenance of the     --|\n" +
+                "|   WEG W22 motor, ensuring operator and equipment safety.            |\n" +
+                "|_____________________________________________________________________|\n" +
+                "|                                                                     |\n" +
+                "| 1. GENERAL INSTRUCTIONS:                                           |\n" +
+                "|                                                                     |\n" +
+                "| - Only qualified technicians may work on the equipment.            |\n" +
+                "| - Carefully read the manufacturer's manual before any action.      |\n" +
+                "| - Never operate the motor without the protections installed.        |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 2. SAFE SHUTDOWN:                                                  |\n" +
+                "|                                                                     |\n" +
+                "| - Turn off the main power supply from the control panel.           |\n" +
+                "| - Apply lockout and tagout (LOTO).                                 |\n" +
+                "| - Wait 10 minutes to discharge capacitors.                         |\n" +
+                "| - Verify absence of voltage with CAT III/IV tester.                |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 3. REQUIRED PPE:                                                   |\n" +
+                "|                                                                     |\n" +
+                "| - Insulating gloves                                                |\n" +
+                "| - Safety goggles                                                   |\n" +
+                "| - Dielectric safety footwear                                       |\n" +
+                "| - Voltage detector                                                 |\n" +
+                "| - Helmet with visor                                                |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. INSPECTION:                                                     |\n" +
+                "|                                                                     |\n" +
+                "| - Check temperature, vibration, and noise.                         |\n" +
+                "| - Inspect terminals, housing, and ventilation.                     |\n" +
+                "| - Clean with non-flammable materials.                              |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. APPLICABLE STANDARDS:                                           |\n" +
+                "|                                                                     |\n" +
+                "| - NR-10, NR-12                                                     |\n" +
+                "| - NBR IEC 60034-1                                                  |\n" +
+                "| - WEG W22 Technical Manual                                         |\n" +
+                "|                                                                     |\n" +
+                "|_____________________________________________________________________|\n";
+
+                titulosProcedimentoSegurancaEN[1] = "Safety Manual WEG CFW500 Inverter";
+
+                procedimentoSegurancaEN[1] = 
+                        "_______________________________________________________________________\n" +
+                        "|--            SAFETY MANUAL - WEG CFW500 INVERTER                 --|\n" +
+                        "|_____________________________________________________________________|\n" +
+                        "|-- PURPOSE: Ensure safety during parameter setting and maintenance   --|\n" +
+                        "|   of the WEG CFW500 frequency inverter, avoiding accidents.         |\n" +
+                        "|_____________________________________________________________________|\n" +
+                        "|                                                                     |\n" +
+                        "| 1. GENERAL INSTRUCTIONS:                                           |\n" +
+                        "|                                                                     |\n" +
+                        "| - Read the inverter manual before any procedure.                   |\n" +
+                        "| - Only qualified professionals should operate the equipment.       |\n" +
+                        "| - Never touch the electronic board while energized.                |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 2. POWER-OFF AND PREPARATION:                                      |\n" +
+                        "|                                                                     |\n" +
+                        "| - Turn off the breaker on the electrical panel.                    |\n" +
+                        "| - Apply lockout and tagout (LOTO).                                 |\n" +
+                        "| - Wait 15 minutes after shutdown.                                  |\n" +
+                        "| - Confirm absence of voltage on terminals R/S/T and U/V/W.         |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 3. REQUIRED PPE:                                                   |\n" +
+                        "|                                                                     |\n" +
+                        "| - Insulated gloves and tools (1000V)                               |\n" +
+                        "| - Safety goggles                                                   |\n" +
+                        "| - Safety shoes                                                     |\n" +
+                        "| - Voltage detector                                                 |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 4. SAFE PARAMETER SETTING:                                         |\n" +
+                        "|                                                                     |\n" +
+                        "| - Use inverter HMI or WEG software with insulated cable.           |\n" +
+                        "| - Ensure the load is disconnected during adjustments.              |\n" +
+                        "| - Validate parameters before re-energizing the system.             |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 5. APPLICABLE STANDARDS:                                           |\n" +
+                        "|                                                                     |\n" +
+                        "| - NR-10                                                            |\n" +
+                        "| - NBR IEC 61800-5-1                                                |\n" +
+                        "| - WEG CFW500 Technical Manual                                      |\n" +
+                        "|                                                                     |\n" +
+                        "|_____________________________________________________________________|\n";
+
+        
+        //manuais em ALEMÃO
+        titulosProcedimentoSegurancaDE[0] = "Sicherheitsanleitung WEG W22 Motor";
+
+        procedimentoSegurancaDE[0] = 
+                "_______________________________________________________________________\n" +
+                "|--               SICHERHEITSANLEITUNG - WEG W22 MOTOR              --|\n" +
+                "|_____________________________________________________________________|\n" +
+                "|-- ZIEL: Sicheres Verfahren zur Inspektion und Wartung des Motors   --|\n" +
+                "|   WEG W22, um die Sicherheit des Bedieners und des Geräts zu       |\n" +
+                "|   gewährleisten.                                                   |\n" +
+                "|_____________________________________________________________________|\n" +
+                "|                                                                     |\n" +
+                "| 1. ALLGEMEINE ANWEISUNGEN:                                         |\n" +
+                "|                                                                     |\n" +
+                "| - Nur qualifiziertes Personal darf am Gerät arbeiten.              |\n" +
+                "| - Lesen Sie vor jeglicher Maßnahme sorgfältig das Handbuch des     |\n" +
+                "|   Herstellers.                                                     |\n" +
+                "| - Der Motor darf niemals ohne installierte Schutzvorrichtungen     |\n" +
+                "|   betrieben werden.                                                |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 2. SICHERE ABSCHALTUNG:                                            |\n" +
+                "|                                                                     |\n" +
+                "| - Hauptstromversorgung im Schaltschrank ausschalten.               |\n" +
+                "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                  |\n" +
+                "| - 10 Minuten warten, um Kondensatoren zu entladen.                 |\n" +
+                "| - Spannungsfreiheit mit einem CAT III/IV-Spannungsprüfer prüfen.   |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 3. ERFORDERLICHE PSA:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - Isolierhandschuhe                                                |\n" +
+                "| - Schutzbrille                                                     |\n" +
+                "| - Dielektrische Sicherheitsschuhe                                  |\n" +
+                "| - Spannungsprüfer                                                  |\n" +
+                "| - Schutzhelm mit Visier                                            |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. INSPEKTION:                                                     |\n" +
+                "|                                                                     |\n" +
+                "| - Temperatur, Vibrationen und Geräusche überprüfen.                |\n" +
+                "| - Klemmen, Gehäuse und Belüftung kontrollieren.                    |\n" +
+                "| - Mit nicht brennbaren Materialien reinigen.                       |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. ANWENDBARE NORMEN:                                              |\n" +
+                "|                                                                     |\n" +
+                "| - NR-10, NR-12                                                     |\n" +
+                "| - NBR IEC 60034-1                                                  |\n" +
+                "| - Technisches Handbuch WEG W22                                     |\n" +
+                "|                                                                     |\n" +
+                "|_____________________________________________________________________|\n";
+
+    titulosProcedimentoSegurancaDE[1] = "Sicherheitsanleitung WEG CFW500 Frequenzumrichter";
+
+    procedimentoSegurancaDE[1] = 
+                        "_______________________________________________________________________\n" +
+                        "|--          SICHERHEITSANLEITUNG - WEG CFW500 UMRICHTER            --|\n" +
+                        "|_____________________________________________________________________|\n" +
+                        "|-- ZIEL: Sicherheit bei Parametrierung und Wartung des              --|\n" +
+                        "|   Frequenzumrichters WEG CFW500, zur Vermeidung von Unfällen.      |\n" +
+                        "|_____________________________________________________________________|\n" +
+                        "|                                                                     |\n" +
+                        "| 1. ALLGEMEINE ANWEISUNGEN:                                         |\n" +
+                        "|                                                                     |\n" +
+                        "| - Handbuch des Frequenzumrichters vor jeglicher Maßnahme lesen.    |\n" +
+                        "| - Nur geschultes Fachpersonal darf das Gerät bedienen.             |\n" +
+                        "| - Niemals die Leiterplatte bei anliegender Spannung berühren.      |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 2. ABSCHALTUNG UND VORBEREITUNG:                                   |\n" +
+                        "|                                                                     |\n" +
+                        "| - Sicherungsautomat im Schaltschrank ausschalten.                  |\n" +
+                        "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                  |\n" +
+                        "| - 15 Minuten nach Abschaltung warten.                              |\n" +
+                        "| - Spannungsfreiheit an Klemmen R/S/T und U/V/W bestätigen.         |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 3. ERFORDERLICHE PSA:                                              |\n" +
+                        "|                                                                     |\n" +
+                        "| - Isolierte Handschuhe und Werkzeuge (1000V)                       |\n" +
+                        "| - Schutzbrille                                                     |\n" +
+                        "| - Sicherheitsschuhe                                                |\n" +
+                        "| - Spannungsprüfer                                                  |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 4. SICHERE PARAMETRIERUNG:                                         |\n" +
+                        "|                                                                     |\n" +
+                        "| - HMI des Umrichters oder WEG-Software mit isoliertem Kabel nutzen.|\n" +
+                        "| - Prüfen, ob Last während der Einstellungen abgeklemmt ist.        |\n" +
+                        "| - Parameter vor Wiederinbetriebnahme validieren.                   |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 5. ANWENDBARE NORMEN:                                              |\n" +
+                        "|                                                                     |\n" +
+                        "| - NR-10                                                            |\n" +
+                        "| - NBR IEC 61800-5-1                                                |\n" +
+                        "| - Technisches Handbuch WEG CFW500                                  |\n" +
+                        "|                                                                     |\n" +
+                        "|_____________________________________________________________________|\n";
+
     }
     
-    public void cadastrarManual() {
+    public void cadastrarManual() { //cadastro PT
 
-        if (contadorCadastro < 4) {
+        if (contadorCadastro < titulosProcedimentoSeguranca.length) {
 
             System.out.println(tradutor.get("tituloProcedSeg"));
             titulosProcedimentoSeguranca[contadorCadastro] = leia.nextLine();
@@ -143,7 +369,55 @@ public class ProcedimentoSeguranca {
         }
     }
 
-    public void pesquisarManualTitulo() {
+    public void cadastrarManualEN() { //cadastro INGLES
+
+        if (contadorCadastroEN < titulosProcedimentoSegurancaEN.length) {
+
+            System.out.println(tradutor.get("tituloProcedSeg"));
+            titulosProcedimentoSegurancaEN[contadorCadastroEN] = leia.nextLine();
+
+            System.out.println(" ");
+
+            System.out.println(tradutor.get("conteudoProcedSeg"));
+            procedimentoSegurancaEN[contadorCadastroEN] = leia.nextLine();
+            System.out.println(" ");
+
+            contadorCadastroEN++;
+
+        } else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+        }
+    }
+
+    public void cadastrarManualDE() { //cadastro ALEMAO
+
+        if (contadorCadastroDE < titulosProcedimentoSegurancaDE.length) {
+
+            System.out.println(tradutor.get("tituloProcedSeg"));
+            titulosProcedimentoSegurancaDE[contadorCadastroDE] = leia.nextLine();
+
+            System.out.println(" ");
+
+            System.out.println(tradutor.get("conteudoProcedSeg"));
+            procedimentoSegurancaDE[contadorCadastroDE] = leia.nextLine();
+            System.out.println(" ");
+
+            contadorCadastroDE++;
+
+        } else {
+
+			System.out.println(tradutor.get("numeroMax"));
+
+        }
+    }
+
+
+
+
+
+    public void pesquisarManualTitulo() { //pesquisa TITULO em PT
 
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
@@ -175,7 +449,7 @@ public class ProcedimentoSeguranca {
         }
     }
 
-    public void pesquisaManualCodigo() {
+    public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
@@ -202,7 +476,11 @@ public class ProcedimentoSeguranca {
         }
     }
 
-    public void editarManual() {
+
+
+
+
+    public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
@@ -231,7 +509,11 @@ public class ProcedimentoSeguranca {
 
     }
 
-    public void excluirManual() {
+
+
+
+
+    public void excluirManual() { //excluir em PT
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();

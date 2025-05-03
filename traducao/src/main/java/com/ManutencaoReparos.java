@@ -549,7 +549,7 @@ public class ManutencaoReparos {
 
     public void cadastrarManual() { //cadastro em PT
 
-		if (contadorCadastro < 4) {
+		if (contadorCadastro < titulosManutencaoReparos.length) {
 
 			System.out.println(tradutor.get("tituloManutenRep"));
 			titulosManutencaoReparos[contadorCadastro] = leia.nextLine();
@@ -572,7 +572,7 @@ public class ManutencaoReparos {
 
         public void cadastrarManualEN() { //cadastro em INGLES
 
-		if (contadorCadastroEN < 4) {
+		if (contadorCadastroEN < titulosManutencaoReparosEN.length) {
 
 			System.out.println(tradutor.get("tituloManutenRep"));
 			titulosManutencaoReparosEN[contadorCadastroEN] = leia.nextLine();
@@ -595,7 +595,7 @@ public class ManutencaoReparos {
 
         public void cadastrarManualDE() { //cadastro em ALEMÃO
 
-		if (contadorCadastroDE < 4) {
+		if (contadorCadastroDE < titulosManutencaoReparosDE.length) {
 
 			System.out.println(tradutor.get("tituloManutenRep"));
 			titulosManutencaoReparosDE[contadorCadastroDE] = leia.nextLine();
