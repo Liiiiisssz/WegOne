@@ -405,7 +405,7 @@ public class TestesDiagnostico {
 
 
 
-     public void pesquisarManualTitulo() { //pesquisar TITULO em PT
+    public void pesquisarManualTitulo() { //pesquisar TITULO em PT
 
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
@@ -437,6 +437,70 @@ public class TestesDiagnostico {
         }
     }
 
+    public void pesquisarManualTituloEN() { //pesquisar TITULO em INGLES
+
+		System.out.println(tradutor.get("tituloPesq"));
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+            if (titulosTestesDiagnosticoEN[i] != null) {
+
+                if (titulosTestesDiagnosticoEN[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+                    System.out.println(titulosTestesDiagnosticoEN[i]);
+                    System.out.println(testeDiagnosticoEN[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) { 
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisarManualTituloDE() { //pesquisar TITULO em ALEMÃO
+
+		System.out.println(tradutor.get("tituloPesq"));
+        String pesquisa = leia.nextLine();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+            if (titulosTestesDiagnosticoDE[i] != null) {
+
+                if (titulosTestesDiagnosticoDE[i].contains(pesquisa)) {
+
+					System.out.println(tradutor.get("encontrado"));
+                    System.out.println(" ");
+                    System.out.println(titulosTestesDiagnosticoDE[i]);
+                    System.out.println(testeDiagnosticoDE[i]);
+                    encontrado = true;
+
+                }
+            }
+        }
+
+        if (!encontrado) { 
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
     public void pesquisaManualCodigo() { //pesquisar CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
@@ -453,6 +517,60 @@ public class TestesDiagnostico {
             System.out.println(titulosTestesDiagnostico[pesquisaCodigo]);
 
             System.out.println(testeDiagnostico[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisaManualCodigoEN() { //pesquisar CODIGO em INGLES
+
+		System.out.println(tradutor.get("codigoPesq"));
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        if (titulosTestesDiagnosticoEN[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+            System.out.println(titulosTestesDiagnosticoEN[pesquisaCodigo]);
+
+            System.out.println(testeDiagnosticoEN[pesquisaCodigo]);
+            encontrado = true;
+
+        }
+
+        if (!encontrado) {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+    }
+
+    public void pesquisaManualCodigoDE() { //pesquisar CODIGO em ALEMÃO
+
+		System.out.println(tradutor.get("codigoPesq"));
+        int pesquisaCodigo = leia.nextInt();
+
+        boolean encontrado = false;
+
+        System.out.println(" ");
+
+        if (titulosTestesDiagnosticoDE[pesquisaCodigo] != null) {
+
+			System.out.println(tradutor.get("encontrado"));
+            System.out.println(" ");
+            System.out.println(titulosTestesDiagnosticoDE[pesquisaCodigo]);
+
+            System.out.println(testeDiagnosticoDE[pesquisaCodigo]);
             encontrado = true;
 
         }

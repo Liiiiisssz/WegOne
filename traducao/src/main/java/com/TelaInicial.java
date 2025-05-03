@@ -470,7 +470,9 @@ public class TelaInicial {
                             System.out.println(tradutor.get("resposta"));
                             tipoPesquisa = leia.nextInt();
                 
-                            switch(tipoPesquisa){
+                            if(arquivo.equals("pt.json")){ //pesquisa PT
+
+                                switch(tipoPesquisa){
                 
                                 case 1:
                                     System.out.println(" ");
@@ -482,7 +484,41 @@ public class TelaInicial {
                                     testesDiagnostico.pesquisaManualCodigo();
                                     break;
                 
+                                }
+
+                            } else if(arquivo.equals("en.json")){ //pesquisa INGLES
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        testesDiagnostico.pesquisarManualTituloEN();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        testesDiagnostico.pesquisaManualCodigoEN();
+                                        break;
+                    
+                                }
+
+                            } else if(arquivo.equals("de.json")){ //pesquisa ALEMAO
+
+                                switch(tipoPesquisa){
+                
+                                    case 1:
+                                        System.out.println(" ");
+                                        testesDiagnostico.pesquisarManualTituloDE();
+                                        break;
+                    
+                                    case 2:
+                                        System.out.println(" ");
+                                        testesDiagnostico.pesquisaManualCodigoDE();
+                                        break;
+                    
+                                    }
                             }
+                            
 
                             break;
 
