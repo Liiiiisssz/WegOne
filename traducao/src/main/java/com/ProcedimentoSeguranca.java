@@ -627,6 +627,64 @@ public class ProcedimentoSeguranca {
 
     }
 
+    public void editarManualEN() { //editar em INGLES
+
+		System.out.println(tradutor.get("edit"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+        if (titulosProcedimentoSegurancaEN[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+            titulosProcedimentoSegurancaEN[indiceCadastro] = leia.nextLine();
+            titulosProcedimentoSegurancaEN[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+            procedimentoSegurancaEN[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso")); 
+
+        } else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+
+    }
+
+    public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("edit"));
+        int codigo = leia.nextInt();
+
+        int indiceCadastro = codigo;
+
+        System.out.println(" ");
+
+        if (titulosProcedimentoSegurancaDE[indiceCadastro] != null) {
+
+			System.out.println(tradutor.get("newTitulo"));
+            titulosProcedimentoSegurancaDE[indiceCadastro] = leia.nextLine();
+            titulosProcedimentoSegurancaDE[indiceCadastro] = leia.nextLine();
+
+			System.out.println(tradutor.get("newConteudo"));
+            procedimentoSegurancaDE[indiceCadastro] = leia.nextLine();
+
+            System.out.println(" ");
+			System.out.println(tradutor.get("editSucesso")); 
+
+        } else {
+
+			System.out.println(tradutor.get("nEncontrado"));
+
+        }
+
+    }
+
 
 
 

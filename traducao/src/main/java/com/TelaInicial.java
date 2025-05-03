@@ -638,7 +638,7 @@ public class TelaInicial {
                             
                             case 2: //procedimentoSeguranca
                                 System.out.println(" ");
-                                procedimentoSeguranca.editarManual();
+                                procedimentoSeguranca.editarManualEN();
                                 break;
     
                             case 3: //manutencaoReparos
@@ -677,7 +677,7 @@ public class TelaInicial {
                             
                             case 2: //procedimentoSeguranca
                                 System.out.println(" ");
-                                procedimentoSeguranca.editarManual();
+                                procedimentoSeguranca.editarManualDE();
                                 break;
     
                             case 3: //manutencaoReparos
