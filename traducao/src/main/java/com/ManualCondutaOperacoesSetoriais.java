@@ -576,10 +576,14 @@ public class ManualCondutaOperacoesSetoriais {
     public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
 		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
-		System.out.println(titulosManuaisCOS[0]);
-		System.out.println(titulosManuaisCOS[1]);
-		System.out.println(titulosManuaisCOS[2]);
-		System.out.println(titulosManuaisCOS[3]);
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(titulosManuaisCOS[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
