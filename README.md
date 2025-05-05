@@ -1,4 +1,6 @@
-<h1 align="center"> WegOne </h1>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/17f0d362-169f-4e45-90f0-adf5bf9bd3f3" alt="WegOne Logo" width="500"/>
+</p>
 
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
