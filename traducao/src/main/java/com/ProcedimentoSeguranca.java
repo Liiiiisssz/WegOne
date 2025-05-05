@@ -459,6 +459,14 @@ public class ProcedimentoSeguranca {
 
     public void pesquisarManualTituloEN() { //pesquisa TITULO em INGLES
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+			if (procedimentoSegurancaEN[i] != null) {
+				System.out.println(titulosProcedimentoSegurancaEN[i]);
+			}
+		}
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
