@@ -775,6 +775,16 @@ public class ProcedimentoSeguranca {
 
     public void excluirManual() { //excluir em PT
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+			if (procedimentoSeguranca[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
