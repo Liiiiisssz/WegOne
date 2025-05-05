@@ -396,18 +396,19 @@ public class ManualOperacao {
 
 		titulosManuaisOperacaoDE[1] = "Handbuch für den Betrieb von Elektromotoren";
 
-		manualOperacaoConteudoDE[1] = "_______________________________________________________________________\n" +
-				"|--               HANDBUCH FÜR DEN BETRIEB VON ELEKTROMOTOREN         --|\n" +
+		manualOperacaoConteudoDE[1] = 
+		        "_______________________________________________________________________\n" +
+				"|--               HANDBUCH FÜR DEN BETRIEB VON ELEKTROMOTOREN       --|\n" +
 				"|_____________________________________________________________________|\n" +
-				"|-- ZIEL: Anweisungen für die Installation, den Betrieb und die      --|\n" +
+				"|-- ZIEL: Anweisungen für die Installation, den Betrieb und die     --|\n" +
 				"|   Wartung von Elektromotoren unter Berücksichtigung empfohlener     |\n" +
-				"|   Praktiken zu geben.                                              |\n" +
+				"|   Praktiken zu geben.                                               |\n" +
 				"|_____________________________________________________________________|\n" +
 				"|                                                                     |\n" +
 				"| 1. ALLGEMEINE HINWEISE:                                             |\n" +
 				"|                                                                     |\n" +
 				"| - Lesen Sie das Handbuch vollständig vor der Installation.          |\n" +
-				"| - Überprüfen Sie die Daten des Motortyps mit der Anwendung.          |\n" +
+				"| - Überprüfen Sie die Daten des Motortyps mit der Anwendung.         |\n" +
 				"| - Nur qualifiziertes Personal darf Arbeiten durchführen.            |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
@@ -415,20 +416,20 @@ public class ManualOperacao {
 				"| 2. INSTALLATION:                                                    |\n" +
 				"|                                                                     |\n" +
 				"| - Sauberer, trockener und gut belüfteter Installationsort.          |\n" +
-				"| - Feste Befestigung, um Vibrationen zu vermeiden.                    |\n" +
+				"| - Feste Befestigung, um Vibrationen zu vermeiden.                   |\n" +
 				"| - Elektrische Anschlüsse gemäß dem Motorschema und den geltenden    |\n" +
 				"|   Normen.                                                           |\n" +
-				"| - Korrekte Erdung des Motors anschließen.                            |\n" +
+				"| - Korrekte Erdung des Motors anschließen.                           |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
 				"| 3. START:                                                           |\n" +
 				"|                                                                     |\n" +
-				"| - Verwenden Sie geeignete Startsysteme:                              |\n" +
+				"| - Verwenden Sie geeignete Startsysteme:                             |\n" +
 				"|   * Direkt                                                          |\n" +
-				"|   * Stern-Dreieck                                                    |\n" +
+				"|   * Stern-Dreieck                                                   |\n" +
 				"|   * Sanftanlasser                                                   |\n" +
-				"|   * Frequenzumrichter                                              |\n" +
+				"|   * Frequenzumrichter                                               |\n" +
 				"| - Überprüfen Sie und stellen Sie die Drehrichtung ein.              |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
@@ -436,7 +437,7 @@ public class ManualOperacao {
 				"| 4. BETRIEB:                                                         |\n" +
 				"|                                                                     |\n" +
 				"| - Überwachen Sie Temperatur, Geräusche und Vibrationen.             |\n" +
-				"| - Überlasten Sie den Motor nicht.                                    |\n" +
+				"| - Überlasten Sie den Motor nicht.                                   |\n" +
 				"| - Beachten Sie die vom Hersteller angegebenen Grenzwerte.           |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
@@ -444,7 +445,7 @@ public class ManualOperacao {
 				"| 5. WARTUNG:                                                         |\n" +
 				"|                                                                     |\n" +
 				"| - Schmierung gemäß der Herstellerempfehlung.                        |\n" +
-				"| - Verwenden Sie empfohlenes Schmierfett.                             |\n" +
+				"| - Verwenden Sie empfohlenes Schmierfett.                            |\n" +
 				"| - Reinigen Sie regelmäßig die Lüfter und Kühlrippen.                |\n" +
 				"| - Führen Sie Inspektionen an den Lagern und Verbindungen durch.     |\n" +
 				"|                                                                     |\n" +
@@ -453,7 +454,7 @@ public class ManualOperacao {
 				"| 6. SICHERHEIT:                                                      |\n" +
 				"|                                                                     |\n" +
 				"| - Trennen Sie die Stromversorgung vor Arbeiten am Motor.            |\n" +
-				"| - Verwenden Sie geeignete Persönliche Schutzausrüstung (PSA).        |\n" +
+				"| - Verwenden Sie geeignete Persönliche Schutzausrüstung (PSA).       |\n" +
 				"| - Befolgen Sie die geltenden Sicherheitsvorschriften für Elektrik.  |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
@@ -462,7 +463,7 @@ public class ManualOperacao {
 				"|                                                                     |\n" +
 				"| - Nationale und internationale technische Normen.                   |\n" +
 				"| - Empfehlungen des Herstellers für industrielle Elektromotoren.     |\n" +
-				"|---------------------------------------------------------------------|\n";
+				"|_____________________________________________________________________|\n";
 
 	}
 
