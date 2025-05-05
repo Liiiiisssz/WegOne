@@ -387,7 +387,7 @@ public class ManutencaoReparos {
         titulosManutencaoReparosDE[0] = "Wartung von Elektromotoren";
 
         manutencaoReparosDE[0] = 
-        
+
                 "________________________________________________________________________\n" +
                 "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den      --|\n" +
                 "|   Bereich Wartung von Elektromotoren zur Gewährleistung              |\n" +
@@ -479,9 +479,10 @@ public class ManutencaoReparos {
         titulosManutencaoReparosDE[1] = "Reparatur von Transformatoren";
 
         manutencaoReparosDE[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den       --|\n" +
-                "|    Bereich Transformatorreparatur zur Gewährleistung von Effizienz und Sicherheit --|\n" +
+               "_______________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den     --|\n" +
+                "|   Bereich Transformatorreparatur zur Gewährleistung von Effizienz   |\n" +
+                "|   und Sicherheit                                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. ZIEL DER REPARATURABTEILUNG:                                     |\n" +
@@ -518,7 +519,7 @@ public class ManutencaoReparos {
                 "| - Einsatz von Zustandsüberwachungstechnologien wie Temperatur- und  |\n" +
                 "|   Feuchtigkeitssensoren zur Früherkennung von Fehlern.              |\n" +
                 "| - Durchführung von Strom- und Widerstandsmessungen zur Bewertung    |\n" +
-                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.          |\n" +
+                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.           |\n" +
                 "| - Detaillierte Aufzeichnung der gesammelten Daten zur Optimierung   |\n" +
                 "|   der Wartungsplanung.                                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -528,7 +529,7 @@ public class ManutencaoReparos {
                 "| - Vor Beginn jeglicher Arbeiten muss die Stromversorgung des        |\n" +
                 "|   Transformators unterbrochen werden.                               |\n" +
                 "| - Verwendung geeigneter persönlicher Schutzausrüstung (PSA) wie     |\n" +
-                "|   isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
+                "|  isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
                 "| - Sicherstellung, dass Sperr- und Kennzeichnungsverfahren befolgt   |\n" +
                 "|   werden.                                                           |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -547,7 +548,8 @@ public class ManutencaoReparos {
                 "| 7. SCHULUNG UND QUALIFIZIERUNG:                                     |\n" +
                 "|                                                                     |\n" +
                 "| - Durchführung von Schulungen zu Diagnosetechniken und              |\n" +
-                "|   Reparaturverfahren von Transformatoren, einschließlich elektrischer Risiken. |\n" +
+                "|   Reparaturverfahren von Transformatoren, einschließlich            |\n" +
+                "|   elektrischer Risiken.                                             |\n" +
                 "| - Einweisung der Mitarbeiter in Sicherheitsvorschriften und den     |\n" +
                 "|   sachgemäßen Gebrauch von Werkzeugen.                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -566,7 +568,8 @@ public class ManutencaoReparos {
                 "|   Sicherheit in elektrischen Systemen und bei Transformatoren.      |\n" +
                 "| - Befolgung der Herstellerempfehlungen für Installation, Betrieb    |\n" +
                 "|   und Wartung von Transformatoren.                                  |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|_____________________________________________________________________|\n";
+
         
     }
 
