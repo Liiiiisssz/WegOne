@@ -301,49 +301,49 @@ public class ProcedimentoSeguranca {
                         "_______________________________________________________________________\n" +
                         "|--          SICHERHEITSANLEITUNG - WEG CFW500 UMRICHTER            --|\n" +
                         "|_____________________________________________________________________|\n" +
-                        "|-- ZIEL: Sicherheit bei Parametrierung und Wartung des              --|\n" +
-                        "|   Frequenzumrichters WEG CFW500, zur Vermeidung von Unfällen.      |\n" +
+                        "|-- ZIEL: Sicherheit bei Parametrierung und Wartung des             --|\n" +
+                        "|   Frequenzumrichters WEG CFW500, zur Vermeidung von Unfällen.       |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
-                        "| 1. ALLGEMEINE ANWEISUNGEN:                                         |\n" +
+                        "| 1. ALLGEMEINE ANWEISUNGEN:                                          |\n" +
                         "|                                                                     |\n" +
-                        "| - Handbuch des Frequenzumrichters vor jeglicher Maßnahme lesen.    |\n" +
-                        "| - Nur geschultes Fachpersonal darf das Gerät bedienen.             |\n" +
-                        "| - Niemals die Leiterplatte bei anliegender Spannung berühren.      |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 2. ABSCHALTUNG UND VORBEREITUNG:                                   |\n" +
-                        "|                                                                     |\n" +
-                        "| - Sicherungsautomat im Schaltschrank ausschalten.                  |\n" +
-                        "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                  |\n" +
-                        "| - 15 Minuten nach Abschaltung warten.                              |\n" +
-                        "| - Spannungsfreiheit an Klemmen R/S/T und U/V/W bestätigen.         |\n" +
+                        "| - Handbuch des Frequenzumrichters vor jeglicher Maßnahme lesen.     |\n" +
+                        "| - Nur geschultes Fachpersonal darf das Gerät bedienen.              |\n" +
+                        "| - Niemals die Leiterplatte bei anliegender Spannung berühren.       |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 3. ERFORDERLICHE PSA:                                              |\n" +
+                        "| 2. ABSCHALTUNG UND VORBEREITUNG:                                    |\n" +
                         "|                                                                     |\n" +
-                        "| - Isolierte Handschuhe und Werkzeuge (1000V)                       |\n" +
-                        "| - Schutzbrille                                                     |\n" +
-                        "| - Sicherheitsschuhe                                                |\n" +
-                        "| - Spannungsprüfer                                                  |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 4. SICHERE PARAMETRIERUNG:                                         |\n" +
-                        "|                                                                     |\n" +
-                        "| - HMI des Umrichters oder WEG-Software mit isoliertem Kabel nutzen.|\n" +
-                        "| - Prüfen, ob Last während der Einstellungen abgeklemmt ist.        |\n" +
-                        "| - Parameter vor Wiederinbetriebnahme validieren.                   |\n" +
+                        "| - Sicherungsautomat im Schaltschrank ausschalten.                   |\n" +
+                        "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                   |\n" +
+                        "| - 15 Minuten nach Abschaltung warten.                               |\n" +
+                        "| - Spannungsfreiheit an Klemmen R/S/T und U/V/W bestätigen.          |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 5. ANWENDBARE NORMEN:                                              |\n" +
+                        "| 3. ERFORDERLICHE PSA:                                               |\n" +
                         "|                                                                     |\n" +
-                        "| - NR-10                                                            |\n" +
-                        "| - NBR IEC 61800-5-1                                                |\n" +
-                        "| - Technisches Handbuch WEG CFW500                                  |\n" +
+                        "| - Isolierte Handschuhe und Werkzeuge (1000V)                        |\n" +
+                        "| - Schutzbrille                                                      |\n" +
+                        "| - Sicherheitsschuhe                                                 |\n" +
+                        "| - Spannungsprüfer                                                   |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 4. SICHERE PARAMETRIERUNG:                                          |\n" +
+                        "|                                                                     |\n" +
+                        "| - HMI des Umrichters oder WEG-Software mit isoliertem Kabel nutzen. |\n" +
+                        "| - Prüfen, ob Last während der Einstellungen abgeklemmt ist.         |\n" +
+                        "| - Parameter vor Wiederinbetriebnahme validieren.                    |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 5. ANWENDBARE NORMEN:                                               |\n" +
+                        "|                                                                     |\n" +
+                        "| - NR-10                                                             |\n" +
+                        "| - NBR IEC 61800-5-1                                                 |\n" +
+                        "| - Technisches Handbuch WEG CFW500                                   |\n" +
                         "|                                                                     |\n" +
                         "|_____________________________________________________________________|\n";
 
