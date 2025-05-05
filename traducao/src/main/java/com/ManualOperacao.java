@@ -579,10 +579,14 @@ public class ManualOperacao {
 	public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
 
 		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
-		System.out.println(titulosManuaisOperacaoEN[0]);
-		System.out.println(titulosManuaisOperacaoEN[1]);
-		System.out.println(titulosManuaisOperacaoEN[2]);
-		System.out.println(titulosManuaisOperacaoEN[3]);
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
+
+			if (manualOperacaoConteudoEN[i] != null) {
+				System.out.println(titulosManuaisOperacaoEN[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
