@@ -318,16 +318,17 @@ public class ManualOperacao {
 		//manuais em ALEMÃO
 		titulosManuaisOperacaoDE[0] = "Handbuch für den Betrieb von Elektrogeneratoren";
 
-		manualOperacaoConteudoDE[0] = "_______________________________________________________________________\n" +
-				"|--               HANDBUCH FÜR DEN BETRIEB VON ELEKTROGENERATOREN     --|\n" +
+		manualOperacaoConteudoDE[0] = 
+			    "_______________________________________________________________________\n" +
+				"|--               HANDBUCH FÜR DEN BETRIEB VON ELEKTROGENERATOREN   --|\n" +
 				"|_____________________________________________________________________|\n" +
-				"|-- ZIEL: Anweisungen für die sichere und effiziente Installation,   --|\n" +
+				"|-- ZIEL: Anweisungen für die sichere und effiziente Installation,  --|\n" +
 				"|   den Betrieb und die Wartung von Elektrogeneratoren zu geben.      |\n" +
 				"|_____________________________________________________________________|\n" +
 				"|                                                                     |\n" +
 				"| 1. ALLGEMEINE HINWEISE:                                             |\n" +
 				"|                                                                     |\n" +
-				"| - Stellen Sie sicher, dass der Generator mit der Anwendung         |\n" +
+				"| - Stellen Sie sicher, dass der Generator mit der Anwendung          |\n" +
 				"|   kompatibel ist.                                                   |\n" +
 				"| - Lesen Sie das gesamte Handbuch vor der Installation.              |\n" +
 				"| - Nur geschultes Personal sollte Wartungs- oder Betriebsmaßnahmen   |\n" +
@@ -339,21 +340,21 @@ public class ManualOperacao {
 				"|                                                                     |\n" +
 				"| - Installieren Sie den Generator an einem trockenen, belüfteten     |\n" +
 				"|   und überdachten Ort.                                              |\n" +
-				"| - Befestigen Sie ihn auf einer ebenen und stabilen Basis, um       |\n" +
+				"| - Befestigen Sie ihn auf einer ebenen und stabilen Basis, um        |\n" +
 				"|   Vibrationen zu vermeiden.                                         |\n" +
 				"| - Überprüfen Sie die Ausrichtung zwischen dem Primärmotor und dem   |\n" +
 				"|   Generator.                                                        |\n" +
-				"| - Stellen Sie die Erdung korrekt her.                                |\n" +
+				"| - Stellen Sie die Erdung korrekt her.                               |\n" +
 				"| - Stellen Sie elektrische Verbindungen gemäß dem Schaltplan her.    |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
 				"| 3. START UND STOP:                                                  |\n" +
 				"|                                                                     |\n" +
-				"| - Überprüfen Sie vor dem Start den Öl- und Kraftstoffstand           |\n" +
-				"|   * (falls mit Verbrennungsmotor betrieben)                          |\n" +
+				"| - Überprüfen Sie vor dem Start den Öl- und Kraftstoffstand          |\n" +
+				"|   * (falls mit Verbrennungsmotor betrieben)                         |\n" +
 				"| - Überprüfen Sie, ob keine Lecks oder Blockierungen vorliegen.      |\n" +
-				"| - Stellen Sie die Erdung korrekt her.                                |\n" +
+				"| - Stellen Sie die Erdung korrekt her.                               |\n" +
 				"| - Trennen Sie bei der Abschaltung zunächst die Lasten, bevor Sie    |\n" +
 				"|   die Generatorgruppe ausschalten.                                  |\n" +
 				"|                                                                     |\n" +
@@ -374,24 +375,24 @@ public class ManualOperacao {
 				"| - Vermeiden Sie Überlastungen oder Unterfrequenzen.                 |\n" +
 				"| - Überprüfen Sie den Zustand der Kohlebürsten und Schleifringe      |\n" +
 				"|   (falls zutreffend).                                               |\n" +
-				"| - Reinigen Sie regelmäßig den Stator und Rotor und halten Sie      |\n" +
+				"| - Reinigen Sie regelmäßig den Stator und Rotor und halten Sie       |\n" +
 				"|   sie frei von Staub und Öl.                                        |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
 				"| 6. SICHERHEIT:                                                      |\n" +
 				"|                                                                     |\n" +
-				"| - Schalten Sie den Generator vor jeder Intervention aus.           |\n" +
-				"| - Verwenden Sie geeignete persönliche Schutzausrüstung (PSA).        |\n" +
+				"| - Schalten Sie den Generator vor jeder Intervention aus.            |\n" +
+				"| - Verwenden Sie geeignete persönliche Schutzausrüstung (PSA).       |\n" +
 				"| - Vermeiden Sie den Kontakt mit beweglichen und heißen Teilen       |\n" +
-				"|   während des Betriebs.                                            |\n" +
+				"|   während des Betriebs.                                             |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
 				"| 7. ANWENDBARE NORMEN:                                               |\n" +
 				"|                                                                     |\n" +
 				"| - NBR 10295: Anwendungen von Synchron-Generatoren.                  |\n" +
-				"| - IEC 60034: Internationale Normen für drehende Maschinen.         |\n" +
+				"| - IEC 60034: Internationale Normen für drehende Maschinen.          |\n" +
 				"| - WEG-Anweisungen für Generatorgruppen und industrielle Generatoren.|\n" +
-				"|---------------------------------------------------------------------|\n";
+				"|_____________________________________________________________________|\n";
 
 		titulosManuaisOperacaoDE[1] = "Handbuch für den Betrieb von Elektromotoren";
 
