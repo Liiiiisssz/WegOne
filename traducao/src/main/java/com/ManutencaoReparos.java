@@ -1031,6 +1031,16 @@ public class ManutencaoReparos {
 
         public void excluirManualEN() { //excluir em INGLES
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
 
