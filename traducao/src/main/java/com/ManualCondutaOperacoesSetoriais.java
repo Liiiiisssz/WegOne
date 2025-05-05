@@ -857,6 +857,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManualEN() { //editar em INGLES
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
