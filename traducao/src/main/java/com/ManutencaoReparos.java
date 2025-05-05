@@ -213,9 +213,9 @@ public class ManutencaoReparos {
         titulosManutencaoReparosEN[0] = "Electric Motor Maintenance";
 
         manutencaoReparosEN[0] = 
-                "_______________________________________________________________________\n" +
-                "|-- OBJECTIVE: Establish standard operating procedures for the         --|\n" +
-                "|    electric motor maintenance sector, ensuring efficiency and safety --|\n" +
+            "_______________________________________________________________________\n" +
+                "|-- OBJECTIVE: Establish standard operating procedures for the      --|\n" +
+                "|   electric motor maintenance sector, ensuring efficiency and safety |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. MAINTENANCE DEPARTMENT OBJECTIVE:                                |\n" +
@@ -264,7 +264,7 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Record all maintenance activities, including date, type of        |\n" +
                 "|   service, and replaced parts.                                      |\n" +
-                "| - Keep a history of tests performed, such as current and resistance|\n" +
+                "| - Keep a history of tests performed, such as current and resistance |\n" +
                 "|   measurements.                                                     |\n" +
                 "| - Prepare reports on recurring failures and corrective actions.     |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -289,7 +289,8 @@ public class ManutencaoReparos {
                 "| - Follow NBR (Brazilian Standards) for safety in electrical systems.|\n" +
                 "| - Comply with the manufacturer's recommendations for installation,  |\n" +
                 "|   operation, and maintenance of motors.                             |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|_____________________________________________________________________|\n";
+
 
         titulosManutencaoReparosEN[1] = "Transformer Repair";
 
