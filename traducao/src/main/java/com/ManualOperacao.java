@@ -22,6 +22,7 @@ public class ManualOperacao {
 	int contadorCadastroDE = 2;
 	int pesquisaCodigo;
 	int indiceCadastro;
+	int codigo;
 
 	public ManualOperacao(Traducoes tradutor) {
 
@@ -909,9 +910,24 @@ public class ManualOperacao {
 	public void excluirManual() { //excluir em PT
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                    int indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacao[indiceCadastro] != null) {
 
@@ -943,9 +959,24 @@ public class ManualOperacao {
 	public void excluirManualEN() { //excluir em INGLES
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                    int indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacaoEN[indiceCadastro] != null) {
 
@@ -977,9 +1008,24 @@ public class ManualOperacao {
 	public void excluirManualDE() { //excluir em ALEMÃO
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                    int indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacaoDE[indiceCadastro] != null) {
 
