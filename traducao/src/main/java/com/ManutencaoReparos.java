@@ -785,6 +785,16 @@ public class ManutencaoReparos {
 
         public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
