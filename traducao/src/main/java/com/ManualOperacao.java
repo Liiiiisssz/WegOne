@@ -777,7 +777,7 @@ public class ManualOperacao {
 		 while (true) {
 
                 try {
-                    int codigo = leia.nextInt();
+                      codigo = leia.nextInt();
                       indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
@@ -821,7 +821,7 @@ public class ManualOperacao {
 		
 		 while (true) {
                 try {
-                    int codigo = leia.nextInt();
+                      codigo = leia.nextInt();
                       indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
@@ -865,7 +865,7 @@ public class ManualOperacao {
 		
 		 while (true) {
                 try {
-                    int codigo = leia.nextInt();
+                      codigo = leia.nextInt();
                       indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
@@ -914,7 +914,7 @@ public class ManualOperacao {
 		  while (true) {
                 try {
                      codigo = leia.nextInt();
-                    int indiceCadastro = codigo;  
+                     indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
@@ -963,7 +963,7 @@ public class ManualOperacao {
 		  while (true) {
                 try {
                      codigo = leia.nextInt();
-                    int indiceCadastro = codigo;  
+                	 indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
@@ -1012,7 +1012,7 @@ public class ManualOperacao {
 		  while (true) {
                 try {
                      codigo = leia.nextInt();
-                    int indiceCadastro = codigo;  
+                     indiceCadastro = codigo;  
                    
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
