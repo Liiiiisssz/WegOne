@@ -658,6 +658,8 @@ public class ManualOperacao {
 			}
 		}
 
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
