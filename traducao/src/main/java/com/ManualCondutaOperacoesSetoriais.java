@@ -473,71 +473,106 @@ public class ManualCondutaOperacoesSetoriais {
 
             titulosManuaisCOSDE[1] = "Betriebsverfahren im Wartungsbereich";
             manualCOSConteudoDE[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung der Standardbetriebsverfahren für den Wartungsbereich|\n" +
-                "|    von WEG, um Effizienz und Sicherheit zu gewährleisten.            --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. ZIEL DES WARTUNGSBEREICHS:                                       |\n" +
-                "|                                                                     |\n" +
-                "| - Sicherstellen des kontinuierlichen und sicheren Betriebs der Geräte und Systeme von WEG.|\n" +
-                "| - Durchführung von präventiver, korrektiver und prädiktiver Wartung nach den festgelegten Plänen und Zeitplänen.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. PRÄVENTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Regelmäßige Inspektionen aller Geräte und Systeme durchführen.     |\n" +
-                "| - Einhaltung der Wartungspläne gemäß den Anweisungen des Herstellers.|\n" +
-                "| - Schmierung der Komponenten gemäß den Spezifikationen des Betriebs- und Wartungshandbuchs.|\n" +
-                "| - Überprüfung und Austausch von Filtern, Riemen, Lagern usw., nach Bedarf, um zukünftige Fehler zu vermeiden.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. KORREKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Bei einem Fehler oder Defekt eines Geräts muss die Wartungsabteilung das Problem analysieren, einen Reparaturplan erstellen und den Fehler schnellstmöglich beheben.|\n" +
-                "| - Nach der Behebung muss ein Test durchgeführt werden, um sicherzustellen, dass das Gerät ordnungsgemäß funktioniert.|\n" +
-                "| - Der Defekt und das Reparaturverfahren müssen für zukünftige Referenzen und die Kontrolle dokumentiert werden.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. PRÄDIKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Nutzung von Zustandsüberwachungstechniken (wie Thermografie, Vibration und Ultraschall), um potenzielle Fehler zu identifizieren, bevor sie auftreten.|\n" +
-                "| - Implementierung prädiktiver Analysetechnologien zur Optimierung von Wartungsinterventionen und Reduzierung von Ausfallzeiten.|\n" +
-                "| - Detaillierte Aufzeichnung der gesammelten Daten zur Analyse und Vorhersage von zukünftigen Fehlern.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Trennen und Isolieren der Energiequellen vor der Durchführung von Arbeiten an Geräten.|\n" +
-                "| - Verwendung von geeigneter Persönlicher Schutzausrüstung (PSA) für jede Aufgabe, wie Handschuhe, Schutzbrillen, Helme, Gehörschutz und Sicherheitsschuhe.|\n" +
-                "| - Sicherstellen, dass alle verwendeten Werkzeuge und Geräte in einwandfreiem Zustand und gemäß den Sicherheitsstandards sind.|\n" +
-                "| - Wenn Eingriffe in Risikobereichen erforderlich sind, müssen spezifische Sicherheitsvorschriften für Arbeiten in der Höhe, in engen Räumen oder mit elektrischen Gefahren beachtet werden.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOKUMENTATION UND WARTUNGSUNTERLAGEN:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Einhaltung eines aktuellen Protokolls für alle Wartungsaktivitäten, einschließlich Datum, Beschreibung des ausgeführten Dienstes und ausgetauschter Teile.|\n" +
-                "| - Die Aufzeichnungen müssen organisiert und leicht zugänglich aufbewahrt werden, für zukünftige Audits oder Referenzen.|\n" +
-                "| - Fehlerberichte erstellen, die die Ursachenanalyse und die angewandten Korrekturmaßnahmen identifizieren.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. SCHULUNG UND QUALIFIKATION:                                      |\n" +
-                "|                                                                     |\n" +
-                "| - Alle Wartungsmitarbeiter sollten an regelmäßigen Schulungen zu neuen Technologien, Verfahren und Sicherheitsstandards teilnehmen.|\n" +
-                "| - WEG bietet kontinuierliche Schulungsprogramme, um sicherzustellen, dass die Mitarbeiter stets mit den besten Wartungs- und Sicherheitspraktiken vertraut sind.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. VERFAHREN BEI UNFÄLLEN ODER ZWISCHENFÄLLEN:                     |\n" +
-                "|                                                                     |\n" +
-                "| - Sollte ein Unfall während der Wartung auftreten, muss der Mitarbeiter sofort den Vorgesetzten und das Sicherheitsteam benachrichtigen und den Vorfall gemäß den internen Verfahren dokumentieren.|\n" +
-                "| - Eine Analyse des Vorfalls muss durchgeführt werden, um dessen Ursachen zu identifizieren und Korrekturmaßnahmen zu ergreifen, um ähnliche Vorfälle zu verhindern.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. ANWENDBARE VORSCHRIFTEN UND NORMEN:                               |\n" +
-                "|                                                                     |\n" +
-                "| - Einhaltung aller relevanten nationalen und internationalen technischen Normen bezüglich der Sicherheit und Wartung von Industrieanlagen.|\n" +
-                "| - Befolgung der Empfehlungen des Herstellers für den Einsatz und die Wartung von Geräten.|\n" +
-                "|---------------------------------------------------------------------|\n";
+                "_________________________________________________________________________\n" +
+                "|--ZIEL:Festlegung der Standardbetriebsverfahren für den Wartungsbereich|\n" +
+                "|   von WEG, um Effizienz und Sicherheit zu gewährleisten.              |\n" +
+                "|_______________________________________________________________________|\n" +
+                "|                                                                       |\n" +
+                "| 1. ZIEL DES WARTUNGSBEREICHS:                                         |\n" +
+                "|                                                                       |\n" +
+                "| - Sicherstellen des kontinuierlichen und sicheren Betriebs der        |\n" +
+                "|   Geräte und Systeme von WEG.                                         |\n" +
+                "| - Durchführung von präventiver, korrektiver und prädiktiver           |\n" +
+                "|   Wartung nach den festgelegten Plänen und Zeitplänen.                |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 2. PRÄVENTIVE WARTUNG:                                                |\n" +
+                "|                                                                       |\n" +
+                "| - Regelmäßige Inspektionen aller Geräte und Systeme durchführen.      |\n" +
+                "| - Einhaltung der Wartungspläne gemäß den Anweisungen des              |\n" +
+                "|   Herstellers.                                                        |\n" +
+                "| - Schmierung der Komponenten gemäß den Spezifikationen des            |\n" +
+                "|   Betriebs- und Wartungshandbuchs.                                    |\n" +
+                "| - Überprüfung und Austausch von Filtern, Riemen, Lagern usw.,         |\n" +
+                "|   nach Bedarf, um zukünftige Fehler zu vermeiden.                     |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 3. KORREKTIVE WARTUNG:                                                |\n" +
+                "|                                                                       |\n" +
+                "| - Bei einem Fehler oder Defekt eines Geräts muss die                  |\n" +
+                "|   Wartungsabteilung das Problem analysieren, einen Reparaturplan      |\n" +
+                "|   erstellen und den Fehler schnellstmöglich beheben.                  |\n" +
+                "| - Nach der Behebung muss ein Test durchgeführt werden, um sicher-     |\n" +
+                "|   zustellen, dass das Gerät ordnungsgemäß funktioniert.               |\n" +
+                "| - Der Defekt und das Reparaturverfahren müssen für zukünftige         |\n" +
+                "|   Referenzen und die Kontrolle dokumentiert werden.                   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 4. PRÄDIKTIVE WARTUNG:                                                |\n" +
+                "|                                                                       |\n" +
+                "| - Nutzung von Zustandsüberwachungstechniken (wie Thermografie,        |\n" +
+                "|   Vibration und Ultraschall), um potenzielle Fehler zu identifizieren,|\n" +
+                "|   bevor sie auftreten.                                                |\n" +
+                "| - Implementierung prädiktiver Analysetechnologien zur Optimierung     |\n" +
+                "|   von Wartungsinterventionen und Reduzierung von Ausfallzeiten.       |\n" +
+                "| - Detaillierte Aufzeichnung der gesammelten Daten zur Analyse und     |\n" +
+                "|   Vorhersage von zukünftigen Fehlern.                                 |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                              |\n" +
+                "|                                                                       |\n" +
+                "| - Trennen und Isolieren der Energiequellen vor der Durchführung       |\n" +
+                "|   von Arbeiten an Geräten.                                            |\n" +
+                "| - Verwendung von geeigneter Persönlicher Schutzausrüstung (PSA)       |\n" +
+                "|   für jede Aufgabe, wie Handschuhe, Schutzbrillen, Helme,             |\n" +
+                "|   Gehörschutz und Sicherheitsschuhe.                                  |\n" +
+                "| - Sicherstellen, dass alle verwendeten Werkzeuge und Geräte in        |\n" +
+                "|   einwandfreiem Zustand und gemäß den Sicherheitsstandards sind.      |\n" +
+                "| - Wenn Eingriffe in Risikobereichen erforderlich sind, müssen         |\n" +
+                "|   spezifische Sicherheitsvorschriften für Arbeiten in der Höhe, in    |\n" +
+                "|   engen Räumen oder mit elektrischen Gefahren beachtet werden.        |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 6. DOKUMENTATION UND WARTUNGSUNTERLAGEN:                              |\n" +
+                "|                                                                       |\n" +
+                "| - Einhaltung eines aktuellen Protokolls für alle Wartungsaktivitäten, |\n" +
+                "|   einschließlich Datum, Beschreibung des ausgeführten Dienstes und    |\n" +
+                "|   ausgetauschter Teile.                                               |\n" +
+                "| - Die Aufzeichnungen müssen organisiert und leicht zugänglich         |\n" +
+                "|   aufbewahrt werden, für zukünftige Audits oder Referenzen.           |\n" +
+                "| - Fehlerberichte erstellen, die die Ursachenanalyse und die           |\n" +
+                "|   angewandten Korrekturmaßnahmen identifizieren.                      |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 7. SCHULUNG UND QUALIFIKATION:                                        |\n" +
+                "|                                                                       |\n" +
+                "| - Alle Wartungsmitarbeiter sollten an regelmäßigen Schulungen zu      |\n" +
+                "|   neuen Technologien, Verfahren und Sicherheitsstandards              |\n" +
+                "|   teilnehmen.                                                         |\n" +
+                "| - WEG bietet kontinuierliche Schulungsprogramme, um sicherzustellen,  |\n" +
+                "|   dass die Mitarbeiter stets mit den besten Wartungs- und             |\n" +
+                "|   Sicherheitspraktiken vertraut sind.                                 |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 8. VERFAHREN BEI UNFÄLLEN ODER ZWISCHENFÄLLEN:                        |\n" +
+                "|                                                                       |\n" +
+                "| - Sollte ein Unfall während der Wartung auftreten, muss der           |\n" +
+                "|   Mitarbeiter sofort den Vorgesetzten und das Sicherheitsteam         |\n" +
+                "|   benachrichtigen und den Vorfall gemäß den internen Verfahren        |\n" +
+                "|   dokumentieren.                                                      |\n" +
+                "| - Eine Analyse des Vorfalls muss durchgeführt werden, um dessen       |\n" +
+                "|   Ursachen zu identifizieren und Korrekturmaßnahmen zu ergreifen,     |\n" +
+                "|   um ähnliche Vorfälle zu verhindern.                                 |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 9. ANWENDBARE VORSCHRIFTEN UND NORMEN:                                |\n" +
+                "|                                                                       |\n" +
+                "| - Einhaltung aller relevanten nationalen und internationalen          |\n" +
+                "|   technischen Normen bezüglich der Sicherheit und Wartung von         |\n" +
+                "|   Industrieanlagen.                                                   |\n" +
+                "| - Befolgung der Empfehlungen des Herstellers für den Einsatz und      |\n" +
+                "|   die Wartung von Geräten.                                            |\n" +
+                "|_______________________________________________________________________|\n";
 
         }
 
