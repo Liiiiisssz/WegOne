@@ -138,50 +138,50 @@ public class ProcedimentoSeguranca {
                 "_______________________________________________________________________\n" +
                 "|--               SAFETY MANUAL - WEG W22 MOTOR                     --|\n" +
                 "|_____________________________________________________________________|\n" +
-                "|-- PURPOSE: Safe procedure for inspection and maintenance of the     --|\n" +
+                "|-- PURPOSE: Safe procedure for inspection and maintenance of the   --|\n" +
                 "|   WEG W22 motor, ensuring operator and equipment safety.            |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. GENERAL INSTRUCTIONS:                                           |\n" +
+                "| 1. GENERAL INSTRUCTIONS:                                            |\n" +
                 "|                                                                     |\n" +
-                "| - Only qualified technicians may work on the equipment.            |\n" +
-                "| - Carefully read the manufacturer's manual before any action.      |\n" +
+                "| - Only qualified technicians may work on the equipment.             |\n" +
+                "| - Carefully read the manufacturer's manual before any action.       |\n" +
                 "| - Never operate the motor without the protections installed.        |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. SAFE SHUTDOWN:                                                  |\n" +
+                "| 2. SAFE SHUTDOWN:                                                   |\n" +
                 "|                                                                     |\n" +
-                "| - Turn off the main power supply from the control panel.           |\n" +
-                "| - Apply lockout and tagout (LOTO).                                 |\n" +
-                "| - Wait 10 minutes to discharge capacitors.                         |\n" +
-                "| - Verify absence of voltage with CAT III/IV tester.                |\n" +
-                "|                                                                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. REQUIRED PPE:                                                   |\n" +
-                "|                                                                     |\n" +
-                "| - Insulating gloves                                                |\n" +
-                "| - Safety goggles                                                   |\n" +
-                "| - Dielectric safety footwear                                       |\n" +
-                "| - Voltage detector                                                 |\n" +
-                "| - Helmet with visor                                                |\n" +
+                "| - Turn off the main power supply from the control panel.            |\n" +
+                "| - Apply lockout and tagout (LOTO).                                  |\n" +
+                "| - Wait 10 minutes to discharge capacitors.                          |\n" +
+                "| - Verify absence of voltage with CAT III/IV tester.                 |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. INSPECTION:                                                     |\n" +
+                "| 3. REQUIRED PPE:                                                    |\n" +
                 "|                                                                     |\n" +
-                "| - Check temperature, vibration, and noise.                         |\n" +
-                "| - Inspect terminals, housing, and ventilation.                     |\n" +
-                "| - Clean with non-flammable materials.                              |\n" +
+                "| - Insulating gloves                                                 |\n" +
+                "| - Safety goggles                                                    |\n" +
+                "| - Dielectric safety footwear                                        |\n" +
+                "| - Voltage detector                                                  |\n" +
+                "| - Helmet with visor                                                 |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. APPLICABLE STANDARDS:                                           |\n" +
+                "| 4. INSPECTION:                                                      |\n" +
                 "|                                                                     |\n" +
-                "| - NR-10, NR-12                                                     |\n" +
-                "| - NBR IEC 60034-1                                                  |\n" +
-                "| - WEG W22 Technical Manual                                         |\n" +
+                "| - Check temperature, vibration, and noise.                          |\n" +
+                "| - Inspect terminals, housing, and ventilation.                      |\n" +
+                "| - Clean with non-flammable materials.                               |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. APPLICABLE STANDARDS:                                            |\n" +
+                "|                                                                     |\n" +
+                "| - NR-10, NR-12                                                      |\n" +
+                "| - NBR IEC 60034-1                                                   |\n" +
+                "| - WEG W22 Technical Manual                                          |\n" +
                 "|                                                                     |\n" +
                 "|_____________________________________________________________________|\n";
 
