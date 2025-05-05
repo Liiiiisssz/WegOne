@@ -101,11 +101,12 @@ public class ManualOperacao {
 				"| - Normas técnicas nacionais e internacionais relevantes.            |\n" +
 				"| - Recomendações do fabricante para motores industriais.             |\n" +
 				"|                                                                     |\n" +
-				"|---------------------------------------------------------------------|\n";
+				"|_____________________________________________________________________|\n";
 
 		titulosManuaisOperacao[1] = "Manual de operacao de geradores eletricos";
 
-		manualOperacaoConteudo[1] = "_______________________________________________________________________\n" +
+		manualOperacaoConteudo[1] = 
+		        "_______________________________________________________________________\n" +
 				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
@@ -170,13 +171,14 @@ public class ManualOperacao {
 				"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
 				"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
 				"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
-				"|---------------------------------------------------------------------|\n";
+				"|_____________________________________________________________________|\n";
 
 
 		//manuais em INGLES
 		titulosManuaisOperacaoEN[0] = "Electric Motor Operation Manual";
 
-		manualOperacaoConteudoEN[0] = " _______________________________________________________________________\n" +
+		manualOperacaoConteudoEN[0] = 
+		       " ________________________________________________________________________\n" +
 				"|--             ELECTRIC MOTOR OPERATION MANUAL                       --|\n" +
 				"|_______________________________________________________________________|\n" +
 				"|-- PURPOSE: Provide guidelines for the installation, operation,      --|\n" +
@@ -241,11 +243,12 @@ public class ManualOperacao {
 				"| - Relevant national and international technical standards.            |\n" +
 				"| - Manufacturer recommendations for industrial motors.                 |\n" +
 				"|                                                                       |\n" +
-				"|-----------------------------------------------------------------------|";
+				"|_______________________________________________________________________|";
 
 		titulosManuaisOperacaoEN[1] = "Manual de operacao de geradores eletricos";
 
-		manualOperacaoConteudoEN[1] = "_______________________________________________________________________\n" +
+		manualOperacaoConteudoEN[1] = 
+		        "_______________________________________________________________________\n" +
 				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
@@ -310,7 +313,7 @@ public class ManualOperacao {
 				"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
 				"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
 				"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
-				"|---------------------------------------------------------------------|\n";
+				"|_____________________________________________________________________|\n";
 	
 		//manuais em ALEMÃO
 		titulosManuaisOperacaoDE[0] = "Handbuch für den Betrieb von Elektrogeneratoren";
