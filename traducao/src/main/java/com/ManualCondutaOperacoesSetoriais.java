@@ -775,6 +775,16 @@ public class ManualCondutaOperacoesSetoriais {
     
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		// 0 e 1 para padrão
 		// 2 e 3 para cadastro
