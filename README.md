@@ -82,7 +82,7 @@ O sistema WegOne possui diversas funcionalidades integradas, tais como:
 </div>
 
 
-# 🔎🐙 1. Acesse o Repositório no GitHub
+# 🔎😺 1. Acesse o Repositório no GitHub
 Você pode acessar o código fonte do projeto através do link a seguir:<a href="https://github.com/Liiiiisssz/WegOne.git" style="font-size: 23px; margin-top: 10px; padding: 10px; text-decoration: none; color: rgb(3, 0, 46); display: block;">
 <sub>Acessar o código fonte do projeto</sub>
 </a> 
@@ -117,17 +117,20 @@ cd repositorio
 
 # IMPORTANTE ‼️:
 
-**Baixe um Programa que rode JSON 📥**: Nosso projeto contem arquivo JSON, mas como ele é um arquivo de dados ele não é executavel por si só. è necessario a instalação de um programa que leia ele.
-   
+
+Nosso projeto contém arquivos JSON, mas como se tratam de arquivos de dados, eles não são executáveis por si só. É necessário instalar um programa que consiga lê-los.
+
 Exemplos:
 
 ✅ JavaScript (em navegadores ou Node.js)
 
 ✅ Python (usando o módulo json)
 
-✅ Java, C#, PHP, Go, etc.
+✅ Java, C#, PHP, Go, entre outros.
 
-No nosso caso, rodamos apartir do VScode e utilizamos a extensão maven. Para baixar o arquivo basta você pesquisar o nome na parte de extensões do VScode e iniciar a instalação. Após concluido você já poderá rodar.
+No nosso caso, executamos a partir do VS Code e utilizamos a extensão Maven.
+
+Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
 
 
 🏃‍♂️📂 3. Execute o Projeto
