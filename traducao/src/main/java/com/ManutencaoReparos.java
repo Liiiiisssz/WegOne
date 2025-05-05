@@ -706,6 +706,16 @@ public class ManutencaoReparos {
 
         public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMAO
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+		        if (manutencaoReparosDE[i] != null) {
+				System.out.println(titulosManutencaoReparosDE[i]);
+		        }
+		}
+
+		System.out.println(" ");
+                
 		System.out.println(tradutor.get("tituloPesq"));
                 String pesquisa = leia.nextLine();
 
