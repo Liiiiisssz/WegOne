@@ -294,82 +294,84 @@ public class ManualCondutaOperacoesSetoriais {
 
         manualCOSConteudoEN[1] =
                 "_______________________________________________________________________\n" +
-                "|-- OBJECTIVE: Establish the standard operating procedures for the    --|\n" +
-                "|    maintenance department at WEG, ensuring efficiency and safety.    |\n" +
+                "|-- OBJECTIVE: Establish the standard operating procedures for the  --|\n" +
+                "|   maintenance department at WEG, ensuring efficiency and safety.    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. MAINTENANCE DEPARTMENT OBJECTIVE:                                 |\n" +
+                "| 1. MAINTENANCE DEPARTMENT OBJECTIVE:                                |\n" +
                 "|                                                                     |\n" +
-                "| - Ensure the continuous and safe operation of WEG’s equipment and systems.|\n" +
-                "| - Perform preventive, corrective, and predictive maintenance according to |\n" +
-                "|   the established plans and schedules.                               |\n" +
+                "| - Ensure the continuous and safe operation of WEG’s equipment and   |\n" +
+                "|   systems.                                                          |\n" +
+                "| - Perform preventive, corrective, and predictive maintenance        |\n" +
+                "|   according to the established plans and schedules.                 |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. PREVENTIVE MAINTENANCE:                                           |\n" +
+                "| 2. PREVENTIVE MAINTENANCE:                                          |\n" +
                 "|                                                                     |\n" +
                 "| - Perform regular inspections of all equipment and systems.         |\n" +
-                "| - Follow preventive maintenance schedules as per the manufacturer's  |\n" +
+                "| - Follow preventive maintenance schedules as per the manufacturer's |\n" +
                 "|   manual.                                                           |\n" +
-                "| - Lubricate components as specified in the operation and maintenance manual. |\n" +
+                "| - Lubricate components as specified in the operation and            |\n" +
+                "|   maintenance manual.                                               |\n" +
                 "| - Inspect and replace filters, belts, bearings, etc., as needed to  |\n" +
                 "|   prevent future failures.                                          |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 3. CORRECTIVE MAINTENANCE:                                          |\n" +
                 "|                                                                     |\n" +
-                "| - When a failure or defect occurs in any equipment, the maintenance  |\n" +
+                "| - When a failure or defect occurs in any equipment, the maintenance |\n" +
                 "|   department must analyze the problem, develop a repair plan, and   |\n" +
-                "|   correct the failure as quickly as possible.                        |\n" +
+                "|   correct the failure as quickly as possible.                       |\n" +
                 "| - After correction, conduct tests to ensure proper equipment        |\n" +
                 "|   operation.                                                        |\n" +
-                "| - Document the defect and the repair procedure for future reference |\n" +
-                "|   and control.                                                       |\n" +
+                "| - Document the defect and the repair procedure for future           |\n" +
+                "|   reference and control.                                            |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 4. PREDICTIVE MAINTENANCE:                                          |\n" +
                 "|                                                                     |\n" +
-                "| - Use condition monitoring techniques (such as thermography,         |\n" +
+                "| - Use condition monitoring techniques (such as thermography,        |\n" +
                 "|   vibration, and ultrasound) to identify potential failures before  |\n" +
                 "|   they occur.                                                       |\n" +
-                "| - Implement predictive analysis technologies to optimize maintenance |\n" +
-                "|   interventions and reduce downtime.                                 |\n" +
+                "| - Implement predictive analysis technologies to optimize            |\n" +
+                "|   maintenance interventions and reduce downtime.                    |\n" +
                 "| - Maintain detailed records of collected data for analysis and      |\n" +
                 "|   failure forecasting.                                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. SAFETY PROCEDURES IN MAINTENANCE:                                 |\n" +
+                "| 5. SAFETY PROCEDURES IN MAINTENANCE:                                |\n" +
                 "|                                                                     |\n" +
                 "| - Disconnect and isolate energy sources before performing any       |\n" +
                 "|   intervention on equipment.                                        |\n" +
-                "| - Use appropriate Personal Protective Equipment (PPE) for each type |\n" +
-                "|   of task, such as gloves, goggles, helmets, hearing protection, and |\n" +
-                "|   safety footwear.                                                  |\n" +
+                "| - Use appropriate Personal Protective Equipment (PPE) for each      |\n" +
+                "|   type of task, such as gloves, goggles, helmets, hearing           |\n" +
+                "|   protection, and safety footwear.                                  |\n" +
                 "| - Ensure all tools and devices used are in good working condition   |\n" +
-                "|   and comply with safety standards.                                  |\n" +
+                "|   and comply with safety standards.                                 |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 6. MAINTENANCE DOCUMENTATION AND RECORDS:                           |\n" +
                 "|                                                                     |\n" +
                 "| - Keep an updated record of all maintenance activities, including   |\n" +
-                "|   date, description of service performed, and parts replaced.        |\n" +
-                "| - Records should be stored in an organized and easily accessible way |\n" +
-                "|   for future audits or references.                                  |\n" +
-                "| - Prepare failure reports, identifying the root cause and corrective|\n" +
-                "|   actions taken.                                                    |\n" +
+                "|   date, description of service performed, and parts replaced.       |\n" +
+                "| - Records should be stored in an organized and easily accessible    |\n" +
+                "|   way for future audits or references.                              |\n" +
+                "| - Prepare failure reports, identifying the root cause and           |\n" +
+                "|   corrective actions taken.                                         |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 7. TRAINING AND CAPACITY BUILDING:                                  |\n" +
                 "|                                                                     |\n" +
                 "| - All maintenance employees should participate in periodic training |\n" +
                 "|   on new technologies, procedures, and safety standards.            |\n" +
-                "| - WEG provides continuous training programs to ensure employees are |\n" +
-                "|   always up to date with best maintenance and safety practices.     |\n" +
+                "| - WEG provides continuous training programs to ensure employees     |\n" +
+                "|   are always up to date with best maintenance and safety practices. |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 8. PROCEDURES IN CASE OF INCIDENTS OR ACCIDENTS:                    |\n" +
                 "|                                                                     |\n" +
-                "| - If an accident occurs during maintenance, the employee must      |\n" +
-                "|   immediately notify the supervisor and safety team, and document    |\n" +
+                "| - If an accident occurs during maintenance, the employee must       |\n" +
+                "|   immediately notify the supervisor and safety team, and document   |\n" +
                 "|   the incident according to internal procedures.                    |\n" +
                 "| - Analyze the incident to identify causes and implement corrective  |\n" +
                 "|   actions to prevent similar occurrences.                           |\n" +
@@ -377,9 +379,13 @@ public class ManualCondutaOperacoesSetoriais {
                 "|                                                                     |\n" +
                 "| 9. APPLICABLE STANDARDS AND REGULATIONS:                            |\n" +
                 "|                                                                     |\n" +
-                "| - Follow all relevant national and international technical standards regarding safety and maintenance of industrial equipment.|\n" +
-                "| - Adhere to the manufacturer's guidelines for equipment use and maintenance.|\n" +
-                "|---------------------------------------------------------------------|\n";
+                "| - Follow all relevant national and international technical          |\n" +
+                "|   standards regarding safety and maintenance of industrial          |\n" +
+                "|   equipment.                                                        |\n" +
+                "| - Adhere to the manufacturer's guidelines for equipment use and     |\n" +
+                "|   maintenance.                                                      |\n" +
+                "|_____________________________________________________________________|\n";
+
 
             
             //manuais em ALEMÃO
