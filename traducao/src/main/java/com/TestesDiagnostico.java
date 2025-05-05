@@ -239,27 +239,28 @@ public class TestesDiagnostico {
                 "|--        DIAGNOSETEST FÜR FREQUENZUMRICHTER                       --|\n" +
                 "|_____________________________________________________________________|\n" +
                 "|-- TESTZIEL:                                                       --|\n" +
-                "| - Überprüfung des korrekten Betriebs des WEG-Frequenzumrichters.   |\n" +
+                "| - Überprüfung des korrekten Betriebs des WEG-Frequenzumrichters.    |\n" +
                 "| - Diagnose von Systemfehlern wie Steuerproblemen und                |\n" +
                 "|   Defekten an Leistungskomponenten oder dem Motor.                  |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. TESTVORBEREITUNG:                                               |\n" +
+                "| 1. TESTVORBEREITUNG:                                                |\n" +
                 "|                                                                     |\n" +
-                "| - Netzversorgung des Umrichters abschalten und Restladung abwarten.|\n" +
-                "| - Sichtprüfung des Umrichters auf physische Schäden.               |\n" +
-                "| - Sicherstellen, dass der Motor korrekt angeschlossen ist.         |\n" +
+                "| - Netzversorgung des Umrichters abschalten und Restladung abwarten. |\n" +
+                "| - Sichtprüfung des Umrichters auf physische Schäden.                |\n" +
+                "| - Sicherstellen, dass der Motor korrekt angeschlossen ist.          |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. ISOLATIONSTEST:                                                 |\n" +
+                "| 2. ISOLATIONSTEST:                                                  |\n" +
                 "|                                                                     |\n" +
                 "| - Isolationsmessgerät (Megohmmeter) zur Prüfung verwenden.          |\n" +
-                "| - Sicherstellen, dass der Isolationswiderstand den Vorgaben entspricht.|\n" +
+                "| - Sicherstellen, dass der Isolationswiderstand den                  |\n" +
+                "|   Vorgaben entspricht.                                              |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 3. STEUERUNGSTEST:                                                 |\n" +
+                "| 3. STEUERUNGSTEST:                                                  |\n" +
                 "|                                                                     |\n" +
                 "| - Mit WEG-Diagnosesoftware Verbindung zum Umrichter herstellen.     |\n" +
                 "| - Steuerungs-Ein- und Ausgänge prüfen.                              |\n" +
@@ -267,23 +268,23 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. DIAGNOSE VON HARDWAREFEHLERN:                                   |\n" +
+                "| 4. DIAGNOSE VON HARDWAREFEHLERN:                                    |\n" +
                 "|                                                                     |\n" +
-                "| - Leistungsmodule auf Fehler überprüfen.                           |\n" +
-                "| - Fehlercodes auf dem Display des Umrichters prüfen.               |\n" +
-                "|                                                                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. MOTORTEST:                                                      |\n" +
-                "|                                                                     |\n" +
-                "| - Motor abklemmen und Wicklungswiderstand messen.                  |\n" +
-                "| - Werte mit den Motorspezifikationen vergleichen.                  |\n" +
+                "| - Leistungsmodule auf Fehler überprüfen.                            |\n" +
+                "| - Fehlercodes auf dem Display des Umrichters prüfen.                |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 6. ERGEBNIS UND KORREKTURMASSNAHMEN:                               |\n" +
+                "| 5. MOTORTEST:                                                       |\n" +
                 "|                                                                     |\n" +
-                "| - Bei festgestellten Fehlern die Wartungsanweisungen konsultieren. |\n" +
+                "| - Motor abklemmen und Wicklungswiderstand messen.                   |\n" +
+                "| - Werte mit den Motorspezifikationen vergleichen.                   |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 6. ERGEBNIS UND KORREKTURMASSNAHMEN:                                |\n" +
+                "|                                                                     |\n" +
+                "| - Bei festgestellten Fehlern die Wartungsanweisungen konsultieren.  |\n" +
                 "|_____________________________________________________________________|\n";
 
         titulosTestesDiagnosticoDE[1] = "Diagnosetest-Handbuch für Elektromotoren";
