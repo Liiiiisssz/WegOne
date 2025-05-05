@@ -86,6 +86,8 @@ Você pode acessar o código fonte do projeto através do link a seguir:<a href=
 </a> 
 <p>    </p>
 
+# 🛠️ Abrir e rodar o projeto
+
 
 # 👥 Autores
 
