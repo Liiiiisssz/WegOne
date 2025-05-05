@@ -88,6 +88,14 @@ Você pode acessar o código fonte do projeto através do link a seguir:<a href=
 
 # 🛠️ Abrir e rodar o projeto
 
+OPÇÃO 1️⃣: Baixando o Arquivo.
+
+01) Baixando o projeto.ZIP 📩: Primeiramente você terá que baixar o arquivo do projeto no link mencionado anteriormente, para isto você deve clicar em **<> Code** especificada em azul/verde, e selecionar a opção baixar Download ZIP.
+
+
+
+2) Extrair o arquivo.ZIP 📁: Após baixar o arquivo.ZIP, encontre ele na pasta downloads e extraia o arquivo.
+
 
 # 👥 Autores
 
