@@ -245,53 +245,53 @@ public class ProcedimentoSeguranca {
                 "_______________________________________________________________________\n" +
                 "|--               SICHERHEITSANLEITUNG - WEG W22 MOTOR              --|\n" +
                 "|_____________________________________________________________________|\n" +
-                "|-- ZIEL: Sicheres Verfahren zur Inspektion und Wartung des Motors   --|\n" +
-                "|   WEG W22, um die Sicherheit des Bedieners und des Geräts zu       |\n" +
-                "|   gewährleisten.                                                   |\n" +
+                "|-- ZIEL: Sicheres Verfahren zur Inspektion und Wartung des Motors  --|\n" +
+                "|   WEG W22, um die Sicherheit des Bedieners und des Geräts zu        |\n" +
+                "|   gewährleisten.                                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. ALLGEMEINE ANWEISUNGEN:                                         |\n" +
+                "| 1. ALLGEMEINE ANWEISUNGEN:                                          |\n" +
                 "|                                                                     |\n" +
-                "| - Nur qualifiziertes Personal darf am Gerät arbeiten.              |\n" +
-                "| - Lesen Sie vor jeglicher Maßnahme sorgfältig das Handbuch des     |\n" +
-                "|   Herstellers.                                                     |\n" +
-                "| - Der Motor darf niemals ohne installierte Schutzvorrichtungen     |\n" +
-                "|   betrieben werden.                                                |\n" +
-                "|                                                                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. SICHERE ABSCHALTUNG:                                            |\n" +
-                "|                                                                     |\n" +
-                "| - Hauptstromversorgung im Schaltschrank ausschalten.               |\n" +
-                "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                  |\n" +
-                "| - 10 Minuten warten, um Kondensatoren zu entladen.                 |\n" +
-                "| - Spannungsfreiheit mit einem CAT III/IV-Spannungsprüfer prüfen.   |\n" +
+                "| - Nur qualifiziertes Personal darf am Gerät arbeiten.               |\n" +
+                "| - Lesen Sie vor jeglicher Maßnahme sorgfältig das Handbuch des      |\n" +
+                "|   Herstellers.                                                      |\n" +
+                "| - Der Motor darf niemals ohne installierte Schutzvorrichtungen      |\n" +
+                "|   betrieben werden.                                                 |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 3. ERFORDERLICHE PSA:                                              |\n" +
+                "| 2. SICHERE ABSCHALTUNG:                                             |\n" +
                 "|                                                                     |\n" +
-                "| - Isolierhandschuhe                                                |\n" +
-                "| - Schutzbrille                                                     |\n" +
-                "| - Dielektrische Sicherheitsschuhe                                  |\n" +
-                "| - Spannungsprüfer                                                  |\n" +
-                "| - Schutzhelm mit Visier                                            |\n" +
-                "|                                                                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. INSPEKTION:                                                     |\n" +
-                "|                                                                     |\n" +
-                "| - Temperatur, Vibrationen und Geräusche überprüfen.                |\n" +
-                "| - Klemmen, Gehäuse und Belüftung kontrollieren.                    |\n" +
-                "| - Mit nicht brennbaren Materialien reinigen.                       |\n" +
+                "| - Hauptstromversorgung im Schaltschrank ausschalten.                |\n" +
+                "| - Verriegelung und Kennzeichnung (LOTO) anwenden.                   |\n" +
+                "| - 10 Minuten warten, um Kondensatoren zu entladen.                  |\n" +
+                "| - Spannungsfreiheit mit einem CAT III/IV-Spannungsprüfer prüfen.    |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. ANWENDBARE NORMEN:                                              |\n" +
+                "| 3. ERFORDERLICHE PSA:                                               |\n" +
                 "|                                                                     |\n" +
-                "| - NR-10, NR-12                                                     |\n" +
-                "| - NBR IEC 60034-1                                                  |\n" +
-                "| - Technisches Handbuch WEG W22                                     |\n" +
+                "| - Isolierhandschuhe                                                 |\n" +
+                "| - Schutzbrille                                                      |\n" +
+                "| - Dielektrische Sicherheitsschuhe                                   |\n" +
+                "| - Spannungsprüfer                                                   |\n" +
+                "| - Schutzhelm mit Visier                                             |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 4. INSPEKTION:                                                      |\n" +
+                "|                                                                     |\n" +
+                "| - Temperatur, Vibrationen und Geräusche überprüfen.                 |\n" +
+                "| - Klemmen, Gehäuse und Belüftung kontrollieren.                     |\n" +
+                "| - Mit nicht brennbaren Materialien reinigen.                        |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 5. ANWENDBARE NORMEN:                                               |\n" +
+                "|                                                                     |\n" +
+                "| - NR-10, NR-12                                                      |\n" +
+                "| - NBR IEC 60034-1                                                   |\n" +
+                "| - Technisches Handbuch WEG W22                                      |\n" +
                 "|                                                                     |\n" +
                 "|_____________________________________________________________________|\n";
 
