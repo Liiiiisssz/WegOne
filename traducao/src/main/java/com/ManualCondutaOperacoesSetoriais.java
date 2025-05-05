@@ -28,68 +28,83 @@ public class ManualCondutaOperacoesSetoriais {
         titulosManuaisCOS[0] = "Conduta no setor de montagem";
         
         manualCOSConteudo[0] =
-                    "_______________________________________________________________________\n" +
-                    "|-- OBJETIVO: Estabelecer as diretrizes e normas de conduta para    --|\n" +
-                    "|    todos os colaboradores envolvidos no setor de montagem da WEG    |\n" +
-                    "|_____________________________________________________________________|\n" +
-                    "|                                                                     |\n" +
-                    "| 1. CÓDIGO DE ÉTICA E CONDUTA:                                       |\n" +
-                    "|                                                                     |\n" +
-                    "| - Cada colaborador é responsável por sua área de atuação, e deve   .|\n" +
-                    "|   garantir que a montagem seja realizada conforme os padrões de qualidade e segurança.                 |\n" +
-                    "| - Honestidade, respeito e integridade são valores indispensáveis.   |\n" +
-                    "| - Todos os documentos e informações relacionadas ao projeto são confidenciais,                          |\n" +
-                    "|   e não devem ser compartilhados com pessoas externas à empresa.     |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 2. SEGURANÇA NO TRABALHO:                                           |\n" +
-                    "|                                                                     |\n" +
-                    "| - O uso de EPIs adequados é obrigatório em todas as atividades de montagem.                                |\n" +
-                    "| - Qualquer situação de risco deve ser imediatamente reportada ao supervisor.                               |\n" +
-                    "| - Nunca realizar qualquer tarefa sem análise prévia dos riscos envolvidos. |\n" +
-                    "| - Informar ao setor de manutenção caso um equipamento apresente defeito ou esteja em situações inadequadas de uso.|\n" +
-                    "| - Os equipamentos devem ser mantidos em boas condições de uso, com inspeções regulares.                 |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 3. QUALIDADE:                                                       |\n" +
-                    "|                                                                     |\n" +
-                    "| - Todos os produtos montados devem atender aos padrões de qualidade da WEG.                           |\n" +
-                    "| - É obrigatório seguir as instruções de montagem, manuais técnicos e procedimentos operacionais padrão (POPs) em todas as atividades.  |\n" +
-                    "| - O setor de montagem deve participar ativamente das iniciativas de melhoria contínua.|\n" +
-                    "| - A qualidade deve ser verificada em cada etapa da montagem.                                          |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 4. COMPORTAMENTO NO AMBIENTE DE TRABALHO:                           |\n" +
-                    "|                                                                     |\n" +
+                    "___________________________________________________________________________\n" +
+                    "|--   OBJETIVO: Estabelecer as diretrizes e normas de conduta para      --|\n" +
+                    "|    todos os colaboradores envolvidos no setor de montagem da WEG        |\n" +
+                    "|_________________________________________________________________________|\n" +
+                    "|                                                                         |\n" +
+                    "| 1. CÓDIGO DE ÉTICA E CONDUTA:                                           |\n" +
+                    "|                                                                         |\n" +
+                    "| - Cada colaborador é responsável por sua área de atuação, e deve        |\n" +
+                    "|   garantir que a montagem seja realizada conforme os padrões de         |\n" +
+                    "|   qualidade e segurança.                                                |\n" +
+                    "| - Honestidade, respeito e integridade são valores indispensáveis.       |\n" +
+                    "| - Todos os documentos e informações relacionadas ao projeto             |\n" +
+                    "|   são confidenciais, e não devem ser compartilhados com pessoas         |\n" +
+                    "|   externas à empresa.                                                   |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 2. SEGURANÇA NO TRABALHO:                                               |\n" +
+                    "|                                                                         |\n" +
+                    "| - O uso de EPIs adequados é obrigatório em todas as atividades de       |\n" +
+                    "|   montagem.                                                             |\n" +
+                    "| - Qualquer situação de risco deve ser imediatamente reportada ao        |\n" +
+                    "|   supervisor.                                                           |\n" +
+                    "| - Nunca realizar qualquer tarefa sem análise prévia dos                 |\n" +
+                    "|   riscos envolvidos.                                                    |\n" +
+                    "| - Informar ao setor de manutenção caso um equipamento apresente         |\n" +
+                    "|   defeito ou esteja em situações inadequadas de uso.                    |\n" +
+                    "| - Os equipamentos devem ser mantidos em boas condições de uso, com      |\n" +
+                    "|   inspeções regulares.                                                  |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 3. QUALIDADE:                                                           |\n" +
+                    "|                                                                         |\n" +
+                    "| - Todos os produtos montados devem atender aos padrões de qualidade     |\n" +
+                    "|   da WEG.                                                               |\n" +
+                    "| - É obrigatório seguir as instruções de montagem, manuais técnicos      |\n" +
+                    "|   e procedimentos operacionais padrão (POPs) em todas as atividades.    |\n" +
+                    "| - O setor de montagem deve participar ativamente das iniciativas        |\n" +
+                    "|   de melhoria contínua.                                                 |\n" +
+                    "| - A qualidade deve ser verificada em cada etapa da montagem.            |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 4. COMPORTAMENTO NO AMBIENTE DE TRABALHO:                               |\n" +
+                    "|                                                                         |\n" +
                     "| - Todos os colaboradores devem manter o respeito e colaboração entre si.|\n" +
-                    "| - A comunicação deve ser clara, precisa e eficiente.                |\n" +
-                    "| - Os colaboradores devem cumprir com os horários estabelecidos.     |\n" +
-                    "| - Em caso de ausência, o colaborador deve avisar o seu superior com antecedência. |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 5. RESPONSABILIDADE AMBIENTAL:                                     |\n" +
-                    "|                                                                     |\n" +
-                    "| - Todos os resíduos gerados devem ser descartados corretamente.    |\n" +
-                    "| - O uso consciente de recursos como energia e água é fundamental para a sustentabilidade.   |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 6. TREINAMENTO E DESENVOLVIMENTO:                                   |\n" +
-                    "|                                                                     |\n" +
-                    "| - Todos os colaboradores devem participar de treinamentos contínuos para melhorar suas habilidades.    |\n" +
-                    "| - A capacitação é um processo constante, com foco na melhoria dos processos e operações.   |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 7. PROCEDIMENTOS EM CASO DE INCIDENTES OU NÃO CONFORMIDADES:         |\n" +
-                    "|                                                                     |\n" +
-                    "| - Relatar qualquer incidente imediatamente ao supervisor.          |\n" +
-                    "| - Adotar as ações corretivas e preventivas necessárias para garantir que a falha não se repita.   |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 8. NORMAS APLICADAS:                                                |\n" +
-                    "|                                                                     |\n" +
-                    "| - Normas técnicas nacionais e internacionais relevantes.            |\n" +
-                    "| - Recomendações do fabricante para equipamentos industriais.        |\n" +
-                    "|---------------------------------------------------------------------|\n";
+                    "| - A comunicação deve ser clara, precisa e eficiente.                    |\n" +
+                    "| - Os colaboradores devem cumprir com os horários estabelecidos.         |\n" +
+                    "| - Em caso de ausência, o colaborador deve avisar o seu superior         |\n" +
+                    "|   com antecedência.                                                     |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 5. RESPONSABILIDADE AMBIENTAL:                                          |\n" +
+                    "|                                                                         |\n" +
+                    "| - Todos os resíduos gerados devem ser descartados corretamente.         |\n" +
+                    "| - O uso consciente de recursos como energia e água é fundamental        |\n" +
+                    "|   para a sustentabilidade.                                              |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 6. TREINAMENTO E DESENVOLVIMENTO:                                       |\n" +
+                    "|                                                                         |\n" +
+                    "| - Todos os colaboradores devem participar de treinamentos contínuos     |\n" +
+                    "|   para melhorar suas habilidades.                                       |\n" +
+                    "| - A capacitação é um processo constante, com foco na melhoria           |\n" +
+                    "|   dos processos e operações.                                            |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 7. PROCEDIMENTOS EM CASO DE INCIDENTES OU NÃO CONFORMIDADES:            |\n" +
+                    "|                                                                         |\n" +
+                    "| - Relatar qualquer incidente imediatamente ao supervisor.               |\n" +
+                    "| - Adotar as ações corretivas e preventivas necessárias para garantir    |\n" +
+                    "|   que a falha não se repita.                                            |\n" +
+                    "|-------------------------------------------------------------------------|\n" +
+                    "|                                                                         |\n" +
+                    "| 8. NORMAS APLICADAS:                                                    |\n" +
+                    "|                                                                         |\n" +
+                    "| - Normas técnicas nacionais e internacionais relevantes.                |\n" +
+                    "| - Recomendações do fabricante para equipamentos industriais.            |\n" +
+                    "|_________________________________________________________________________|\n";
        
 
         titulosManuaisCOS[1] = "Procedimentos Operacionais no Setor de Manutencao";
