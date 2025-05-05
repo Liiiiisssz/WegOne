@@ -392,68 +392,84 @@ public class ManualCondutaOperacoesSetoriais {
             titulosManuaisCOSDE[0] = "Verhalten im Montagebereich";
             manualCOSConteudoDE[0] = 
                 "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung der Richtlinien und Verhaltensstandards für alle --|\n" +
-                "|    Mitarbeiter im Montagebereich von WEG                           |\n" +
+                "|--ZIEL: Festlegung der Richtlinien und Verhaltensstandards für alle--|\n" +
+                "|   Mitarbeiter im Montagebereich von WEG                             |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. ETHIK- UND VERHALTENSKODEX:                                      |\n" +
                 "|                                                                     |\n" +
-                "| - Jeder Mitarbeiter ist für seinen Arbeitsbereich verantwortlich und |\n" +
-                "|   muss sicherstellen, dass die Montage gemäß den Qualitäts- und Sicherheitsstandards durchgeführt wird.|\n" +
-                "| - Ehrlichkeit, Respekt und Integrität sind wesentliche Werte.        |\n" +
-                "| - Alle projektbezogenen Dokumente und Informationen sind vertraulich und|\n" +
-                "|   dürfen nicht mit externen Parteien geteilt werden.                 |\n" +
+                "| - Jeder Mitarbeiter ist für seinen Arbeitsbereich verantwortlich    |\n" +
+                "|   und muss sicherstellen, dass die Montage gemäß den Qualitäts-     |\n" +
+                "|   und Sicherheitsstandards durchgeführt wird.                       |\n" +
+                "| - Ehrlichkeit, Respekt und Integrität sind wesentliche Werte.       |\n" +
+                "| - Alle projektbezogenen Dokumente und Informationen sind            |\n" +
+                "|   vertraulich und dürfen nicht mit externen Parteien geteilt        |\n" +
+                "|   werden.                                                           |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 2. SICHERHEIT AM ARBEITSPLATZ:                                      |\n" +
                 "|                                                                     |\n" +
                 "| - Das Tragen der entsprechenden PSA (Persönliche Schutzausrüstung)  |\n" +
-                "|   ist bei allen Montageaktivitäten obligatorisch.                    |\n" +
-                "| - Jede Risikosituation muss sofort dem Vorgesetzten gemeldet werden. |\n" +
+                "|   ist bei allen Montageaktivitäten obligatorisch.                   |\n" +
+                "| - Jede Risikosituation muss sofort dem Vorgesetzten gemeldet        |\n" +
+                "|   werden.                                                           |\n" +
                 "| - Keine Aufgabe ohne vorherige Risikobewertung durchführen.         |\n" +
-                "| - Defekte oder unsachgemäße Nutzung von Geräten müssen sofort dem Wartungsteam gemeldet werden.|\n" +
-                "| - Geräte müssen in gutem Zustand gehalten und regelmäßig inspiziert werden.|\n" +
+                "| - Defekte oder unsachgemäße Nutzung von Geräten müssen sofort dem   |\n" +
+                "|   Wartungsteam gemeldet werden.                                     |\n" +
+                "| - Geräte müssen in gutem Zustand gehalten und regelmäßig            |\n" +
+                "|   inspiziert werden.                                                |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 3. QUALITÄT:                                                        |\n" +
                 "|                                                                     |\n" +
-                "| - Alle montierten Produkte müssen den Qualitätsstandards von WEG entsprechen.|\n" +
-                "| - Es ist obligatorisch, Montageanleitungen, technische Handbücher und Standardarbeitsanweisungen (SOPs) in allen Aktivitäten zu befolgen.|\n" +
-                "| - Der Montagebereich muss aktiv an kontinuierlichen Verbesserungsinitiativen teilnehmen.|\n" +
-                "| - Qualität muss in jeder Phase der Montage überprüft werden.         |\n" +
+                "| - Alle montierten Produkte müssen den Qualitätsstandards von WEG    |\n" +
+                "|   entsprechen.                                                      |\n" +
+                "| - Es ist obligatorisch, Montageanleitungen, technische Handbücher   |\n" +
+                "|   und Standardarbeitsanweisungen (SOPs) in allen Aktivitäten zu     |\n" +
+                "|   befolgen.                                                         |\n" +
+                "| - Der Montagebereich muss aktiv an kontinuierlichen                 |\n" +
+                "|   Verbesserungsinitiativen teilnehmen.                              |\n" +
+                "| - Qualität muss in jeder Phase der Montage überprüft werden.        |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. VERHALTEN AM ARBEITSPLATZ:                                        |\n" +
+                "| 4. VERHALTEN AM ARBEITSPLATZ:                                       |\n" +
                 "|                                                                     |\n" +
-                "| - Alle Mitarbeiter müssen Respekt und Zusammenarbeit untereinander wahren.|\n" +
+                "| - Alle Mitarbeiter müssen Respekt und Zusammenarbeit untereinander  |\n" +
+                "|   wahren.                                                           |\n" +
                 "| - Kommunikation sollte klar, präzise und effizient sein.            |\n" +
-                "| - Mitarbeiter müssen die festgelegten Arbeitszeiten einhalten.       |\n" +
-                "| - Im Falle einer Abwesenheit muss der Mitarbeiter seinen Vorgesetzten rechtzeitig benachrichtigen.|\n" +
+                "| - Mitarbeiter müssen die festgelegten Arbeitszeiten einhalten.      |\n" +
+                "| - Im Falle einer Abwesenheit muss der Mitarbeiter seinen            |\n" +
+                "|   Vorgesetzten rechtzeitig benachrichtigen.                         |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. UMWELTVERANTWORTUNG:                                              |\n" +
+                "| 5. UMWELTVERANTWORTUNG:                                             |\n" +
                 "|                                                                     |\n" +
                 "| - Alle Abfälle müssen ordnungsgemäß entsorgt werden.                |\n" +
-                "| - Der bewusste Umgang mit Ressourcen wie Energie und Wasser ist entscheidend für die Nachhaltigkeit.|\n" +
+                "| - Der bewusste Umgang mit Ressourcen wie Energie und Wasser ist     |\n" +
+                "|   entscheidend für die Nachhaltigkeit.                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 6. SCHULUNG UND ENTWICKLUNG:                                        |\n" +
                 "|                                                                     |\n" +
-                "| - Alle Mitarbeiter müssen an kontinuierlichen Schulungen teilnehmen, um ihre Fähigkeiten zu verbessern.|\n" +
-                "| - Weiterbildung ist ein kontinuierlicher Prozess, der auf die Verbesserung von Prozessen und Abläufen abzielt.|\n" +
+                "| - Alle Mitarbeiter müssen an kontinuierlichen Schulungen            |\n" +
+                "|   teilnehmen, um ihre Fähigkeiten zu verbessern.                    |\n" +
+                "| - Weiterbildung ist ein kontinuierlicher Prozess, der auf die       |\n" +
+                "|   Verbesserung von Prozessen und Abläufen abzielt.                  |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
                 "| 7. VERFAHREN BEI ZWISCHENFÄLLEN ODER NICHT-ÜBEREINSTIMMUNGEN:       |\n" +
                 "|                                                                     |\n" +
                 "| - Alle Vorfälle müssen sofort dem Vorgesetzten gemeldet werden.     |\n" +
-                "| - Korrektur- und Präventivmaßnahmen müssen ergriffen werden, um sicherzustellen, dass der Fehler nicht wiederholt wird.|\n" +
+                "| - Korrektur- und Präventivmaßnahmen müssen ergriffen werden, um     |\n" +
+                "|   sicherzustellen, dass der Fehler nicht wiederholt wird.           |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 8. ANWENDBARE VORSCHRIFTEN UND NORMEN:                               |\n" +
+                "| 8. ANWENDBARE VORSCHRIFTEN UND NORMEN:                              |\n" +
                 "|                                                                     |\n" +
-                "| - Relevante nationale und internationale technische Normen.        |\n" +
-                "| - Empfehlungen des Herstellers für industrielle Geräte.            |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "| - Relevante nationale und internationale technische Normen.         |\n" +
+                "| - Empfehlungen des Herstellers für industrielle Geräte.             |\n" +
+                "|_____________________________________________________________________|\n";
+
 
             titulosManuaisCOSDE[1] = "Betriebsverfahren im Wartungsbereich";
             manualCOSConteudoDE[1] = 
