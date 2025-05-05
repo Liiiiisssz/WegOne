@@ -142,7 +142,7 @@ public class TestesDiagnostico {
                 "|   power components or the motor.                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. TEST PREPARATION:                                               |\n" +
+                "| 1. TEST PREPARATION:                                                |\n" +
                 "|                                                                     |\n" +
                 "| - Turn off the inverter power and wait for residual charge to       |\n" +
                 "|   dissipate.                                                        |\n" +
@@ -151,14 +151,14 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. INSULATION TEST:                                                |\n" +
+                "| 2. INSULATION TEST:                                                 |\n" +
                 "|                                                                     |\n" +
                 "| - Use a megohmmeter to test motor insulation.                       |\n" +
                 "| - Ensure insulation resistance is within specifications.            |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 3. CONTROL TEST:                                                   |\n" +
+                "| 3. CONTROL TEST:                                                    |\n" +
                 "|                                                                     |\n" +
                 "| - Connect to the inverter using WEG diagnostic software.            |\n" +
                 "| - Check control inputs and outputs.                                 |\n" +
@@ -166,21 +166,21 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. HARDWARE FAILURE DIAGNOSIS:                                     |\n" +
+                "| 4. HARDWARE FAILURE DIAGNOSIS:                                      |\n" +
                 "|                                                                     |\n" +
                 "| - Check power modules for failures.                                 |\n" +
                 "| - Review error codes on the inverter display.                       |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. MOTOR TEST:                                                     |\n" +
+                "| 5. MOTOR TEST:                                                      |\n" +
                 "|                                                                     |\n" +
                 "| - Disconnect the motor and measure winding resistance.              |\n" +
                 "| - Compare values to motor specifications.                           |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 6. RESULT AND CORRECTIVE ACTION:                                   |\n" +
+                "| 6. RESULT AND CORRECTIVE ACTION:                                    |\n" +
                 "|                                                                     |\n" +
                 "| - If failures are identified, refer to maintenance instructions     |\n" +
                 "|   for corrective action.                                            |\n" +
