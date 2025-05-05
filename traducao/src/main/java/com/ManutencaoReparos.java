@@ -622,6 +622,16 @@ public class ManutencaoReparos {
 
    	public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+		        if (manutencaoReparos[i] != null) {
+				System.out.println(titulosManutencaoReparos[i]);
+		        }
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
                 String pesquisa = leia.nextLine();
 
