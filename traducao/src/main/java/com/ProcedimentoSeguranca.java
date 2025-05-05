@@ -189,51 +189,51 @@ public class ProcedimentoSeguranca {
 
                 procedimentoSegurancaEN[1] = 
                         "_______________________________________________________________________\n" +
-                        "|--            SAFETY MANUAL - WEG CFW500 INVERTER                 --|\n" +
+                        "|--            SAFETY MANUAL - WEG CFW500 INVERTER                  --|\n" +
                         "|_____________________________________________________________________|\n" +
-                        "|-- PURPOSE: Ensure safety during parameter setting and maintenance   --|\n" +
+                        "|-- PURPOSE: Ensure safety during parameter setting and maintenance --|\n" +
                         "|   of the WEG CFW500 frequency inverter, avoiding accidents.         |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
-                        "| 1. GENERAL INSTRUCTIONS:                                           |\n" +
+                        "| 1. GENERAL INSTRUCTIONS:                                            |\n" +
                         "|                                                                     |\n" +
-                        "| - Read the inverter manual before any procedure.                   |\n" +
-                        "| - Only qualified professionals should operate the equipment.       |\n" +
-                        "| - Never touch the electronic board while energized.                |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 2. POWER-OFF AND PREPARATION:                                      |\n" +
-                        "|                                                                     |\n" +
-                        "| - Turn off the breaker on the electrical panel.                    |\n" +
-                        "| - Apply lockout and tagout (LOTO).                                 |\n" +
-                        "| - Wait 15 minutes after shutdown.                                  |\n" +
-                        "| - Confirm absence of voltage on terminals R/S/T and U/V/W.         |\n" +
+                        "| - Read the inverter manual before any procedure.                    |\n" +
+                        "| - Only qualified professionals should operate the equipment.        |\n" +
+                        "| - Never touch the electronic board while energized.                 |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 3. REQUIRED PPE:                                                   |\n" +
+                        "| 2. POWER-OFF AND PREPARATION:                                       |\n" +
                         "|                                                                     |\n" +
-                        "| - Insulated gloves and tools (1000V)                               |\n" +
-                        "| - Safety goggles                                                   |\n" +
-                        "| - Safety shoes                                                     |\n" +
-                        "| - Voltage detector                                                 |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 4. SAFE PARAMETER SETTING:                                         |\n" +
-                        "|                                                                     |\n" +
-                        "| - Use inverter HMI or WEG software with insulated cable.           |\n" +
-                        "| - Ensure the load is disconnected during adjustments.              |\n" +
-                        "| - Validate parameters before re-energizing the system.             |\n" +
+                        "| - Turn off the breaker on the electrical panel.                     |\n" +
+                        "| - Apply lockout and tagout (LOTO).                                  |\n" +
+                        "| - Wait 15 minutes after shutdown.                                   |\n" +
+                        "| - Confirm absence of voltage on terminals R/S/T and U/V/W.          |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 5. APPLICABLE STANDARDS:                                           |\n" +
+                        "| 3. REQUIRED PPE:                                                    |\n" +
                         "|                                                                     |\n" +
-                        "| - NR-10                                                            |\n" +
-                        "| - NBR IEC 61800-5-1                                                |\n" +
-                        "| - WEG CFW500 Technical Manual                                      |\n" +
+                        "| - Insulated gloves and tools (1000V)                                |\n" +
+                        "| - Safety goggles                                                    |\n" +
+                        "| - Safety shoes                                                      |\n" +
+                        "| - Voltage detector                                                  |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 4. SAFE PARAMETER SETTING:                                          |\n" +
+                        "|                                                                     |\n" +
+                        "| - Use inverter HMI or WEG software with insulated cable.            |\n" +
+                        "| - Ensure the load is disconnected during adjustments.               |\n" +
+                        "| - Validate parameters before re-energizing the system.              |\n" +
+                        "|                                                                     |\n" +
+                        "|---------------------------------------------------------------------|\n" +
+                        "|                                                                     |\n" +
+                        "| 5. APPLICABLE STANDARDS:                                            |\n" +
+                        "|                                                                     |\n" +
+                        "| - NR-10                                                             |\n" +
+                        "| - NBR IEC 61800-5-1                                                 |\n" +
+                        "| - WEG CFW500 Technical Manual                                       |\n" +
                         "|                                                                     |\n" +
                         "|_____________________________________________________________________|\n";
 
