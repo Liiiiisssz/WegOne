@@ -621,10 +621,14 @@ public class ManualOperacao {
 	public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
 
 		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
-		System.out.println(titulosManuaisOperacaoDE[0]);
-		System.out.println(titulosManuaisOperacaoDE[1]);
-		System.out.println(titulosManuaisOperacaoDE[2]);
-		System.out.println(titulosManuaisOperacaoDE[3]);
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(titulosManuaisOperacaoDE[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
