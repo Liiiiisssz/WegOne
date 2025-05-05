@@ -290,46 +290,46 @@ public class TestesDiagnostico {
         titulosTestesDiagnosticoDE[1] = "Diagnosetest-Handbuch für Elektromotoren";
 
         testeDiagnosticoDE[1] = 
-                        "_______________________________________________________________________\n" +
-                        "|--     DIAGNOSETEST-HANDBUCH FÜR ELEKTROMOTOREN                   --|\n" +
-                        "|_____________________________________________________________________|\n" +
-                        "|-- TESTZIEL:                                                       --|\n" +
+                        "________________________________________________________________________\n" +
+                        "|--     DIAGNOSETEST-HANDBUCH FÜR ELEKTROMOTOREN                     --|\n" +
+                        "|______________________________________________________________________|\n" +
+                        "|-- TESTZIEL:                                                        --|\n" +
                         "| - Diagnose von elektrischen und mechanischen Fehlern bei WEG-Motoren.|\n" +
-                        "| - Überprüfung der Motorleistung, inklusive Isolierung und           |\n" +
-                        "|   Betriebsbedingungen.                                              |\n" +
-                        "|_____________________________________________________________________|\n" +
-                        "|                                                                     |\n" +
-                        "| 1. TESTVORBEREITUNG:                                               |\n" +
-                        "|                                                                     |\n" +
-                        "| - Netzversorgung des Motors abschalten und Entladung abwarten.     |\n" +
-                        "| - Elektrische und mechanische Verbindungen prüfen.                 |\n" +
-                        "| - Versorgungsspannung des Motors messen.                           |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 2. ISOLATIONSTEST:                                                 |\n" +
-                        "|                                                                     |\n" +
-                        "| - Isolationsmessgerät zur Prüfung verwenden.                       |\n" +
-                        "| - Sicherstellen, dass der Isolationswiderstand innerhalb der       |\n" +
-                        "|   Spezifikation liegt.                                              |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 3. STROMTEST:                                                      |\n" +
-                        "|                                                                     |\n" +
-                        "| - Betriebsstrom des Motors messen.                                 |\n" +
-                        "| - Mit den Spezifikationen vergleichen.                             |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 4. WICKLUNGSWIDERSTANDSTEST:                                       |\n" +
-                        "|                                                                     |\n" +
-                        "| - Wicklungswiderstand des Motors messen.                           |\n" +
-                        "| - Werte mit den Herstellerspezifikationen vergleichen.             |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 5. ERGEBNIS UND KORREKTURMASSNAHMEN:                               |\n" +
-                        "|                                                                     |\n" +
-                        "| - Bei Fehlern die Empfehlungen des Herstellers zur Reparatur       |\n" +
-                        "|   und Wartung befolgen.                                             |\n" +
-                        "|_____________________________________________________________________|\n";
+                        "| - Überprüfung der Motorleistung, inklusive Isolierung und            |\n" +
+                        "|   Betriebsbedingungen.                                               |\n" +
+                        "|______________________________________________________________________|\n" +
+                        "|                                                                      |\n" +
+                        "| 1. TESTVORBEREITUNG:                                                 |\n" +
+                        "|                                                                      |\n" +
+                        "| - Netzversorgung des Motors abschalten und Entladung abwarten.       |\n" +
+                        "| - Elektrische und mechanische Verbindungen prüfen.                   |\n" +
+                        "| - Versorgungsspannung des Motors messen.                             |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 2. ISOLATIONSTEST:                                                   |\n" +
+                        "|                                                                      |\n" +
+                        "| - Isolationsmessgerät zur Prüfung verwenden.                         |\n" +
+                        "| - Sicherstellen, dass der Isolationswiderstand innerhalb der         |\n" +
+                        "|   Spezifikation liegt.                                               |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 3. STROMTEST:                                                        |\n" +
+                        "|                                                                      |\n" +
+                        "| - Betriebsstrom des Motors messen.                                   |\n" +
+                        "| - Mit den Spezifikationen vergleichen.                               |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "|                                                                      |\n" +
+                        "| 4. WICKLUNGSWIDERSTANDSTEST:                                         |\n" +
+                        "|                                                                      |\n" +
+                        "| - Wicklungswiderstand des Motors messen.                             |\n" +
+                        "| - Werte mit den Herstellerspezifikationen vergleichen.               |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 5. ERGEBNIS UND KORREKTURMASSNAHMEN:                                 |\n" +
+                        "|                                                                      |\n" +
+                        "| - Bei Fehlern die Empfehlungen des Herstellers zur Reparatur         |\n" +
+                        "|   und Wartung befolgen.                                              |\n" +
+                        "|______________________________________________________________________|\n";
             
     }
     
