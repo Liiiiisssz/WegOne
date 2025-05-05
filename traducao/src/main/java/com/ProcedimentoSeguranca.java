@@ -80,10 +80,11 @@ public class ProcedimentoSeguranca {
 
         titulosProcedimentoSeguranca[1] = "Manual de seguranca inversor weg CFW500";
 
-        procedimentoSeguranca[1] = "_______________________________________________________________________\n" +
+        procedimentoSeguranca[1] = 
+                                "_______________________________________________________________________\n" +
                                 "|--          MANUAL DE SEGURANÇA - INVERSOR WEG CFW500              --|\n" +
                                 "|_____________________________________________________________________|\n" +
-                                "|-- OBJETIVO: Garantir a segurança na parametrização e manutenção     --|\n" +
+                                "|-- OBJETIVO: Garantir a segurança na parametrização e manutenção   --|\n" +
                                 "|   do inversor de frequência WEG CFW500, evitando acidentes.         |\n" +
                                 "|_____________________________________________________________________|\n" +
                                 "|                                                                     |\n" +
@@ -123,9 +124,9 @@ public class ProcedimentoSeguranca {
                                 "|                                                                     |\n" +
                                 "| 5. NORMAS APLICADAS:                                                |\n" +
                                 "|                                                                     |\n" +
-                                "| - NR-10                                                            |\n" +
+                                "| - NR-10                                                             |\n" +
                                 "| - NBR IEC 61800-5-1                                                 |\n" +
-                                "| - Manual Técnico CFW500 WEG                                        |\n" +
+                                "| - Manual Técnico CFW500 WEG                                         |\n" +
                                 "|                                                                     |\n" +
                                 "|_____________________________________________________________________|\n";
 
