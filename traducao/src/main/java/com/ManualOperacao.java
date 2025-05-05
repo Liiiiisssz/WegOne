@@ -1,4 +1,5 @@
 package com;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ManualOperacao {
@@ -19,6 +20,8 @@ public class ManualOperacao {
 	int contadorCadastro = 2;
 	int contadorCadastroEN = 2;
 	int contadorCadastroDE = 2;
+	int pesquisaCodigo;
+	int indiceCadastro;
 
 	public ManualOperacao(Traducoes tradutor) {
 
@@ -634,7 +637,23 @@ public class ManualOperacao {
 	public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -661,7 +680,24 @@ public class ManualOperacao {
 	public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -688,7 +724,24 @@ public class ManualOperacao {
 	public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -719,9 +772,25 @@ public class ManualOperacao {
 	public void editarManual() { //editar em PT
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
 
-		int indiceCadastro = codigo;
+		 while (true) {
+
+                try {
+                    int codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
@@ -748,9 +817,24 @@ public class ManualOperacao {
 	public void editarManualEN() { //editar em INGLES
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                    int codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
 
-		int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
@@ -777,9 +861,24 @@ public class ManualOperacao {
 	public void editarManualDE() { //editar em ALEMÃO
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                    int codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    }
 
-		int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
