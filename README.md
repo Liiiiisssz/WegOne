@@ -108,6 +108,12 @@ OPÇÃO 1️⃣: Baixando o Arquivo.
 OPÇÃO 2️⃣: Clonar com Git.
 Abra o terminal (ou prompt) 🖥️
 
+```bash
+git clone https://github.com/usuario/repositorio.git
+cd repositorio
+```
+
+# IMPORTANTE ‼️:
 
 # 👥 Autores
 
