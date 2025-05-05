@@ -479,7 +479,7 @@ public class ManutencaoReparos {
         titulosManutencaoReparosDE[1] = "Reparatur von Transformatoren";
 
         manutencaoReparosDE[1] = 
-               "_______________________________________________________________________\n" +
+               " _______________________________________________________________________\n" +
                 "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den     --|\n" +
                 "|   Bereich Transformatorreparatur zur Gewährleistung von Effizienz   |\n" +
                 "|   und Sicherheit                                                    |\n" +
