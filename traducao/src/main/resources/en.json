@@ -4,8 +4,9 @@
     "menu1": "  |-- 1.  Register Guidance         --|",
     "menu2": "  |-- 2.  Search Guidance           --|",
     "menu3": "  |-- 3.  Edit Guidance             --|",
-    "menu4": "  |-- 4.  Delete Guidance             |",
+    "menu4": "  |-- 4.  Delete Guidance           --|",
     "menu5": "  |-- 5. X EXIT PROGRAM X           --|",
+    "menu6": "  |-- 6.  CHANGE LANGUAGE           --|",
 
 
     "realizar": "  --What would you like to do?--",

@@ -4,8 +4,9 @@
     "menu1": "  |-- 1.  Anleitung registrieren         --|",
     "menu2": "  |-- 2.  Anleitung suchen               --|",
     "menu3": "  |-- 3.  Anleitung bearbeiten           --|",
-    "menu4": "  |-- 4.  Anleitung löschen               |",
-    "menu5": "  |-- 5. X PROGRAMM BEENDEN X           --|",
+    "menu4": "  |-- 4.  Anleitung löschen              --|",
+    "menu5": "  |-- 5. X PROGRAMM BEENDEN X            --|",
+    "menu6": "  |-- 6.  SPRACHE ÄNDERN                 --|",
 
 
     "realizar": "  --Was möchten Sie tun?--",
