@@ -245,75 +245,77 @@ public class ManualOperacao {
 				"|                                                                       |\n" +
 				"|_______________________________________________________________________|";
 
-		titulosManuaisOperacaoEN[1] = "Manual de operacao de geradores eletricos";
+		titulosManuaisOperacaoEN[1] = "Electric generator operating manual";
 
 		manualOperacaoConteudoEN[1] = 
-		        "_______________________________________________________________________\n" +
-				"|--              MANUAL DE OPERAÇÃO DE GERADORES ELÉTRICOS          --|\n" +
+				"_______________________________________________________________________\n" +
+				"|--              ELECTRICAL GENERATOR OPERATION MANUAL              --|\n" +
 				"|_____________________________________________________________________|\n" +
-				"|-- OBJETIVO: Apresentar as instruções para instalação, operação e    |\n" +
-				"|   manutenção segura e eficiente de geradores elétricos.             |\n" +
+				"|-- OBJECTIVE: To provide instructions for the safe and efficient     |\n" +
+				"|   installation, operation, and maintenance of electrical generators.|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|                                                                     |\n" +
-				"| 1. INSTRUÇÕES GERAIS:                                               |\n" +
+				"| 1. GENERAL INSTRUCTIONS:                                            |\n" +
 				"|                                                                     |\n" +
-				"| - Certifique-se de que o gerador é compatível com a aplicação.      |\n" +
-				"| - Leia o manual completo antes da instalação.                       |\n" +
-				"| - Apenas pessoal treinado deve realizar operações ou manutenção.    |\n" +
-				"|                                                                     |\n" +
-				"|---------------------------------------------------------------------|\n" +
-				"|                                                                     |\n" +
-				"| 2. INSTALAÇÃO:                                                      |\n" +
-				"|                                                                     |\n" +
-				"| - Instalar o gerador em local coberto, seco e ventilado.            |\n" +
-				"| - Fixar sobre base nivelada e rígida para evitar vibração.          |\n" +
-				"| - Verificar alinhamento entre motor primário e o gerador.           |\n" +
-				"| - Conectar aterramento de forma adequada.                           |\n" +
-				"| - Realizar as conexões elétricas conforme o esquema de ligação.     |\n" +
+				"| - Ensure the generator is compatible with the application.          |\n" +
+				"| - Read the complete manual before installation.                     |\n" +
+				"| - Only trained personnel should perform operations or maintenance.  |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
-				"| 3. PARTIDA E PARADA:                                                |\n" +
+				"| 2. INSTALLATION:                                                    |\n" +
 				"|                                                                     |\n" +
-				"| - Antes da partida, verificar nível de óleo e combustível           |\n" +
-				"|   * (se for acionado por motor a combustão)                         |\n" +
-				"| - Verificar se não há vazamentos ou obstruções.                     |\n" +
-				"| - Conectar aterramento de forma adequada.                           |\n" +
-				"| - Durante a parada, desligar as cargas antes de                     |\n" +
-				"|   desligar o grupo gerador.                                         |\n" +
+				"| - Install the generator in a covered, dry, and ventilated location. |\n" +
+				"| - Secure it to a level, rigid base to prevent vibration.            |\n" +
+				"| - Check the alignment between the primary motor and the generator.  |\n" +
+				"| - Properly connect grounding.                                       |\n" +
+				"| - Make electrical connections according to the wiring diagram.      |\n" +
 				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
-				"| 4. OPERAÇÃO:                                                        |\n" +
+				"| 3. STARTUP AND SHUTDOWN:                                            |\n" +
 				"|                                                                     |\n" +
-				"| - Monitorar tensão, corrente, frequência e temperatura.             |\n" +
-				"| - Operar o gerador dentro dos limites especificados.                |\n" +
-				"| - Evitar sobrecargas ou subfrequências.                             |\n" +
+				"| - Before startup, check the oil and fuel levels                     |\n" +
+				"|   * (if powered by an internal combustion engine)                   |\n" +
+				"| - Check for leaks or obstructions.                                  |\n" +
+				"| - Properly connect grounding.                                       |\n" +
+				"| - During shutdown, disconnect loads before                          |\n" +
+				"|   turning off the generator set.                                    |\n" +
+				"|                                                                     |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
-				"| 5. MANUTENÇÃO:                                                      |\n" +
+				"| 4. OPERATION:                                                       |\n" +
 				"|                                                                     |\n" +
-				"| - Realizar inspeções periódicas conforme o manual técnico.          |\n" +
-				"| - Lubrificar os rolamentos conforme a recomendação do fabricante.   |\n" +
-				"| - Evitar sobrecargas ou subfrequências.                             |\n" +
-				"| - Verificar o estado das escovas e anéis coletores (se aplicável).  |\n" +
-				"| - Limpar regularmente o estator e rotor,                            |\n" +
-				"|   mantendo-os livres de poeira e óleo.                              |\n" +
+				"| - Monitor voltage, current, frequency, and temperature.             |\n" +
+				"| - Operate the generator within the specified limits.                |\n" +
+				"| - Avoid overloads or underfrequency.                                |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
-				"| 6. SEGURANÇA:                                                       |\n" +
+				"| 5. MAINTENANCE:                                                     |\n" +
 				"|                                                                     |\n" +
-				"| - Sempre desligar o gerador antes de qualquer intervenção.          |\n" +
-				"| - Usar EPI apropriado para eletricidade.                            |\n" +
-				"| - Evitar contato com partes móveis e quentes durante a operação.    |\n" +
+				"| - Perform periodic inspections according to the technical manual.   |\n" +
+				"| - Lubricate the bearings as recommended by the manufacturer.        |\n" +
+				"| - Avoid overloads or underfrequency.                                |\n" +
+				"| - Check the condition of the brushes and collector rings (if        |\n" +
+				"|   applicable).                                                      |\n" +
+				"| - Regularly clean the stator and rotor,                             |\n" +
+				"|   keeping them free of dust and oil.                                |\n" +
 				"|---------------------------------------------------------------------|\n" +
 				"|                                                                     |\n" +
-				"| 7. NORMAS APLICADAS:                                                |\n" +
+				"| 6. SAFETY:                                                          |\n" +
 				"|                                                                     |\n" +
-				"| - NBR 10295: Aplicações de geradores síncronos.                     |\n" +
-				"| - IEC 60034: Padrões internacionais para máquinas rotativas.        |\n" +
-				"| - Instruções da WEG para grupos geradores e geradores industriais.  |\n" +
-				"|_____________________________________________________________________|\n";
+				"| - Always turn off the generator before any intervention.            |\n" +
+				"| - Wear appropriate PPE for electrical work.                         |\n" +
+				"| - Avoid contact with moving and hot parts during operation.         |\n" +
+				"|---------------------------------------------------------------------|\n" +
+				"|                                                                     |\n" +
+				"| 7. APPLICABLE STANDARDS:                                            |\n" +
+				"|                                                                     |\n" +
+				"| - NBR 10295: Applications for synchronous generators.               |\n" +
+				"| - IEC 60034: International standards for rotating machinery.        |\n" +
+				"| - WEG instructions for generator sets and industrial generators.    |\n" +
+				"|_____________________________________________________________________|\n" ;
+
 	
 		//manuais em ALEMÃO
 		titulosManuaisOperacaoDE[0] = "Handbuch für den Betrieb von Elektrogeneratoren";
