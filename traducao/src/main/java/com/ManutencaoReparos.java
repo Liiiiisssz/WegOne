@@ -941,6 +941,16 @@ public class ManutencaoReparos {
 
         public void editarManualDE() { //editar em ALEMÃO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+			if (manutencaoReparosDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
