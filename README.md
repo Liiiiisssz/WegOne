@@ -119,6 +119,17 @@ cd repositorio
    
 Exemplos:
 
+✅ JavaScript (em navegadores ou Node.js)
+
+✅ Python (usando o módulo json)
+
+✅ Java, C#, PHP, Go, etc.
+
+No nosso caso, rodamos apartir do VScode e utilizamos a extensão maven. Para baixar o arquivo basta você pesquisar o nome na parte de extensões do VScode e iniciar a instalação. Após concluido você já poderá rodar.
+
+
+🏃‍♂️📂 3. Execute o Projeto
+
 # 👥 Autores
 
 | [<img loading="lazy" src="https://github.com/user-attachments/assets/b7db5354-4160-40de-8174-59a35df43d8e" width="115"><br><sub>Melissa R. Pereira</sub>](https://github.com/melll1601) | [<img loading="lazy" src="https://github.com/user-attachments/assets/c9277e3f-f8d7-4bdc-b351-fd665145d635" width="115"><br><sub>Elis Jasper</sub>](https://github.com/Liiiiisssz) | [<img loading="lazy" src="https://github.com/user-attachments/assets/f1da660f-f2a2-40bd-a466-bad4d5351e6d" width="115"><br><sub>Gabrielli Vitória Glowatski</sub>](https://github.com/Viihh-77) | [<img loading="lazy" src="https://github.com/user-attachments/assets/9a812c36-e6c9-4009-a76b-20749d0a0a47" width="115"><br><sub>Ana Beatriz O. Ribeiro</sub>](https://github.com/Ana18022008) |
