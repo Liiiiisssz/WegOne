@@ -724,6 +724,16 @@ public class ManualOperacao {
 
 	public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
 
+		System.out.println("--LISTA DE codiGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
