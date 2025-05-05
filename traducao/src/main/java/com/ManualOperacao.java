@@ -27,7 +27,8 @@ public class ManualOperacao {
 		//manuais em PT
 		titulosManuaisOperacao[0] = "Manual de operacao de motores eletricos";
 
-		manualOperacaoConteudo[0] = "_______________________________________________________________________\n" +
+		manualOperacaoConteudo[0] =
+		        "_______________________________________________________________________\n" +
 				"|--              MANUAL DE OPERAÇÃO DE MOTORES ELÉTRICOS            --|\n" +
 				"|_____________________________________________________________________|\n" +
 				"|-- OBJETIVO: Fornecer orientações sobre a instalação, operação e   --|\n" +
