@@ -732,6 +732,16 @@ public class ProcedimentoSeguranca {
 
     public void editarManualDE() { //editar em ALEMÃO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
