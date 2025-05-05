@@ -659,6 +659,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(titulosManuaisCOSDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
