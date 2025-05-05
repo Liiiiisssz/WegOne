@@ -118,88 +118,94 @@ public class ManutencaoReparos {
         titulosManutencaoReparos[1] = "Reparo de transformadores";
 
         manutencaoReparos[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de reparo de transformadores, garantindo a eficiência e a segurança --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. OBJETIVO DO SETOR DE REPARO:                                     |\n" +
-                "|                                                                     |\n" +
-                "| - Garantir a operação contínua e segura dos transformadores.        |\n" +
-                "| - Realizar reparos corretivos e preventivos conforme os planos e    |\n" +
-                "|   cronogramas estabelecidos.                                        |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. REPARO PREVENTIVO:                                               |\n" +
-                "|                                                                     |\n" +
-                "| - Inspecionar periodicamente os transformadores quanto a sinais de  |\n" +
-                "|   aquecimento excessivo, ruídos ou vibrações anormais.              |\n" +
-                "| - Verificar o estado dos isolantes e das buchas de entrada e saída. |\n" +
-                "| - Realizar testes de resistência de isolamento para detectar falhas |\n" +
-                "|   antes que ocorra a falha completa do equipamento.                 |\n" +
-                "| - Limpar os transformadores de poeira e contaminantes para evitar   |\n" +
-                "|   problemas de sobreaquecimento e falhas elétricas.                 |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. REPARO CORRETIVO:                                                |\n" +
-                "|                                                                     |\n" +
-                "| - Quando ocorrer falha em algum transformador, a equipe de reparo   |\n" +
-                "|   deve diagnosticar a causa da falha e realizar a correção necessária. |\n" +
-                "| - Substituir componentes danificados, como buchas, transformadores  |\n" +
-                "|   de corrente ou de tensão, e sistemas de resfriamento, se aplicável.|\n" +
-                "| - Realizar testes após o reparo para assegurar o bom funcionamento  |\n" +
-                "|   do transformador.                                                 |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. REPARO PREDITIVO:                                                |\n" +
-                "|                                                                     |\n" +
-                "| - Utilizar tecnologias de monitoramento de condição, como sensores  |\n" +
-                "|   de temperatura e umidade, para identificar falhas antes que       |\n" +
-                "|   ocorram.                                                          |\n" +
-                "| - Realizar medições de corrente e resistência para avaliar a saúde  |\n" +
-                "|   do transformador e detectar falhas iminentes.                     |\n" +
-                "| - Manter registros detalhados dos dados coletados para otimizar o   |\n" +
-                "|   planejamento de manutenção.                                       |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. PROCEDIMENTOS DE SEGURANÇA NO REPARO:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Desligar a alimentação elétrica do transformador antes de iniciar |\n" +
-                "|   qualquer intervenção.                                             |\n" +
+                "_________________________________________________________________________\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para   --|\n" +
+                "|    o setor de reparo de transformadores, garantindo a eficiência      |\n" +
+                "|    e a segurança.                                                     |\n" +
+                "|_______________________________________________________________________|\n" +
+                "|                                                                       |\n" +
+                "| 1. OBJETIVO DO SETOR DE REPARO:                                       |\n" +
+                "|                                                                       |\n" +
+                "| - Garantir a operação contínua e segura dos transformadores.          |\n" +
+                "| - Realizar reparos corretivos e preventivos conforme os planos e      |\n" +
+                "|   cronogramas estabelecidos.                                          |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 2. REPARO PREVENTIVO:                                                 |\n" +
+                "|                                                                       |\n" +
+                "| - Inspecionar periodicamente os transformadores quanto a sinais de    |\n" +
+                "|   aquecimento excessivo, ruídos ou vibrações anormais.                |\n" +
+                "| - Verificar o estado dos isolantes e das buchas de entrada e saída.   |\n" +
+                "| - Realizar testes de resistência de isolamento para detectar falhas   |\n" +
+                "|   antes que ocorra a falha completa do equipamento.                   |\n" +
+                "| - Limpar os transformadores de poeira e contaminantes para evitar     |\n" +
+                "|   problemas de sobreaquecimento e falhas elétricas.                   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 3. REPARO CORRETIVO:                                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Quando ocorrer falha em algum transformador, a equipe de reparo     |\n" +
+                "|  deve diagnosticar a causa da falha e realizar a correção necessária. |\n" +
+                "| - Substituir componentes danificados, como buchas, transformadores    |\n" +
+                "|  de corrente ou de tensão, e sistemas de resfriamento, se aplicável.  |\n" +
+                "| - Realizar testes após o reparo para assegurar o bom funcionamento    |\n" +
+                "|   do transformador.                                                   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 4. REPARO PREDITIVO:                                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Utilizar tecnologias de monitoramento de condição, como sensores    |\n" +
+                "|   de temperatura e umidade, para identificar falhas antes que         |\n" +
+                "|   ocorram.                                                            |\n" +
+                "| - Realizar medições de corrente e resistência para avaliar a saúde    |\n" +
+                "|   do transformador e detectar falhas iminentes.                       |\n" +
+                "| - Manter registros detalhados dos dados coletados para otimizar o     |\n" +
+                "|   planejamento de manutenção.                                         |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 5. PROCEDIMENTOS DE SEGURANÇA NO REPARO:                              |\n" +
+                "|                                                                       |\n" +
+                "| - Desligar a alimentação elétrica do transformador antes de iniciar   |\n" +
+                "|   qualquer intervenção.                                               |\n" +
                 "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes, óculos de segurança e botas de segurança. |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOCUMENTAÇÃO E REGISTROS DE REPARO:                              |\n" +
-                "|                                                                     |\n" +
-                "| - Manter registros completos de todos os reparos realizados, com    |\n" +
-                "|   descrição detalhada do defeito encontrado e solução aplicada.     |\n" +
-                "| - Registrar os testes realizados, como medições de resistência e    |\n" +
-                "|   corrente.                                                         |\n" +
-                "| - Elaborar relatórios sobre falhas e ações corretivas implementadas.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. TREINAMENTO E CAPACITAÇÃO:                                       |\n" +
-                "|                                                                     |\n" +
-                "| - Promover treinamentos sobre as técnicas de diagnóstico e reparo   |\n" +
-                "|   em transformadores, incluindo os riscos elétricos envolvidos.     |\n" +
-                "| - Instruir os colaboradores sobre as normas de segurança e o uso adequado de ferramentas. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
-                "|                                                                     |\n" +
-                "| - Em caso de acidente, acionar imediatamente a equipe de segurança  |\n" +
-                "|   e registrar o incidente conforme as normas internas.              |\n" +
-                "| - Realizar uma análise do incidente para identificar suas causas e  |\n" +
-                "|   implementar ações corretivas para evitar a repetição do acidente. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos e transformadores. |\n" +
-                "| - Cumprir com as orientações do fabricante para instalação, operação e manutenção dos transformadores. |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|  luvas isolantes, capacetes, óculos de segurança e botas de segurança.|\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam       |\n" +
+                "|   seguidos para segurança.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 6. DOCUMENTAÇÃO E REGISTROS DE REPARO:                                |\n" +
+                "|                                                                       |\n" +
+                "| - Manter registros completos de todos os reparos realizados, com      |\n" +
+                "|   descrição detalhada do defeito encontrado e solução aplicada.       |\n" +
+                "| - Registrar os testes realizados, como medições de resistência e      |\n" +
+                "|   corrente.                                                           |\n" +
+                "| - Elaborar relatórios sobre falhas e ações corretivas implementadas.  |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 7. TREINAMENTO E CAPACITAÇÃO:                                         |\n" +
+                "|                                                                       |\n" +
+                "| - Promover treinamentos sobre as técnicas de diagnóstico e reparo     |\n" +
+                "|   em transformadores, incluindo os riscos elétricos envolvidos.       |\n" +
+                "| - Instruir os colaboradores sobre as normas de segurança e o uso      |\n" +
+                "|   adequado de ferramentas.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                  |\n" +
+                "|                                                                       |\n" +
+                "| - Em caso de acidente, acionar imediatamente a equipe de segurança    |\n" +
+                "|   e registrar o incidente conforme as normas internas.                |\n" +
+                "| - Realizar uma análise do incidente para identificar suas causas e    |\n" +
+                "|   implementar ações corretivas para evitar a repetição do acidente.   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em         |\n" +
+                "|   sistemas elétricos e transformadores.                               |\n" +
+                "| - Cumprir com as orientações do fabricante para instalação, operação  |\n" +
+                "|   e manutenção dos transformadores.                                   |\n" +
+                "|_______________________________________________________________________|\n";
+
 
 
 
