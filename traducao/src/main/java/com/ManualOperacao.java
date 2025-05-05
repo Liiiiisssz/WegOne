@@ -536,6 +536,12 @@ public class ManualOperacao {
 
 	public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(titulosManuaisOperacao[0]);
+		System.out.println(titulosManuaisOperacao[1]);
+		System.out.println(titulosManuaisOperacao[2]);
+		System.out.println(titulosManuaisOperacao[3]);
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
