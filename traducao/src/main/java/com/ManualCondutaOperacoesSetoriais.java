@@ -701,6 +701,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
