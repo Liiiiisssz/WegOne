@@ -617,6 +617,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(titulosManuaisCOSEN[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
