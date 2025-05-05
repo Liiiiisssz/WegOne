@@ -213,7 +213,7 @@ public class ManutencaoReparos {
         titulosManutencaoReparosEN[0] = "Electric Motor Maintenance";
 
         manutencaoReparosEN[0] = 
-            "_______________________________________________________________________\n" +
+                "_______________________________________________________________________\n" +
                 "|-- OBJECTIVE: Establish standard operating procedures for the      --|\n" +
                 "|   electric motor maintenance sector, ensuring efficiency and safety |\n" +
                 "|_____________________________________________________________________|\n" +
@@ -296,8 +296,8 @@ public class ManutencaoReparos {
 
         manutencaoReparosEN[1] = 
                         "_______________________________________________________________________\n" +
-                        "|-- OBJECTIVE: Establish standard operating procedures for the         --|\n" +
-                        "|    transformer repair sector, ensuring efficiency and safety         --|\n" +
+                        "|-- OBJECTIVE: Establish standard operating procedures for the      --|\n" +
+                        "|    transformer repair sector, ensuring efficiency and safety        |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
                         "| 1. REPAIR DEPARTMENT OBJECTIVE:                                     |\n" +
@@ -312,9 +312,9 @@ public class ManutencaoReparos {
                         "| - Periodically inspect transformers for signs of excessive heating, |\n" +
                         "|   unusual noises, or abnormal vibrations.                           |\n" +
                         "| - Check the condition of insulators and input/output bushings.      |\n" +
-                        "| - Perform insulation resistance tests to detect failures before      |\n" +
+                        "| - Perform insulation resistance tests to detect failures before     |\n" +
                         "|   total equipment breakdown.                                        |\n" +
-                        "| - Clean transformers from dust and contaminants to prevent           |\n" +
+                        "| - Clean transformers from dust and contaminants to prevent          |\n" +
                         "|   overheating and electrical faults.                                |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
@@ -324,7 +324,7 @@ public class ManutencaoReparos {
                         "|   and carry out the necessary correction.                           |\n" +
                         "| - Replace damaged components such as bushings, current or voltage   |\n" +
                         "|   transformers, and cooling systems if applicable.                  |\n" +
-                        "| - Conduct tests after the repair to ensure proper transformer        |\n" +
+                        "| - Conduct tests after the repair to ensure proper transformer       |\n" +
                         "|   operation.                                                        |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
@@ -378,6 +378,9 @@ public class ManutencaoReparos {
                         "| - Comply with the manufacturer's guidelines for installation,       |\n" +
                         "|   operation, and maintenance of transformers.                       |\n" +
                         "|---------------------------------------------------------------------|\n";
+
+
+
 
         
         //manuais em ALEMÃO
