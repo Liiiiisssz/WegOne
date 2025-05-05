@@ -191,40 +191,40 @@ public class TestesDiagnostico {
 
         testeDiagnosticoEN[1] = 
                         "_______________________________________________________________________\n" +
-                        "|--     DIAGNOSTIC TEST MANUAL FOR ELECTRIC MOTORS                 --|\n" +
+                        "|--     DIAGNOSTIC TEST MANUAL FOR ELECTRIC MOTORS                  --|\n" +
                         "|_____________________________________________________________________|\n" +
                         "|-- TEST OBJECTIVE:                                                 --|\n" +
                         "| - Diagnose electrical and mechanical faults in WEG motors.          |\n" +
-                        "| - Verify motor performance, including insulation and operating       |\n" +
+                        "| - Verify motor performance, including insulation and operating      |\n" +
                         "|   conditions.                                                       |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
-                        "| 1. TEST PREPARATION:                                               |\n" +
+                        "| 1. TEST PREPARATION:                                                |\n" +
                         "|                                                                     |\n" +
                         "| - Turn off motor power and wait for charge dissipation.             |\n" +
                         "| - Check electrical and mechanical connections of the motor.         |\n" +
                         "| - Measure motor supply voltage.                                     |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 2. INSULATION TEST:                                                |\n" +
+                        "| 2. INSULATION TEST:                                                 |\n" +
                         "|                                                                     |\n" +
                         "| - Use a megohmmeter to test motor insulation.                       |\n" +
                         "| - Ensure insulation resistance is within specifications.            |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 3. CURRENT TEST:                                                   |\n" +
+                        "| 3. CURRENT TEST:                                                    |\n" +
                         "|                                                                     |\n" +
                         "| - Measure motor operating current.                                  |\n" +
                         "| - Compare with specifications.                                      |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 4. WINDING RESISTANCE TEST:                                        |\n" +
+                        "| 4. WINDING RESISTANCE TEST:                                         |\n" +
                         "|                                                                     |\n" +
                         "| - Measure the resistance of the motor windings.                     |\n" +
                         "| - Compare values with the manufacturer’s specifications.            |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 5. RESULT AND CORRECTIVE ACTION:                                   |\n" +
+                        "| 5. RESULT AND CORRECTIVE ACTION:                                    |\n" +
                         "|                                                                     |\n" +
                         "| - If failures are identified, follow manufacturer recommendations   |\n" +
                         "|   for repair and maintenance.                                       |\n" +
