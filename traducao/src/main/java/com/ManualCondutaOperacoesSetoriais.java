@@ -213,77 +213,81 @@ public class ManualCondutaOperacoesSetoriais {
         titulosManuaisCOSEN[0] = "Conduct in the Assembly Department";
 
         manualCOSConteudoEN[0] =
-                    "_______________________________________________________________________\n" +
+                    "_________________________________________________________________________\n" +
                     "|-- OBJECTIVE: Establish the guidelines and conduct standards for     --|\n" +
-                    "|    all employees involved in the assembly department at WEG.         |\n" +
-                    "|_____________________________________________________________________|\n" +
-                    "|                                                                     |\n" +
-                    "| 1. CODE OF ETHICS AND CONDUCT:                                       |\n" +
-                    "|                                                                     |\n" +
-                    "| - Each employee is responsible for their area of work and must      |\n" +
-                    "|   ensure that the assembly is performed according to quality and    |\n" +
-                    "|   safety standards.                                                 |\n" +
-                    "| - Honesty, respect, and integrity are essential values.             |\n" +
-                    "| - All documents and information related to the project are         |\n" +
-                    "|   confidential and should not be shared with people outside the     |\n" +
-                    "|   company.                                                          |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 2. WORKPLACE SAFETY:                                                |\n" +
-                    "|                                                                     |\n" +
+                    "|    all employees involved in the assembly department at WEG.          |\n" +
+                    "|_______________________________________________________________________|\n" +
+                    "|                                                                       |\n" +
+                    "| 1. CODE OF ETHICS AND CONDUCT:                                        |\n" +
+                    "|                                                                       |\n" +
+                    "| - Each employee is responsible for their area of work and must        |\n" +
+                    "|   ensure that the assembly is performed according to quality and      |\n" +
+                    "|   safety standards.                                                   |\n" +
+                    "| - Honesty, respect, and integrity are essential values.               |\n" +
+                    "| - All documents and information related to the project are            |\n" +
+                    "|   confidential and should not be shared with people outside the       |\n" +
+                    "|   company.                                                            |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 2. WORKPLACE SAFETY:                                                  |\n" +
+                    "|                                                                       |\n" +
                     "| - The use of appropriate PPE is mandatory for all assembly activities.|\n" +
-                    "| - Any safety risk situation must be immediately reported to the     |\n" +
-                    "|   supervisor.                                                       |\n" +
-                    "| - Never perform any task without a prior risk assessment.           |\n" +
-                    "| - Report to the maintenance department if any equipment is faulty  |\n" +
-                    "|   or inappropriately used.                                          |\n" +
-                    "| - Equipment should be kept in good working condition with regular  |\n" +
-                    "|   inspections.                                                      |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 3. QUALITY:                                                         |\n" +
-                    "|                                                                     |\n" +
-                    "| - All assembled products must meet WEG’s quality standards.         |\n" +
-                    "| - It is mandatory to follow assembly instructions, technical manuals, and standard operating procedures (SOPs) in all activities. |\n" +
-                    "| - The assembly department must actively participate in continuous  |\n" +
-                    "|   improvement initiatives.                                           |\n" +
-                    "| - Quality must be checked at each stage of the assembly process.    |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 4. BEHAVIOR IN THE WORKPLACE:                                        |\n" +
-                    "|                                                                     |\n" +
-                    "| - All employees should maintain respect and collaboration with one another.|\n" +
-                    "| - Communication should be clear, accurate, and efficient.            |\n" +
-                    "| - Employees must adhere to the established schedules.               |\n" +
-                    "| - In case of absence, the employee must notify their supervisor in advance.|\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 5. ENVIRONMENTAL RESPONSIBILITY:                                     |\n" +
-                    "|                                                                     |\n" +
-                    "| - All generated waste must be disposed of properly.                 |\n" +
-                    "| - The conscious use of resources such as energy and water is       |\n" +
-                    "|   crucial for sustainability.                                       |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 6. TRAINING AND DEVELOPMENT:                                         |\n" +
-                    "|                                                                     |\n" +
-                    "| - All employees must participate in ongoing training to improve    |\n" +
-                    "|   their skills.                                                     |\n" +
-                    "| - Training is an ongoing process focused on improving processes and operations.|\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 7. PROCEDURES IN CASE OF INCIDENTS OR NON-CONFORMITIES:             |\n" +
-                    "|                                                                     |\n" +
-                    "| - Report any incidents immediately to the supervisor.               |\n" +
-                    "| - Implement corrective and preventive actions to ensure that the    |\n" +
-                    "|   failure does not recur.                                           |\n" +
-                    "|---------------------------------------------------------------------|\n" +
-                    "|                                                                     |\n" +
-                    "| 8. APPLICABLE STANDARDS:                                            |\n" +
-                    "|                                                                     |\n" +
-                    "| - Relevant national and international technical standards.         |\n" +
-                    "| - Manufacturer recommendations for industrial equipment.            |\n" +
-                    "|---------------------------------------------------------------------|\n";
+                    "| - Any safety risk situation must be immediately reported to the       |\n" +
+                    "|   supervisor.                                                         |\n" +
+                    "| - Never perform any task without a prior risk assessment.             |\n" +
+                    "| - Report to the maintenance department if any equipment is faulty     |\n" +
+                    "|   or inappropriately used.                                            |\n" +
+                    "| - Equipment should be kept in good working condition with regular     |\n" +
+                    "|   inspections.                                                        |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 3. QUALITY:                                                           |\n" +
+                    "|                                                                       |\n" +
+                    "| - All assembled products must meet WEG’s quality standards.           |\n" +
+                    "| - It is mandatory to follow assembly instructions, technical manuals, |\n" +
+                    "|   and standard operating procedures (SOPs) in all activities.         |\n" +
+                    "| - The assembly department must actively participate in continuous     |\n" +
+                    "|   improvement initiatives.                                            |\n" +
+                    "| - Quality must be checked at each stage of the assembly process.      |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 4. BEHAVIOR IN THE WORKPLACE:                                         |\n" +
+                    "|                                                                       |\n" +
+                    "| - All employees should maintain respect and collaboration with one    |\n" +
+                    "|  another.                                                             |\n" +
+                    "| - Communication should be clear, accurate, and efficient.             |\n" +
+                    "| - Employees must adhere to the established schedules.                 |\n" +
+                    "| - In case of absence, the employee must notify their supervisor in    |\n" +
+                    "|   advance.                                                            |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 5. ENVIRONMENTAL RESPONSIBILITY:                                      |\n" +
+                    "|                                                                       |\n" +
+                    "| - All generated waste must be disposed of properly.                   |\n" +
+                    "| - The conscious use of resources such as energy and water is          |\n" +
+                    "|   crucial for sustainability.                                         |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 6. TRAINING AND DEVELOPMENT:                                          |\n" +
+                    "|                                                                       |\n" +
+                    "| - All employees must participate in ongoing training to improve       |\n" +
+                    "|   their skills.                                                       |\n" +
+                    "| - Training is an ongoing process focused on improving processes and   |\n" +
+                    "|   operations.                                                         |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 7. PROCEDURES IN CASE OF INCIDENTS OR NON-CONFORMITIES:               |\n" +
+                    "|                                                                       |\n" +
+                    "| - Report any incidents immediately to the supervisor.                 |\n" +
+                    "| - Implement corrective and preventive actions to ensure that the      |\n" +
+                    "|   failure does not recur.                                             |\n" +
+                    "|-----------------------------------------------------------------------|\n" +
+                    "|                                                                       |\n" +
+                    "| 8. APPLICABLE STANDARDS:                                              |\n" +
+                    "|                                                                       |\n" +
+                    "| - Relevant national and international technical standards.            |\n" +
+                    "| - Manufacturer recommendations for industrial equipment.              |\n" +
+                    "|-----------------------------------------------------------------------|\n";
 
 
         titulosManuaisCOSEN[1] = "Operational Procedures in the Maintenance Department";
