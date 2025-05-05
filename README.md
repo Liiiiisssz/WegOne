@@ -103,6 +103,11 @@ OPÇÃO 1️⃣: Baixando o Arquivo.
 4) Importando o projeto 📥: Importe o projeto, a localização dependrá da IDE que você vai utilizar.
 
 
+<p>    </p>
+
+OPÇÃO 2️⃣: Clonar com Git.
+Abra o terminal (ou prompt) 🖥️
+
 
 # 👥 Autores
 
