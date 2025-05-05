@@ -896,6 +896,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManualDE() { //editar em ALEMÃO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
