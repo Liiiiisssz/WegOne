@@ -613,6 +613,16 @@ public class ProcedimentoSeguranca {
 
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
