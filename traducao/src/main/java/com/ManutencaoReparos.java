@@ -27,83 +27,93 @@ public class ManutencaoReparos {
         //manuais em PT
         titulosManutencaoReparos[0] = "Manutencao de motores eletricos";
 
-        manutencaoReparos[0] = "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de manutenção de motores elétricos, garantindo a eficiência e a segurança --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. OBJETIVO DO SETOR DE MANUTENÇÃO:                                 |\n" +
-                "|                                                                     |\n" +
-                "| - Garantir a operação contínua e segura dos motores elétricos.      |\n" +
-                "| - Realizar manutenção preventiva, corretiva e preditiva conforme os |\n" +
-                "|   planos e cronogramas estabelecidos.                               |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. MANUTENÇÃO PREVENTIVA:                                           |\n" +
-                "|                                                                     |\n" +
-                "| - Inspecionar regularmente os motores elétricos quanto a sinais de  |\n" +
-                "|   desgaste, vibração excessiva ou aquecimento.                      |\n" +
-                "| - Verificar o alinhamento e balanceamento do motor.                 |\n" +
-                "| - Realizar lubrificação nos pontos recomendados pelo fabricante.    |\n" +
-                "| - Limpar os motores de poeira e resíduos para evitar o superaquecimento. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. MANUTENÇÃO CORRETIVA:                                            |\n" +
-                "|                                                                     |\n" +
-                "| - Quando ocorrer falha no motor, identificar a causa e realizar os  |\n" +
-                "|   reparos necessários com agilidade.                                |\n" +
-                "| - Substituir componentes danificados, como rolamentos, escovas e    |\n" +
-                "|   estatores.                                                        |\n" +
-                "| - Testar o motor após o reparo para garantir seu funcionamento      |\n" +
-                "|   correto.                                                          |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. MANUTENÇÃO PREDITIVA:                                            |\n" +
-                "|                                                                     |\n" +
-                "| - Utilizar tecnologias de monitoramento como termografia e análise  |\n" +
-                "|   de vibração para prever falhas no motor antes que ocorram.        |\n" +
-                "| - Implementar sensores de temperatura e vibração para um acompanhamento contínuo. |\n" +
-                "| - Manter registros detalhados dos dados de monitoramento para otimizar a manutenção. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                        |\n" +
-                "|                                                                     |\n" +
-                "| - Desligar a alimentação elétrica do motor antes de iniciar qualquer|\n" +
-                "|   procedimento de manutenção.                                       |\n" +
+        manutencaoReparos[0] =
+                "_________________________________________________________________________\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão par    --|\n" +
+                "|    o setor de manutenção de motores elétricos, garantindo a           |\n" +
+                "|    eficiência e a segurança                                           |\n" +
+                "|_______________________________________________________________________|\n" +
+                "|                                                                       |\n" +
+                "| 1. OBJETIVO DO SETOR DE MANUTENÇÃO:                                   |\n" +
+                "|                                                                       |\n" +
+                "| - Garantir a operação contínua e segura dos motores elétricos.        |\n" +
+                "| - Realizar manutenção preventiva, corretiva e preditiva conforme os   |\n" +
+                "|   planos e cronogramas estabelecidos.                                 |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 2. MANUTENÇÃO PREVENTIVA:                                             |\n" +
+                "|                                                                       |\n" +
+                "| - Inspecionar regularmente os motores elétricos quanto a sinais de    |\n" +
+                "|   desgaste, vibração excessiva ou aquecimento.                        |\n" +
+                "| - Verificar o alinhamento e balanceamento do motor.                   |\n" +
+                "| - Realizar lubrificação nos pontos recomendados pelo fabricante.      |\n" +
+                "| - Limpar os motores de poeira e resíduos para                         |\n" +
+                "|   evitar o superaquecimento.                                          |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 3. MANUTENÇÃO CORRETIVA:                                              |\n" +
+                "|                                                                       |\n" +
+                "| - Quando ocorrer falha no motor, identificar a causa e realizar os    |\n" +
+                "|   reparos necessários com agilidade.                                  |\n" +
+                "| - Substituir componentes danificados, como rolamentos, escovas e      |\n" +
+                "|   estatores.                                                          |\n" +
+                "| - Testar o motor após o reparo para garantir seu funcionamento        |\n" +
+                "|   correto.                                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 4. MANUTENÇÃO PREDITIVA:                                              |\n" +
+                "|                                                                       |\n" +
+                "| - Utilizar tecnologias de monitoramento como termografia e análise    |\n" +
+                "|   de vibração para prever falhas no motor antes que ocorram.          |\n" +
+                "| - Implementar sensores de temperatura e vibração para                 |\n" +
+                "|   um acompanhamento contínuo.                                         |\n" +
+                "| - Manter registros detalhados dos dados de monitoramento para         |\n" +
+                "|   otimizar a manutenção.                                              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                          |\n" +
+                "|                                                                       |\n" +
+                "| - Desligar a alimentação elétrica do motor antes de iniciar qualquer  |\n" +
+                "|   procedimento de manutenção.                                         |\n" +
                 "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes e óculos de segurança.                 |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                          |\n" +
-                "|                                                                     |\n" +
-                "| - Registrar todas as atividades de manutenção, incluindo data, tipo |\n" +
-                "|   de serviço e peças substituídas.                                  |\n" +
+                "|   luvas isolantes, capacetes e óculos de segurança.                   |\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam       |\n" +
+                "|   seguidos para segurança.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                            |\n" +
+                "|                                                                       |\n" +
+                "| - Registrar todas as atividades de manutenção, incluindo data, tipo   |\n" +
+                "|   de serviço e peças substituídas.                                    |\n" +
                 "| - Manter um histórico dos testes realizados, como medições de corrente|\n" +
-                "|   e resistência do motor.                                           |\n" +
-                "| - Elaborar relatórios sobre falhas recorrentes e ações corretivas.  |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. TREINAMENTO E CAPACITAÇÃO:                                       |\n" +
-                "|                                                                     |\n" +
-                "| - Promover treinamentos periódicos sobre diagnóstico de falhas e    |\n" +
-                "|   técnicas de reparo em motores elétricos.                          |\n" +
-                "| - Instruir os colaboradores sobre os riscos elétricos e a segurança no trabalho. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
-                "|                                                                     |\n" +
-                "| - Em caso de acidente, acionar imediatamente o supervisor e a equipe|\n" +
-                "|   de segurança.                                                     |\n" +
-                "| - Registrar o incidente conforme as normas internas e realizar uma  |\n" +
-                "|   análise de causa raiz para prevenir futuros acidentes.            |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos. |\n" +
-                "| - Cumprir com as recomendações do fabricante para instalação, operação e manutenção dos motores. |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|   e resistência do motor.                                             |\n" +
+                "| - Elaborar relatórios sobre falhas recorrentes e ações corretivas.    |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 7. TREINAMENTO E CAPACITAÇÃO:                                         |\n" +
+                "|                                                                       |\n" +
+                "| - Promover treinamentos periódicos sobre diagnóstico de falhas e      |\n" +
+                "|   técnicas de reparo em motores elétricos.                            |\n" +
+                "| - Instruir os colaboradores sobre os riscos elétricos e a             |\n" +
+                "|   segurança no trabalho.                                              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                  |\n" +
+                "|                                                                       |\n" +
+                "| - Em caso de acidente, acionar imediatamente o supervisor e a equipe  |\n" +
+                "|   de segurança.                                                       |\n" +
+                "| - Registrar o incidente conforme as normas internas e realizar uma    |\n" +
+                "|   análise de causa raiz para prevenir futuros acidentes.              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em         |\n" +
+                "|   sistemas elétricos.                                                 |\n" +
+                "| - Cumprir com as recomendações do fabricante para instalação,         |\n" +
+                "|   operação e manutenção dos motores.                                  |\n" +
+                "|_______________________________________________________________________|\n";
+
 
         titulosManutencaoReparos[1] = "Reparo de transformadores";
 
@@ -1005,7 +1015,6 @@ public class ManutencaoReparos {
 }
 
     
-
 
 
 
