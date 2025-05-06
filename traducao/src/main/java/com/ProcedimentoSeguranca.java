@@ -427,6 +427,8 @@ public class ProcedimentoSeguranca {
 			}
 		}
 
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -467,6 +469,9 @@ public class ProcedimentoSeguranca {
 			}
 		}
 
+		System.out.println(" ");
+
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -506,6 +511,8 @@ public class ProcedimentoSeguranca {
 				System.out.println(titulosProcedimentoSegurancaDE[i]);
 			}
 		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
