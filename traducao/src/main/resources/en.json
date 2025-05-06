@@ -14,6 +14,9 @@
     "return": "|-- 6.          RETURN TO START                 --|",
     "invalid": "--  X Invalid option! X  --",
     "encerrar": "--  Shutting Down System  --",
+    "titulosCad": "--TITLES REGISTERED IN THE SYSTEM--",
+    "codigosCad": "--LIST OF REGISTERED CODES--",
+
 
 
     "pesqTitulo": "|-- 1. Title                          --|",

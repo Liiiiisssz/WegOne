@@ -544,6 +544,16 @@ public class ManualOperacao {
 
 	public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+
+			if (manualOperacaoConteudo[i] != null) {
+				System.out.println(titulosManuaisOperacao[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
@@ -575,6 +585,16 @@ public class ManualOperacao {
 	}
 
 	public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
+
+			if (manualOperacaoConteudoEN[i] != null) {
+				System.out.println(titulosManuaisOperacaoEN[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
@@ -608,6 +628,16 @@ public class ManualOperacao {
 
 	public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(titulosManuaisOperacaoDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
@@ -640,6 +670,16 @@ public class ManualOperacao {
 
 	public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+
+			if (manualOperacaoConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -667,6 +707,16 @@ public class ManualOperacao {
 
 	public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
+
+			if (manualOperacaoConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -693,6 +743,16 @@ public class ManualOperacao {
 	}
 
 	public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
@@ -725,6 +785,16 @@ public class ManualOperacao {
 
 	public void editarManual() { //editar em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+
+			if (manualOperacaoConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -754,6 +824,16 @@ public class ManualOperacao {
 
 	public void editarManualEN() { //editar em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
+
+			if (manualOperacaoConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -782,6 +862,16 @@ public class ManualOperacao {
 	}
 
 	public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
@@ -815,6 +905,16 @@ public class ManualOperacao {
 
 
 	public void excluirManual() { //excluir em PT
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
+
+			if (manualOperacaoConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
@@ -850,6 +950,16 @@ public class ManualOperacao {
 
 	public void excluirManualEN() { //excluir em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
+
+			if (manualOperacaoConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
 
@@ -883,6 +993,16 @@ public class ManualOperacao {
 	}
 
 	public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+
+			if (manualOperacaoConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();

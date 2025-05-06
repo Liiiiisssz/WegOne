@@ -651,6 +651,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(titulosManuaisCOS[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
@@ -682,6 +692,16 @@ public class ManualCondutaOperacoesSetoriais {
 	}
 
     public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(titulosManuaisCOSEN[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
@@ -715,6 +735,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(titulosManuaisCOSDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
@@ -747,6 +777,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -774,6 +814,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -800,6 +850,16 @@ public class ManualCondutaOperacoesSetoriais {
 	}
     
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
 		// 0 e 1 para padrão
@@ -834,6 +894,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManual() { //editar em PT
 
+        System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -863,6 +933,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManualEN() { //editar em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -891,6 +971,16 @@ public class ManualCondutaOperacoesSetoriais {
 	}
 
     public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
 		// 2 e 3 para cadastrados
@@ -926,6 +1016,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManual() { //excluir em PT
 
+        System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOS.length; i++) {
+
+			if (manualCOSConteudo[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
 
@@ -959,6 +1059,16 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManualEN() { //excluir em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
+
+			if (manualCOSConteudoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
 
@@ -991,6 +1101,16 @@ public class ManualCondutaOperacoesSetoriais {
     }
 
     public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
+
+			if (manualCOSConteudoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
 		// 2 e 3 para cadastrados

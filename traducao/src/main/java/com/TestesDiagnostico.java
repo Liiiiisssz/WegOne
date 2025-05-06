@@ -408,6 +408,16 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTitulo() { //pesquisar TITULO em PT
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
+
+			if (testeDiagnostico[i] != null) {
+				System.out.println(titulosTestesDiagnostico[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -439,6 +449,16 @@ public class TestesDiagnostico {
     }
 
     public void pesquisarManualTituloEN() { //pesquisar TITULO em INGLES
+
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(titulosTestesDiagnosticoEN[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
@@ -472,6 +492,16 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTituloDE() { //pesquisar TITULO em ALEMÃO
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(titulosTestesDiagnosticoDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -504,6 +534,16 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigo() { //pesquisar CODIGO em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
+
+			if (testeDiagnostico[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
@@ -531,6 +571,16 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigoEN() { //pesquisar CODIGO em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
@@ -557,6 +607,16 @@ public class TestesDiagnostico {
     }
 
     public void pesquisaManualCodigoDE() { //pesquisar CODIGO em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
@@ -589,6 +649,16 @@ public class TestesDiagnostico {
 
     public void editarManual() { //editar PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
+
+			if (testeDiagnostico[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
@@ -618,6 +688,16 @@ public class TestesDiagnostico {
 
     public void editarManualEN() { //editar INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
@@ -646,6 +726,16 @@ public class TestesDiagnostico {
     }
 
     public void editarManualDE() { //editar ALEMAO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
@@ -679,6 +769,16 @@ public class TestesDiagnostico {
 
 
     public void excluirManual() { //excluir PT
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
+
+			if (testeDiagnostico[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
@@ -714,6 +814,16 @@ public class TestesDiagnostico {
 
     public void excluirManualEN() { //excluir INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
@@ -747,6 +857,16 @@ public class TestesDiagnostico {
     }
 
     public void excluirManualDE() { //excluir ALEMAO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();

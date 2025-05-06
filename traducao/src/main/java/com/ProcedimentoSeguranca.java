@@ -421,6 +421,16 @@ public class ProcedimentoSeguranca {
 
     public void pesquisarManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+			if (procedimentoSeguranca[i] != null) {
+				System.out.println(titulosProcedimentoSeguranca[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -452,6 +462,17 @@ public class ProcedimentoSeguranca {
     }
 
     public void pesquisarManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+			if (procedimentoSegurancaEN[i] != null) {
+				System.out.println(titulosProcedimentoSegurancaEN[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
@@ -485,6 +506,16 @@ public class ProcedimentoSeguranca {
 
     public void pesquisarManualTituloDE() { //pesquisa TITULO em ALEMAO
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(titulosProcedimentoSegurancaDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
@@ -517,6 +548,16 @@ public class ProcedimentoSeguranca {
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+			if (procedimentoSeguranca[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
@@ -544,6 +585,16 @@ public class ProcedimentoSeguranca {
 
     public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+			if (procedimentoSegurancaEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
@@ -570,6 +621,16 @@ public class ProcedimentoSeguranca {
     }
 
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
@@ -602,6 +663,16 @@ public class ProcedimentoSeguranca {
 
     public void editarManual() { //editar em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+			if (procedimentoSeguranca[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
@@ -631,6 +702,16 @@ public class ProcedimentoSeguranca {
 
     public void editarManualEN() { //editar em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+			if (procedimentoSegurancaEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
@@ -659,6 +740,16 @@ public class ProcedimentoSeguranca {
     }
 
     public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
@@ -692,6 +783,16 @@ public class ProcedimentoSeguranca {
 
 
     public void excluirManual() { //excluir em PT
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSeguranca.length; i++) {
+
+			if (procedimentoSeguranca[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
@@ -727,6 +828,16 @@ public class ProcedimentoSeguranca {
 
     public void excluirManualEN() { //excluir em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaEN.length; i++) {
+
+			if (procedimentoSegurancaEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
@@ -760,6 +871,16 @@ public class ProcedimentoSeguranca {
     }
 
     public void excluirManualDE() { //excluir em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosProcedimentoSegurancaDE.length; i++) {
+
+			if (procedimentoSegurancaDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
