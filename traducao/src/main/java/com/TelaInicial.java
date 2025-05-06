@@ -336,7 +336,7 @@ public class TelaInicial {
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
                         System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
@@ -419,7 +419,7 @@ public class TelaInicial {
                 try {
                     tipoPesquisa = leia.nextInt();  
 
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
                         System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
@@ -500,7 +500,7 @@ public class TelaInicial {
                         try {
                           tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
                         System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
@@ -581,7 +581,7 @@ public class TelaInicial {
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
                         System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
@@ -663,7 +663,7 @@ public class TelaInicial {
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
                         System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
