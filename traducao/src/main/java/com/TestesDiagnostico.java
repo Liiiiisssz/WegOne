@@ -813,6 +813,16 @@ public class TestesDiagnostico {
 
     public void excluirManualEN() { //excluir INGLES
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
         int codigo = leia.nextInt();
 
