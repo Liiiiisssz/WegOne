@@ -469,13 +469,13 @@ public class TelaInicial {
                                 break;
 
                             case 4: //testesDiagnostico
-                                System.out.println("_______________________________________");
+                                System.out.println("|_________________________________________________|");
                                 System.out.println(tradutor.get("pesqTestDiag"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|_____________________________________|");
+                                System.out.println("|_________________________________________________|");
                             
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
