@@ -535,14 +535,14 @@ public class TelaInicial {
                                 break;
 
                             case 5: //manualCondutaOperacoesSetoriais
-                                System.out.println("____________________________________");
+                                System.out.println("|_________________________________________________|");
                                 System.out.println(tradutor.get("pesqManualCOS1"));
                                 System.out.println(tradutor.get("pesqManualCOS2"));
-                                System.out.println("|----------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|----------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|__________________________________|");
+                                System.out.println("|_________________________________________________|");
                             
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
