@@ -570,6 +570,16 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigoEN() { //pesquisar CODIGO em INGLES
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
+
+			if (testeDiagnosticoEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
         int pesquisaCodigo = leia.nextInt();
 
