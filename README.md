@@ -121,7 +121,8 @@ Tenha um gerenciador de pacotes do JSON para executar o projeto.Nós utilizamos 
 Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
 
 
-🏃‍♂️📂 3. Execute o Projeto
+🏃‍♂️📂 3. Execute o Projeto:
+
 Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
 
 ```bash
