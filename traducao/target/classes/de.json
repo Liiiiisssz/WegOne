@@ -14,6 +14,9 @@
     "return": "|-- 6.          ZURÜCK ZUM START                --|",
     "invalid": "--  X Ungültige Option! X  --",
     "encerrar": "--  System wird beendet  --",
+    "titulosCad": "--IM SYSTEM REGISTRIERTE TITEL--",
+    "codigosCad": "--LISTE DER REGISTRIERTEN CODES--",
+
 
 
     "pesqTitulo": "|-- 1. Titel                          --|",
