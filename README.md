@@ -124,6 +124,7 @@ Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar
 🏃‍♂️📂 3. Execute o Projeto
 
 ```bash
+Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
 ```
 
 
