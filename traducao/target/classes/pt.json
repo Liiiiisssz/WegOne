@@ -14,6 +14,8 @@
     "return": "|-- 6.          VOLTAR AO INÍCIO                --|",
     "invalid": "--  X Opção inválida! X  --",
     "encerrar": "--  Encerrando Sistema  --",
+    "titulosCad": "--TITULOS CADASTRADOS NO SISTEMA--",
+    "codigosCad": "--LISTA DE CODIGOS CADASTRADOS--",
 
 
     "pesqTitulo": "|-- 1. Título                         --|",
