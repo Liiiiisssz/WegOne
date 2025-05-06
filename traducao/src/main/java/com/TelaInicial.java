@@ -339,7 +339,7 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -422,7 +422,7 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -503,7 +503,7 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -584,7 +584,7 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -666,7 +666,7 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
