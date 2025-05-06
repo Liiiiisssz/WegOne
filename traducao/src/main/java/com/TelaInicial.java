@@ -17,7 +17,7 @@ public class TelaInicial {
         int tipoPesquisa;
 
         do {
-System.out.println("  ");
+            System.out.println("  ");
 
             System.out.println("--  Selecione o idioma: --");
             System.out.println("--   Select language:   --");
@@ -307,20 +307,21 @@ System.out.println("  ");
                         System.out.println(tradutor.get("resposta"));
                        
                          while (true) {
-                try {
-                    tipoOrientacao = leia.nextInt();  
+                            try {
+                                tipoOrientacao = leia.nextInt();  
                    
-                    if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
-                    }
+                                if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
+                                    break; 
 
-                } catch (InputMismatchException e) {
+                                } else {
+                                    System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                                }
+
+                            } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
-                }
+                                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                                    leia.nextLine();
+                            }
             }
 
                         switch(tipoOrientacao){
@@ -342,10 +343,10 @@ System.out.println("  ");
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -425,10 +426,10 @@ System.out.println("  ");
                 try {
                     tipoPesquisa = leia.nextInt();  
 
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -506,10 +507,10 @@ System.out.println("  ");
                         try {
                           tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -587,10 +588,10 @@ System.out.println("  ");
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -669,10 +670,10 @@ System.out.println("  ");
                 try {
                     tipoPesquisa = leia.nextInt();  
                    
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 3) {
+                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 3.");
+                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
                     }
 
                 } catch (InputMismatchException e) {
@@ -1087,4 +1088,6 @@ System.out.println("  ");
         } while(decisaoInicial == 6);
 
         leia.close();    
+    }
 }
+
