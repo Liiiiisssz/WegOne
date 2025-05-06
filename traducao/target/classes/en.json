@@ -42,12 +42,12 @@
     "chooseExcluir": " -- Choose the type of guidance to delete --",
 
 
-    "pesqManualOp":   "|--  SEARCH OPERATION MANUAL               --|",
-    "pesqProcedSeg":  "|--  SEARCH SAFETY PROCEDURE               --|",
-    "pesqManutenRep": "|-- SEARCH MAINTENANCE AND REPAIRS         --|",
-    "pesqTestDiag":   "|--  SEARCH TESTING AND DIAGNOSTICS        --|",
-    "pesqManualCOS1": "|--  SEARCH CODE OF CONDUCT                --|",
-    "pesqManualCOS2": "|--  AND SECTORAL OPERATIONS               --|",
+    "pesqManualOp":   "|--         SEARCH OPERATION MANUAL             --|",
+    "pesqProcedSeg":  "|--           SEARCH SAFETY PROCEDURE           --|",
+    "pesqManutenRep": "|--        SEARCH MAINTENANCE AND REPAIRS       --|",
+    "pesqTestDiag":   "|--        SEARCH TESTING AND DIAGNOSTICS       --|",
+    "pesqManualCOS1": "|--           SEARCH CODE OF CONDUCT            --|",
+    "pesqManualCOS2": "|--           AND SECTORAL OPERATIONS           --|",
 
     "pesqTitulo": "|-- 1. Title                                      |",
     "pesqCodigo": "|-- 2. Code                                       |",
