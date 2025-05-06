@@ -125,8 +125,8 @@ Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar
 Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
 
 ```bash
-cd 'C:\caminho\para\seu\projeto' (Substitua pelo caminho real onde está seu projeto) +
-& 'C:\caminho\para\java.exe' '@C:\caminho\para\arquivo.argfile' 'com.TelaInicial'
+cd 'C:\caminho\para\seu\projeto'& 'C:\caminho\para\java.exe' '@C:\caminho\para\arquivo.argfile' 'com.TelaInicial'
+# ⬆️‼️ Substitua pelo caminho real onde está seu projeto)
 
 ```
 
