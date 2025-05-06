@@ -116,14 +116,6 @@ git clone https://github.com/usuario/repositorio.git
 
 # IMPORTANTE ‼️:
 
-Exemplos:
-
-✅ JavaScript (em navegadores ou Node.js)
-
-✅ Python (usando o módulo json)
-
-✅ Java, C#, PHP, Go, entre outros.
-
 No nosso caso, executamos a partir do VS Code e utilizamos a extensão Maven.
 
 Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
