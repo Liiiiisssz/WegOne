@@ -18,11 +18,6 @@
     "codigosCad": "--LISTE DER REGISTRIERTEN CODES--",
 
 
-
-    "pesqTitulo": "|-- 1. Titel",
-    "pesqCodigo": "|-- 2. Code",
-
-
     "manualOp": "|--  1. Bedienungsanleitung                     --|",
     "procedSeg": "|--  2. Sicherheitsverfahren                    --|",
     "manutenRep": "|--  3. Wartung und Reparaturen                 --|",
@@ -31,7 +26,7 @@
 
 
     "cadastro": "|--            ANLEITUNG REGISTRIEREN           --|",
-    "pesquisa": "|--              ANLEITUNG SUCHEN                --|",
+    "pesquisa": "|--              ANLEITUNG SUCHEN               --|",
     "edicao": "|--              ANLEITUNG BEARBEITEN           --|",
     "exclusao": "|--             ANLEITUNG LÖSCHEN               --|",
 
@@ -43,14 +38,15 @@
     "chooseExcluir": " -- Wählen Sie die Art der Anleitung zum Löschen --",
 
 
-    "pesqManualOp": "|--  BEDIENUNGSANLEITUNG SUCHEN          --|",
-    "pesqProcedSeg": "|--  SICHERHEITSVERFAHREN SUCHEN         --|",
-    "pesqManutenRep": "|--  WARTUNG UND REPARATUREN SUCHEN      --|",
-    "pesqTestDiag": "|--  TESTS UND DIAGNOSEN SUCHEN          --|",
-    "pesqManualCOS1": "|--  VERHALTENSRICHTLINIEN SUCHEN        --|",
-    "pesqManualCOS2": "|--  UND BEREICHSRICHTLINIEN             --|",
+    "pesqManualOp":   "|--         BEDIENUNGSANLEITUNG SUCHEN          --|",
+    "pesqProcedSeg":  "|--         SICHERHEITSVERFAHREN SUCHEN         --|",
+    "pesqManutenRep": "|--       WARTUNG UND REPARATUREN SUCHEN        --|",
+    "pesqTestDiag":   "|--         TESTS UND DIAGNOSEN SUCHEN          --|",
+    "pesqManualCOS1": "|--         VERHALTENSRICHTLINIEN SUCHEN        --|",
+    "pesqManualCOS2": "|--           UND BEREICHSRICHTLINIEN           --|",
 
-
+    "pesqTitulo": "|-- 1. Titel                                      |",
+    "pesqCodigo": "|-- 2. Code                                       |",
 
 
     "tituloManualOp": "Titel des Bedienungshandbuchs:",
