@@ -116,7 +116,7 @@ git clone https://github.com/usuario/repositorio.git
 
 # IMPORTANTE ‼️:
 
-No nosso caso, executamos a partir do VS Code e utilizamos a extensão Maven.
+Tenha um gerenciador de pacotes do JSON para executar o projeto.Nós utilizamos a extensão Maven no VScode.
 
 Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
 
