@@ -473,7 +473,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqTestDiag"));
                                 System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|_____________________________________|");
                             
@@ -540,7 +540,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqManualCOS2"));
                                 System.out.println("|----------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|----------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|__________________________________|");
                             
