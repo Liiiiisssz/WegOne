@@ -491,6 +491,16 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTituloDE() { //pesquisar TITULO em ALEMÃO
 
+		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(titulosTestesDiagnosticoDE[i]);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
         String pesquisa = leia.nextLine();
 
