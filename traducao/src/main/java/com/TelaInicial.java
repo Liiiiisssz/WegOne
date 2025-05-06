@@ -405,11 +405,11 @@ public class TelaInicial {
                             case 3: //manutencaoReparos
                                 System.out.println("|_________________________________________________|");
                                 System.out.println(tradutor.get("pesqManutenRep"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|_____________________________________|");
+                                System.out.println("|_________________________________________________|");
                             
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
