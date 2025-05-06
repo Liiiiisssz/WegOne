@@ -123,12 +123,7 @@ Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar
 
 🏃‍♂️📂 3. Execute o Projeto
 
-☕ Java (simples)
-Compile e execute:
-
 ```bash
-javac Arquivo.java
-java Arquivo
 ```
 
 
