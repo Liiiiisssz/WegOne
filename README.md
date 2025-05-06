@@ -112,13 +112,9 @@ Abra o terminal (ou prompt) 🖥️
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
-cd repositorio
 ```
 
 # IMPORTANTE ‼️:
-
-
-Nosso projeto contém arquivos JSON, mas como se tratam de arquivos de dados, eles não são executáveis por si só. É necessário instalar um programa que consiga lê-los.
 
 Exemplos:
 
