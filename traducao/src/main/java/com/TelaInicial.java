@@ -104,22 +104,22 @@ public class TelaInicial {
                     System.out.println(tradutor.get("realizar"));
                     System.out.println(tradutor.get("resposta"));
                    
-                     while (true) {
-                try {
-                    decisaoInicial = leia.nextInt();  
+                    while (true) {
+                        try {
+                            decisaoInicial = leia.nextInt();  
 
-                    if (decisaoInicial >= 1 && decisaoInicial <= 6) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                            if (decisaoInicial >= 1 && decisaoInicial <= 6) {
+                                break;  
+                            } else {
+                                System.out.println(tradutor.get("invalid1a6"));
+                            }
+
+                        } catch (InputMismatchException e) {
+                        
+                            System.out.println(tradutor.get("entradaInvalid"));
+                            leia.nextLine();
+                        }
                     }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
-                }
-            }
 
                     System.out.println(" ");
 
@@ -154,12 +154,12 @@ public class TelaInicial {
                     if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                        System.out.println(tradutor.get("invalid1a6"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -314,12 +314,12 @@ public class TelaInicial {
                                     break; 
 
                                 } else {
-                                    System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                                    System.out.println(tradutor.get("invalid1a6"));
                                 }
 
                             } catch (InputMismatchException e) {
                    
-                                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                                    System.out.println(tradutor.get("entradaInvalid"));
                                     leia.nextLine();
                             }
             }
@@ -346,12 +346,12 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
+                        System.out.println(tradutor.get("invalid1a2"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -429,12 +429,12 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
+                        System.out.println(tradutor.get("invalid1a2"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -510,12 +510,12 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
+                        System.out.println(tradutor.get("invalid1a2"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -591,12 +591,12 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
+                        System.out.println(tradutor.get("invalid1a2"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -673,12 +673,12 @@ public class TelaInicial {
                     if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 2.");
+                        System.out.println(tradutor.get("invalid1a2"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -767,7 +767,7 @@ public class TelaInicial {
                         System.out.println(" ");
 
                         System.out.println(tradutor.get("chooseEdit"));
-                        System.out.print(" --Resposta: ");
+                        System.out.print(tradutor.get("resposta"));
                        
                         while (true) {
                 try {
@@ -776,12 +776,12 @@ public class TelaInicial {
                     if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                        System.out.println(tradutor.get("invalid1a6"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -934,12 +934,12 @@ public class TelaInicial {
                     if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 1 e 6.");
+                        System.out.println(tradutor.get("invalid1a6"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }

@@ -76,5 +76,11 @@
     "excluir": "Digite o código do manual para exclusão: ",
     "delSucesso": "Manual excluído com sucesso!",
     "delNEncontrado": "Manual já foi excluído ou não foi encontrado.",
-    "enter": "Enter para voltar ao menu:"
+    "enter": "Enter para voltar ao menu:",
+
+
+    "invalid1a6": "Entrada inválida! Por favor, digite um número entre 1 e 6.",
+    "invalid1a2": "Entrada inválida! Por favor, digite um número entre 1 e 2.",
+    "invalid0a3": "Entrada inválida! Por favor, digite um número entre 0 e 3.",
+    "entradaInvalid": "Entrada inválida! Por favor, digite um número."
 }

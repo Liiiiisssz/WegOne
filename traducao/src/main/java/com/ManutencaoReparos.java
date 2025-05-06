@@ -791,22 +791,21 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("codigoPesq"));
 		
                  while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
-                    }
+                    try {
+                        pesquisaCodigo = leia.nextInt();  
+                    
+                        if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida!");
+                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
-                }
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
+                    }
             }
-		
 		
 		boolean encontrado = false;
 
@@ -845,21 +844,21 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("codigoPesq"));
 		
                  while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
-                    }
+                    try {
+                        pesquisaCodigo = leia.nextInt();  
+                    
+                        if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida!");
+                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
+                    }
                 }
-            }
 		
 		
 		boolean encontrado = false;
@@ -899,21 +898,21 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("codigoPesq"));
 		
                  while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
-                    }
+                    try {
+                        pesquisaCodigo = leia.nextInt();  
+                    
+                        if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
+                    }
                 }
-            }
 		
 		
 		boolean encontrado = false;
@@ -957,23 +956,22 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("edit"));
 		
                  while (true) {
+                    try {
+                        int codigo = leia.nextInt();
+                        indiceCadastro = codigo;  
+                    
+                        if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        }
 
-                try {
-                    int codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
                     }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
                 }
-            }
 
                 System.out.println(" ");
 
@@ -1012,23 +1010,22 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("edit"));
 		
                  while (true) {
+                    try {
+                        int codigo = leia.nextInt();
+                        indiceCadastro = codigo;  
+                    
+                        if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        }
 
-                try {
-                    int codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
                     }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
                 }
-            }
 
                 System.out.println(" ");
 
@@ -1067,23 +1064,22 @@ public class ManutencaoReparos {
 		System.out.println(tradutor.get("edit"));
 		
                  while (true) {
+                    try {
+                        codigo = leia.nextInt();
+                        indiceCadastro = codigo;  
+                    
+                        if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                            break;  
+                        } else {
+                            System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        }
 
-                try {
-                      codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                    } catch (InputMismatchException e) {
+                    
+                        System.out.println("Entrada inválida! Por favor, digite um número.");
+                        leia.nextLine();
                     }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
-                    leia.nextLine();
                 }
-            }
 
                 System.out.println(" ");
 

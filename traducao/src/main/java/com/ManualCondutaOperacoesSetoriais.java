@@ -795,12 +795,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -848,12 +848,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -901,12 +901,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -957,12 +957,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1012,12 +1012,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1067,12 +1067,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1122,12 +1122,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1180,12 +1180,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1239,12 +1239,12 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalid0a3"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }

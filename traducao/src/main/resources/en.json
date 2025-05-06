@@ -77,5 +77,11 @@
     "excluir": "Enter the manual code for deletion:",
     "delSucesso": "Manual successfully deleted!",
     "delNEncontrado": "Manual has already been deleted or was not found.",
-    "enter": "Press Enter to return to the menu:"
+    "enter": "Press Enter to return to the menu:",
+
+
+    "invalid1a6": "Invalid input! Please enter a number between 1 and 6.",
+    "invalid1a2": "Invalid input! Please enter a number between 1 and 2.",
+    "invalid0a3": "Invalid input! Please enter a number between 0 and 3.",
+    "entradaInvalid": "Invalid input! Please enter a number."
 }

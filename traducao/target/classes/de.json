@@ -78,5 +78,11 @@
     "excluir": "Code des Handbuchs zur Löschung eingeben:",
     "delSucesso": "Handbuch erfolgreich gelöscht!",
     "delNEncontrado": "Handbuch wurde bereits gelöscht oder nicht gefunden.",
-    "enter": "Drücken Sie die Eingabetaste, um zum Menü zurückzukehren:"
+    "enter": "Drücken Sie die Eingabetaste, um zum Menü zurückzukehren:",
+
+
+    "invalid1a6": "Ungültige Eingabe! Bitte geben Sie eine Zahl zwischen 1 und 6 ein.",
+    "invalid1a2": "Ungültige Eingabe! Bitte geben Sie eine Zahl zwischen 1 und 2 ein.",
+    "invalid0a3": "Ungültige Eingabe! Bitte geben Sie eine Zahl zwischen 0 und 3 ein.",
+    "entradaInvalid": "Ungültige Eingabe! Bitte geben Sie eine Zahl ein."
 }
