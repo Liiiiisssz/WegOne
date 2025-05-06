@@ -4,7 +4,7 @@
     "menu1": "  |-- 1.  Cadastrar Orientação     --|",
     "menu2": "  |-- 2.  Pesquisar Orientação     --|",
     "menu3": "  |-- 3.  Editar Orientação        --|",
-    "menu4": "  |-- 4.  Excluir Orientação         |",
+    "menu4": "  |-- 4.  Excluir Orientação       --|",
     "menu5": "  |-- 5. X ENCERRAR PROGRAMA X     --|",
     "menu6": "  |-- 6.  MUDAR IDIOMA             --|",
 
@@ -14,10 +14,12 @@
     "return": "|-- 6.          VOLTAR AO INÍCIO                --|",
     "invalid": "--  X Opção inválida! X  --",
     "encerrar": "--  Encerrando Sistema  --",
+    "titulosCad": "--TITULOS CADASTRADOS NO SISTEMA--",
+    "codigosCad": "--LISTA DE CODIGOS CADASTRADOS--",
 
 
-    "pesqTitulo": "|-- 1. Título                         --|",
-    "pesqCodigo": "|-- 2. Código                         --|",
+    "pesqTitulo": "|-- 1. Título",
+    "pesqCodigo": "|-- 2. Código",
 
 
     "manualOp": "|--  1. Manual de Operação                      --|",

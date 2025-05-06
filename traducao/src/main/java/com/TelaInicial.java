@@ -17,13 +17,19 @@ public class TelaInicial {
         int tipoPesquisa;
 
         do {
- 
-            System.out.println("Selecione o idioma:");
-            System.out.println("1. pt - BR");
-            System.out.println("2. en - US");
-            System.out.println("3. de - DE");
+System.out.println("  ");
 
-           while (true) {
+            System.out.println("--  Selecione o idioma: --");
+            System.out.println("--   Select language:   --");
+            System.out.println("--  Sprache auswahlen:  --");
+            System.out.println("      ______________");
+            System.out.println("      |            |");
+            System.out.println("      | 1. pt - BR |");
+            System.out.println("      | 2. en - US |");
+            System.out.println("      | 3. de - DE |");
+            System.out.println("      |____________|");
+
+            while (true) {
                 try {
                     idioma = leia.nextInt();  
                    
@@ -407,7 +413,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqProcedSeg"));
                                 System.out.println("|------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|__________________________________________|");
                            
@@ -488,7 +494,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqManutenRep"));
                                 System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|_____________________________________|");
                            
@@ -569,7 +575,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqTestDiag"));
                                 System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|-------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|_____________________________________|");
                            
@@ -651,7 +657,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("pesqManualCOS2"));
                                 System.out.println("|----------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|----------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
                                 System.out.println("|__________________________________|");
                            
@@ -1081,5 +1087,4 @@ public class TelaInicial {
         } while(decisaoInicial == 6);
 
         leia.close();    
-    }
 }

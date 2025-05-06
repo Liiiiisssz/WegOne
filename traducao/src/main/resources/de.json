@@ -1,12 +1,12 @@
 {
     "welcome": "    -- Willkommen im System --\n    --WEG Anleitungserfassung!--",
 
-    "menu1": "  |-- 1.  Anleitung registrieren         --|",
-    "menu2": "  |-- 2.  Anleitung suchen               --|",
-    "menu3": "  |-- 3.  Anleitung bearbeiten           --|",
-    "menu4": "  |-- 4.  Anleitung löschen              --|",
-    "menu5": "  |-- 5. X PROGRAMM BEENDEN X            --|",
-    "menu6": "  |-- 6.  SPRACHE ÄNDERN                 --|",
+    "menu1": "  |-- 1.  Anleitung registrieren   --|",
+    "menu2": "  |-- 2.  Anleitung suchen         --|",
+    "menu3": "  |-- 3.  Anleitung bearbeiten     --|",
+    "menu4": "  |-- 4.  Anleitung löschen        --|",
+    "menu5": "  |-- 5. X PROGRAMM BEENDEN X      --|",
+    "menu6": "  |-- 6.  SPRACHE ÄNDERN           --|",
 
 
     "realizar": "  --Was möchten Sie tun?--",
@@ -14,21 +14,24 @@
     "return": "|-- 6.          ZURÜCK ZUM START                --|",
     "invalid": "--  X Ungültige Option! X  --",
     "encerrar": "--  System wird beendet  --",
+    "titulosCad": "--IM SYSTEM REGISTRIERTE TITEL--",
+    "codigosCad": "--LISTE DER REGISTRIERTEN CODES--",
 
 
-    "pesqTitulo": "|-- 1. Titel                          --|",
-    "pesqCodigo": "|-- 2. Code                           --|",
+
+    "pesqTitulo": "|-- 1. Titel",
+    "pesqCodigo": "|-- 2. Code",
 
 
-    "manualOp": "|--  1. Bedienungsanleitung                      --|",
-    "procedSeg": "|--  2. Sicherheitsverfahren                     --|",
-    "manutenRep": "|--  3. Wartung und Reparaturen                  --|",
-    "testDiag": "|--  4. Tests und Diagnosen                      --|",
-    "manualCOS": "|-- 5. Verhaltens- und Bereichsrichtlinien       --|",
+    "manualOp": "|--  1. Bedienungsanleitung                     --|",
+    "procedSeg": "|--  2. Sicherheitsverfahren                    --|",
+    "manutenRep": "|--  3. Wartung und Reparaturen                 --|",
+    "testDiag": "|--  4. Tests und Diagnosen                     --|",
+    "manualCOS": "|-- 5. Verhaltens- und Bereichsrichtlinien      --|",
 
 
-    "cadastro": "|--           ANLEITUNG REGISTRIEREN            --|",
-    "pesquisa": "|--           ANLEITUNG SUCHEN                  --|",
+    "cadastro": "|--            ANLEITUNG REGISTRIEREN           --|",
+    "pesquisa": "|--              ANLEITUNG SUCHEN                --|",
     "edicao": "|--              ANLEITUNG BEARBEITEN           --|",
     "exclusao": "|--             ANLEITUNG LÖSCHEN               --|",
 
