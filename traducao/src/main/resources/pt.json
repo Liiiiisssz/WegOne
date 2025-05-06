@@ -41,15 +41,15 @@
     "chooseExcluir": " -- Escolha o tipo de orientação a ser excluido --",
 
     
-    "pesqManualOp":     "|--  PESQUISAR MANUAL DE OPERAÇÃO        --|",
-    "pesqProcedSeg":    "|--  PESQUISAR PROCEDIMENTO DE SEGURANÇA --|",
-    "pesqManutenRep":   "|--  PESQUISAR MANUTENÇÃO E REPAROS      --|",
-    "pesqTestDiag":     "|--  PESQUISAR TESTES E DIAGÓSTICOS      --|",
-    "pesqManualCOS1":   "|--  PESQUISAR MANUAL DE CONDUTA         --|",
-    "pesqManualCOS2":   "|--  E OPERAÇÕES SETORIAIS               --|",
+    "pesqManualOp":     "|--         PESQUISAR MANUAL DE OPERAÇÃO        --|",
+    "pesqProcedSeg":    "|--     PESQUISAR PROCEDIMENTO DE SEGURANÇA     --|",
+    "pesqManutenRep":   "|--        PESQUISAR MANUTENÇÃO E REPAROS       --|",
+    "pesqTestDiag":     "|--        PESQUISAR TESTES E DIAGÓSTICOS       --|",
+    "pesqManualCOS1":   "|--         PESQUISAR MANUAL DE CONDUTA         --|",
+    "pesqManualCOS2":   "|--           E OPERAÇÕES SETORIAIS             --|",
 
-    "pesqTitulo":       "|-- 1. Título                              |",
-    "pesqCodigo":       "|-- 2. Código                              |",
+    "pesqTitulo":       "|-- 1. Título                                     |",
+    "pesqCodigo":       "|-- 2. Código                                     |",
 
     
     "tituloManualOp": "Título do Manual de Operação: ",
