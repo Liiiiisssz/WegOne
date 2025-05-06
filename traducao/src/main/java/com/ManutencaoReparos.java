@@ -387,98 +387,102 @@ public class ManutencaoReparos {
         titulosManutencaoReparosDE[0] = "Wartung von Elektromotoren";
 
         manutencaoReparosDE[0] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den       --|\n" +
-                "|    Bereich Wartung von Elektromotoren zur Gewährleistung von Effizienz und Sicherheit --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. ZIEL DER WARTUNGSABTEILUNG:                                      |\n" +
-                "|                                                                     |\n" +
-                "| - Sicherstellung des kontinuierlichen und sicheren Betriebs von     |\n" +
-                "|   Elektromotoren.                                                   |\n" +
-                "| - Durchführung präventiver, korrektiver und prädiktiver Wartung     |\n" +
-                "|   gemäß den festgelegten Plänen und Zeitplänen.                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. PRÄVENTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Regelmäßige Inspektion der Motoren auf Anzeichen von Verschleiß, |\n" +
-                "|   übermäßiger Vibration oder Überhitzung.                           |\n" +
-                "| - Überprüfung der Ausrichtung und des Gleichgewichts des Motors.    |\n" +
-                "| - Schmierung der vom Hersteller empfohlenen Punkte.                 |\n" +
-                "| - Reinigung der Motoren von Staub und Ablagerungen zur Vermeidung   |\n" +
-                "|   von Überhitzung.                                                  |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. KORREKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Bei Motorausfall die Ursache schnellstmöglich identifizieren und  |\n" +
-                "|   notwendige Reparaturen durchführen.                               |\n" +
+
+                "________________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den      --|\n" +
+                "|   Bereich Wartung von Elektromotoren zur Gewährleistung              |\n" +
+                "|   von Effizienz und Sicherheit                                       |\n" +
+                "|______________________________________________________________________|\n" +
+                "|                                                                      |\n" +
+                "| 1. ZIEL DER WARTUNGSABTEILUNG:                                       |\n" +
+                "|                                                                      |\n" +
+                "| - Sicherstellung des kontinuierlichen und sicheren Betriebs von      |\n" +
+                "|   Elektromotoren.                                                    |\n" +
+                "| - Durchführung präventiver, korrektiver und prädiktiver Wartung      |\n" +
+                "|   gemäß den festgelegten Plänen und Zeitplänen.                      |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 2. PRÄVENTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Regelmäßige Inspektion der Motoren auf Anzeichen von Verschleiß,   |\n" +
+                "|   übermäßiger Vibration oder Überhitzung.                            |\n" +
+                "| - Überprüfung der Ausrichtung und des Gleichgewichts des Motors.     |\n" +
+                "| - Schmierung der vom Hersteller empfohlenen Punkte.                  |\n" +
+                "| - Reinigung der Motoren von Staub und Ablagerungen zur Vermeidung    |\n" +
+                "|   von Überhitzung.                                                   |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 3. KORREKTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Bei Motorausfall die Ursache schnellstmöglich identifizieren und   |\n" +
+                "|   notwendige Reparaturen durchführen.                                |\n" +
                 "| - Austausch beschädigter Komponenten wie Lager, Bürsten und Statoren.|\n" +
-                "| - Test des Motors nach der Reparatur zur Sicherstellung des         |\n" +
-                "|   ordnungsgemäßen Betriebs.                                         |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. PRÄDIKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Einsatz von Überwachungstechnologien wie Thermografie und         |\n" +
-                "|   Vibrationsanalyse zur Vorhersage von Ausfällen.                   |\n" +
-                "| - Implementierung von Temperatur- und Vibrationssensoren für eine   |\n" +
-                "|   kontinuierliche Überwachung.                                      |\n" +
-                "| - Führen detaillierter Aufzeichnungen über die Überwachungsdaten    |\n" +
-                "|   zur Optimierung der Wartung.                                      |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Vor Beginn jeglicher Wartungsarbeiten Stromversorgung des Motors  |\n" +
-                "|   abschalten.                                                       |\n" +
-                "| - Verwendung geeigneter Persönlicher Schutzausrüstung (PSA) wie     |\n" +
-                "|   isolierende Handschuhe, Helme und Schutzbrillen.                  |\n" +
-                "| - Einhaltung der Sperr- und Kennzeichnungsverfahren zur Sicherheit. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOKUMENTATION UND WARTUNGSPROTOKOLLE:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Protokollierung aller Wartungsaktivitäten, einschließlich Datum, |\n" +
-                "|   Art der Dienstleistung und ersetzter Teile.                       |\n" +
-                "| - Führen eines Verlaufs der durchgeführten Tests wie Strom- und     |\n" +
-                "|   Widerstandsmessungen des Motors.                                  |\n" +
-                "| - Erstellung von Berichten über wiederkehrende Fehler und           |\n" +
-                "|   Korrekturmaßnahmen.                                               |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. SCHULUNG UND QUALIFIZIERUNG:                                     |\n" +
-                "|                                                                     |\n" +
-                "| - Durchführung regelmäßiger Schulungen zur Fehlerdiagnose und       |\n" +
-                "|   Reparaturtechniken für Elektromotoren.                            |\n" +
-                "| - Unterweisung der Mitarbeitenden über elektrische Gefahren und     |\n" +
-                "|   Arbeitssicherheit.                                                |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. VORGEHEN BEI VORFÄLLEN ODER UNFÄLLEN:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Bei einem Unfall sofort den Vorgesetzten und das Sicherheitsteam  |\n" +
-                "|   informieren.                                                      |\n" +
-                "| - Dokumentation des Vorfalls gemäß interner Vorschriften und        |\n" +
-                "|   Durchführung einer Ursachenanalyse zur Vermeidung zukünftiger     |\n" +
-                "|   Unfälle.                                                          |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. GELTENDE NORMEN UND VORSCHRIFTEN:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Einhaltung der NBR-Normen (brasilianische Normen) für Sicherheit  |\n" +
-                "|   in elektrischen Systemen.                                         |\n" +
-                "| - Befolgung der Herstellervorgaben zur Installation, zum Betrieb    |\n" +
-                "|   und zur Wartung von Motoren.                                      |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "| - Test des Motors nach der Reparatur zur Sicherstellung des          |\n" +
+                "|   ordnungsgemäßen Betriebs.                                          |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 4. PRÄDIKTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Einsatz von Überwachungstechnologien wie Thermografie und          |\n" +
+                "|   Vibrationsanalyse zur Vorhersage von Ausfällen.                    |\n" +
+                "| - Implementierung von Temperatur- und Vibrationssensoren für eine    |\n" +
+                "|   kontinuierliche Überwachung.                                       |\n" +
+                "| - Führen detaillierter Aufzeichnungen über die Überwachungsdaten     |\n" +
+                "|   zur Optimierung der Wartung.                                       |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Vor Beginn jeglicher Wartungsarbeiten Stromversorgung des Motors   |\n" +
+                "|   abschalten.                                                        |\n" +
+                "| - Verwendung geeigneter Persönlicher Schutzausrüstung (PSA) wie      |\n" +
+                "|   isolierende Handschuhe, Helme und Schutzbrillen.                   |\n" +
+                "| - Einhaltung der Sperr- und Kennzeichnungsverfahren zur Sicherheit.  |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 6. DOKUMENTATION UND WARTUNGSPROTOKOLLE:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Protokollierung aller Wartungsaktivitäten, einschließlich Datum,   |\n" +
+                "|   Art der Dienstleistung und ersetzter Teile.                        |\n" +
+                "| - Führen eines Verlaufs der durchgeführten Tests wie Strom- und      |\n" +
+                "|   Widerstandsmessungen des Motors.                                   |\n" +
+                "| - Erstellung von Berichten über wiederkehrende Fehler und            |\n" +
+                "|   Korrekturmaßnahmen.                                                |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 7. SCHULUNG UND QUALIFIZIERUNG:                                      |\n" +
+                "|                                                                      |\n" +
+                "| - Durchführung regelmäßiger Schulungen zur Fehlerdiagnose und        |\n" +
+                "|   Reparaturtechniken für Elektromotoren.                             |\n" +
+                "| - Unterweisung der Mitarbeitenden über elektrische Gefahren und      |\n" +
+                "|   Arbeitssicherheit.                                                 |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 8. VORGEHEN BEI VORFÄLLEN ODER UNFÄLLEN:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Bei einem Unfall sofort den Vorgesetzten und das Sicherheitsteam   |\n" +
+                "|   informieren.                                                       |\n" +
+                "| - Dokumentation des Vorfalls gemäß interner Vorschriften und         |\n" +
+                "|   Durchführung einer Ursachenanalyse zur Vermeidung zukünftiger      |\n" +
+                "|   Unfälle.                                                           |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 9. GELTENDE NORMEN UND VORSCHRIFTEN:                                 |\n" +
+                "|                                                                      |\n" +
+                "| - Einhaltung der NBR-Normen (brasilianische Normen) für Sicherheit   |\n" +
+                "|   in elektrischen Systemen.                                          |\n" +
+                "| - Befolgung der Herstellervorgaben zur Installation, zum Betrieb     |\n" +
+                "|   und zur Wartung von Motoren.                                       |\n" +
+                "|______________________________________________________________________|\n";
+
 
         titulosManutencaoReparosDE[1] = "Reparatur von Transformatoren";
 
         manutencaoReparosDE[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den       --|\n" +
-                "|    Bereich Transformatorreparatur zur Gewährleistung von Effizienz und Sicherheit --|\n" +
+               " _______________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den     --|\n" +
+                "|   Bereich Transformatorreparatur zur Gewährleistung von Effizienz   |\n" +
+                "|   und Sicherheit                                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. ZIEL DER REPARATURABTEILUNG:                                     |\n" +
@@ -515,7 +519,7 @@ public class ManutencaoReparos {
                 "| - Einsatz von Zustandsüberwachungstechnologien wie Temperatur- und  |\n" +
                 "|   Feuchtigkeitssensoren zur Früherkennung von Fehlern.              |\n" +
                 "| - Durchführung von Strom- und Widerstandsmessungen zur Bewertung    |\n" +
-                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.          |\n" +
+                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.           |\n" +
                 "| - Detaillierte Aufzeichnung der gesammelten Daten zur Optimierung   |\n" +
                 "|   der Wartungsplanung.                                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -525,7 +529,7 @@ public class ManutencaoReparos {
                 "| - Vor Beginn jeglicher Arbeiten muss die Stromversorgung des        |\n" +
                 "|   Transformators unterbrochen werden.                               |\n" +
                 "| - Verwendung geeigneter persönlicher Schutzausrüstung (PSA) wie     |\n" +
-                "|   isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
+                "|  isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
                 "| - Sicherstellung, dass Sperr- und Kennzeichnungsverfahren befolgt   |\n" +
                 "|   werden.                                                           |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -544,7 +548,8 @@ public class ManutencaoReparos {
                 "| 7. SCHULUNG UND QUALIFIZIERUNG:                                     |\n" +
                 "|                                                                     |\n" +
                 "| - Durchführung von Schulungen zu Diagnosetechniken und              |\n" +
-                "|   Reparaturverfahren von Transformatoren, einschließlich elektrischer Risiken. |\n" +
+                "|   Reparaturverfahren von Transformatoren, einschließlich            |\n" +
+                "|   elektrischer Risiken.                                             |\n" +
                 "| - Einweisung der Mitarbeiter in Sicherheitsvorschriften und den     |\n" +
                 "|   sachgemäßen Gebrauch von Werkzeugen.                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -563,7 +568,8 @@ public class ManutencaoReparos {
                 "|   Sicherheit in elektrischen Systemen und bei Transformatoren.      |\n" +
                 "| - Befolgung der Herstellerempfehlungen für Installation, Betrieb    |\n" +
                 "|   und Wartung von Transformatoren.                                  |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|_____________________________________________________________________|\n";
+
         
     }
 
@@ -642,6 +648,16 @@ public class ManutencaoReparos {
 
    	public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+		        if (manutencaoReparos[i] != null) {
+				System.out.println(titulosManutencaoReparos[i]);
+		        }
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("tituloPesq"));
                 String pesquisa = leia.nextLine();
 
@@ -673,6 +689,16 @@ public class ManutencaoReparos {
 	}
 
         public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
+
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(titulosManutencaoReparosEN[i]);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("tituloPesq"));
                 String pesquisa = leia.nextLine();
@@ -706,6 +732,16 @@ public class ManutencaoReparos {
 
         public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMAO
 
+		System.out.println(tradutor.get("titulosCad"));
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+		        if (manutencaoReparosDE[i] != null) {
+				System.out.println(titulosManutencaoReparosDE[i]);
+		        }
+		}
+
+		System.out.println(" ");
+                
 		System.out.println(tradutor.get("tituloPesq"));
                 String pesquisa = leia.nextLine();
 
@@ -738,6 +774,16 @@ public class ManutencaoReparos {
 
         public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (manutencaoReparos[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -765,6 +811,16 @@ public class ManutencaoReparos {
 
         public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
 		
@@ -791,6 +847,16 @@ public class ManutencaoReparos {
 	}
 
         public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+			if (manutencaoReparosDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
 		int pesquisaCodigo = leia.nextInt();
@@ -823,6 +889,16 @@ public class ManutencaoReparos {
 
         public void editarManual() { //editar em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (manutencaoReparos[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -852,6 +928,16 @@ public class ManutencaoReparos {
 
         public void editarManualEN() { //editar em INGLES
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+                
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
 
@@ -880,6 +966,16 @@ public class ManutencaoReparos {
 	}
 
         public void editarManualDE() { //editar em ALEMÃO
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+			if (manutencaoReparosDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
 		int codigo = leia.nextInt();
@@ -914,8 +1010,17 @@ public class ManutencaoReparos {
 
         public void excluirManual() { //excluir em PT
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparos.length; i++) {
+
+			if (manutencaoReparos[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 		int indiceCadastro = codigo;
@@ -950,6 +1055,16 @@ public class ManutencaoReparos {
 	}
 
         public void excluirManualEN() { //excluir em INGLES
+
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosEN.length; i++) {
+
+			if (manutencaoReparosEN[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
 		int codigo = leia.nextInt();
@@ -987,6 +1102,16 @@ public class ManutencaoReparos {
 
         public void excluirManualDE() { //excluir em ALEMÃO
 
+		System.out.println(tradutor.get("codigosCad"));
+		for (int i = 0; i < titulosManutencaoReparosDE.length; i++) {
+
+			if (manutencaoReparosDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("excluir"));
 		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
@@ -1023,8 +1148,3 @@ public class ManutencaoReparos {
 	}
 
 }
-
-    
-
-
-

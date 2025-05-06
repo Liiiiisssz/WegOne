@@ -112,39 +112,25 @@ Abra o terminal (ou prompt) 🖥️
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
-cd repositorio
 ```
 
 # IMPORTANTE ‼️:
 
-
-Nosso projeto contém arquivos JSON, mas como se tratam de arquivos de dados, eles não são executáveis por si só. É necessário instalar um programa que consiga lê-los.
-
-Exemplos:
-
-✅ JavaScript (em navegadores ou Node.js)
-
-✅ Python (usando o módulo json)
-
-✅ Java, C#, PHP, Go, entre outros.
-
-No nosso caso, executamos a partir do VS Code e utilizamos a extensão Maven.
+Tenha um gerenciador de pacotes do JSON para executar o projeto.Nós utilizamos a extensão Maven no VScode.
 
 Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
 
 
 🏃‍♂️📂 3. Execute o Projeto
 
-☕ Java (simples)
-Compile e execute:
-
 ```bash
-javac Arquivo.java
-java Arquivo
+Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
 ```
 
 
 # 👥 Autores
 
-| [<img loading="lazy" src="https://github.com/user-attachments/assets/b7db5354-4160-40de-8174-59a35df43d8e" width="115"><br><sub>Melissa R. Pereira</sub>](https://github.com/melll1601) | [<img loading="lazy" src="https://github.com/user-attachments/assets/c9277e3f-f8d7-4bdc-b351-fd665145d635" width="115"><br><sub>Elis Jasper</sub>](https://github.com/Liiiiisssz) | [<img loading="lazy" src="https://github.com/user-attachments/assets/f1da660f-f2a2-40bd-a466-bad4d5351e6d" width="115"><br><sub>Gabrielli Vitória Glowatski</sub>](https://github.com/Viihh-77) | [<img loading="lazy" src="https://github.com/user-attachments/assets/9a812c36-e6c9-4009-a76b-20749d0a0a47" width="115"><br><sub>Ana Beatriz O. Ribeiro</sub>](https://github.com/Ana18022008) |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/b7db5354-4160-40de-8174-59a35df43d8e" width="115"><br><sub><a href="https://github.com/melll1601">Melissa R. Pereira</a><br><span style="color:#00BFFF">💻 Desenvolvedora</span></sub> | <img loading="lazy" src="https://github.com/user-attachments/assets/c9277e3f-f8d7-4bdc-b351-fd665145d635" width="115"><br><sub><a href="https://github.com/Liiiiisssz">Elis Jasper</a><br><span style="color:#8A2BE2">🧭 Scrum Master</span></sub> | <img loading="lazy" src="https://github.com/user-attachments/assets/f1da660f-f2a2-40bd-a466-bad4d5351e6d" width="115"><br><sub><a href="https://github.com/Viihh-77">Gabrielli Vitória Glowatski</a><br><span style="color:#00BFFF">💻 Desenvolvedora</span></sub> | <img loading="lazy" src="https://github.com/user-attachments/assets/9a812c36-e6c9-4009-a76b-20749d0a0a47" width="115"><br><sub><a href="https://github.com/Ana18022008">Ana Beatriz O. Ribeiro</a><br><span style="color:#32CD32">📌 Product Owner</span></sub> |
 | :---: | :---: | :---: | :---: |
+
+
