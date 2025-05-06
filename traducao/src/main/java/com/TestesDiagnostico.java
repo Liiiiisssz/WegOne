@@ -726,6 +726,16 @@ public class TestesDiagnostico {
 
     public void editarManualDE() { //editar ALEMAO
 
+		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
+
+			if (testeDiagnosticoDE[i] != null) {
+				System.out.println(i);
+			}
+		}
+
+		System.out.println(" ");
+
 		System.out.println(tradutor.get("edit"));
         int codigo = leia.nextInt();
 
