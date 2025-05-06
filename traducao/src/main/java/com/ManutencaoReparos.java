@@ -27,169 +27,185 @@ public class ManutencaoReparos {
         //manuais em PT
         titulosManutencaoReparos[0] = "Manutencao de motores eletricos";
 
-        manutencaoReparos[0] = "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de manutenção de motores elétricos, garantindo a eficiência e a segurança --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. OBJETIVO DO SETOR DE MANUTENÇÃO:                                 |\n" +
-                "|                                                                     |\n" +
-                "| - Garantir a operação contínua e segura dos motores elétricos.      |\n" +
-                "| - Realizar manutenção preventiva, corretiva e preditiva conforme os |\n" +
-                "|   planos e cronogramas estabelecidos.                               |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. MANUTENÇÃO PREVENTIVA:                                           |\n" +
-                "|                                                                     |\n" +
-                "| - Inspecionar regularmente os motores elétricos quanto a sinais de  |\n" +
-                "|   desgaste, vibração excessiva ou aquecimento.                      |\n" +
-                "| - Verificar o alinhamento e balanceamento do motor.                 |\n" +
-                "| - Realizar lubrificação nos pontos recomendados pelo fabricante.    |\n" +
-                "| - Limpar os motores de poeira e resíduos para evitar o superaquecimento. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. MANUTENÇÃO CORRETIVA:                                            |\n" +
-                "|                                                                     |\n" +
-                "| - Quando ocorrer falha no motor, identificar a causa e realizar os  |\n" +
-                "|   reparos necessários com agilidade.                                |\n" +
-                "| - Substituir componentes danificados, como rolamentos, escovas e    |\n" +
-                "|   estatores.                                                        |\n" +
-                "| - Testar o motor após o reparo para garantir seu funcionamento      |\n" +
-                "|   correto.                                                          |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. MANUTENÇÃO PREDITIVA:                                            |\n" +
-                "|                                                                     |\n" +
-                "| - Utilizar tecnologias de monitoramento como termografia e análise  |\n" +
-                "|   de vibração para prever falhas no motor antes que ocorram.        |\n" +
-                "| - Implementar sensores de temperatura e vibração para um acompanhamento contínuo. |\n" +
-                "| - Manter registros detalhados dos dados de monitoramento para otimizar a manutenção. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                        |\n" +
-                "|                                                                     |\n" +
-                "| - Desligar a alimentação elétrica do motor antes de iniciar qualquer|\n" +
-                "|   procedimento de manutenção.                                       |\n" +
+        manutencaoReparos[0] =
+                "_________________________________________________________________________\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão par    --|\n" +
+                "|    o setor de manutenção de motores elétricos, garantindo a           |\n" +
+                "|    eficiência e a segurança                                           |\n" +
+                "|_______________________________________________________________________|\n" +
+                "|                                                                       |\n" +
+                "| 1. OBJETIVO DO SETOR DE MANUTENÇÃO:                                   |\n" +
+                "|                                                                       |\n" +
+                "| - Garantir a operação contínua e segura dos motores elétricos.        |\n" +
+                "| - Realizar manutenção preventiva, corretiva e preditiva conforme os   |\n" +
+                "|   planos e cronogramas estabelecidos.                                 |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 2. MANUTENÇÃO PREVENTIVA:                                             |\n" +
+                "|                                                                       |\n" +
+                "| - Inspecionar regularmente os motores elétricos quanto a sinais de    |\n" +
+                "|   desgaste, vibração excessiva ou aquecimento.                        |\n" +
+                "| - Verificar o alinhamento e balanceamento do motor.                   |\n" +
+                "| - Realizar lubrificação nos pontos recomendados pelo fabricante.      |\n" +
+                "| - Limpar os motores de poeira e resíduos para                         |\n" +
+                "|   evitar o superaquecimento.                                          |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 3. MANUTENÇÃO CORRETIVA:                                              |\n" +
+                "|                                                                       |\n" +
+                "| - Quando ocorrer falha no motor, identificar a causa e realizar os    |\n" +
+                "|   reparos necessários com agilidade.                                  |\n" +
+                "| - Substituir componentes danificados, como rolamentos, escovas e      |\n" +
+                "|   estatores.                                                          |\n" +
+                "| - Testar o motor após o reparo para garantir seu funcionamento        |\n" +
+                "|   correto.                                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 4. MANUTENÇÃO PREDITIVA:                                              |\n" +
+                "|                                                                       |\n" +
+                "| - Utilizar tecnologias de monitoramento como termografia e análise    |\n" +
+                "|   de vibração para prever falhas no motor antes que ocorram.          |\n" +
+                "| - Implementar sensores de temperatura e vibração para                 |\n" +
+                "|   um acompanhamento contínuo.                                         |\n" +
+                "| - Manter registros detalhados dos dados de monitoramento para         |\n" +
+                "|   otimizar a manutenção.                                              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 5. PROCEDIMENTOS DE SEGURANÇA NA MANUTENÇÃO:                          |\n" +
+                "|                                                                       |\n" +
+                "| - Desligar a alimentação elétrica do motor antes de iniciar qualquer  |\n" +
+                "|   procedimento de manutenção.                                         |\n" +
                 "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes e óculos de segurança.                 |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                          |\n" +
-                "|                                                                     |\n" +
-                "| - Registrar todas as atividades de manutenção, incluindo data, tipo |\n" +
-                "|   de serviço e peças substituídas.                                  |\n" +
+                "|   luvas isolantes, capacetes e óculos de segurança.                   |\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam       |\n" +
+                "|   seguidos para segurança.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 6. DOCUMENTAÇÃO E REGISTROS DE MANUTENÇÃO:                            |\n" +
+                "|                                                                       |\n" +
+                "| - Registrar todas as atividades de manutenção, incluindo data, tipo   |\n" +
+                "|   de serviço e peças substituídas.                                    |\n" +
                 "| - Manter um histórico dos testes realizados, como medições de corrente|\n" +
-                "|   e resistência do motor.                                           |\n" +
-                "| - Elaborar relatórios sobre falhas recorrentes e ações corretivas.  |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. TREINAMENTO E CAPACITAÇÃO:                                       |\n" +
-                "|                                                                     |\n" +
-                "| - Promover treinamentos periódicos sobre diagnóstico de falhas e    |\n" +
-                "|   técnicas de reparo em motores elétricos.                          |\n" +
-                "| - Instruir os colaboradores sobre os riscos elétricos e a segurança no trabalho. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
-                "|                                                                     |\n" +
-                "| - Em caso de acidente, acionar imediatamente o supervisor e a equipe|\n" +
-                "|   de segurança.                                                     |\n" +
-                "| - Registrar o incidente conforme as normas internas e realizar uma  |\n" +
-                "|   análise de causa raiz para prevenir futuros acidentes.            |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos. |\n" +
-                "| - Cumprir com as recomendações do fabricante para instalação, operação e manutenção dos motores. |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|   e resistência do motor.                                             |\n" +
+                "| - Elaborar relatórios sobre falhas recorrentes e ações corretivas.    |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 7. TREINAMENTO E CAPACITAÇÃO:                                         |\n" +
+                "|                                                                       |\n" +
+                "| - Promover treinamentos periódicos sobre diagnóstico de falhas e      |\n" +
+                "|   técnicas de reparo em motores elétricos.                            |\n" +
+                "| - Instruir os colaboradores sobre os riscos elétricos e a             |\n" +
+                "|   segurança no trabalho.                                              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                  |\n" +
+                "|                                                                       |\n" +
+                "| - Em caso de acidente, acionar imediatamente o supervisor e a equipe  |\n" +
+                "|   de segurança.                                                       |\n" +
+                "| - Registrar o incidente conforme as normas internas e realizar uma    |\n" +
+                "|   análise de causa raiz para prevenir futuros acidentes.              |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em         |\n" +
+                "|   sistemas elétricos.                                                 |\n" +
+                "| - Cumprir com as recomendações do fabricante para instalação,         |\n" +
+                "|   operação e manutenção dos motores.                                  |\n" +
+                "|_______________________________________________________________________|\n";
+
 
         titulosManutencaoReparos[1] = "Reparo de transformadores";
 
         manutencaoReparos[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para    --|\n" +
-                "|    o setor de reparo de transformadores, garantindo a eficiência e a segurança --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. OBJETIVO DO SETOR DE REPARO:                                     |\n" +
-                "|                                                                     |\n" +
-                "| - Garantir a operação contínua e segura dos transformadores.        |\n" +
-                "| - Realizar reparos corretivos e preventivos conforme os planos e    |\n" +
-                "|   cronogramas estabelecidos.                                        |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. REPARO PREVENTIVO:                                               |\n" +
-                "|                                                                     |\n" +
-                "| - Inspecionar periodicamente os transformadores quanto a sinais de  |\n" +
-                "|   aquecimento excessivo, ruídos ou vibrações anormais.              |\n" +
-                "| - Verificar o estado dos isolantes e das buchas de entrada e saída. |\n" +
-                "| - Realizar testes de resistência de isolamento para detectar falhas |\n" +
-                "|   antes que ocorra a falha completa do equipamento.                 |\n" +
-                "| - Limpar os transformadores de poeira e contaminantes para evitar   |\n" +
-                "|   problemas de sobreaquecimento e falhas elétricas.                 |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. REPARO CORRETIVO:                                                |\n" +
-                "|                                                                     |\n" +
-                "| - Quando ocorrer falha em algum transformador, a equipe de reparo   |\n" +
-                "|   deve diagnosticar a causa da falha e realizar a correção necessária. |\n" +
-                "| - Substituir componentes danificados, como buchas, transformadores  |\n" +
-                "|   de corrente ou de tensão, e sistemas de resfriamento, se aplicável.|\n" +
-                "| - Realizar testes após o reparo para assegurar o bom funcionamento  |\n" +
-                "|   do transformador.                                                 |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. REPARO PREDITIVO:                                                |\n" +
-                "|                                                                     |\n" +
-                "| - Utilizar tecnologias de monitoramento de condição, como sensores  |\n" +
-                "|   de temperatura e umidade, para identificar falhas antes que       |\n" +
-                "|   ocorram.                                                          |\n" +
-                "| - Realizar medições de corrente e resistência para avaliar a saúde  |\n" +
-                "|   do transformador e detectar falhas iminentes.                     |\n" +
-                "| - Manter registros detalhados dos dados coletados para otimizar o   |\n" +
-                "|   planejamento de manutenção.                                       |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. PROCEDIMENTOS DE SEGURANÇA NO REPARO:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Desligar a alimentação elétrica do transformador antes de iniciar |\n" +
-                "|   qualquer intervenção.                                             |\n" +
+                "_________________________________________________________________________\n" +
+                "|-- OBJETIVO: Estabelecer os procedimentos operacionais padrão para   --|\n" +
+                "|    o setor de reparo de transformadores, garantindo a eficiência      |\n" +
+                "|    e a segurança.                                                     |\n" +
+                "|_______________________________________________________________________|\n" +
+                "|                                                                       |\n" +
+                "| 1. OBJETIVO DO SETOR DE REPARO:                                       |\n" +
+                "|                                                                       |\n" +
+                "| - Garantir a operação contínua e segura dos transformadores.          |\n" +
+                "| - Realizar reparos corretivos e preventivos conforme os planos e      |\n" +
+                "|   cronogramas estabelecidos.                                          |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 2. REPARO PREVENTIVO:                                                 |\n" +
+                "|                                                                       |\n" +
+                "| - Inspecionar periodicamente os transformadores quanto a sinais de    |\n" +
+                "|   aquecimento excessivo, ruídos ou vibrações anormais.                |\n" +
+                "| - Verificar o estado dos isolantes e das buchas de entrada e saída.   |\n" +
+                "| - Realizar testes de resistência de isolamento para detectar falhas   |\n" +
+                "|   antes que ocorra a falha completa do equipamento.                   |\n" +
+                "| - Limpar os transformadores de poeira e contaminantes para evitar     |\n" +
+                "|   problemas de sobreaquecimento e falhas elétricas.                   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 3. REPARO CORRETIVO:                                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Quando ocorrer falha em algum transformador, a equipe de reparo     |\n" +
+                "|  deve diagnosticar a causa da falha e realizar a correção necessária. |\n" +
+                "| - Substituir componentes danificados, como buchas, transformadores    |\n" +
+                "|  de corrente ou de tensão, e sistemas de resfriamento, se aplicável.  |\n" +
+                "| - Realizar testes após o reparo para assegurar o bom funcionamento    |\n" +
+                "|   do transformador.                                                   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 4. REPARO PREDITIVO:                                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Utilizar tecnologias de monitoramento de condição, como sensores    |\n" +
+                "|   de temperatura e umidade, para identificar falhas antes que         |\n" +
+                "|   ocorram.                                                            |\n" +
+                "| - Realizar medições de corrente e resistência para avaliar a saúde    |\n" +
+                "|   do transformador e detectar falhas iminentes.                       |\n" +
+                "| - Manter registros detalhados dos dados coletados para otimizar o     |\n" +
+                "|   planejamento de manutenção.                                         |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 5. PROCEDIMENTOS DE SEGURANÇA NO REPARO:                              |\n" +
+                "|                                                                       |\n" +
+                "| - Desligar a alimentação elétrica do transformador antes de iniciar   |\n" +
+                "|   qualquer intervenção.                                               |\n" +
                 "| - Utilizar Equipamentos de Proteção Individual (EPIs) adequados, como |\n" +
-                "|   luvas isolantes, capacetes, óculos de segurança e botas de segurança. |\n" +
-                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam seguidos para segurança. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOCUMENTAÇÃO E REGISTROS DE REPARO:                              |\n" +
-                "|                                                                     |\n" +
-                "| - Manter registros completos de todos os reparos realizados, com    |\n" +
-                "|   descrição detalhada do defeito encontrado e solução aplicada.     |\n" +
-                "| - Registrar os testes realizados, como medições de resistência e    |\n" +
-                "|   corrente.                                                         |\n" +
-                "| - Elaborar relatórios sobre falhas e ações corretivas implementadas.|\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. TREINAMENTO E CAPACITAÇÃO:                                       |\n" +
-                "|                                                                     |\n" +
-                "| - Promover treinamentos sobre as técnicas de diagnóstico e reparo   |\n" +
-                "|   em transformadores, incluindo os riscos elétricos envolvidos.     |\n" +
-                "| - Instruir os colaboradores sobre as normas de segurança e o uso adequado de ferramentas. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                |\n" +
-                "|                                                                     |\n" +
-                "| - Em caso de acidente, acionar imediatamente a equipe de segurança  |\n" +
-                "|   e registrar o incidente conforme as normas internas.              |\n" +
-                "| - Realizar uma análise do incidente para identificar suas causas e  |\n" +
-                "|   implementar ações corretivas para evitar a repetição do acidente. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em sistemas elétricos e transformadores. |\n" +
-                "| - Cumprir com as orientações do fabricante para instalação, operação e manutenção dos transformadores. |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|  luvas isolantes, capacetes, óculos de segurança e botas de segurança.|\n" +
+                "| - Garantir que os procedimentos de bloqueio e etiquetagem sejam       |\n" +
+                "|   seguidos para segurança.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 6. DOCUMENTAÇÃO E REGISTROS DE REPARO:                                |\n" +
+                "|                                                                       |\n" +
+                "| - Manter registros completos de todos os reparos realizados, com      |\n" +
+                "|   descrição detalhada do defeito encontrado e solução aplicada.       |\n" +
+                "| - Registrar os testes realizados, como medições de resistência e      |\n" +
+                "|   corrente.                                                           |\n" +
+                "| - Elaborar relatórios sobre falhas e ações corretivas implementadas.  |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 7. TREINAMENTO E CAPACITAÇÃO:                                         |\n" +
+                "|                                                                       |\n" +
+                "| - Promover treinamentos sobre as técnicas de diagnóstico e reparo     |\n" +
+                "|   em transformadores, incluindo os riscos elétricos envolvidos.       |\n" +
+                "| - Instruir os colaboradores sobre as normas de segurança e o uso      |\n" +
+                "|   adequado de ferramentas.                                            |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 8. PROCEDIMENTOS EM CASO DE INCIDENTES OU ACIDENTES:                  |\n" +
+                "|                                                                       |\n" +
+                "| - Em caso de acidente, acionar imediatamente a equipe de segurança    |\n" +
+                "|   e registrar o incidente conforme as normas internas.                |\n" +
+                "| - Realizar uma análise do incidente para identificar suas causas e    |\n" +
+                "|   implementar ações corretivas para evitar a repetição do acidente.   |\n" +
+                "|-----------------------------------------------------------------------|\n" +
+                "|                                                                       |\n" +
+                "| 9. NORMAS E REGULAMENTOS APLICÁVEIS:                                  |\n" +
+                "|                                                                       |\n" +
+                "| - Seguir as normas NBR (Normas Brasileiras) para segurança em         |\n" +
+                "|   sistemas elétricos e transformadores.                               |\n" +
+                "| - Cumprir com as orientações do fabricante para instalação, operação  |\n" +
+                "|   e manutenção dos transformadores.                                   |\n" +
+                "|_______________________________________________________________________|\n";
+
 
 
 
@@ -198,8 +214,8 @@ public class ManutencaoReparos {
 
         manutencaoReparosEN[0] = 
                 "_______________________________________________________________________\n" +
-                "|-- OBJECTIVE: Establish standard operating procedures for the         --|\n" +
-                "|    electric motor maintenance sector, ensuring efficiency and safety --|\n" +
+                "|-- OBJECTIVE: Establish standard operating procedures for the      --|\n" +
+                "|   electric motor maintenance sector, ensuring efficiency and safety |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. MAINTENANCE DEPARTMENT OBJECTIVE:                                |\n" +
@@ -248,7 +264,7 @@ public class ManutencaoReparos {
                 "|                                                                     |\n" +
                 "| - Record all maintenance activities, including date, type of        |\n" +
                 "|   service, and replaced parts.                                      |\n" +
-                "| - Keep a history of tests performed, such as current and resistance|\n" +
+                "| - Keep a history of tests performed, such as current and resistance |\n" +
                 "|   measurements.                                                     |\n" +
                 "| - Prepare reports on recurring failures and corrective actions.     |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -273,14 +289,15 @@ public class ManutencaoReparos {
                 "| - Follow NBR (Brazilian Standards) for safety in electrical systems.|\n" +
                 "| - Comply with the manufacturer's recommendations for installation,  |\n" +
                 "|   operation, and maintenance of motors.                             |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|_____________________________________________________________________|\n";
+
 
         titulosManutencaoReparosEN[1] = "Transformer Repair";
 
         manutencaoReparosEN[1] = 
                         "_______________________________________________________________________\n" +
-                        "|-- OBJECTIVE: Establish standard operating procedures for the         --|\n" +
-                        "|    transformer repair sector, ensuring efficiency and safety         --|\n" +
+                        "|-- OBJECTIVE: Establish standard operating procedures for the      --|\n" +
+                        "|    transformer repair sector, ensuring efficiency and safety        |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
                         "| 1. REPAIR DEPARTMENT OBJECTIVE:                                     |\n" +
@@ -295,9 +312,9 @@ public class ManutencaoReparos {
                         "| - Periodically inspect transformers for signs of excessive heating, |\n" +
                         "|   unusual noises, or abnormal vibrations.                           |\n" +
                         "| - Check the condition of insulators and input/output bushings.      |\n" +
-                        "| - Perform insulation resistance tests to detect failures before      |\n" +
+                        "| - Perform insulation resistance tests to detect failures before     |\n" +
                         "|   total equipment breakdown.                                        |\n" +
-                        "| - Clean transformers from dust and contaminants to prevent           |\n" +
+                        "| - Clean transformers from dust and contaminants to prevent          |\n" +
                         "|   overheating and electrical faults.                                |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
@@ -307,7 +324,7 @@ public class ManutencaoReparos {
                         "|   and carry out the necessary correction.                           |\n" +
                         "| - Replace damaged components such as bushings, current or voltage   |\n" +
                         "|   transformers, and cooling systems if applicable.                  |\n" +
-                        "| - Conduct tests after the repair to ensure proper transformer        |\n" +
+                        "| - Conduct tests after the repair to ensure proper transformer       |\n" +
                         "|   operation.                                                        |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
@@ -362,103 +379,110 @@ public class ManutencaoReparos {
                         "|   operation, and maintenance of transformers.                       |\n" +
                         "|---------------------------------------------------------------------|\n";
 
+
+
+
         
         //manuais em ALEMÃO
         titulosManutencaoReparosDE[0] = "Wartung von Elektromotoren";
 
         manutencaoReparosDE[0] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den       --|\n" +
-                "|    Bereich Wartung von Elektromotoren zur Gewährleistung von Effizienz und Sicherheit --|\n" +
-                "|_____________________________________________________________________|\n" +
-                "|                                                                     |\n" +
-                "| 1. ZIEL DER WARTUNGSABTEILUNG:                                      |\n" +
-                "|                                                                     |\n" +
-                "| - Sicherstellung des kontinuierlichen und sicheren Betriebs von     |\n" +
-                "|   Elektromotoren.                                                   |\n" +
-                "| - Durchführung präventiver, korrektiver und prädiktiver Wartung     |\n" +
-                "|   gemäß den festgelegten Plänen und Zeitplänen.                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 2. PRÄVENTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Regelmäßige Inspektion der Motoren auf Anzeichen von Verschleiß, |\n" +
-                "|   übermäßiger Vibration oder Überhitzung.                           |\n" +
-                "| - Überprüfung der Ausrichtung und des Gleichgewichts des Motors.    |\n" +
-                "| - Schmierung der vom Hersteller empfohlenen Punkte.                 |\n" +
-                "| - Reinigung der Motoren von Staub und Ablagerungen zur Vermeidung   |\n" +
-                "|   von Überhitzung.                                                  |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 3. KORREKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Bei Motorausfall die Ursache schnellstmöglich identifizieren und  |\n" +
-                "|   notwendige Reparaturen durchführen.                               |\n" +
+
+                "________________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den      --|\n" +
+                "|   Bereich Wartung von Elektromotoren zur Gewährleistung              |\n" +
+                "|   von Effizienz und Sicherheit                                       |\n" +
+                "|______________________________________________________________________|\n" +
+                "|                                                                      |\n" +
+                "| 1. ZIEL DER WARTUNGSABTEILUNG:                                       |\n" +
+                "|                                                                      |\n" +
+                "| - Sicherstellung des kontinuierlichen und sicheren Betriebs von      |\n" +
+                "|   Elektromotoren.                                                    |\n" +
+                "| - Durchführung präventiver, korrektiver und prädiktiver Wartung      |\n" +
+                "|   gemäß den festgelegten Plänen und Zeitplänen.                      |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 2. PRÄVENTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Regelmäßige Inspektion der Motoren auf Anzeichen von Verschleiß,   |\n" +
+                "|   übermäßiger Vibration oder Überhitzung.                            |\n" +
+                "| - Überprüfung der Ausrichtung und des Gleichgewichts des Motors.     |\n" +
+                "| - Schmierung der vom Hersteller empfohlenen Punkte.                  |\n" +
+                "| - Reinigung der Motoren von Staub und Ablagerungen zur Vermeidung    |\n" +
+                "|   von Überhitzung.                                                   |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 3. KORREKTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Bei Motorausfall die Ursache schnellstmöglich identifizieren und   |\n" +
+                "|   notwendige Reparaturen durchführen.                                |\n" +
                 "| - Austausch beschädigter Komponenten wie Lager, Bürsten und Statoren.|\n" +
-                "| - Test des Motors nach der Reparatur zur Sicherstellung des         |\n" +
-                "|   ordnungsgemäßen Betriebs.                                         |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 4. PRÄDIKTIVE WARTUNG:                                              |\n" +
-                "|                                                                     |\n" +
-                "| - Einsatz von Überwachungstechnologien wie Thermografie und         |\n" +
-                "|   Vibrationsanalyse zur Vorhersage von Ausfällen.                   |\n" +
-                "| - Implementierung von Temperatur- und Vibrationssensoren für eine   |\n" +
-                "|   kontinuierliche Überwachung.                                      |\n" +
-                "| - Führen detaillierter Aufzeichnungen über die Überwachungsdaten    |\n" +
-                "|   zur Optimierung der Wartung.                                      |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Vor Beginn jeglicher Wartungsarbeiten Stromversorgung des Motors  |\n" +
-                "|   abschalten.                                                       |\n" +
-                "| - Verwendung geeigneter Persönlicher Schutzausrüstung (PSA) wie     |\n" +
-                "|   isolierende Handschuhe, Helme und Schutzbrillen.                  |\n" +
-                "| - Einhaltung der Sperr- und Kennzeichnungsverfahren zur Sicherheit. |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 6. DOKUMENTATION UND WARTUNGSPROTOKOLLE:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Protokollierung aller Wartungsaktivitäten, einschließlich Datum, |\n" +
-                "|   Art der Dienstleistung und ersetzter Teile.                       |\n" +
-                "| - Führen eines Verlaufs der durchgeführten Tests wie Strom- und     |\n" +
-                "|   Widerstandsmessungen des Motors.                                  |\n" +
-                "| - Erstellung von Berichten über wiederkehrende Fehler und           |\n" +
-                "|   Korrekturmaßnahmen.                                               |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 7. SCHULUNG UND QUALIFIZIERUNG:                                     |\n" +
-                "|                                                                     |\n" +
-                "| - Durchführung regelmäßiger Schulungen zur Fehlerdiagnose und       |\n" +
-                "|   Reparaturtechniken für Elektromotoren.                            |\n" +
-                "| - Unterweisung der Mitarbeitenden über elektrische Gefahren und     |\n" +
-                "|   Arbeitssicherheit.                                                |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 8. VORGEHEN BEI VORFÄLLEN ODER UNFÄLLEN:                            |\n" +
-                "|                                                                     |\n" +
-                "| - Bei einem Unfall sofort den Vorgesetzten und das Sicherheitsteam  |\n" +
-                "|   informieren.                                                      |\n" +
-                "| - Dokumentation des Vorfalls gemäß interner Vorschriften und        |\n" +
-                "|   Durchführung einer Ursachenanalyse zur Vermeidung zukünftiger     |\n" +
-                "|   Unfälle.                                                          |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 9. GELTENDE NORMEN UND VORSCHRIFTEN:                                |\n" +
-                "|                                                                     |\n" +
-                "| - Einhaltung der NBR-Normen (brasilianische Normen) für Sicherheit  |\n" +
-                "|   in elektrischen Systemen.                                         |\n" +
-                "| - Befolgung der Herstellervorgaben zur Installation, zum Betrieb    |\n" +
-                "|   und zur Wartung von Motoren.                                      |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "| - Test des Motors nach der Reparatur zur Sicherstellung des          |\n" +
+                "|   ordnungsgemäßen Betriebs.                                          |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 4. PRÄDIKTIVE WARTUNG:                                               |\n" +
+                "|                                                                      |\n" +
+                "| - Einsatz von Überwachungstechnologien wie Thermografie und          |\n" +
+                "|   Vibrationsanalyse zur Vorhersage von Ausfällen.                    |\n" +
+                "| - Implementierung von Temperatur- und Vibrationssensoren für eine    |\n" +
+                "|   kontinuierliche Überwachung.                                       |\n" +
+                "| - Führen detaillierter Aufzeichnungen über die Überwachungsdaten     |\n" +
+                "|   zur Optimierung der Wartung.                                       |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 5. SICHERHEITSVERFAHREN BEI DER WARTUNG:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Vor Beginn jeglicher Wartungsarbeiten Stromversorgung des Motors   |\n" +
+                "|   abschalten.                                                        |\n" +
+                "| - Verwendung geeigneter Persönlicher Schutzausrüstung (PSA) wie      |\n" +
+                "|   isolierende Handschuhe, Helme und Schutzbrillen.                   |\n" +
+                "| - Einhaltung der Sperr- und Kennzeichnungsverfahren zur Sicherheit.  |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 6. DOKUMENTATION UND WARTUNGSPROTOKOLLE:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Protokollierung aller Wartungsaktivitäten, einschließlich Datum,   |\n" +
+                "|   Art der Dienstleistung und ersetzter Teile.                        |\n" +
+                "| - Führen eines Verlaufs der durchgeführten Tests wie Strom- und      |\n" +
+                "|   Widerstandsmessungen des Motors.                                   |\n" +
+                "| - Erstellung von Berichten über wiederkehrende Fehler und            |\n" +
+                "|   Korrekturmaßnahmen.                                                |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 7. SCHULUNG UND QUALIFIZIERUNG:                                      |\n" +
+                "|                                                                      |\n" +
+                "| - Durchführung regelmäßiger Schulungen zur Fehlerdiagnose und        |\n" +
+                "|   Reparaturtechniken für Elektromotoren.                             |\n" +
+                "| - Unterweisung der Mitarbeitenden über elektrische Gefahren und      |\n" +
+                "|   Arbeitssicherheit.                                                 |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 8. VORGEHEN BEI VORFÄLLEN ODER UNFÄLLEN:                             |\n" +
+                "|                                                                      |\n" +
+                "| - Bei einem Unfall sofort den Vorgesetzten und das Sicherheitsteam   |\n" +
+                "|   informieren.                                                       |\n" +
+                "| - Dokumentation des Vorfalls gemäß interner Vorschriften und         |\n" +
+                "|   Durchführung einer Ursachenanalyse zur Vermeidung zukünftiger      |\n" +
+                "|   Unfälle.                                                           |\n" +
+                "|----------------------------------------------------------------------|\n" +
+                "|                                                                      |\n" +
+                "| 9. GELTENDE NORMEN UND VORSCHRIFTEN:                                 |\n" +
+                "|                                                                      |\n" +
+                "| - Einhaltung der NBR-Normen (brasilianische Normen) für Sicherheit   |\n" +
+                "|   in elektrischen Systemen.                                          |\n" +
+                "| - Befolgung der Herstellervorgaben zur Installation, zum Betrieb     |\n" +
+                "|   und zur Wartung von Motoren.                                       |\n" +
+                "|______________________________________________________________________|\n";
+
 
         titulosManutencaoReparosDE[1] = "Reparatur von Transformatoren";
 
         manutencaoReparosDE[1] = 
-                "_______________________________________________________________________\n" +
-                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den       --|\n" +
-                "|    Bereich Transformatorreparatur zur Gewährleistung von Effizienz und Sicherheit --|\n" +
+               " _______________________________________________________________________\n" +
+                "|-- ZIEL: Festlegung standardisierter Betriebsverfahren für den     --|\n" +
+                "|   Bereich Transformatorreparatur zur Gewährleistung von Effizienz   |\n" +
+                "|   und Sicherheit                                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
                 "| 1. ZIEL DER REPARATURABTEILUNG:                                     |\n" +
@@ -495,7 +519,7 @@ public class ManutencaoReparos {
                 "| - Einsatz von Zustandsüberwachungstechnologien wie Temperatur- und  |\n" +
                 "|   Feuchtigkeitssensoren zur Früherkennung von Fehlern.              |\n" +
                 "| - Durchführung von Strom- und Widerstandsmessungen zur Bewertung    |\n" +
-                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.          |\n" +
+                "|   des Zustands und zur Erkennung bevorstehender Ausfälle.           |\n" +
                 "| - Detaillierte Aufzeichnung der gesammelten Daten zur Optimierung   |\n" +
                 "|   der Wartungsplanung.                                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -505,7 +529,7 @@ public class ManutencaoReparos {
                 "| - Vor Beginn jeglicher Arbeiten muss die Stromversorgung des        |\n" +
                 "|   Transformators unterbrochen werden.                               |\n" +
                 "| - Verwendung geeigneter persönlicher Schutzausrüstung (PSA) wie     |\n" +
-                "|   isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
+                "|  isolierende Handschuhe, Helme, Schutzbrillen und Sicherheitsschuhe.|\n" +
                 "| - Sicherstellung, dass Sperr- und Kennzeichnungsverfahren befolgt   |\n" +
                 "|   werden.                                                           |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -524,7 +548,8 @@ public class ManutencaoReparos {
                 "| 7. SCHULUNG UND QUALIFIZIERUNG:                                     |\n" +
                 "|                                                                     |\n" +
                 "| - Durchführung von Schulungen zu Diagnosetechniken und              |\n" +
-                "|   Reparaturverfahren von Transformatoren, einschließlich elektrischer Risiken. |\n" +
+                "|   Reparaturverfahren von Transformatoren, einschließlich            |\n" +
+                "|   elektrischer Risiken.                                             |\n" +
                 "| - Einweisung der Mitarbeiter in Sicherheitsvorschriften und den     |\n" +
                 "|   sachgemäßen Gebrauch von Werkzeugen.                              |\n" +
                 "|---------------------------------------------------------------------|\n" +
@@ -543,7 +568,8 @@ public class ManutencaoReparos {
                 "|   Sicherheit in elektrischen Systemen und bei Transformatoren.      |\n" +
                 "| - Befolgung der Herstellerempfehlungen für Installation, Betrieb    |\n" +
                 "|   und Wartung von Transformatoren.                                  |\n" +
-                "|---------------------------------------------------------------------|\n";
+                "|_____________________________________________________________________|\n";
+
         
     }
 
@@ -995,7 +1021,6 @@ public class ManutencaoReparos {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-		// 2 e 3 para cadastrados
 		int codigo = leia.nextInt();
 
 		int indiceCadastro = codigo;

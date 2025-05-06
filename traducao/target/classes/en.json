@@ -1,17 +1,17 @@
 {
     "welcome": "    -- Welcome to the system of --\n    --WEG Guidance Registration!--",
 
-    "menu1": "  |-- 1.  Register Guidance         --|",
-    "menu2": "  |-- 2.  Search Guidance           --|",
-    "menu3": "  |-- 3.  Edit Guidance             --|",
-    "menu4": "  |-- 4.  Delete Guidance           --|",
-    "menu5": "  |-- 5. X EXIT PROGRAM X           --|",
-    "menu6": "  |-- 6.  CHANGE LANGUAGE           --|",
+    "menu1": "  |-- 1.  Register Guidance        --|",
+    "menu2": "  |-- 2.  Search Guidance          --|",
+    "menu3": "  |-- 3.  Edit Guidance            --|",
+    "menu4": "  |-- 4.  Delete Guidance          --|",
+    "menu5": "  |-- 5. X EXIT PROGRAM X          --|",
+    "menu6": "  |-- 6.  CHANGE LANGUAGE          --|",
 
 
     "realizar": "  --What would you like to do?--",
     "resposta": "  --Answer:  ",
-    "return": "|-- 6.          RETURN TO START              --|",
+    "return": "|-- 6.          RETURN TO START                 --|",
     "invalid": "--  X Invalid option! X  --",
     "encerrar": "--  Shutting Down System  --",
     "titulosCad": "--TITLES REGISTERED IN THE SYSTEM--",
@@ -23,17 +23,17 @@
     "pesqCodigo": "|-- 2. Code                           --|",
 
 
-    "manualOp": "|--  1. Operation Manual                          --|",
-    "procedSeg": "|--  2. Safety Procedure                          --|",
-    "manutenRep": "|--  3. Maintenance and Repairs                   --|",
-    "testDiag": "|--  4. Testing and Diagnostics                   --|",
-    "manualCOS": "|-- 5. Code of Conduct and Sectoral Operations    --|",
+    "manualOp": "|--  1. Operation Manual                        --|",
+    "procedSeg": "|--  2. Safety Procedure                        --|",
+    "manutenRep": "|--  3. Maintenance and Repairs                 --|",
+    "testDiag": "|--  4. Testing and Diagnostics                 --|",
+    "manualCOS": "|-- 5. Code of Conduct and Sectoral Operations  --|",
 
 
-    "cadastro": "|--           REGISTER GUIDANCE                  --|",
-    "pesquisa": "|--           SEARCH GUIDANCE                    --|",
-    "edicao": "|--              EDIT GUIDANCE                   --|",
-    "exclusao": "|--             DELETE GUIDANCE                  --|",
+    "cadastro": "|--              REGISTER GUIDANCE              --|", 
+    "pesquisa": "|--               SEARCH GUIDANCE               --|",
+    "edicao": "|--                 EDIT GUIDANCE               --|",
+    "exclusao": "|--               DELETE GUIDANCE               --|",
 
 
     "chooseCad": " -- Choose the type of guidance to register --",
@@ -45,7 +45,7 @@
 
     "pesqManualOp": "|--  SEARCH OPERATION MANUAL              --|",
     "pesqProcedSeg": "|--  SEARCH SAFETY PROCEDURE              --|",
-    "pesqManutenRep": "|--  SEARCH MAINTENANCE AND REPAIRS       --|",
+    "pesqManutenRep": "|-- SEARCH MAINTENANCE AND REPAIRS  --|",
     "pesqTestDiag": "|--  SEARCH TESTING AND DIAGNOSTICS       --|",
     "pesqManualCOS1": "|--  SEARCH CODE OF CONDUCT               --|",
     "pesqManualCOS2": "|--  AND SECTORAL OPERATIONS              --|",

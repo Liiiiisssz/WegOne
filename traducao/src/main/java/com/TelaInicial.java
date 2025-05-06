@@ -17,11 +17,17 @@ public class TelaInicial {
         int tipoPesquisa;
 
         do {
- 
-            System.out.println("Selecione o idioma:");
-            System.out.println("1. pt - BR");
-            System.out.println("2. en - US");
-            System.out.println("3. de - DE");
+            System.out.println("  ");
+
+            System.out.println("--  Selecione o idioma: --");
+            System.out.println("--   Select language: --");
+            System.out.println("--  Sprache auswählen: --");
+            System.out.println("      ______________");
+            System.out.println("      | 1. pt - BR |");
+            System.out.println("      | 2. en - US |");
+            System.out.println("      | 3. de - DE |");
+            System.out.println("      |____________|");
+
             idioma = leia.nextInt();
 
             switch (idioma) {

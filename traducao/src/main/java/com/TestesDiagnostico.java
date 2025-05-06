@@ -142,7 +142,7 @@ public class TestesDiagnostico {
                 "|   power components or the motor.                                    |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. TEST PREPARATION:                                               |\n" +
+                "| 1. TEST PREPARATION:                                                |\n" +
                 "|                                                                     |\n" +
                 "| - Turn off the inverter power and wait for residual charge to       |\n" +
                 "|   dissipate.                                                        |\n" +
@@ -151,14 +151,14 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. INSULATION TEST:                                                |\n" +
+                "| 2. INSULATION TEST:                                                 |\n" +
                 "|                                                                     |\n" +
                 "| - Use a megohmmeter to test motor insulation.                       |\n" +
                 "| - Ensure insulation resistance is within specifications.            |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 3. CONTROL TEST:                                                   |\n" +
+                "| 3. CONTROL TEST:                                                    |\n" +
                 "|                                                                     |\n" +
                 "| - Connect to the inverter using WEG diagnostic software.            |\n" +
                 "| - Check control inputs and outputs.                                 |\n" +
@@ -166,21 +166,21 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. HARDWARE FAILURE DIAGNOSIS:                                     |\n" +
+                "| 4. HARDWARE FAILURE DIAGNOSIS:                                      |\n" +
                 "|                                                                     |\n" +
                 "| - Check power modules for failures.                                 |\n" +
                 "| - Review error codes on the inverter display.                       |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 5. MOTOR TEST:                                                     |\n" +
+                "| 5. MOTOR TEST:                                                      |\n" +
                 "|                                                                     |\n" +
                 "| - Disconnect the motor and measure winding resistance.              |\n" +
                 "| - Compare values to motor specifications.                           |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 6. RESULT AND CORRECTIVE ACTION:                                   |\n" +
+                "| 6. RESULT AND CORRECTIVE ACTION:                                    |\n" +
                 "|                                                                     |\n" +
                 "| - If failures are identified, refer to maintenance instructions     |\n" +
                 "|   for corrective action.                                            |\n" +
@@ -191,40 +191,40 @@ public class TestesDiagnostico {
 
         testeDiagnosticoEN[1] = 
                         "_______________________________________________________________________\n" +
-                        "|--     DIAGNOSTIC TEST MANUAL FOR ELECTRIC MOTORS                 --|\n" +
+                        "|--     DIAGNOSTIC TEST MANUAL FOR ELECTRIC MOTORS                  --|\n" +
                         "|_____________________________________________________________________|\n" +
                         "|-- TEST OBJECTIVE:                                                 --|\n" +
                         "| - Diagnose electrical and mechanical faults in WEG motors.          |\n" +
-                        "| - Verify motor performance, including insulation and operating       |\n" +
+                        "| - Verify motor performance, including insulation and operating      |\n" +
                         "|   conditions.                                                       |\n" +
                         "|_____________________________________________________________________|\n" +
                         "|                                                                     |\n" +
-                        "| 1. TEST PREPARATION:                                               |\n" +
+                        "| 1. TEST PREPARATION:                                                |\n" +
                         "|                                                                     |\n" +
                         "| - Turn off motor power and wait for charge dissipation.             |\n" +
                         "| - Check electrical and mechanical connections of the motor.         |\n" +
                         "| - Measure motor supply voltage.                                     |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 2. INSULATION TEST:                                                |\n" +
+                        "| 2. INSULATION TEST:                                                 |\n" +
                         "|                                                                     |\n" +
                         "| - Use a megohmmeter to test motor insulation.                       |\n" +
                         "| - Ensure insulation resistance is within specifications.            |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 3. CURRENT TEST:                                                   |\n" +
+                        "| 3. CURRENT TEST:                                                    |\n" +
                         "|                                                                     |\n" +
                         "| - Measure motor operating current.                                  |\n" +
                         "| - Compare with specifications.                                      |\n" +
                         "|---------------------------------------------------------------------|\n" +
                         "|                                                                     |\n" +
-                        "| 4. WINDING RESISTANCE TEST:                                        |\n" +
+                        "| 4. WINDING RESISTANCE TEST:                                         |\n" +
                         "|                                                                     |\n" +
                         "| - Measure the resistance of the motor windings.                     |\n" +
                         "| - Compare values with the manufacturer’s specifications.            |\n" +
                         "|                                                                     |\n" +
                         "|---------------------------------------------------------------------|\n" +
-                        "| 5. RESULT AND CORRECTIVE ACTION:                                   |\n" +
+                        "| 5. RESULT AND CORRECTIVE ACTION:                                    |\n" +
                         "|                                                                     |\n" +
                         "| - If failures are identified, follow manufacturer recommendations   |\n" +
                         "|   for repair and maintenance.                                       |\n" +
@@ -239,27 +239,28 @@ public class TestesDiagnostico {
                 "|--        DIAGNOSETEST FÜR FREQUENZUMRICHTER                       --|\n" +
                 "|_____________________________________________________________________|\n" +
                 "|-- TESTZIEL:                                                       --|\n" +
-                "| - Überprüfung des korrekten Betriebs des WEG-Frequenzumrichters.   |\n" +
+                "| - Überprüfung des korrekten Betriebs des WEG-Frequenzumrichters.    |\n" +
                 "| - Diagnose von Systemfehlern wie Steuerproblemen und                |\n" +
                 "|   Defekten an Leistungskomponenten oder dem Motor.                  |\n" +
                 "|_____________________________________________________________________|\n" +
                 "|                                                                     |\n" +
-                "| 1. TESTVORBEREITUNG:                                               |\n" +
+                "| 1. TESTVORBEREITUNG:                                                |\n" +
                 "|                                                                     |\n" +
-                "| - Netzversorgung des Umrichters abschalten und Restladung abwarten.|\n" +
-                "| - Sichtprüfung des Umrichters auf physische Schäden.               |\n" +
-                "| - Sicherstellen, dass der Motor korrekt angeschlossen ist.         |\n" +
+                "| - Netzversorgung des Umrichters abschalten und Restladung abwarten. |\n" +
+                "| - Sichtprüfung des Umrichters auf physische Schäden.                |\n" +
+                "| - Sicherstellen, dass der Motor korrekt angeschlossen ist.          |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 2. ISOLATIONSTEST:                                                 |\n" +
+                "| 2. ISOLATIONSTEST:                                                  |\n" +
                 "|                                                                     |\n" +
                 "| - Isolationsmessgerät (Megohmmeter) zur Prüfung verwenden.          |\n" +
-                "| - Sicherstellen, dass der Isolationswiderstand den Vorgaben entspricht.|\n" +
+                "| - Sicherstellen, dass der Isolationswiderstand den                  |\n" +
+                "|   Vorgaben entspricht.                                              |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 3. STEUERUNGSTEST:                                                 |\n" +
+                "| 3. STEUERUNGSTEST:                                                  |\n" +
                 "|                                                                     |\n" +
                 "| - Mit WEG-Diagnosesoftware Verbindung zum Umrichter herstellen.     |\n" +
                 "| - Steuerungs-Ein- und Ausgänge prüfen.                              |\n" +
@@ -267,68 +268,68 @@ public class TestesDiagnostico {
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 4. DIAGNOSE VON HARDWAREFEHLERN:                                   |\n" +
+                "| 4. DIAGNOSE VON HARDWAREFEHLERN:                                    |\n" +
                 "|                                                                     |\n" +
-                "| - Leistungsmodule auf Fehler überprüfen.                           |\n" +
-                "| - Fehlercodes auf dem Display des Umrichters prüfen.               |\n" +
-                "|                                                                     |\n" +
-                "|---------------------------------------------------------------------|\n" +
-                "|                                                                     |\n" +
-                "| 5. MOTORTEST:                                                      |\n" +
-                "|                                                                     |\n" +
-                "| - Motor abklemmen und Wicklungswiderstand messen.                  |\n" +
-                "| - Werte mit den Motorspezifikationen vergleichen.                  |\n" +
+                "| - Leistungsmodule auf Fehler überprüfen.                            |\n" +
+                "| - Fehlercodes auf dem Display des Umrichters prüfen.                |\n" +
                 "|                                                                     |\n" +
                 "|---------------------------------------------------------------------|\n" +
                 "|                                                                     |\n" +
-                "| 6. ERGEBNIS UND KORREKTURMASSNAHMEN:                               |\n" +
+                "| 5. MOTORTEST:                                                       |\n" +
                 "|                                                                     |\n" +
-                "| - Bei festgestellten Fehlern die Wartungsanweisungen konsultieren. |\n" +
+                "| - Motor abklemmen und Wicklungswiderstand messen.                   |\n" +
+                "| - Werte mit den Motorspezifikationen vergleichen.                   |\n" +
+                "|                                                                     |\n" +
+                "|---------------------------------------------------------------------|\n" +
+                "|                                                                     |\n" +
+                "| 6. ERGEBNIS UND KORREKTURMASSNAHMEN:                                |\n" +
+                "|                                                                     |\n" +
+                "| - Bei festgestellten Fehlern die Wartungsanweisungen konsultieren.  |\n" +
                 "|_____________________________________________________________________|\n";
 
         titulosTestesDiagnosticoDE[1] = "Diagnosetest-Handbuch für Elektromotoren";
 
         testeDiagnosticoDE[1] = 
-                        "_______________________________________________________________________\n" +
-                        "|--     DIAGNOSETEST-HANDBUCH FÜR ELEKTROMOTOREN                   --|\n" +
-                        "|_____________________________________________________________________|\n" +
-                        "|-- TESTZIEL:                                                       --|\n" +
+                        "________________________________________________________________________\n" +
+                        "|--     DIAGNOSETEST-HANDBUCH FÜR ELEKTROMOTOREN                     --|\n" +
+                        "|______________________________________________________________________|\n" +
+                        "|-- TESTZIEL:                                                        --|\n" +
                         "| - Diagnose von elektrischen und mechanischen Fehlern bei WEG-Motoren.|\n" +
-                        "| - Überprüfung der Motorleistung, inklusive Isolierung und           |\n" +
-                        "|   Betriebsbedingungen.                                              |\n" +
-                        "|_____________________________________________________________________|\n" +
-                        "|                                                                     |\n" +
-                        "| 1. TESTVORBEREITUNG:                                               |\n" +
-                        "|                                                                     |\n" +
-                        "| - Netzversorgung des Motors abschalten und Entladung abwarten.     |\n" +
-                        "| - Elektrische und mechanische Verbindungen prüfen.                 |\n" +
-                        "| - Versorgungsspannung des Motors messen.                           |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 2. ISOLATIONSTEST:                                                 |\n" +
-                        "|                                                                     |\n" +
-                        "| - Isolationsmessgerät zur Prüfung verwenden.                       |\n" +
-                        "| - Sicherstellen, dass der Isolationswiderstand innerhalb der       |\n" +
-                        "|   Spezifikation liegt.                                              |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 3. STROMTEST:                                                      |\n" +
-                        "|                                                                     |\n" +
-                        "| - Betriebsstrom des Motors messen.                                 |\n" +
-                        "| - Mit den Spezifikationen vergleichen.                             |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "|                                                                     |\n" +
-                        "| 4. WICKLUNGSWIDERSTANDSTEST:                                       |\n" +
-                        "|                                                                     |\n" +
-                        "| - Wicklungswiderstand des Motors messen.                           |\n" +
-                        "| - Werte mit den Herstellerspezifikationen vergleichen.             |\n" +
-                        "|                                                                     |\n" +
-                        "|---------------------------------------------------------------------|\n" +
-                        "| 5. ERGEBNIS UND KORREKTURMASSNAHMEN:                               |\n" +
-                        "|                                                                     |\n" +
-                        "| - Bei Fehlern die Empfehlungen des Herstellers zur Reparatur       |\n" +
-                        "|   und Wartung befolgen.                                             |\n" +
-                        "|_____________________________________________________________________|\n";
+                        "| - Überprüfung der Motorleistung, inklusive Isolierung und            |\n" +
+                        "|   Betriebsbedingungen.                                               |\n" +
+                        "|______________________________________________________________________|\n" +
+                        "|                                                                      |\n" +
+                        "| 1. TESTVORBEREITUNG:                                                 |\n" +
+                        "|                                                                      |\n" +
+                        "| - Netzversorgung des Motors abschalten und Entladung abwarten.       |\n" +
+                        "| - Elektrische und mechanische Verbindungen prüfen.                   |\n" +
+                        "| - Versorgungsspannung des Motors messen.                             |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 2. ISOLATIONSTEST:                                                   |\n" +
+                        "|                                                                      |\n" +
+                        "| - Isolationsmessgerät zur Prüfung verwenden.                         |\n" +
+                        "| - Sicherstellen, dass der Isolationswiderstand innerhalb der         |\n" +
+                        "|   Spezifikation liegt.                                               |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 3. STROMTEST:                                                        |\n" +
+                        "|                                                                      |\n" +
+                        "| - Betriebsstrom des Motors messen.                                   |\n" +
+                        "| - Mit den Spezifikationen vergleichen.                               |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "|                                                                      |\n" +
+                        "| 4. WICKLUNGSWIDERSTANDSTEST:                                         |\n" +
+                        "|                                                                      |\n" +
+                        "| - Wicklungswiderstand des Motors messen.                             |\n" +
+                        "| - Werte mit den Herstellerspezifikationen vergleichen.               |\n" +
+                        "|                                                                      |\n" +
+                        "|----------------------------------------------------------------------|\n" +
+                        "| 5. ERGEBNIS UND KORREKTURMASSNAHMEN:                                 |\n" +
+                        "|                                                                      |\n" +
+                        "| - Bei Fehlern die Empfehlungen des Herstellers zur Reparatur         |\n" +
+                        "|   und Wartung befolgen.                                              |\n" +
+                        "|______________________________________________________________________|\n";
             
     }
     
