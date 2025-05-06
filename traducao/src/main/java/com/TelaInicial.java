@@ -17,7 +17,7 @@ public class TelaInicial {
         int tipoPesquisa;
 
         do {
-System.out.println("  ");
+            System.out.println("  ");
 
             System.out.println("--  Selecione o idioma: --");
             System.out.println("--   Select language:   --");
@@ -1087,7 +1087,7 @@ System.out.println("  ");
            
         } while(decisaoInicial == 6);
 
-        leia.close(); 
-           
+        leia.close();    
     }
 }
+
