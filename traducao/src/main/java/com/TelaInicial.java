@@ -270,13 +270,13 @@ public class TelaInicial {
                         switch(tipoOrientacao){
                             
                             case 1: //manualOperacao
-                                System.out.println("_________________________________________");
+                                System.out.println("________________________________________________");
                                 System.out.println(tradutor.get("pesqManualOp"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|-----------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|---------------------------------------|");
+                                System.out.println("|-----------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|_______________________________________|");
+                                System.out.println("|_______________________________________________|");
                             
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
