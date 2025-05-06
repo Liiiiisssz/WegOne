@@ -407,7 +407,7 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTitulo() { //pesquisar TITULO em PT
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
 
 			if (testeDiagnostico[i] != null) {
@@ -449,7 +449,7 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTituloEN() { //pesquisar TITULO em INGLES
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
 
 			if (testeDiagnosticoEN[i] != null) {
@@ -491,7 +491,7 @@ public class TestesDiagnostico {
 
     public void pesquisarManualTituloDE() { //pesquisar TITULO em ALEMÃO
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
 
 			if (testeDiagnosticoDE[i] != null) {
@@ -533,7 +533,7 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigo() { //pesquisar CODIGO em PT
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
 
 			if (testeDiagnostico[i] != null) {
@@ -570,7 +570,7 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigoEN() { //pesquisar CODIGO em INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
 
 			if (testeDiagnosticoEN[i] != null) {
@@ -607,7 +607,7 @@ public class TestesDiagnostico {
 
     public void pesquisaManualCodigoDE() { //pesquisar CODIGO em ALEMÃO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
 
 			if (testeDiagnosticoDE[i] != null) {
@@ -648,7 +648,7 @@ public class TestesDiagnostico {
 
     public void editarManual() { //editar PT
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
 
 			if (testeDiagnostico[i] != null) {
@@ -687,7 +687,7 @@ public class TestesDiagnostico {
 
     public void editarManualEN() { //editar INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
 
 			if (testeDiagnosticoEN[i] != null) {
@@ -726,7 +726,7 @@ public class TestesDiagnostico {
 
     public void editarManualDE() { //editar ALEMAO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
 
 			if (testeDiagnosticoDE[i] != null) {
@@ -769,7 +769,7 @@ public class TestesDiagnostico {
 
     public void excluirManual() { //excluir PT
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnostico.length; i++) {
 
 			if (testeDiagnostico[i] != null) {
@@ -813,7 +813,7 @@ public class TestesDiagnostico {
 
     public void excluirManualEN() { //excluir INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoEN.length; i++) {
 
 			if (testeDiagnosticoEN[i] != null) {
@@ -857,7 +857,7 @@ public class TestesDiagnostico {
 
     public void excluirManualDE() { //excluir ALEMAO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosTestesDiagnosticoDE.length; i++) {
 
 			if (testeDiagnosticoDE[i] != null) {

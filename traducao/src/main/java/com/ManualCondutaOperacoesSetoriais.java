@@ -575,7 +575,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTitulo() { //pesquisa TITULO em PT
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosManuaisCOS.length; i++) {
 
 			if (manualCOSConteudo[i] != null) {
@@ -617,7 +617,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
 
 			if (manualCOSConteudoEN[i] != null) {
@@ -659,7 +659,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
 
-		System.out.println("--TITULOS CADASTRADOS NO SISTEMA--");
+		System.out.println(tradutor.get("titulosCad"));
 		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
 
 			if (manualCOSConteudoDE[i] != null) {
@@ -701,7 +701,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOS.length; i++) {
 
 			if (manualCOSConteudo[i] != null) {
@@ -738,7 +738,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
 
 			if (manualCOSConteudoEN[i] != null) {
@@ -775,7 +775,7 @@ public class ManualCondutaOperacoesSetoriais {
     
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
 
 			if (manualCOSConteudoDE[i] != null) {
@@ -818,7 +818,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManual() { //editar em PT
 
-        System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+        System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOS.length; i++) {
 
 			if (manualCOSConteudo[i] != null) {
@@ -857,7 +857,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManualEN() { //editar em INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
 
 			if (manualCOSConteudoEN[i] != null) {
@@ -896,7 +896,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void editarManualDE() { //editar em ALEMÃO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
 
 			if (manualCOSConteudoDE[i] != null) {
@@ -940,7 +940,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManual() { //excluir em PT
 
-        System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+        System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOS.length; i++) {
 
 			if (manualCOSConteudo[i] != null) {
@@ -983,7 +983,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManualEN() { //excluir em INGLES
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSEN.length; i++) {
 
 			if (manualCOSConteudoEN[i] != null) {
@@ -1026,7 +1026,7 @@ public class ManualCondutaOperacoesSetoriais {
 
     public void excluirManualDE() { //excluir em ALEMÃO
 
-		System.out.println("--LISTA DE CODIGOS CADASTRADOS--");
+		System.out.println(tradutor.get("codigosCad"));
 		for (int i = 0; i < titulosManuaisCOSDE.length; i++) {
 
 			if (manualCOSConteudoDE[i] != null) {
