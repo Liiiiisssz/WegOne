@@ -791,7 +791,7 @@ public class ManualCondutaOperacoesSetoriais {
         System.out.println(" ");
         System.out.println(tradutor.get("enter"));
         leia.nextLine();
-        
+
 	}
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
@@ -844,6 +844,11 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
 	}
 
     public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
@@ -897,6 +902,11 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
 	}
     
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
@@ -951,8 +961,16 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
 	}
 
+
+
+    
 
     public void editarManual() { //editar em PT
 
