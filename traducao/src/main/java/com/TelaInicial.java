@@ -327,7 +327,7 @@ public class TelaInicial {
                         switch(tipoOrientacao){
                            
                             case 1: //manualOperacao
-                                System.out.println("__________________________________________________");
+                                System.out.println("___________________________________________________");
                                 System.out.println(tradutor.get("pesqManualOp"));
                                 System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
@@ -410,7 +410,7 @@ public class TelaInicial {
                                 break;
 
                             case 2: //procedimentoSeguranca
-                                System.out.println("|_________________________________________________|");
+                                System.out.println("___________________________________________________");
                                 System.out.println(tradutor.get("pesqProcedSeg"));
                                 System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
@@ -491,14 +491,14 @@ public class TelaInicial {
                                 break;
 
                             case 3: //manutencaoReparos
-                                System.out.println("|_________________________________________________|");
+                                System.out.println("___________________________________________________");
                                 System.out.println(tradutor.get("pesqManutenRep"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|_____________________________________|");
-                           
+                                System.out.println("|_________________________________________________|");
+                            
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
                                 System.out.println(tradutor.get("resposta"));
@@ -572,14 +572,14 @@ public class TelaInicial {
                                 break;
 
                             case 4: //testesDiagnostico
-                                System.out.println("_______________________________________");
+                                System.out.println("__________________________________________________");
                                 System.out.println(tradutor.get("pesqTestDiag"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|-------------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|_____________________________________|");
-                           
+                                System.out.println("|_________________________________________________|");
+                            
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
                                 System.out.println(tradutor.get("resposta"));
@@ -653,15 +653,15 @@ public class TelaInicial {
                                 break;
 
                             case 5: //manualCondutaOperacoesSetoriais
-                                System.out.println("____________________________________");
+                                System.out.println("__________________________________________________");
                                 System.out.println(tradutor.get("pesqManualCOS1"));
                                 System.out.println(tradutor.get("pesqManualCOS2"));
-                                System.out.println("|----------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqTitulo"));
-                                System.out.println("|----------------------------------|");
+                                System.out.println("|-------------------------------------------------|");
                                 System.out.println(tradutor.get("pesqCodigo"));
-                                System.out.println("|__________________________________|");
-                           
+                                System.out.println("|_________________________________________________|");
+                            
                                 System.out.println(" ");
                                 System.out.println(tradutor.get("chooseTipoPesq"));
                                 System.out.println(tradutor.get("resposta"));
@@ -1088,5 +1088,6 @@ public class TelaInicial {
         } while(decisaoInicial == 6);
 
         leia.close();    
+    }
 }
 
