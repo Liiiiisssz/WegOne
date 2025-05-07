@@ -690,6 +690,11 @@ public class ManutencaoReparos {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
 	}
 
         public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
@@ -732,6 +737,11 @@ public class ManutencaoReparos {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
 	}
 
         public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMAO
@@ -774,6 +784,11 @@ public class ManutencaoReparos {
 			System.out.println(tradutor.get("nEncontrado"));
 
 		}
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+        
 	}
 
         public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
