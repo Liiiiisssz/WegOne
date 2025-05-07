@@ -571,12 +571,12 @@ public class ProcedimentoSeguranca {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -625,12 +625,12 @@ public class ProcedimentoSeguranca {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -679,12 +679,12 @@ public class ProcedimentoSeguranca {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -735,12 +735,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -789,12 +789,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -843,12 +843,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -897,12 +897,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -956,12 +956,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }
@@ -1015,12 +1015,12 @@ public class ProcedimentoSeguranca {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println("Entrada inválida! Por favor, digite um número entre 0 e 3.");
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
                    
-                    System.out.println("Entrada inválida! Por favor, digite um número.");
+                    System.out.println(tradutor.get("entradaInvalid"));
                     leia.nextLine();
                 }
             }

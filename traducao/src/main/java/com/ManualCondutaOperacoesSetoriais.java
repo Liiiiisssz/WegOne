@@ -795,7 +795,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -848,7 +848,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -901,7 +901,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -957,7 +957,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -1012,7 +1012,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -1067,7 +1067,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -1122,7 +1122,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -1180,7 +1180,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {
@@ -1239,7 +1239,7 @@ public class ManualCondutaOperacoesSetoriais {
                     if (indiceCadastro >= 0 && indiceCadastro <= 3) {
                         break;  
                     } else {
-                        System.out.println(tradutor.get("invalid0a3"));
+                        System.out.println(tradutor.get("invalido"));
                     }
 
                 } catch (InputMismatchException e) {

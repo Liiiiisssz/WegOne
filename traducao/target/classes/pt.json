@@ -81,6 +81,6 @@
 
     "invalid1a6": "Entrada inválida! Por favor, digite um número entre 1 e 6.",
     "invalid1a2": "Entrada inválida! Por favor, digite um número entre 1 e 2.",
-    "invalid0a3": "Entrada inválida! Por favor, digite um número entre 0 e 3.",
+    "invalido": "Entrada inválida!",
     "entradaInvalid": "Entrada inválida! Por favor, digite um número."
 }
