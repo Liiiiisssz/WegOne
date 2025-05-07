@@ -616,6 +616,11 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
@@ -670,6 +675,11 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMAO
@@ -724,8 +734,15 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
     }
 
+
+
+    
 
     public void editarManual() { //editar em PT
 
