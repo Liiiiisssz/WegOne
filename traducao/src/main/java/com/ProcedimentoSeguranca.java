@@ -463,6 +463,11 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisarManualTituloEN() { //pesquisa TITULO em INGLES
@@ -506,6 +511,11 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisarManualTituloDE() { //pesquisa TITULO em ALEMAO
@@ -548,6 +558,10 @@ public class ProcedimentoSeguranca {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
     }
 
     public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
