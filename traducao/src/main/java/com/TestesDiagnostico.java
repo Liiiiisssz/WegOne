@@ -548,7 +548,7 @@ public class TestesDiagnostico {
         System.out.println(" ");
         System.out.println(tradutor.get("enter"));
         leia.nextLine();
-        
+
     }
 
     public void pesquisaManualCodigo() { //pesquisar CODIGO em PT
@@ -603,6 +603,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisaManualCodigoEN() { //pesquisar CODIGO em INGLES
@@ -657,6 +662,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisaManualCodigoDE() { //pesquisar CODIGO em ALEMÃO
@@ -711,6 +721,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+        
     }
 
 
