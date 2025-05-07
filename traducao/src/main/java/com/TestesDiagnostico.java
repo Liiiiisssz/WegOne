@@ -450,6 +450,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisarManualTituloEN() { //pesquisar TITULO em INGLES
@@ -492,6 +497,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+
     }
 
     public void pesquisarManualTituloDE() { //pesquisar TITULO em ALEMÃO
@@ -534,6 +544,11 @@ public class TestesDiagnostico {
 			System.out.println(tradutor.get("nEncontrado"));
 
         }
+
+        System.out.println(" ");
+        System.out.println(tradutor.get("enter"));
+        leia.nextLine();
+        
     }
 
     public void pesquisaManualCodigo() { //pesquisar CODIGO em PT
