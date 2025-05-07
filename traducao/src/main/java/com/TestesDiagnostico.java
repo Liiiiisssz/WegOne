@@ -1,4 +1,5 @@
 package com;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TestesDiagnostico {
@@ -18,7 +19,10 @@ public class TestesDiagnostico {
 
     int contadorCadastro = 2;
     int contadorCadastroEN = 2;
-    int contadorCadastroDE = 2;;
+    int contadorCadastroDE = 2;
+    int pesquisaCodigo;
+	int indiceCadastro;
+	int codigo;
 
     public TestesDiagnostico(Traducoes tradutor){
 
@@ -545,7 +549,24 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-        int pesquisaCodigo = leia.nextInt();
+        
+         while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 
         boolean encontrado = false;
 
@@ -582,7 +603,24 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-        int pesquisaCodigo = leia.nextInt();
+     
+                while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 
         boolean encontrado = false;
 
@@ -619,7 +657,24 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-        int pesquisaCodigo = leia.nextInt();
+        
+         while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 
         boolean encontrado = false;
 
@@ -660,9 +715,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-        int codigo = leia.nextInt();
+        
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         System.out.println(" ");
 
@@ -699,9 +770,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-        int codigo = leia.nextInt();
+       
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         System.out.println(" ");
 
@@ -738,9 +825,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-        int codigo = leia.nextInt();
+        
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         System.out.println(" ");
 
@@ -781,9 +884,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-        int codigo = leia.nextInt();
+        
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         if (titulosTestesDiagnostico[indiceCadastro] != null) {
 
@@ -825,9 +944,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-        int codigo = leia.nextInt();
+        
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         if (titulosTestesDiagnosticoEN[indiceCadastro] != null) {
 
@@ -869,9 +1004,25 @@ public class TestesDiagnostico {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-        int codigo = leia.nextInt();
+        
+         while (true) {
 
-        int indiceCadastro = codigo;
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
         if (titulosTestesDiagnosticoDE[indiceCadastro] != null) {
 

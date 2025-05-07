@@ -1,4 +1,5 @@
 package com;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ManualOperacao {
@@ -19,6 +20,9 @@ public class ManualOperacao {
 	int contadorCadastro = 2;
 	int contadorCadastroEN = 2;
 	int contadorCadastroDE = 2;
+	int pesquisaCodigo;
+	int indiceCadastro;
+	int codigo;
 
 	public ManualOperacao(Traducoes tradutor) {
 
@@ -681,7 +685,23 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -718,7 +738,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -755,7 +792,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("codigoPesq"));
-		int pesquisaCodigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                    pesquisaCodigo = leia.nextInt();  
+                   
+                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
+		
 		
 		boolean encontrado = false;
 
@@ -796,9 +850,25 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
 
-		int indiceCadastro = codigo;
+		 while (true) {
+
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
+
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
@@ -835,9 +905,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
 
-		int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
@@ -874,9 +959,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("edit"));
-		int codigo = leia.nextInt();
+		
+		 while (true) {
+                try {
+                      codigo = leia.nextInt();
+                      indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
 
-		int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 		System.out.println(" ");
 
@@ -917,9 +1017,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                     indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacao[indiceCadastro] != null) {
 
@@ -961,9 +1076,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                	 indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacaoEN[indiceCadastro] != null) {
 
@@ -1005,9 +1135,24 @@ public class ManualOperacao {
 		System.out.println(" ");
 
 		System.out.println(tradutor.get("excluir"));
-		int codigo = leia.nextInt();
+		
+		  while (true) {
+                try {
+                     codigo = leia.nextInt();
+                     indiceCadastro = codigo;  
+                   
+                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
+                        break;  
+                    } else {
+                        System.out.println(tradutor.get("invalido"));
+                    }
 
-			int indiceCadastro = codigo;
+                } catch (InputMismatchException e) {
+                   
+                    System.out.println(tradutor.get("entradaInvalid"));
+                    leia.nextLine();
+                }
+            }
 
 			if (titulosManuaisOperacaoDE[indiceCadastro] != null) {
 

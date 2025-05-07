@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 
 </p>
 
@@ -77,8 +77,6 @@ O sistema WegOne possui diversas funcionalidades integradas, tais como:
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img loading="lazy" src="https://img.shields.io/badge/%20JAVA-FF69B4?style=for-the-badge&logo=" style="width: 100px;"/>
   <img loading="lazy" src="https://img.shields.io/badge/%20MYSQL-32CD32?style=for-the-badge&logo=" style="width: 120px;"/>
-  <img loading="lazy" src="https://img.shields.io/badge/%20HTML-FFA500?style=for-the-badge&logo=" style="width: 105px;"/>
-  <img loading="lazy" src="https://img.shields.io/badge/%20CSS-1E90FF?style=for-the-badge&logo=" style="width: 85px;"/>
 </div>
 
 
@@ -121,10 +119,14 @@ Tenha um gerenciador de pacotes do JSON para executar o projeto.Nós utilizamos 
 Para baixá-la, basta pesquisar o nome na aba de extensões do VS Code e iniciar a instalação. Após a conclusão, você já poderá executar o projeto normalmente.
 
 
-🏃‍♂️📂 3. Execute o Projeto
+🏃‍♂️📂 3. Execute o Projeto:
+
+Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
 
 ```bash
-Se você possui a extensão Java no VScode você pode rodar clicando no play. Caso contrário rode a partir do terminal digitando o seguinte comando:
+cd 'C:\caminho\para\seu\projeto' & 'C:\caminho\para\java.exe' '@C:\caminho\para\arquivo.argfile' 'com.TelaInicial'
+# ⬆️‼️ Substitua pelo caminho real onde está seu projeto.
+
 ```
 
 
