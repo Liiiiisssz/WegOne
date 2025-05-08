@@ -928,21 +928,22 @@ public class TelaInicial {
                         System.out.print(tradutor.get("resposta"));
                        
                         while (true) {
-                try {
-                    tipoOrientacao = leia.nextInt();  
-                   
-                    if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a6"));
-                    }
+                            try {
+                                tipoOrientacao = leia.nextInt();  
+                            
+                                if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
+                                    break;  
+                                } else {
+                                    System.out.println(tradutor.get("invalid1a6"));
+                                }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                            } catch (InputMismatchException e) {
+                            
+                                System.out.println(tradutor.get("entradaInvalid"));
+                                leia.nextLine();
+                            }
+                        }
+
                         if(arquivo.equals("pt.json")){ //PT
 
                             switch(tipoOrientacao){
@@ -1008,7 +1009,7 @@ public class TelaInicial {
        
                                 case 5: //manualCondutaOperacoesSetoriais
                                     System.out.println(" ");
-                                    manualCondutaOpSet.excluirManualDE();
+                                    manualCondutaOpSet.excluirManualEN();
                                     break;
        
                                 case 6: //VoltarInicio

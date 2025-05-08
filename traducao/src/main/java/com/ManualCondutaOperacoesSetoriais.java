@@ -1139,6 +1139,10 @@ public class ManualCondutaOperacoesSetoriais {
 
 	}
 
+
+
+    
+
     public void excluirManual() { //excluir em PT
 
         System.out.println(tradutor.get("codigosCad"));
