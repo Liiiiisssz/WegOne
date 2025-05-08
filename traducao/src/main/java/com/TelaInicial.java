@@ -2,6 +2,7 @@ package com;
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 public class TelaInicial {
 
     public static void main(String[] args) {
@@ -148,21 +149,21 @@ public class TelaInicial {
                             System.out.println(tradutor.get("resposta"));
                            
                              while (true) {
-                try {
-                    tipoOrientacao = leia.nextInt();  
-                   
-                    if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a6"));
-                    }
+                                try {
+                                    tipoOrientacao = leia.nextInt();  
+                                
+                                    if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
+                                        break;  
+                                    } else {
+                                        System.out.println(tradutor.get("invalid1a6"));
+                                    }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                } catch (InputMismatchException e) {
+                                
+                                    System.out.println(tradutor.get("entradaInvalid"));
+                                    leia.nextLine();
+                                }
+                            }
 
                             if(arquivo.equals("pt.json")){ //cadastro PT
 
@@ -322,7 +323,7 @@ public class TelaInicial {
                                     System.out.println(tradutor.get("entradaInvalid"));
                                     leia.nextLine();
                             }
-            }
+                        }
 
                         switch(tipoOrientacao){
                            
@@ -340,21 +341,21 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("resposta"));
                                
                                  while (true) {
-                try {
-                    tipoPesquisa = leia.nextInt();  
-                   
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a2"));
-                    }
+                                    try {
+                                        tipoPesquisa = leia.nextInt();  
+                                    
+                                        if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
+                                            break;  
+                                        } else {
+                                            System.out.println(tradutor.get("invalid1a2"));
+                                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                    } catch (InputMismatchException e) {
+                                    
+                                        System.out.println(tradutor.get("entradaInvalid"));
+                                        leia.nextLine();
+                                    }
+                                }
                    
                                 if(arquivo.equals("pt.json")){ //PT
 
@@ -423,21 +424,21 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("resposta"));
                                
                                  while (true) {
-                try {
-                    tipoPesquisa = leia.nextInt();  
+                                    try {
+                                        tipoPesquisa = leia.nextInt();  
 
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a2"));
-                    }
+                                        if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
+                                            break;  
+                                        } else {
+                                            System.out.println(tradutor.get("invalid1a2"));
+                                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                    } catch (InputMismatchException e) {
+                                    
+                                        System.out.println(tradutor.get("entradaInvalid"));
+                                        leia.nextLine();
+                                    }
+                                }
                    
                                 if(arquivo.equals("pt.json")){ //pesquisa PT
 
@@ -503,22 +504,21 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("chooseTipoPesq"));
                                 System.out.println(tradutor.get("resposta"));
                                
-                while (true) {
-                        try {
-                          tipoPesquisa = leia.nextInt();  
-                   
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a2"));
-                    }
+                                while (true) {
+                                    try {
+                                    tipoPesquisa = leia.nextInt();  
+                            
+                                        if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
+                                            break;  
+                                        } else {
+                                            System.out.println(tradutor.get("invalid1a2"));
+                                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                    } catch (InputMismatchException e) {
+                                        System.out.println(tradutor.get("entradaInvalid"));
+                                        leia.nextLine();
+                                    }
+                                }
   
                                 if(arquivo.equals("pt.json")){ //pesquisa PT
 
@@ -585,21 +585,21 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("resposta"));
                                
                                 while (true) {
-                try {
-                    tipoPesquisa = leia.nextInt();  
-                   
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a2"));
-                    }
+                                    try {
+                                        tipoPesquisa = leia.nextInt();  
+                                    
+                                        if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
+                                            break;  
+                                        } else {
+                                            System.out.println(tradutor.get("invalid1a2"));
+                                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                    } catch (InputMismatchException e) {
+                                    
+                                        System.out.println(tradutor.get("entradaInvalid"));
+                                        leia.nextLine();
+                                    }
+                                }
                    
                                 if(arquivo.equals("pt.json")){ //pesquisa PT
 
@@ -667,26 +667,23 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("resposta"));
                                
                                 while (true) {
-                try {
-                    tipoPesquisa = leia.nextInt();  
-                   
-                    if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a2"));
-                    }
+                                    try {
+                                        tipoPesquisa = leia.nextInt();  
+                                    
+                                        if (tipoPesquisa >= 1 && tipoPesquisa <= 2) {
+                                            break;  
+                                        } else {
+                                            System.out.println(tradutor.get("invalid1a2"));
+                                        }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                                    } catch (InputMismatchException e) {
+                                    
+                                        System.out.println(tradutor.get("entradaInvalid"));
+                                        leia.nextLine();
+                                    }
+                                }
                                
                                 if(arquivo.equals("pt.json")){ //PT
-
-
-
 
                                     switch(tipoPesquisa){
                    
@@ -770,21 +767,21 @@ public class TelaInicial {
                         System.out.print(tradutor.get("resposta"));
                        
                         while (true) {
-                try {
-                    tipoOrientacao = leia.nextInt();  
+                            try {
+                                tipoOrientacao = leia.nextInt();  
 
-                    if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalid1a6"));
-                    }
+                                if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
+                                    break;  
+                                } else {
+                                    System.out.println(tradutor.get("invalid1a6"));
+                                }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+                            } catch (InputMismatchException e) {
+                            
+                                System.out.println(tradutor.get("entradaInvalid"));
+                                leia.nextLine();
+                            }
+                        }
 
                         if(arquivo.equals("pt.json")){ //editar em PT
 
