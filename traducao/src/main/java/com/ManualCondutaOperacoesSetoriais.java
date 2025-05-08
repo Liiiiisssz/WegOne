@@ -848,6 +848,7 @@ public class ManualCondutaOperacoesSetoriais {
         System.out.println(" ");
         System.out.println(tradutor.get("enter"));
         leia.nextLine();
+        leia.nextLine();
 
 	}
 
@@ -905,6 +906,7 @@ public class ManualCondutaOperacoesSetoriais {
 
         System.out.println(" ");
         System.out.println(tradutor.get("enter"));
+        leia.nextLine();
         leia.nextLine();
 
 	}
@@ -964,6 +966,7 @@ public class ManualCondutaOperacoesSetoriais {
 
         System.out.println(" ");
         System.out.println(tradutor.get("enter"));
+        leia.nextLine();
         leia.nextLine();
 
 	}
