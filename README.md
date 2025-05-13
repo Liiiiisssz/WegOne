@@ -171,7 +171,7 @@ cd 'C:\caminho\para\seu\projeto' & 'C:\caminho\para\java.exe' '@C:\caminho\para\
 Utilizamos inteligência artificial para criar o front-end do nosso projeto. Fizemos isso para que os usuários tivessem uma noção de como seria o projeto se ele estivesse integrado com o front-end. Acreditamos que isso possa servir como um material extra para que os usuários entendam melhor as funcionalidades e o objetivo do projeto, tornando-o mais dinâmico e interativo.
 
 
-<img loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="50%"/>
+<img loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="100%"/>
 
 
 
