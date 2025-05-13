@@ -162,7 +162,7 @@ cd 'C:\caminho\para\seu\projeto' & 'C:\caminho\para\java.exe' '@C:\caminho\para\
 
 # 🎥 Vídeo Rodando o Projeto:
 
-<img  align= "center" loading="Rodando o proejto" src="/assets/TUTORIAL.gif" width="50%"/>
+<img  align= "center" loading="Rodando o proejto" src="/assets/TUTORIAL.gif" width="50%" width="100%"/>
 
 
 
