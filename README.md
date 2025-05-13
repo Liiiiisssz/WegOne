@@ -7,7 +7,7 @@
 
 </p>
 
-<img align="center" loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge" width="100%"/>
+<img  align= "center" loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="100%"/>
 
 
 # ⚙️ Objetivo Geral
