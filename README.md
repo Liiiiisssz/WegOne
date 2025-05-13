@@ -7,6 +7,9 @@
 
 </p>
 
+<img align="center" loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge" width="100%"/>
+
+
 # ⚙️ Objetivo Geral
 1) Centralizar e organizar as regras de conduta da WEG em uma plataforma acessível.
 2) Facilitar o acesso dos colaboradores a informações.
