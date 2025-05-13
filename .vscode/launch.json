@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteConexao",
+            "request": "launch",
+            "mainClass": "com.TesteConexao",
+            "projectName": "traducao"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
