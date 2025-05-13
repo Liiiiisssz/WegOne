@@ -78,7 +78,7 @@ O sistema WegOne possui diversas funcionalidades integradas, tais como:
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img loading="lazy" src="https://img.shields.io/badge/%20JAVA-FF69B4?style=for-the-badge&logo=" style="width: 100px;"/>
   <img loading="lazy" src="https://img.shields.io/badge/%20JIRA-1E90FF?style=for-the-badge&logo=" style="width: 96px;"/>
-  <img loading="lazy" src="https://img.shields.io/badge/%20GITHUB-FF7A00?style=for-the-badge&logo=" style="width: 131px;"/>
+  <img loading="lazy" src="https://img.shields.io/badge/%20GITHUB-8A4FFF?style=for-the-badge&logo=" style="width: 131px;"/>
 </div>
 
 
