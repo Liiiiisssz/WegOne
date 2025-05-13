@@ -7,7 +7,7 @@
 
 </p>
 
-<img  align= "center" loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="100%"/>
+<img  align= "center" loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="50%"/>
 
 
 # ⚙️ Objetivo Geral
