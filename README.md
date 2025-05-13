@@ -83,6 +83,34 @@ O sistema WegOne possui diversas funcionalidades integradas, tais como:
 </div>
 
 
+
+
+# 🏠 Estrutura do Projeto
+
+O projeto deve apresentar na estrutura abaixo, sem variações:
+
+```bash
+WEGONE
+└── traducao
+    └── src
+        └── main
+            └── java
+                └── com
+                    ├── Conexao.java
+                    ├── ManualCondutaOperacoesSetoriais.java
+                    ├── ManualOperacao.java
+                    ├── ManutencaoReparos.java
+                    ├── OrientacaoDAO.java
+                    ├── ProcedimentoSeguranca.java
+                    ├── TelaInicial.java
+                    ├── TesteConexao.java
+                    ├── TestesDiagnostico.java
+                    ├── Traducoes.java
+```
+
+
+
+
 # 🔎😺 1. Acesse o Repositório no GitHub
 Você pode acessar o código fonte do projeto através do link a seguir:<a href="https://github.com/Liiiiisssz/WegOne.git" style="font-size: 23px; margin-top: 10px; padding: 10px; text-decoration: none; color: rgb(3, 0, 46); display: block;">
 <sub>Acessar o código fonte do projeto</sub>
