@@ -6,15 +6,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class ConectarBanco {
+    private static final String url = "mysql://root:AqJhQqUfxqRDnzePcrJXllhWngUzxuwe@ballast.proxy.rlwy.net:15606/railway";
+    private static final String usuario = "root";
+    private static final String senha = "AqJhQqUfxqRDnzePcrJXllhWngUzxuwe";
 
-    public static void main(String[] args) {
-
-        String url = "mysql://root:AqJhQqUfxqRDnzePcrJXllhWngUzxuwe@ballast.proxy.rlwy.net:15606/railway";
-        String usuario = "root";
-        String senha = "AqJhQqUfxqRDnzePcrJXllhWngUzxuwe";
+    public ConectarBanco() {
 
         try {
-
+  
             Connection conexao = DriverManager.getConnection(url, usuario, senha);
             System.out.println("Conexão realizada com sucesso!");
 
@@ -32,6 +31,13 @@ public class ConectarBanco {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        
     }
+
+    public static Connection Conectar() throws SQLException {
+        return DriverManager.getConnection(url, usuario, senha);
+    }
+
 }
 
