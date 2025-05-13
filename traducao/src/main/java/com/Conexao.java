@@ -1,4 +1,5 @@
 package com;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -10,8 +11,14 @@ public class Conexao {
 
     public static Connection getConexao() {
         try {
+            // Carrega o driver MySQL
             Class.forName("com.mysql.cj.jdbc.Driver"); 
-            return DriverManager.getConnection(URL, USUARIO, SENHA);
+            Connection conn = DriverManager.getConnection(URL, USUARIO, SENHA);
+            
+            // Desativa o autoCommit
+            conn.setAutoCommit(false);  // As transações não serão confirmadas automaticamente
+
+            return conn;
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException("Erro na conexão com o banco de dados", e);
         }
