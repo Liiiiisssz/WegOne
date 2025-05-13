@@ -7,8 +7,6 @@
 
 </p>
 
-<img  align= "center" loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="50%"/>
-
 
 # ⚙️ Objetivo Geral
 1) Centralizar e organizar as regras de conduta da WEG em uma plataforma acessível.
@@ -161,9 +159,24 @@ cd 'C:\caminho\para\seu\projeto' & 'C:\caminho\para\java.exe' '@C:\caminho\para\
 
 ```
 
+
 # 🎥 Vídeo Rodando o Projeto:
 
-<img  align= "center" loading="Rodando o proejto" src="/assets/TUTORIAL.gif" width="50%" width="100%"/>
+<img  align= "center" loading="Rodando o proejto" src="/assets/TUTORIAL.gif" width="100%"/>
+
+# 📺 Front-End:
+
+Utilizamos inteligência artificial para criar o front-end do nosso projeto. Fizemos isso para que os usuários tivessem uma noção de como seria o projeto se ele estivesse integrado com o front-end. Acreditamos que isso possa servir como um material extra para que os usuários entendam melhor as funcionalidades e o objetivo do projeto, tornando-o mais dinâmico e interativo.
+
+
+<img loading="Demonstração funcionamento front" src="/assets/video%20git.gif" width="100%"/>
+
+
+
+‼️A inteligência artificial foi usada na criação do front-end porque tivemos poucas aulas da matéria e não possuímos domínio sobre o assunto, mas achamos que seria interessante apresentar essa outra perspectiva para quem for ver o projeto.
+
+
+
 
 
 
