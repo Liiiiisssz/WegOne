@@ -486,6 +486,11 @@ public class ManualOperacao {
 			manualOperacaoConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
+			String idioma = "PT";
+
+            ManualOpDAO dao = new ManualOpDAO();
+            dao.cadastrarManual(titulosManuaisOperacao[contadorCadastro], manualOperacaoConteudo[contadorCadastro], idioma);
+								
 			contadorCadastro++;
 
 		} else {
