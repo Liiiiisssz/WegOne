@@ -23,24 +23,21 @@ public class ManualOperacao {
     private String conteudo;
     private String idioma;
 
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
-
-    public String getTitulo() { return titulo; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
-
-    public String getConteudo() { return conteudo; }
-    public void setConteudo(String conteudo) { this.conteudo = conteudo; }
-
-    public String getIdioma() { return idioma; }
-    public void setIdioma(String idioma) { this.idioma = idioma; }
+    
 
 	public ManualOperacao(Traducoes tradutor) {
 
 		this.tradutor = tradutor;
 	}
 
-	public void cadastrarManual(String titulo, String conteudo, String idioma) {
+	public void cadastrarManual(String idioma) {
+
+		System.out.println("Digite o título do manual:");
+		String titulo = leia.nextLine();
+
+		System.out.println("Digite o conteúdo do manual:");
+		String conteudo = leia.nextLine();
+
 		String sql = "INSERT INTO manual_operacao (titulo, conteudo, idioma) VALUES (?, ?, ?)";
 
 		try (Connection conn = Conexao.getConexao(); 
@@ -63,55 +60,6 @@ public class ManualOperacao {
 		}
 	}
 
-	public void cadastrarManualEN() { //cadastro em INGLES
-
-		if (contadorCadastroEN < titulosManuaisOperacaoEN.length) {
-
-			System.out.println(tradutor.get("tituloManualOp"));
-			titulosManuaisOperacaoEN[contadorCadastroEN] = leia.nextLine();
-
-			System.out.println(" ");
-
-			System.out.println(tradutor.get("conteudoManualOp"));
-			manualOperacaoConteudoEN[contadorCadastroEN] = leia.nextLine();
-			System.out.println(" ");
-
-			contadorCadastroEN++;
-
-		} else {
-
-			System.out.println(tradutor.get("numeroMax"));
-
-		}
-
-	}
-
-	public void cadastrarManualDE() { //cadastro em ALEMÃO
-
-		if (contadorCadastroDE < titulosManuaisOperacaoDE.length) {
-
-			System.out.println(tradutor.get("tituloManualOp"));
-			titulosManuaisOperacaoDE[contadorCadastroDE] = leia.nextLine();
-
-			System.out.println(" ");
-
-			System.out.println(tradutor.get("conteudoManualOp"));
-			manualOperacaoConteudoDE[contadorCadastroDE] = leia.nextLine();
-			System.out.println(" ");
-
-			contadorCadastroDE++;
-
-		} else {
-
-			System.out.println(tradutor.get("numeroMax"));
-
-		}
-
-	}
-
-
-
-	
 
 	public void pesquisaManualTitulo() {
 		System.out.println(tradutor.get("tituloPesq"));
@@ -130,7 +78,7 @@ public class ManualOperacao {
 		}
 
 		System.out.println(tradutor.get("enter"));
-		leia.nextLine(); // pausa para ler
+		leia.nextLine();
 	}
 
 
@@ -754,4 +702,32 @@ public class ManualOperacao {
 
 	}
 
+	//getters e setters
+	public int getId() { 
+		return id; 
+	}
+    public void setId(int id) { 
+		this.id = id; 
+	}
+
+    public String getTitulo() { 
+		return titulo; 
+	}
+    public void setTitulo(String titulo) { 
+		this.titulo = titulo; 
+	}
+
+    public String getConteudo() { 
+		return conteudo; 
+	}
+    public void setConteudo(String conteudo) { 
+		this.conteudo = conteudo; 
+	}
+
+    public String getIdioma() { 
+		return idioma; 
+	}
+    public void setIdioma(String idioma) { 
+		this.idioma = idioma; 
+	}
 }

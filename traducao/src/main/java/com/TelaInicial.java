@@ -11,10 +11,11 @@ public class TelaInicial {
         Traducoes tradutor;
 
         String arquivo;
+        String idioma;
 
-        int idioma;
+        int idiomaEscolha;
         int decisaoInicial = 0;
-        int tipoOrientacao;
+        int tipoOrientacao = 0;
         int tipoPesquisa;
 
         do {
@@ -32,9 +33,9 @@ public class TelaInicial {
 
             while (true) {
                 try {
-                    idioma = leia.nextInt();  
+                    idiomaEscolha = leia.nextInt();  
                    
-                    if (idioma >= 1 && idioma <= 3) {
+                    if (idiomaEscolha >= 1 && idiomaEscolha <= 3) {
                         break;  
                     } else {
                         System.out.println("Idioma inválido! Por favor, digite 1, 2 ou 3.");
@@ -47,23 +48,26 @@ public class TelaInicial {
                 }
             }
 
-            switch (idioma) {
+            switch (idiomaEscolha) {
                
                 case 1:
                     arquivo = "pt.json";
+                    idioma = "PT";
                     break;
 
                 case 2:
                     arquivo = "en.json";
+                    idioma = "EN";
                     break;
 
                 case 3:
                     arquivo = "de.json";
+                    idioma = "DE";
                     break;
 
                 default:
                     arquivo = "pt.json";
-
+                    idioma = "PT";
             }
 
             try {
@@ -166,135 +170,43 @@ public class TelaInicial {
                                 }
                             }
 
-                            if(arquivo.equals("pt.json")){ //cadastro PT
+                            switch (tipoOrientacao) {
 
-                                switch (tipoOrientacao) {
+                                case 1: // manualOperação
+                                    System.out.println(" ");
+                                    manualOperacao.cadastrarManual(idioma);
+                                    break;
 
-                                    case 1: // manualOperação
-                                        System.out.println(" ");
-                                        System.out.println(tradutor.get("tituloManualOp"));
-                                        String titulo = leia.nextLine();
+                                case 2: //procedimentoSeguranca
+                                    System.out.println(" ");
+                                    procedimentoSeguranca.cadastrarManual();
+                                    break;
 
-                                        System.out.println(" ");
-                                        System.out.println(tradutor.get("conteudoManualOp"));
-                                        String conteudo = leia.nextLine();
+                                case 3: //manutencaoReparos
+                                    System.out.println(" ");
+                                    manutencaoReparos.cadastrarManual();
+                                    break;
 
-                                        String idioma2 = "PT"; // ou o que for seu critério para definir o idioma
+                                case 4: //testesDiagnostico
+                                    System.out.println(" ");
+                                    testesDiagnostico.cadastrarManual();
+                                    break;
 
-                                        manualOperacao.cadastrarManual(titulo, conteudo, idioma2);
-                                        break;
+                                case 5: //manualCondutaOperacoesSetoriais
+                                    System.out.println(" ");
+                                    manualCondutaOpSet.cadastrarManual();
+                                    break;
 
-                                    case 2: //procedimentoSeguranca
-                                        System.out.println(" ");
-                                        procedimentoSeguranca.cadastrarManual();
-                                        break;
+                                case 6: //VoltarInicio
+                                    System.out.println(" ");
+                                    break;
 
-                                    case 3: //manutencaoReparos
-                                        System.out.println(" ");
-                                        manutencaoReparos.cadastrarManual();
-                                        break;
-
-                                    case 4: //testesDiagnostico
-                                        System.out.println(" ");
-                                        testesDiagnostico.cadastrarManual();
-                                        break;
-
-                                    case 5: //manualCondutaOperacoesSetoriais
-                                        System.out.println(" ");
-                                        manualCondutaOpSet.cadastrarManual();
-                                        break;
-
-                                    case 6: //VoltarInicio
-                                        System.out.println(" ");
-                                        break;
-
-                                    default:
-                                        System.out.println(" ");
-                                        System.out.println(tradutor.get("invalid"));
-                                        break;
-                                }
-
-                            } else if (arquivo.equals("en.json")){ //cadastro INGLES
-
-                                switch (tipoOrientacao) {
-
-                                    case 1: //manualOperação
-                                        System.out.println(" ");
-                                        manualOperacao.cadastrarManualEN();
-                                        break;
-
-                                    case 2: //procedimentoSeguranca
-                                        System.out.println(" ");
-                                        procedimentoSeguranca.cadastrarManualEN();
-                                        break;
-
-                                    case 3: //manutencaoReparos
-                                        System.out.println(" ");
-                                        manutencaoReparos.cadastrarManualEN();
-                                        break;
-
-                                    case 4: //testesDiagnostico
-                                        System.out.println(" ");
-                                        testesDiagnostico.cadastrarManualEN();
-                                        break;
-
-                                    case 5: //manualCondutaOperacoesSetoriais
-                                        System.out.println(" ");
-                                        manualCondutaOpSet.cadastrarManualEN();
-                                        break;
-
-                                    case 6: //VoltarInicio
-                                        System.out.println(" ");
-                                        break;
-
-                                    default:
-                                        System.out.println(" ");
-                                        System.out.println(tradutor.get("invalid"));
-                                        break;
-                                }
-
-                            } else if (arquivo.equals("de.json")){ //cadastro ALEMÃO
-
-                                switch (tipoOrientacao) {
-
-                                    case 1: //manualOperação
-                                        System.out.println(" ");
-                                        manualOperacao.cadastrarManualDE();
-                                        break;
-
-                                    case 2: //procedimentoSeguranca
-                                        System.out.println(" ");
-                                        procedimentoSeguranca.cadastrarManualDE();
-                                        break;
-
-                                    case 3: //manutencaoReparos
-                                        System.out.println(" ");
-                                        manutencaoReparos.cadastrarManualDE();
-                                        break;
-
-                                    case 4: //testesDiagnostico
-                                        System.out.println(" ");
-                                        testesDiagnostico.cadastrarManualDE();
-                                        break;
-
-                                    case 5: //manualCondutaOperacoesSetoriais
-                                        System.out.println(" ");
-                                        manualCondutaOpSet.cadastrarManualDE();
-                                        break;
-
-                                    case 6: //VoltarInicio
-                                        System.out.println(" ");
-                                        break;
-
-                                    default:
-                                        System.out.println(" ");
-                                        System.out.println(tradutor.get("invalid"));
-                                        break;
-                                }
-
+                                default:
+                                    System.out.println(" ");
+                                    System.out.println(tradutor.get("invalid"));
+                                    break;
                             }
-                           
-                    break;
+                            break;
 
                     case 2: //pesquisa
                         System.out.println("___________________________________________________");
@@ -366,58 +278,20 @@ public class TelaInicial {
                                         leia.nextLine();
                                     }
                                 }
+                
+                                switch(tipoPesquisa){
                    
-                                if(arquivo.equals("pt.json")){ //PT
-
-                                    switch(tipoPesquisa){
+                                case 1:
+                                    System.out.println(" ");
+                                    manualOperacao.pesquisaManualTitulo();
+                                    break;
                    
-                                    case 1:
-                                        System.out.println(" ");
-                                        manualOperacao.pesquisaManualTitulo();
-                                        break;
+                                case 2:
+                                    System.out.println(" ");
+                                    manualOperacao.pesquisaManualCodigo();
+                                    break;
                    
-                                    case 2:
-                                        System.out.println(" ");
-                                        manualOperacao.pesquisaManualCodigo();
-                                        break;
-                   
-                                    }
-
-                                } else if (arquivo.equals("en.json")){ //INGLES
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manualOperacao.pesquisaManualTituloEN();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manualOperacao.pesquisaManualCodigoEN();
-                                            break;
-                       
-                                    }
-
-                                } else if (arquivo.equals("de.json")){ //ALEMÃO
-
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manualOperacao.pesquisaManualTituloDE();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manualOperacao.pesquisaManualCodigoDE();
-                                            break;
-                       
-                                    }
-
                                 }
-                               
                                 break;
 
                             case 2: //procedimentoSeguranca
