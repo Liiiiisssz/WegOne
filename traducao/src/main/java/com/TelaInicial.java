@@ -262,7 +262,7 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("chooseTipoPesq"));
                                 System.out.println(tradutor.get("resposta"));
                                
-                                 while (true) {
+                                while (true) {
                                     try {
                                         tipoPesquisa = leia.nextInt();  
                                     

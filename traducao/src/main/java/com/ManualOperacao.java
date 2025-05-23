@@ -22,13 +22,13 @@ public class ManualOperacao {
     private String titulo;
     private String conteudo;
     private String idioma;
-
     
 
 	public ManualOperacao(Traducoes tradutor) {
 
 		this.tradutor = tradutor;
 	}
+
 
 	public void cadastrarManual(String idioma) {
 
@@ -79,100 +79,6 @@ public class ManualOperacao {
 
 		System.out.println(tradutor.get("enter"));
 		leia.nextLine();
-	}
-
-
-	public void pesquisaManualTituloEN() { //pesquisa TITULO em INGLES
-
-		System.out.println(tradutor.get("titulosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
-
-			if (manualOperacaoConteudoEN[i] != null) {
-				System.out.println(titulosManuaisOperacaoEN[i]);
-			}
-		}
-
-		System.out.println(" ");
-
-		System.out.println(tradutor.get("tituloPesq"));
-		String pesquisa = leia.nextLine();
-
-		boolean encontrado = false;
-
-		System.out.println(" ");
-
-		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
-
-			if (titulosManuaisOperacaoEN[i] != null) {
-
-				if (titulosManuaisOperacaoEN[i].contains(pesquisa)) {
-
-					System.out.println(tradutor.get("encontrado"));
-					System.out.println(" ");
-					System.out.println(titulosManuaisOperacaoEN[i]);
-					System.out.println(manualOperacaoConteudoEN[i]);
-					encontrado = true;
-
-				}
-			}
-		}
-
-		if (!encontrado) {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-		System.out.println(" ");
-        System.out.println(tradutor.get("enter"));
-        leia.nextLine();
-	}
-
-	public void pesquisaManualTituloDE() { //pesquisa TITULO em ALEMÃO
-
-		System.out.println(tradutor.get("titulosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
-
-			if (manualOperacaoConteudoDE[i] != null) {
-				System.out.println(titulosManuaisOperacaoDE[i]);
-			}
-		}
-
-		System.out.println(" ");
-
-		System.out.println(tradutor.get("tituloPesq"));
-		String pesquisa = leia.nextLine();
-
-		boolean encontrado = false;
-
-		System.out.println(" ");
-
-		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
-
-			if (titulosManuaisOperacaoDE[i] != null) {
-
-				if (titulosManuaisOperacaoDE[i].contains(pesquisa)) {
-
-					System.out.println(tradutor.get("encontrado"));
-					System.out.println(" ");
-					System.out.println(titulosManuaisOperacaoDE[i]);
-					System.out.println(manualOperacaoConteudoDE[i]);
-					encontrado = true;
-
-				}
-			}
-		}
-
-		if (!encontrado) {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-		System.out.println(" ");
-        System.out.println(tradutor.get("enter"));
-        leia.nextLine();
-
 	}
 
 	public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
