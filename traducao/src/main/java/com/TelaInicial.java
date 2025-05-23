@@ -148,10 +148,11 @@ public class TelaInicial {
                             System.out.println(tradutor.get("chooseCad"));
                             System.out.println(tradutor.get("resposta"));
                            
-                             while (true) {
+                            while (true) {
                                 try {
                                     tipoOrientacao = leia.nextInt();  
-                                
+                                    leia.nextLine();
+
                                     if (tipoOrientacao >= 1 && tipoOrientacao <= 6) {
                                         break;  
                                     } else {
@@ -169,9 +170,18 @@ public class TelaInicial {
 
                                 switch (tipoOrientacao) {
 
-                                    case 1: //manualOperação
+                                    case 1: // manualOperação
                                         System.out.println(" ");
-                                        manualOperacao.cadastrarManual();
+                                        System.out.println(tradutor.get("tituloManualOp"));
+                                        String titulo = leia.nextLine();
+
+                                        System.out.println(" ");
+                                        System.out.println(tradutor.get("conteudoManualOp"));
+                                        String conteudo = leia.nextLine();
+
+                                        String idioma2 = "PT"; // ou o que for seu critério para definir o idioma
+
+                                        manualOperacao.cadastrarManual(titulo, conteudo, idioma2);
                                         break;
 
                                     case 2: //procedimentoSeguranca

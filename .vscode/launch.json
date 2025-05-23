@@ -9,6 +9,20 @@
             "name": "TesteConexao",
             "request": "launch",
             "mainClass": "com.TesteConexao",
+            "projectName": "wegone"
+        },
+        {
+            "type": "java",
+            "name": "TelaInicial",
+            "request": "launch",
+            "mainClass": "com.TelaInicial",
+            "projectName": "wegone"
+        },
+        {
+            "type": "java",
+            "name": "TesteConexao",
+            "request": "launch",
+            "mainClass": "com.TesteConexao",
             "projectName": "traducao"
         },
         {
