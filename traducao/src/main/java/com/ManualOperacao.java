@@ -27,6 +27,8 @@ public class ManualOperacao {
 		System.out.println(tradutor.get("tituloManualOp"));
 		titulo = leia.nextLine();
 
+		System.out.println(" ");
+		
 		System.out.println(tradutor.get("conteudoManualOp"));
 		conteudo = leia.nextLine();
 

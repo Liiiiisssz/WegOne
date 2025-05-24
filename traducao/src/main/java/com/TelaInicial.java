@@ -191,7 +191,7 @@ public class TelaInicial {
 
                                 case 5: //manualCondutaOperacoesSetoriais
                                     System.out.println(" ");
-                                    manualCondutaOpSet.cadastrarManual();
+                                    manualCondutaOpSet.cadastrarManual(idioma);
                                     break;
 
                                 case 6: //VoltarInicio
