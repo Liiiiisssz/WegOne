@@ -83,5 +83,12 @@
     "invalid1a6": "Invalid input! Please enter a number between 1 and 6.",
     "invalid1a2": "Invalid input! Please enter a number between 1 and 2.",
     "invalido": "Invalid input!",
-    "entradaInvalid": "Invalid input! Please enter a number."
+    "entradaInvalid": "Invalid input! Please enter a number.",
+
+
+    "sucessoDB": "Guidance successfully registered in the database!",
+    "DBnAfetado": "No rows affected in the database. Please check the registration.",
+    "erroDB": "Error while registering guidance in the database:",
+    "erroPesqDB": "Error while searching for guidance in the database."
+
 }

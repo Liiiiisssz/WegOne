@@ -80,5 +80,11 @@
     "invalid1a6": "Ungültige Eingabe! Bitte geben Sie eine Zahl zwischen 1 und 6 ein.",
     "invalid1a2": "Ungültige Eingabe! Bitte geben Sie eine Zahl zwischen 1 und 2 ein.",
     "invalido": "Ungültige Eingabe!",
-    "entradaInvalid": "Ungültige Eingabe! Bitte geben Sie eine Zahl ein."
+    "entradaInvalid": "Ungültige Eingabe! Bitte geben Sie eine Zahl ein.",
+
+
+    "sucessoDB": "Beratung erfolgreich in der Datenbank registriert!",
+    "DBnAfetado": "Keine Zeile in der Datenbank betroffen. Bitte überprüfen Sie die Eingabe.",
+    "erroDB": "Fehler beim Registrieren der Beratung in der Datenbank:",
+    "erroPesqDB": "Fehler bei der Suche nach der Beratung in der Datenbank."
 }

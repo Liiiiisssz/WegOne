@@ -1,8 +1,10 @@
 package com;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.InputMismatchException;
+import java.util.Map;
 import java.util.Scanner;
 
 public class ManualOperacao {
@@ -32,10 +34,10 @@ public class ManualOperacao {
 
 	public void cadastrarManual(String idioma) {
 
-		System.out.println("Digite o título do manual:");
+		System.out.println(tradutor.get("tituloManualOp"));
 		String titulo = leia.nextLine();
 
-		System.out.println("Digite o conteúdo do manual:");
+		System.out.println(tradutor.get("conteudoManualOp"));
 		String conteudo = leia.nextLine();
 
 		String sql = "INSERT INTO manual_operacao (titulo, conteudo, idioma) VALUES (?, ?, ?)";
@@ -50,36 +52,48 @@ public class ManualOperacao {
 			int rowsAffected = stmt.executeUpdate();
 
 			if (rowsAffected > 0) {
-				System.out.println("Manual de operação cadastrado com sucesso no banco!");
+				System.out.println(tradutor.get("sucessoDB"));
 			} else {
-				System.out.println("Nenhuma linha afetada no banco. Verifique o cadastro.");
+				System.out.println(tradutor.get("DBnAfetado"));
 			}
 		} catch (SQLException e) {
-			System.out.println("Erro ao cadastrar manual no banco:");
+			System.out.println(tradutor.get("erroDB"));
 			e.printStackTrace();
 		}
 	}
 
 
 	public void pesquisaManualTitulo() {
+
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
-		ManualOpDAO dao = new ManualOpDAO();
-		ManualOperacao manual = dao.pesquisarPorTitulo(pesquisa);
+		String sql = "SELECT * FROM manual_operacao WHERE titulo LIKE ?";
 
-		if (manual != null) {
-			System.out.println(tradutor.get("encontrado"));
-			System.out.println("Título: " + manual.getTitulo());
-			System.out.println("Conteúdo: " + manual.getConteudo());
-			System.out.println("Idioma: " + manual.getIdioma());
-		} else {
-			System.out.println(tradutor.get("nEncontrado"));
+		try (Connection conn = Conexao.getConexao();
+			PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+			stmt.setString(1, "%" + pesquisa + "%");
+			ResultSet rs = stmt.executeQuery();
+
+			if (rs.next()) {
+				System.out.println(tradutor.get("encontrado"));
+				System.out.println("Título: " + rs.getString("titulo"));
+				System.out.println("Conteúdo: " + rs.getString("conteudo"));
+				System.out.println("Idioma: " + rs.getString("idioma"));
+			} else {
+				System.out.println(tradutor.get("nEncontrado"));
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.out.println(tradutor.get("erroPesqDB"));
 		}
 
 		System.out.println(tradutor.get("enter"));
 		leia.nextLine();
 	}
+
 
 	public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
 

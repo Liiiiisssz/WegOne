@@ -82,5 +82,11 @@
     "invalid1a6": "Entrada inválida! Por favor, digite um número entre 1 e 6.",
     "invalid1a2": "Entrada inválida! Por favor, digite um número entre 1 e 2.",
     "invalido": "Entrada inválida!",
-    "entradaInvalid": "Entrada inválida! Por favor, digite um número."
+    "entradaInvalid": "Entrada inválida! Por favor, digite um número.",
+
+
+    "sucessoDB": "Orientação cadastrada com sucesso no banco de dados!",
+    "DBnAfetado": "Nenhuma linha afetada no banco. Verifique o cadastro.",
+    "erroDB": "Erro ao cadastrar orientação no banco de dados: ",
+    "erroPesqDB": "Erro ao pesquisar orientação no banco de dados."
 }
