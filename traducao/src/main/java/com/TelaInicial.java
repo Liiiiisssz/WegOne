@@ -69,7 +69,6 @@ public class TelaInicial {
                     arquivo = "pt.json";
                     idioma = "PT";
             }
-
             try {
                 tradutor = new Traducoes(arquivo);
 
@@ -120,12 +119,10 @@ public class TelaInicial {
                             }
 
                         } catch (InputMismatchException e) {
-                        
                             System.out.println(tradutor.get("entradaInvalid"));
                             leia.nextLine();
                         }
                     }
-
                     System.out.println(" ");
 
                     switch (decisaoInicial) {
@@ -324,7 +321,7 @@ public class TelaInicial {
                                     }
                                 }
                    
-                                if(arquivo.equals("pt.json")){ //pesquisa PT
+                                if(arquivo.equals("pt.json")){ 
 
                                     switch(tipoPesquisa){
                    
@@ -339,40 +336,7 @@ public class TelaInicial {
                                         break;
                    
                                     }
-
-                                } else if(arquivo.equals("en.json")){ //pesquisa INGLES
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            procedimentoSeguranca.pesquisarManualTituloEN();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            procedimentoSeguranca.pesquisaManualCodigoEN();
-                                            break;
-                       
-                                    }
-
-                                } else if(arquivo.equals("de.json")){ //pesquisa ALEMAO
-                               
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            procedimentoSeguranca.pesquisarManualTituloDE();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            procedimentoSeguranca.pesquisaManualCodigoDE();
-                                            break;
-                       
-                                    }
                                 }
-                               
                                 break;
 
                             case 3: //manutencaoReparos
@@ -404,7 +368,7 @@ public class TelaInicial {
                                     }
                                 }
   
-                                if(arquivo.equals("pt.json")){ //pesquisa PT
+                                if(arquivo.equals("pt.json")){ 
 
                                     switch(tipoPesquisa){
                    
@@ -420,39 +384,7 @@ public class TelaInicial {
                    
                                     }
 
-                                } else if (arquivo.equals("en.json")){ //pesquisa INGLES
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manutencaoReparos.pesquisaManualTituloEN();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manutencaoReparos.pesquisaManualCodigoEN();
-                                            break;
-                       
-                                    }
-
-                                } else if (arquivo.equals("de.json")){ //pesquisa ALEMÃO
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manutencaoReparos.pesquisaManualTituloDE();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manutencaoReparos.pesquisaManualCodigoDE();
-                                            break;
-                       
-                                    }
-                                }
-                               
+                                } 
                                 break;
 
                             case 4: //testesDiagnostico
@@ -485,7 +417,7 @@ public class TelaInicial {
                                     }
                                 }
                    
-                                if(arquivo.equals("pt.json")){ //pesquisa PT
+                                if(arquivo.equals("pt.json")){ 
 
                                     switch(tipoPesquisa){
                    
@@ -501,39 +433,7 @@ public class TelaInicial {
                    
                                     }
 
-                                } else if(arquivo.equals("en.json")){ //pesquisa INGLES
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            testesDiagnostico.pesquisarManualTituloEN();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            testesDiagnostico.pesquisaManualCodigoEN();
-                                            break;
-                       
-                                    }
-
-                                } else if(arquivo.equals("de.json")){ //pesquisa ALEMAO
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            testesDiagnostico.pesquisarManualTituloDE();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            testesDiagnostico.pesquisaManualCodigoDE();
-                                            break;
-                       
-                                        }
-                                }
-                               
+                                } 
                                 break;
 
                             case 5: //manualCondutaOperacoesSetoriais
@@ -583,39 +483,7 @@ public class TelaInicial {
                    
                                     }
 
-                                } else if (arquivo.equals("en.json")){ //INGLES
-
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manualCondutaOpSet.pesquisaManualTituloEN();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manualCondutaOpSet.pesquisaManualCodigoEN();
-                                            break;
-                       
-                                    }
-
-                                } else if (arquivo.equals("de.json")){ //ALEMÃO
-                               
-                                    switch(tipoPesquisa){
-                   
-                                        case 1:
-                                            System.out.println(" ");
-                                            manualCondutaOpSet.pesquisaManualTituloDE();
-                                            break;
-                       
-                                        case 2:
-                                            System.out.println(" ");
-                                            manualCondutaOpSet.pesquisaManualCodigoDE();
-                                            break;
-                       
-                                    }
-                                }
-                            
+                                } 
                                 break;
 
                             case 6: //VoltarInicio
@@ -626,7 +494,6 @@ public class TelaInicial {
                                 System.out.println(tradutor.get("invalid"));
                                 break;
                         }
-
                         break;
                            
                     case 3: //editar
@@ -667,124 +534,42 @@ public class TelaInicial {
                             }
                         }
 
-                        if(arquivo.equals("pt.json")){ //editar em PT
+                        switch(tipoOrientacao){
 
-                            switch(tipoOrientacao){
-
-                            case 1: //manualOperacao
-                                System.out.println(" ");
-                                manualOperacao.editarManual();
-                                break;
+                        case 1: //manualOperacao
+                            System.out.println(" ");
+                            manualOperacao.editarManual();
+                            break;
                            
-                            case 2: //procedimentoSeguranca
-                                System.out.println(" ");
-                                procedimentoSeguranca.editarManual();
-                                break;
+                        case 2: //procedimentoSeguranca
+                            System.out.println(" ");
+                            procedimentoSeguranca.editarManual();
+                            break;
 
-                            case 3: //manutencaoReparos
-                                System.out.println(" ");
-                                manutencaoReparos.editarManual();
-                                break;
+                        case 3: //manutencaoReparos
+                            System.out.println(" ");
+                            manutencaoReparos.editarManual();
+                            break;
 
-                            case 4: //testesDiagnostico
-                                System.out.println(" ");
-                                testesDiagnostico.editarManual();
-                                break;
+                        case 4: //testesDiagnostico
+                            System.out.println(" ");
+                            testesDiagnostico.editarManual();
+                            break;
 
-                            case 5: //manualCondutaOperacoesSetoriais
-                                System.out.println(" ");
-                                manualCondutaOpSet.editarManual();
-                                break;
+                        case 5: //manualCondutaOperacoesSetoriais
+                            System.out.println(" ");
+                            manualCondutaOpSet.editarManual();
+                            break;
                            
-                            case 6: //VoltarInicio
-                                System.out.println(" ");
-                                break;
+                        case 6: //VoltarInicio
+                            System.out.println(" ");
+                            break;
 
-                            default://NenhumaOpçãoAcima
-                                System.out.println(tradutor.get("invalid"));
-                                break;
+                        default://NenhumaOpçãoAcima
+                            System.out.println(tradutor.get("invalid"));
+                            break;
 
-                            }
-
-                        } else if (arquivo.equals("en.json")){ //editar em INGLES
-
-                            switch(tipoOrientacao){
-
-                                case 1: //manualOperacao
-                                    System.out.println(" ");
-                                    manualOperacao.editarManualEN();
-                                    break;
-                               
-                                case 2: //procedimentoSeguranca
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.editarManualEN();
-                                    break;
-       
-                                case 3: //manutencaoReparos
-                                    System.out.println(" ");
-                                    manutencaoReparos.editarManualEN();
-                                    break;
-       
-                                case 4: //testesDiagnostico
-                                    System.out.println(" ");
-                                    testesDiagnostico.editarManualEN();
-                                    break;
-       
-                                case 5: //manualCondutaOperacoesSetoriais
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.editarManualEN();
-                                    break;
-                               
-                                case 6: //VoltarInicio
-                                    System.out.println(" ");
-                                    break;
-       
-                                default://NenhumaOpçãoAcima
-                                    System.out.println(tradutor.get("invalid"));
-                                    break;
-       
-                            }
-
-                        } else if (arquivo.equals("de.json")){ //editar em ALEMÃO
-
-                            switch(tipoOrientacao){
-
-                                case 1: //manualOperacao
-                                    System.out.println(" ");
-                                    manualOperacao.editarManualDE();
-                                    break;
-                               
-                                case 2: //procedimentoSeguranca
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.editarManualDE();
-                                    break;
-       
-                                case 3: //manutencaoReparos
-                                    System.out.println(" ");
-                                    manutencaoReparos.editarManualDE();
-                                    break;
-       
-                                case 4: //testesDiagnostico
-                                    System.out.println(" ");
-                                    testesDiagnostico.editarManualDE();
-                                    break;
-       
-                                case 5: //manualCondutaOperacoesSetoriais
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.editarManualDE();
-                                    break;
-                               
-                                case 6: //VoltarInicio
-                                    System.out.println(" ");
-                                    break;
-       
-                                default://NenhumaOpçãoAcima
-                                    System.out.println(tradutor.get("invalid"));
-                                    break;
-       
-                                }
                         }
-
                         break;
                    
                     case 4: //excluir
@@ -825,124 +610,42 @@ public class TelaInicial {
                             }
                         }
 
-                        if(arquivo.equals("pt.json")){ //PT
+                        switch(tipoOrientacao){
 
-                            switch(tipoOrientacao){
-
-                            case 1: //manualOperacao
-                                System.out.println(" ");
-                                manualOperacao.excluirManual();
-                                break;
+                        case 1: //manualOperacao
+                            System.out.println(" ");
+                            manualOperacao.excluirManual();
+                            break;
                            
                             case 2: //procedimentoSeguranca
                                 System.out.println(" ");
                                 procedimentoSeguranca.excluirManual();
                                 break;
 
-                            case 3: //manutencaoReparos
-                                System.out.println(" ");
-                                manutencaoReparos.excluirManual();
-                                break;
+                        case 3: //manutencaoReparos
+                            System.out.println(" ");
+                            manutencaoReparos.excluirManual();
+                            break;
 
-                            case 4: //testesDiagnostico
-                                System.out.println(" ");
-                                testesDiagnostico.excluirManual();
-                                break;
+                        case 4: //testesDiagnostico
+                            System.out.println(" ");
+                            testesDiagnostico.excluirManual();
+                            break;
 
-                            case 5: //manualCondutaOperacoesSetoriais
-                                System.out.println(" ");
-                                manualCondutaOpSet.excluirManual();
-                                break;
+                        case 5: //manualCondutaOperacoesSetoriais
+                            System.out.println(" ");
+                            manualCondutaOpSet.excluirManual();
+                            break;
 
-                            case 6: //VoltarInicio
-                                System.out.println(" ");
-                                break;
+                        case 6: //VoltarInicio
+                            System.out.println(" ");
+                            break;
 
-                            default://NenhumaOpçãoAcima
-                                System.out.println(tradutor.get("invalid"));
-                                break;
+                        default://NenhumaOpçãoAcima
+                            System.out.println(tradutor.get("invalid"));
+                            break;
 
-                            }
-
-                        } else if(arquivo.equals("en.json")){ //INGLES
-
-                            switch(tipoOrientacao){
-
-                                case 1: //manualOperacao
-                                    System.out.println(" ");
-                                    manualOperacao.excluirManualEN();
-                                    break;
-                               
-                                case 2: //procedimentoSeguranca
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.excluirManualEN();
-                                    break;
-       
-                                case 3: //manutencaoReparos
-                                    System.out.println(" ");
-                                    manutencaoReparos.excluirManualEN();
-                                    break;
-       
-                                case 4: //testesDiagnostico
-                                    System.out.println(" ");
-                                    testesDiagnostico.excluirManualEN();
-                                    break;
-       
-                                case 5: //manualCondutaOperacoesSetoriais
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.excluirManualEN();
-                                    break;
-       
-                                case 6: //VoltarInicio
-                                    System.out.println(" ");
-                                    break;
-       
-                                default://NenhumaOpçãoAcima
-                                    System.out.println(tradutor.get("invalid"));
-                                    break;
-       
-                            }
-
-                        } else if(arquivo.equals("de.json")){ //ALEMAO
-
-                            switch(tipoOrientacao){
-
-                                case 1: //manualOperacao
-                                    System.out.println(" ");
-                                    manualOperacao.excluirManualDE();
-                                    break;
-                               
-                                case 2: //procedimentoSeguranca
-                                    System.out.println(" ");
-                                    procedimentoSeguranca.excluirManualDE();
-                                    break;
-       
-                                case 3: //manutencaoReparos
-                                    System.out.println(" ");
-                                    manutencaoReparos.excluirManualDE();
-                                    break;
-       
-                                case 4: //testesDiagnostico
-                                    System.out.println(" ");
-                                    testesDiagnostico.excluirManualDE();
-                                    break;
-       
-                                case 5: //manualCondutaOperacoesSetoriais
-                                    System.out.println(" ");
-                                    manualCondutaOpSet.excluirManualDE();
-                                    break;
-       
-                                case 6: //VoltarInicio
-                                    System.out.println(" ");
-                                    break;
-       
-                                default://NenhumaOpçãoAcima
-                                    System.out.println(tradutor.get("invalid"));
-                                    break;
-       
-                                }
                         }
-                       
                         break;
 
                     case 5: //encerrar
@@ -958,15 +661,11 @@ public class TelaInicial {
                         break;
 
                     }
-
                 } while(decisaoInicial != 5 && decisaoInicial != 6);
 
             } catch (IOException e) {
-
                 System.out.println("Erro ao carregar tradução!");
-
             }
-           
         } while(decisaoInicial == 6);
 
         leia.close();    

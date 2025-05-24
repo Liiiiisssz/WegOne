@@ -88,5 +88,9 @@
     "sucessoDB": "Orientação cadastrada com sucesso no banco de dados!",
     "DBnAfetado": "Nenhuma linha afetada no banco. Verifique o cadastro.",
     "erroDB": "Erro ao cadastrar orientação no banco de dados: ",
-    "erroPesqDB": "Erro ao pesquisar orientação no banco de dados."
+    "erroPesqDB": "Erro ao pesquisar orientação no banco de dados.",
+
+
+    "listaOrien": "Orientações cadastradas:",
+    "erroLista": "Erro ao listar orientações."    
 }

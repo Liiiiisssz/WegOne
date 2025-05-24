@@ -4,7 +4,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.InputMismatchException;
-import java.util.Map;
 import java.util.Scanner;
 
 public class ManualOperacao {
@@ -13,13 +12,6 @@ public class ManualOperacao {
 
 	Traducoes tradutor;
 
-	int contadorCadastro = 2;
-	int contadorCadastroEN = 2;
-	int contadorCadastroDE = 2;
-	int pesquisaCodigo;
-	int indiceCadastro;
-	int codigo;
-
 	private int id;
     private String titulo;
     private String conteudo;
@@ -27,18 +19,16 @@ public class ManualOperacao {
     
 
 	public ManualOperacao(Traducoes tradutor) {
-
 		this.tradutor = tradutor;
 	}
 
 
 	public void cadastrarManual(String idioma) {
-
 		System.out.println(tradutor.get("tituloManualOp"));
-		String titulo = leia.nextLine();
+		titulo = leia.nextLine();
 
 		System.out.println(tradutor.get("conteudoManualOp"));
-		String conteudo = leia.nextLine();
+		conteudo = leia.nextLine();
 
 		String sql = "INSERT INTO manual_operacao (titulo, conteudo, idioma) VALUES (?, ?, ?)";
 
@@ -50,6 +40,7 @@ public class ManualOperacao {
 			stmt.setString(3, idioma);
 
 			int rowsAffected = stmt.executeUpdate();
+			System.out.println(" ");
 
 			if (rowsAffected > 0) {
 				System.out.println(tradutor.get("sucessoDB"));
@@ -64,11 +55,14 @@ public class ManualOperacao {
 
 
 	public void pesquisaManualTitulo() {
-
+		listarManuais();
+		System.out.println(" ");
 		System.out.println(tradutor.get("tituloPesq"));
 		String pesquisa = leia.nextLine();
 
 		String sql = "SELECT * FROM manual_operacao WHERE titulo LIKE ?";
+
+		System.out.println(" ");
 
 		try (Connection conn = Conexao.getConexao();
 			PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -78,9 +72,13 @@ public class ManualOperacao {
 
 			if (rs.next()) {
 				System.out.println(tradutor.get("encontrado"));
+				System.out.println(" ");
 				System.out.println("Título: " + rs.getString("titulo"));
-				System.out.println("Conteúdo: " + rs.getString("conteudo"));
+				System.out.println(" ");
 				System.out.println("Idioma: " + rs.getString("idioma"));
+				System.out.println(" ");
+				System.out.println("Conteúdo: " + rs.getString("conteudo"));
+				
 			} else {
 				System.out.println(tradutor.get("nEncontrado"));
 			}
@@ -90,536 +88,203 @@ public class ManualOperacao {
 			System.out.println(tradutor.get("erroPesqDB"));
 		}
 
+		System.out.println(" ");
 		System.out.println(tradutor.get("enter"));
 		leia.nextLine();
 	}
 
 
-	public void pesquisaManualCodigo() { //pesquisa CODIGO em PT
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
-
-			if (manualOperacaoConteudo[i] != null) {
-				System.out.println(i);
-			}
-		}
-
+	public void pesquisaManualCodigo() {
+		listarManuais();
 		System.out.println(" ");
-
-		System.out.println(tradutor.get("codigoPesq"));
-		 while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-		
-		
-		boolean encontrado = false;
-
-		System.out.println(" ");
-
-		if (titulosManuaisOperacao[pesquisaCodigo] != null) {
-
-			System.out.println(tradutor.get("encontrado"));
-			System.out.println(" ");
-			System.out.println(titulosManuaisOperacao[pesquisaCodigo]);
-
-			System.out.println(manualOperacaoConteudo[pesquisaCodigo]);
-			encontrado = true;
-
-		}
-
-		if (!encontrado) {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-		System.out.println(" ");
-        System.out.println(tradutor.get("enter"));
-        leia.nextLine();
-		leia.nextLine();
-
-	}
-
-	public void pesquisaManualCodigoEN() { //pesquisa CODIGO em INGLES
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
-
-			if (manualOperacaoConteudoEN[i] != null) {
-				System.out.println(i);
-			}
-		}
-
-		System.out.println(" ");
-
 		System.out.println(tradutor.get("codigoPesq"));
 
-		 while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
+		int pesquisaCodigo = -1;
+		while (true) {
+			try {
+				pesquisaCodigo = leia.nextInt();
+				leia.nextLine();
+				break;
+			} catch (InputMismatchException e) {
+				System.out.println(tradutor.get("entradaInvalid"));
+				leia.nextLine();
+			}
+		}
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-		
-		
-		boolean encontrado = false;
+		String sql = "SELECT * FROM manual_operacao WHERE id = ?";
 
 		System.out.println(" ");
 
-		if (titulosManuaisOperacaoEN[pesquisaCodigo] != null) {
+		try (Connection conn = Conexao.getConexao();
+			PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-			System.out.println(tradutor.get("encontrado"));
-			System.out.println(" ");
-			System.out.println(titulosManuaisOperacaoEN[pesquisaCodigo]);
+			stmt.setInt(1, pesquisaCodigo);
+			ResultSet rs = stmt.executeQuery();
 
-			System.out.println(manualOperacaoConteudoEN[pesquisaCodigo]);
-			encontrado = true;
+			if (rs.next()) {
+				System.out.println(tradutor.get("encontrado"));
+				System.out.println(" ");
+				System.out.println("Título: " + rs.getString("titulo"));
+				System.out.println(" ");
+				System.out.println("Idioma: " + rs.getString("idioma"));
+				System.out.println(" ");
+				System.out.println("Conteúdo: " + rs.getString("conteudo"));
+				
+			} else {
+				System.out.println(tradutor.get("nEncontrado"));
+			}
 
-		}
-
-		if (!encontrado) {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
+		} catch (SQLException e) {
+			System.out.println(tradutor.get("erroPesqDB"));
+			e.printStackTrace();
 		}
 
 		System.out.println(" ");
-        System.out.println(tradutor.get("enter"));
-        leia.nextLine();
+		System.out.println(tradutor.get("enter"));
 		leia.nextLine();
-
 	}
 
-	public void pesquisaManualCodigoDE() { //pesquisa CODIGO em ALEMÃO
 
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+	public void editarManual() {
+		listarManuais();
+		System.out.println(" ");
+		System.out.println(tradutor.get("edit"));
 
-			if (manualOperacaoConteudoDE[i] != null) {
-				System.out.println(i);
+		int codigo = -1;
+		while (true) {
+			try {
+				codigo = leia.nextInt();
+				leia.nextLine(); 
+				break;
+			} catch (InputMismatchException e) {
+				System.out.println(tradutor.get("entradaInvalid"));
+				leia.nextLine();
 			}
 		}
 
-		System.out.println(" ");
+		String selectSQL = "SELECT * FROM manual_operacao WHERE id = ?";
+		try (Connection conn = Conexao.getConexao();
+			PreparedStatement selectStmt = conn.prepareStatement(selectSQL)) {
 
-		System.out.println(tradutor.get("codigoPesq"));
-		
-		 while (true) {
-                try {
-                    pesquisaCodigo = leia.nextInt();  
-                   
-                    if (pesquisaCodigo >= 0 && pesquisaCodigo <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-		
-		
-		boolean encontrado = false;
-
-		System.out.println(" ");
-
-		if (titulosManuaisOperacaoDE[pesquisaCodigo] != null) {
-
-			System.out.println(tradutor.get("encontrado"));
+			selectStmt.setInt(1, codigo);
+			ResultSet rs = selectStmt.executeQuery();
 			System.out.println(" ");
-			System.out.println(titulosManuaisOperacaoDE[pesquisaCodigo]);
 
-			System.out.println(manualOperacaoConteudoDE[pesquisaCodigo]);
-			encontrado = true;
+			if (rs.next()) {
+				System.out.println(tradutor.get("newTitulo"));
+				String novoTitulo = leia.nextLine();
 
-		}
+				System.out.println(" ");
 
-		if (!encontrado) {
+				System.out.println(tradutor.get("newConteudo"));
+				String novoConteudo = leia.nextLine();
 
-			System.out.println(tradutor.get("nEncontrado"));
+				String updateSQL = "UPDATE manual_operacao SET titulo = ?, conteudo = ? WHERE id = ?";
+				try (PreparedStatement updateStmt = conn.prepareStatement(updateSQL)) {
+					updateStmt.setString(1, novoTitulo);
+					updateStmt.setString(2, novoConteudo);
+					updateStmt.setInt(3, codigo);
 
+					int linhasAfetadas = updateStmt.executeUpdate();
+					System.out.println(" ");
+
+					if (linhasAfetadas > 0) {
+						System.out.println(tradutor.get("editSucesso"));
+					} else {
+						System.out.println(tradutor.get("DBnAfetado"));
+					}
+				}
+
+			} else {
+				System.out.println(tradutor.get("nEncontrado"));
+			}
+
+		} catch (SQLException e) {
+			System.out.println(tradutor.get("erroDB"));
+			e.printStackTrace();
 		}
 
 		System.out.println(" ");
-        System.out.println(tradutor.get("enter"));
-        leia.nextLine();
+		System.out.println(tradutor.get("enter"));
 		leia.nextLine();
-
 	}
 
 
-
-
-
-	public void editarManual() { //editar em PT
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
-
-			if (manualOperacaoConteudo[i] != null) {
-				System.out.println(i);
-			}
-		}
-
+	public void excluirManual() {
+		listarManuais();
 		System.out.println(" ");
-
-		System.out.println(tradutor.get("edit"));
-
-		 while (true) {
-
-                try {
-                      codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-
-		System.out.println(" ");
-
-		if (titulosManuaisOperacao[indiceCadastro] != null) {
-
-			System.out.println(tradutor.get("newTitulo"));
-			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
-			titulosManuaisOperacao[indiceCadastro] = leia.nextLine();
-
-			System.out.println(tradutor.get("newConteudo"));
-			manualOperacaoConteudo[indiceCadastro] = leia.nextLine();
-
-			System.out.println(" ");
-			System.out.println(tradutor.get("editSucesso"));
-
-		} else {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-	}
-
-	public void editarManualEN() { //editar em INGLES
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
-
-			if (manualOperacaoConteudoEN[i] != null) {
-				System.out.println(i);
-			}
-		}
-
-		System.out.println(" ");
-
-		System.out.println(tradutor.get("edit"));
-		
-		 while (true) {
-                try {
-                      codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-
-		System.out.println(" ");
-
-		if (titulosManuaisOperacaoEN[indiceCadastro] != null) {
-
-			System.out.println(tradutor.get("newTitulo"));
-			titulosManuaisOperacaoEN[indiceCadastro] = leia.nextLine();
-			titulosManuaisOperacaoEN[indiceCadastro] = leia.nextLine();
-
-			System.out.println(tradutor.get("newConteudo"));
-			manualOperacaoConteudoEN[indiceCadastro] = leia.nextLine();
-
-			System.out.println(" ");
-			System.out.println(tradutor.get("editSucesso"));
-
-		} else {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-	}
-
-	public void editarManualDE() { //editar em ALEMÃO
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
-
-			if (manualOperacaoConteudoDE[i] != null) {
-				System.out.println(i);
-			}
-		}
-
-		System.out.println(" ");
-
-		System.out.println(tradutor.get("edit"));
-		
-		 while (true) {
-                try {
-                      codigo = leia.nextInt();
-                      indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-
-		System.out.println(" ");
-
-		if (titulosManuaisOperacaoDE[indiceCadastro] != null) {
-
-			System.out.println(tradutor.get("newTitulo"));
-			titulosManuaisOperacaoDE[indiceCadastro] = leia.nextLine();
-			titulosManuaisOperacaoDE[indiceCadastro] = leia.nextLine();
-
-			System.out.println(tradutor.get("newConteudo"));
-			manualOperacaoConteudoDE[indiceCadastro] = leia.nextLine();
-
-			System.out.println(" ");
-			System.out.println(tradutor.get("editSucesso"));
-
-		} else {
-
-			System.out.println(tradutor.get("nEncontrado"));
-
-		}
-
-	}
-
-
-
-
-
-	public void excluirManual() { //excluir em PT
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacao.length; i++) {
-
-			if (manualOperacaoConteudo[i] != null) {
-				System.out.println(i);
-			}
-		}
-
-		System.out.println(" ");
-
 		System.out.println(tradutor.get("excluir"));
-		
-		  while (true) {
-                try {
-                     codigo = leia.nextInt();
-                     indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
 
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
+		int codigo = -1;
+		while (true) {
+			try {
+				codigo = leia.nextInt();
+				leia.nextLine(); 
+				break;
+			} catch (InputMismatchException e) {
+				System.out.println(tradutor.get("entradaInvalid"));
+				leia.nextLine(); 
+			}
+		}
 
-			if (titulosManuaisOperacao[indiceCadastro] != null) {
+		String selectSQL = "SELECT * FROM manual_operacao WHERE id = ?";
+		try (Connection conn = Conexao.getConexao();
+			PreparedStatement selectStmt = conn.prepareStatement(selectSQL)) {
 
-				for (int i = codigo; i < 3; i++) {
-                titulosManuaisOperacao[i] = titulosManuaisOperacao[i + 1];
-                manualOperacaoConteudo[i] = manualOperacaoConteudo[i + 1];
-            }
+			selectStmt.setInt(1, codigo);
+			ResultSet rs = selectStmt.executeQuery();
 
-            titulosManuaisOperacao[3] = null;
-            manualOperacaoConteudo[3] = null;
+			if (rs.next()) {
+				String deleteSQL = "DELETE FROM manual_operacao WHERE id = ?";
+				try (PreparedStatement deleteStmt = conn.prepareStatement(deleteSQL)) {
+					deleteStmt.setInt(1, codigo);
+					int linhasAfetadas = deleteStmt.executeUpdate();
 
-            System.out.println(tradutor.get("delSucesso"));
-
-            contadorCadastro--;
-
-            System.out.println(" ");
-            System.out.println(tradutor.get("enter"));
-            leia.nextLine();
-            leia.nextLine();
+					if (linhasAfetadas > 0) {
+						System.out.println(tradutor.get("delSucesso"));
+					} else {
+						System.out.println(tradutor.get("DBnAfetado"));
+					}
+				}
 
 			} else {
-
 				System.out.println(tradutor.get("delNEncontrado"));
-
-		}
-
-	}
-
-	public void excluirManualEN() { //excluir em INGLES
-
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoEN.length; i++) {
-
-			if (manualOperacaoConteudoEN[i] != null) {
-				System.out.println(i);
 			}
+
+		} catch (SQLException e) {
+			System.out.println(tradutor.get("erroDB"));
+			e.printStackTrace();
 		}
 
 		System.out.println(" ");
-
-		System.out.println(tradutor.get("excluir"));
-		
-		  while (true) {
-                try {
-                     codigo = leia.nextInt();
-                	 indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-
-			if (titulosManuaisOperacaoEN[indiceCadastro] != null) {
-
-				for (int i = codigo; i < 3; i++) {
-                titulosManuaisOperacaoEN[i] = titulosManuaisOperacaoEN[i + 1];
-                manualOperacaoConteudoEN[i] = manualOperacaoConteudoEN[i + 1];
-            }
-
-            titulosManuaisOperacaoEN[3] = null;
-            manualOperacaoConteudoEN[3] = null;
-
-            System.out.println(tradutor.get("delSucesso"));
-
-            contadorCadastroEN--;
-
-            System.out.println(" ");
-            System.out.println(tradutor.get("enter"));
-            leia.nextLine();
-            leia.nextLine();
-
-			} else {
-
-				System.out.println(tradutor.get("delNEncontrado"));
-
-		}
-
+		System.out.println(tradutor.get("enter"));
+		leia.nextLine();
 	}
 
-	public void excluirManualDE() { //excluir em ALEMÃO
 
-		System.out.println(tradutor.get("codigosCad"));
-		for (int i = 0; i < titulosManuaisOperacaoDE.length; i++) {
+	public void listarManuais() {
+		String sql = "SELECT id, titulo FROM manual_operacao ORDER BY id";
 
-			if (manualOperacaoConteudoDE[i] != null) {
-				System.out.println(i);
+		try (Connection conn = Conexao.getConexao();
+			PreparedStatement stmt = conn.prepareStatement(sql);
+			ResultSet rs = stmt.executeQuery()) {
+
+			System.out.println(tradutor.get("listaOrien"));
+			System.out.println("---------------------");
+			System.out.printf("%-5s | %s%n", "ID", "Título");
+			System.out.println("---------------------");
+
+			while (rs.next()) {
+				id = rs.getInt("id");
+				titulo = rs.getString("titulo");
+				System.out.printf("%-5d | %s%n", id, titulo);
 			}
+			System.out.println("---------------------");
+
+		} catch (SQLException e) {
+			System.out.println(tradutor.get("erroLista"));
+			e.printStackTrace();
 		}
-
-		System.out.println(" ");
-
-		System.out.println(tradutor.get("excluir"));
-		
-		  while (true) {
-                try {
-                     codigo = leia.nextInt();
-                     indiceCadastro = codigo;  
-                   
-                    if (indiceCadastro >= 0 && indiceCadastro <= 3) {
-                        break;  
-                    } else {
-                        System.out.println(tradutor.get("invalido"));
-                    }
-
-                } catch (InputMismatchException e) {
-                   
-                    System.out.println(tradutor.get("entradaInvalid"));
-                    leia.nextLine();
-                }
-            }
-
-			if (titulosManuaisOperacaoDE[indiceCadastro] != null) {
-
-				for (int i = codigo; i < 3; i++) {
-                titulosManuaisOperacaoDE[i] = titulosManuaisOperacaoDE[i + 1];
-                manualOperacaoConteudoDE[i] = manualOperacaoConteudoDE[i + 1];
-            }
-
-            titulosManuaisOperacaoDE[3] = null;
-            manualOperacaoConteudoDE[3] = null;
-
-            System.out.println(tradutor.get("delSucesso"));
-
-            contadorCadastroDE--;
-
-            System.out.println(" ");
-            System.out.println(tradutor.get("enter"));
-            leia.nextLine();
-            leia.nextLine();
-
-			} else {
-
-				System.out.println(tradutor.get("delNEncontrado"));
-
-		}
-
 	}
 
 	//getters e setters
