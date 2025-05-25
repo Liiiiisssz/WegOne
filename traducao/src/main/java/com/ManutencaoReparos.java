@@ -268,7 +268,7 @@ public class ManutencaoReparos {
 
         
     public void listarManuais() {
-		String sql = "SELECT id, titulo FROM manual_operacao ORDER BY id";
+		String sql = "SELECT id, titulo FROM manutencao_reparos ORDER BY id";
 
 		try (Connection conn = Conexao.getConexao();
 			PreparedStatement stmt = conn.prepareStatement(sql);

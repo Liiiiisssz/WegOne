@@ -176,7 +176,7 @@ public class TelaInicial {
 
                                 case 2: //procedimentoSeguranca
                                     System.out.println(" ");
-                                    procedimentoSeguranca.cadastrarManual();
+                                    procedimentoSeguranca.cadastrarManual(idioma);
                                     break;
 
                                 case 3: //manutencaoReparos
