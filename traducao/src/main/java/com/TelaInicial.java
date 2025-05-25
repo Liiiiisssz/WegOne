@@ -186,7 +186,7 @@ public class TelaInicial {
 
                                 case 4: //testesDiagnostico
                                     System.out.println(" ");
-                                    testesDiagnostico.cadastrarManual();
+                                    testesDiagnostico.cadastrarManual(idioma);
                                     break;
 
                                 case 5: //manualCondutaOperacoesSetoriais
