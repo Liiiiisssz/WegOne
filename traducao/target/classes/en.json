@@ -78,6 +78,7 @@
     "delSucesso": "Manual successfully deleted!",
     "delNEncontrado": "Manual has already been deleted or was not found.",
     "enter": "Press Enter to return to the menu:",
+    "cadastroSucesso": "Guidance successfully registered!",
 
 
     "invalid1a6": "Invalid input! Please enter a number between 1 and 6.",

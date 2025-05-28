@@ -590,6 +590,9 @@ public class ManutencaoReparos {
 			manutencaoReparos[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
 			contadorCadastro++;
 
 		} else {
@@ -613,6 +616,9 @@ public class ManutencaoReparos {
 			manutencaoReparosEN[contadorCadastroEN] = leia.nextLine();
 			System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
 			contadorCadastroEN++;
 
 		} else {
@@ -635,6 +641,9 @@ public class ManutencaoReparos {
 			System.out.println(tradutor.get("conteudoManutenRep"));
 			manutencaoReparosDE[contadorCadastroDE] = leia.nextLine();
 			System.out.println(" ");
+
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
 
 			contadorCadastroDE++;
 

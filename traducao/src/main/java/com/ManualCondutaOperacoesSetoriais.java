@@ -593,6 +593,9 @@ public class ManualCondutaOperacoesSetoriais {
 			manualCOSConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
 			contadorCadastro++;
 
 		} else {
@@ -616,6 +619,9 @@ public class ManualCondutaOperacoesSetoriais {
 			manualCOSConteudoEN[contadorCadastroEN] = leia.nextLine();
 			System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
 			contadorCadastroEN++;
 
 		} else {
@@ -638,6 +644,9 @@ public class ManualCondutaOperacoesSetoriais {
 			System.out.println(tradutor.get("conteudoManualCOS"));
 			manualCOSConteudoDE[contadorCadastroDE] = leia.nextLine();
 			System.out.println(" ");
+
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
 
 			contadorCadastroDE++;
 

@@ -486,6 +486,8 @@ public class ManualOperacao {
 			manualOperacaoConteudo[contadorCadastro] = leia.nextLine();
 			System.out.println(" ");
 
+			System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
 			contadorCadastro++;
 
 		} else {
@@ -509,6 +511,9 @@ public class ManualOperacao {
 			manualOperacaoConteudoEN[contadorCadastroEN] = leia.nextLine();
 			System.out.println(" ");
 
+			System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
 			contadorCadastroEN++;
 
 		} else {
@@ -531,6 +536,9 @@ public class ManualOperacao {
 			System.out.println(tradutor.get("conteudoManualOp"));
 			manualOperacaoConteudoDE[contadorCadastroDE] = leia.nextLine();
 			System.out.println(" ");
+
+			System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
 
 			contadorCadastroDE++;
 

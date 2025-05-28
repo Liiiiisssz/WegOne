@@ -366,6 +366,9 @@ public class ProcedimentoSeguranca {
             procedimentoSeguranca[contadorCadastro] = leia.nextLine();
             System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
             contadorCadastro++;
 
         } else {
@@ -388,6 +391,9 @@ public class ProcedimentoSeguranca {
             procedimentoSegurancaEN[contadorCadastroEN] = leia.nextLine();
             System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
             contadorCadastroEN++;
 
         } else {
@@ -408,6 +414,9 @@ public class ProcedimentoSeguranca {
 
             System.out.println(tradutor.get("conteudoProcedSeg"));
             procedimentoSegurancaDE[contadorCadastroDE] = leia.nextLine();
+            System.out.println(" ");
+
+            System.out.println(tradutor.get("cadastroSucesso"));
             System.out.println(" ");
 
             contadorCadastroDE++;

@@ -350,6 +350,9 @@ public class TestesDiagnostico {
             testeDiagnostico[contadorCadastro] = leia.nextLine();
             System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
             contadorCadastro++;
 
         } else {
@@ -373,6 +376,9 @@ public class TestesDiagnostico {
             testeDiagnosticoEN[contadorCadastroEN] = leia.nextLine();
             System.out.println(" ");
 
+            System.out.println(tradutor.get("cadastroSucesso"));
+            System.out.println(" ");
+
             contadorCadastroEN++;
 
         } else {
@@ -394,6 +400,9 @@ public class TestesDiagnostico {
 
             System.out.println(tradutor.get("conteudoTestDiag"));
             testeDiagnosticoDE[contadorCadastroDE] = leia.nextLine();
+            System.out.println(" ");
+
+            System.out.println(tradutor.get("cadastroSucesso"));
             System.out.println(" ");
 
             contadorCadastroDE++;
