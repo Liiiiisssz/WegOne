@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar Orientação - WEG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-simple">
+            <h1>Pesquisar Orientação</h1>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <form class="action-form">
+                    <select name="tipoOrientacao" required>
+                        <option value="">Selecione o tipo de orientação</option>
+                        <option value="1">Manual de Operação</option>
+                        <option value="2">Procedimento de Segurança</option>
+                        <option value="3">Manutenção e Reparos</option>
+                        <option value="4">Testes e Diagnóstico</option>
+                        <option value="5">Manual de Conduta e Operações Setoriais</option>
+                    </select>
+                    <select name="tipoPesquisa" required>
+                        <option value="">Selecione o tipo de pesquisa</option>
+                        <option value="1">Título</option>
+                        <option value="2">Código</option>
+                    </select>
+                    <input type="text" name="termoPesquisa" placeholder="Digite sua pesquisa" required>
+                    <div class="form-buttons">
+                        <button type="submit">Pesquisar</button>
+                        <a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

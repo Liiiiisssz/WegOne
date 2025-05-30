@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro de Orientações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="language-selector" id="languageSelector">
+        <div class="language-current">
+            <img src="/assets/bandeiras/brasil.jpg" alt="Português" class="flag" id="currentFlag">
+            <span id="currentLanguage">PT</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="language-options" id="languageOptions">
+            <div class="language-option" data-lang="pt-BR" data-flag="/assets/bandeiras/br.svg">
+                <img src="/assets/bandeiras/brasil.jpg" alt="Português" class="flag">
+                <span>Português</span>
+            </div>
+            <div class="language-option" data-lang="en" data-flag="/assets/bandeiras/us.svg">
+                <img src="/assets/bandeiras/eua.png" alt="English" class="flag">
+                <span>English</span>
+            </div>
+            <div class="language-option" data-lang="de" data-flag="/assets/bandeiras/es.svg">
+                <img src="/assets/bandeiras/alemanha.png" alt="Alemão" class="flag">
+                <span>Alemão</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="assets/WegOne.jpg" alt="WEG One Logo">
+            </div>
+            <h1>Sistema de Cadastro de Orientações</h1>
+        </header>
+
+        <main>
+            <div class="menu-container">
+                <a href="cadastrar.html" class="menu-item">
+                    <h2>1. Cadastrar Orientação</h2>
+                </a>
+                <a href="pesquisar.html" class="menu-item">
+                    <h2>2. Pesquisar Orientação</h2>
+                </a>
+                <a href="editar.html" class="menu-item">
+                    <h2>3. Editar Orientação</h2>
+                </a>
+                <a href="excluir.html" class="menu-item">
+                    <h2>4. Excluir Orientação</h2>
+                </a>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

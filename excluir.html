@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Orientação - WEG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-simple">
+            <h1>Excluir Orientação</h1>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <form class="action-form">
+                    <select name="tipoOrientacao" required>
+                        <option value="">Selecione o tipo de orientação</option>
+                        <option value="1">Manual de Operação</option>
+                        <option value="2">Procedimento de Segurança</option>
+                        <option value="3">Manutenção e Reparos</option>
+                        <option value="4">Testes e Diagnóstico</option>
+                        <option value="5">Manual de Conduta e Operações Setoriais</option>
+                    </select>
+                    <input type="text" name="codigo" placeholder="Código da orientação" required>
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-danger">Excluir</button>
+                        <a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 
